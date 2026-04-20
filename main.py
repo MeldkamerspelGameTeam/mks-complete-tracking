@@ -157,9 +157,9 @@ else:
                             else:
                                 sub_lines.append(f"[CHANGED] {sv_old} -> {sv_new} {sk_label}\n")
                     if sub_lines:
-                        field_changes.append(f"  {label}: " + ", ".join(sub_lines))
+                        field_changes.append(f"  {label}: \n" + ", ".join(sub_lines))
                 else:
-                    field_changes.append(f"  {label}: {old_val!r} -> {new_val!r}")
+                    field_changes.append(f"  {label}: {old_val!r} -> {new_val!r}\n")
         if field_changes:
             header = f"**[CHANGED]** id={mission_id} — {new.get('name', '')}:"
             body = "\n".join(field_changes)
