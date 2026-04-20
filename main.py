@@ -151,11 +151,11 @@ else:
                         if sv_old != sv_new:
                             sk_label = translate_key(sk)
                             if sv_old is None:
-                                sub_lines.append(f"[ADDED] {sv_new} {sk_label}")
+                                sub_lines.append(f"[ADDED] {sv_new} {sk_label}\n")
                             elif sv_new is None:
-                                sub_lines.append(f"[REMOVED] {sv_old} {sk_label}")
+                                sub_lines.append(f"[REMOVED] {sv_old} {sk_label}\n")
                             else:
-                                sub_lines.append(f"[CHANGED] {sv_old} -> {sv_new} {sk_label}")
+                                sub_lines.append(f"[CHANGED] {sv_old} -> {sv_new} {sk_label}\n")
                     if sub_lines:
                         field_changes.append(f"  {label}: " + ", ".join(sub_lines))
                 else:
