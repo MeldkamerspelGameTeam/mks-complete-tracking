@@ -1,0 +1,47 @@
+on:
+  push:
+    branches:
+      - "main"
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron: "*/5 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+      - name: setup python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create local changes
+        run: |
+          python main.py
+        env:
+          DISCORD: ${{ secrets.DISCORD  }}
+          DISCORD2: ${{ secrets.DISCORD2 }}
+
+      - name: json-syntax-check
+        uses: limitusus/json-syntax-check@v1
+        with:
+          pattern: "\\.json$"
+
+      - name: Prettify code
+        uses: creyD/prettier_action@master
+        with:
+          # This part is also where you can pass other options, for example:
+          prettier_options: --write **/*.{js,md,json}
+          commit_message: Update files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
