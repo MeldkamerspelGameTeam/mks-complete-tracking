@@ -6,7 +6,7 @@
     "place_array": [
       "Bushalte"
     ],
-    "average_credits": 110,
+    "average_credits": 0,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -76,8 +76,7 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
-      "water_tankers": 1,
-      "firetrucks": 1
+      "water_tankers": 1
     },
     "chances": {
       "water_tankers": 20
