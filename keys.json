@@ -9,6 +9,7 @@
   "at_c": "AT-Commandant",
   "at_m": "AT-Materiaalwagen",
   "at_o": "AT-Operators",
+  "average_credits": "Credits",
   "battalion_chief_vehicles": "Officieren van Dienst - Brandweer",
   "bereitschaftspolizei": "Hoofdbureaus",
   "bike_police": "Biketeams",
@@ -98,6 +99,5 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
-  "average_credits": "Credits"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
 }
