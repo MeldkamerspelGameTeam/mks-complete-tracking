@@ -122,5 +122,8 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
+  "care_includes_staff_members": "Verzorging/Hygiëne module ingeschakeld",
+  "average_min_fire_personnel": "Minimaal brandweerpersoneel",
+  "care_service_command": "Peletonscommandant Logistiek",
 }
