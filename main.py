@@ -30,6 +30,24 @@ def sort_keys_json(keys_path: str = KEYS_PATH) -> None:
         json.dump(sorted_data, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
+def sort_ignore_keys_json(ignore_keys_path: str = IGNORE_KEYS_PATH) -> None:
+    """Sort ignore_keys.json alphabetically and rewrite it in-place."""
+    if not os.path.exists(ignore_keys_path):
+        return
+
+    with open(ignore_keys_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if not isinstance(data, list):
+        return
+
+    sorted_data = sorted(data, key=lambda x: x.lower())
+
+    with open(ignore_keys_path, "w", encoding="utf-8") as f:
+        json.dump(sorted_data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
 # Load key translations
 key_labels = {}
 if os.path.exists(KEYS_PATH):
@@ -40,6 +58,7 @@ if os.path.exists(KEYS_PATH):
 # Load ignore keys
 ignore_keys = set()
 if os.path.exists(IGNORE_KEYS_PATH):
+    sort_ignore_keys_json(IGNORE_KEYS_PATH)
     with open(IGNORE_KEYS_PATH, "r", encoding="utf-8") as f:
         ignore_list = json.load(f)
         if isinstance(ignore_list, list):
