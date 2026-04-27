@@ -10,6 +10,7 @@
   "at_m": "AT-Materiaalwagen",
   "at_o": "AT-Operators",
   "average_credits": "Credits",
+  "average_min_fire_personnel": "Minimaal brandweerpersoneel",
   "battalion_chief_vehicles": "Officieren van Dienst - Brandweer",
   "bereitschaftspolizei": "Hoofdbureaus",
   "bike_police": "Biketeams",
@@ -17,6 +18,8 @@
   "boats": "WOA of BA-RB",
   "brush_extension": "Natuurbrandbestrijding Uitbreidingen",
   "brush_truck": "Tankautospuiten (Terreinvaardig)",
+  "care_includes_staff_members": "Verzorging/Hygiëne module ingeschakeld",
+  "care_service_command": "Peletonscommandant Logistiek",
   "chances": "Kansen",
   "coastal_boat": "RB-K of RB-G",
   "coastal_guard_boat": "KW-boot",
@@ -122,8 +125,5 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
-  "care_includes_staff_members": "Verzorging/Hygiëne module ingeschakeld",
-  "average_min_fire_personnel": "Minimaal brandweerpersoneel",
-  "care_service_command": "Peletonscommandant Logistiek"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
 }
