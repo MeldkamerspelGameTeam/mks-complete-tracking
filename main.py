@@ -176,6 +176,8 @@ else:
                     sub_keys = sorted(set(old_dict) | set(new_dict))
                     sub_lines = []
                     for sk in sub_keys:
+                        if sk in ignore_keys:
+                            continue
                         sv_old = old_dict.get(sk)
                         sv_new = new_dict.get(sk)
                         if sv_old != sv_new:
