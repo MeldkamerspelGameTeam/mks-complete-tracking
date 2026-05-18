@@ -155,5 +155,11 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
+  "industrial_response_engine": "Industriële schuimblussing",
+  "industrial_response_fire_engine": "Industriële tankautospuit",
+  "hazard_response_material": "DB-GS",
+  "hazard_response_suits": "Gaspakken",
+  "hazard_response_disinfection": "BOE",
+  "hazard_response_disinfection_large": "GOE"
 }
