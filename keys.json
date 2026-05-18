@@ -158,5 +158,7 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
+  "industrial_response_fire": "Industriële Brandbestrijding",
+  "hazard_response_fire": "Incidentbestrijding Gevaarlijke Stoffen"
 }
