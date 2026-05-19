@@ -11,5 +11,6 @@
   "patient_specialization_ids",
   "patient_specializations",
   "place",
-  "unavailable_in_normal_missions"
+  "unavailable_in_normal_missions",
+  "main_building"
 ]
