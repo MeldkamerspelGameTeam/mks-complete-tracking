@@ -7,10 +7,10 @@
   "filter_id",
   "generated_by",
   "id",
+  "main_building",
   "overlay_index",
   "patient_specialization_ids",
   "patient_specializations",
   "place",
-  "unavailable_in_normal_missions",
-  "main_building"
+  "unavailable_in_normal_missions"
 ]
