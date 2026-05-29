@@ -6,7 +6,7 @@ import requests
 
 SAVE_PATH = "events.json"
 IGNORE_KEYS_PATH = "ignore_keys.json"
-EVENTS_URL = "https://github.com/Piet2001/Inzetten/raw/refs/heads/main/events.json"
+EVENTS_URL = "https://github.com/Piet2001/Inzetten/raw/refs/heads/main/events_complete.json"
 WEBHOOK_URLS = [os.getenv("DISCORD"), os.getenv("DISCORD2")]
 
 
