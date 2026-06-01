@@ -370,8 +370,7 @@
     "additional": {
       "expansion_missions_ids": [69],
       "allow_rw_instead_of_lf": true,
-      "filter_id": "firehouse_missions",
-      "unavailable_in_normal_missions": true
+      "filter_id": "firehouse_missions"
     },
     "prerequisites": {
       "main_building": 0,
@@ -2444,7 +2443,7 @@
     "name": "Takken op de weg",
     "place": "",
     "place_array": [],
-    "average_credits": 310,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/sawmill_gruen.png",
@@ -2452,7 +2451,6 @@
       "/images/sawmill_rot.png"
     ],
     "requirements": {
-      "oneof_fire_engine_or_rescue": 1,
       "firetrucks": 1
     },
     "chances": {},
@@ -2466,7 +2464,7 @@
     "overlay_index": null,
     "base_mission_id": 65,
     "additive_overlays": "",
-    "mission_categories": ["fire", "urban"]
+    "mission_categories": ["fire", "urban", "rural"]
   },
   {
     "id": "66",
@@ -2485,8 +2483,7 @@
     },
     "chances": {},
     "additional": {
-      "filter_id": "firehouse_missions",
-      "unavailable_in_normal_missions": true
+      "filter_id": "firehouse_missions"
     },
     "prerequisites": {
       "main_building": 0,
@@ -2502,26 +2499,26 @@
     "name": "Omgewaaide bouwsteiger",
     "place": "",
     "place_array": [],
-    "average_credits": 320,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
-      "/images/sawmill_gruen.png",
-      "/images/sawmill_gelb.png",
-      "/images/sawmill_rot.png"
+      "/images/constructioncrane_gruen.png",
+      "/images/constructioncrane_gelb.png",
+      "/images/constructioncrane_rot.png"
     ],
     "requirements": {
       "platform_trucks": 1,
       "firetrucks": 1
     },
     "chances": {
-      "platform_trucks": 30
+      "platform_trucks": 35
     },
     "additional": {
       "filter_id": "firehouse_missions"
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 3
     },
     "overlay_index": null,
     "base_mission_id": 67,
@@ -2533,7 +2530,7 @@
     "name": "Boom op auto",
     "place": "",
     "place_array": [],
-    "average_credits": 910,
+    "average_credits": 1930,
     "generated_by": "",
     "icons": [
       "/images/sawmill_gruen.png",
@@ -2542,15 +2539,15 @@
     ],
     "requirements": {
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1
+      "firetrucks": 1,
+      "police_cars": 1
     },
     "chances": {
-      "heavy_rescue_vehicles": 10,
+      "heavy_rescue_vehicles": 25,
       "patient_transport": 100
     },
     "additional": {
-      "possible_patient": 2,
-      "possible_patient_min": 1,
+      "possible_patient": 4,
       "filter_id": "firehouse_missions",
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
@@ -2558,7 +2555,8 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 2,
+      "rescue_stations": 8,
+      "police_stations": 1,
       "fire_stations": 4
     },
     "overlay_index": null,
@@ -2571,7 +2569,7 @@
     "name": "Persoon bekneld onder boom",
     "place": "",
     "place_array": [],
-    "average_credits": 1080,
+    "average_credits": 1420,
     "generated_by": "",
     "icons": [
       "/images/sawmill_gruen.png",
@@ -2581,7 +2579,8 @@
     "requirements": {
       "battalion_chief_vehicles": 1,
       "heavy_rescue_vehicles": 1,
-      "firetrucks": 1
+      "firetrucks": 1,
+      "police_cars": 1
     },
     "chances": {
       "heavy_rescue_vehicles": 40,
@@ -2591,7 +2590,6 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
-      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Traumatologie"],
       "patient_specializations": "Traumatologie"
@@ -2599,6 +2597,7 @@
     "prerequisites": {
       "main_building": 0,
       "rescue_stations": 1,
+      "police_stations": 1,
       "fire_stations": 6
     },
     "overlay_index": null,
@@ -8168,8 +8167,7 @@
     },
     "additional": {
       "filter_id": "firehouse_missions",
-      "pump_water_amount": 10000,
-      "unavailable_in_normal_missions": true
+      "pump_water_amount": 10000
     },
     "prerequisites": {
       "main_building": 0,
@@ -8202,8 +8200,7 @@
     },
     "additional": {
       "filter_id": "firehouse_missions",
-      "pump_water_amount": 9000,
-      "unavailable_in_normal_missions": true
+      "pump_water_amount": 9000
     },
     "prerequisites": {
       "main_building": 0,
@@ -8219,7 +8216,7 @@
     "name": "Gevaarlijk hangende tak",
     "place": "",
     "place_array": [],
-    "average_credits": 310,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/sawmill_gruen.png",
@@ -8238,7 +8235,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 4
+      "fire_stations": 3
     },
     "overlay_index": null,
     "base_mission_id": 188,
@@ -8275,7 +8272,7 @@
     "overlay_index": null,
     "base_mission_id": 189,
     "additive_overlays": "",
-    "mission_categories": ["fire"]
+    "mission_categories": ["fire", "urban", "rural"]
   },
   {
     "id": "190",
@@ -8301,8 +8298,7 @@
     },
     "additional": {
       "filter_id": "firehouse_missions",
-      "pump_water_amount": 5000,
-      "unavailable_in_normal_missions": true
+      "pump_water_amount": 5000
     },
     "prerequisites": {
       "main_building": 0,
@@ -8318,7 +8314,7 @@
     "name": "Losgewaaide dakbedekking",
     "place": "",
     "place_array": [],
-    "average_credits": 420,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/sawmill_gruen.png",
@@ -8337,12 +8333,12 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 4
+      "fire_stations": 3
     },
     "overlay_index": null,
     "base_mission_id": 191,
     "additive_overlays": "",
-    "mission_categories": ["fire", "urban"]
+    "mission_categories": ["fire", "urban", "rural"]
   },
   {
     "id": "192",
@@ -8366,8 +8362,7 @@
     },
     "additional": {
       "filter_id": "firehouse_missions",
-      "pump_water_amount": 3000,
-      "unavailable_in_normal_missions": true
+      "pump_water_amount": 3000
     },
     "prerequisites": {
       "main_building": 0,
@@ -9534,10 +9529,10 @@
   },
   {
     "id": "212",
-    "name": "Omgeslagen zeilboot",
+    "name": "Omgeslagen Zeilboot",
     "place": "Meer",
     "place_array": ["Meer"],
-    "average_credits": 900,
+    "average_credits": 1910,
     "generated_by": "",
     "icons": [
       "/images/waterpark_gruen.png",
@@ -9557,8 +9552,8 @@
     },
     "additional": {
       "possible_patient": 1,
+      "expansion_missions_ids": [213],
       "filter_id": "water_watch_missions",
-      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -9566,9 +9561,10 @@
     "prerequisites": {
       "main_building": -1,
       "wasserrettung": 2,
+      "water_rescue_2": 2,
       "rescue_stations": 1,
       "police_stations": 1,
-      "fire_stations": 12
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 212,
@@ -9577,10 +9573,10 @@
   },
   {
     "id": "213",
-    "name": "Omgeslagen zeilboot",
+    "name": "Omgeslagen Zeilboot",
     "place": "Meer",
     "place_array": ["Meer"],
-    "average_credits": 1100,
+    "average_credits": 3150,
     "generated_by": "",
     "icons": [
       "/images/waterpark_gruen.png",
@@ -9602,17 +9598,17 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "water_watch_missions",
-      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": {
       "main_building": -1,
-      "wasserrettung": 2,
+      "wasserrettung": 4,
+      "water_rescue_2": 3,
       "rescue_stations": 2,
       "police_stations": 1,
-      "fire_stations": 12
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 213,
@@ -88954,6 +88950,241 @@
     "base_mission_id": 1208,
     "additive_overlays": "",
     "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "1209",
+    "name": "Vrachtwagen omgewaaid",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1760,
+    "generated_by": "",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 2,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 25
+    },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [1, 4],
+      "patient_specialization_captions": [
+        "Algemene Heelkunde",
+        "Traumatologie"
+      ],
+      "patient_specializations": "Algemene Heelkunde, Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 1209,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1209/a",
+    "name": "Vrachtwagen omgewaaid",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2060,
+    "generated_by": "",
+    "icons": [
+      "/images/caraccident_gruen.png",
+      "/images/caraccident_gelb.png",
+      "/images/caraccident_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 2,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 25
+    },
+    "additional": {
+      "possible_patient": 2,
+      "filter_id": "firehouse_missions",
+      "possible_crashed_car_large_max": 1,
+      "patient_specialization_ids": [1, 4],
+      "patient_specialization_captions": [
+        "Algemene Heelkunde",
+        "Traumatologie"
+      ],
+      "patient_specializations": "Algemene Heelkunde, Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "tow_trucks_large": 1,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 1209,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1210",
+    "name": "Fietser omgewaaid",
+    "place": "",
+    "place_array": [],
+    "average_credits": null,
+    "generated_by": "",
+    "icons": [
+      "/images/cycling_gruen.png",
+      "/images/cycling_gelb.png",
+      "/images/cycling_rot.png"
+    ],
+    "requirements": {},
+    "chances": {
+      "patient_transport": 25
+    },
+    "additional": {
+      "possible_patient": 1,
+      "possible_patient_min": 1,
+      "filter_id": "ambulance_station_missions",
+      "patient_specialization_ids": [1],
+      "patient_specialization_captions": ["Algemene Heelkunde"],
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 3,
+      "rescue_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1210,
+    "additive_overlays": "",
+    "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "1211",
+    "name": "Dakpannen los in dakgoot",
+    "place": "",
+    "place_array": [],
+    "average_credits": 840,
+    "generated_by": "",
+    "icons": [
+      "/images/fallingrocks_gruen.png",
+      "/images/fallingrocks_gelb.png",
+      "/images/fallingrocks_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 1211,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1212",
+    "name": "Dakpannen los op dak",
+    "place": "",
+    "place_array": [],
+    "average_credits": 840,
+    "generated_by": "",
+    "icons": [
+      "/images/fallingrocks_gruen.png",
+      "/images/fallingrocks_gelb.png",
+      "/images/fallingrocks_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 1212,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1213",
+    "name": "Dakgoot dreigt los te waaien",
+    "place": "",
+    "place_array": [],
+    "average_credits": 840,
+    "generated_by": "",
+    "icons": [
+      "/images/fallingrocks_gruen.png",
+      "/images/fallingrocks_gelb.png",
+      "/images/fallingrocks_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 1213,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1214",
+    "name": "Zonnepanelen dreigen van dak te vallen",
+    "place": "",
+    "place_array": [],
+    "average_credits": 840,
+    "generated_by": "",
+    "icons": [
+      "/images/fallingrocks_gruen.png",
+      "/images/fallingrocks_gelb.png",
+      "/images/fallingrocks_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 3
+    },
+    "overlay_index": null,
+    "base_mission_id": 1214,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
   },
   {
     "id": "1139",
