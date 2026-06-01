@@ -72,8 +72,7 @@ else:
 
     changes_found = False
 
-    # Compose summary message for added/removed mission_type_ids per event
-    mission_type_changes = []
+    # Send one notification per changed event so IDs/captions stay accurate.
     for event_id in sorted(common_ids, key=sort_key):
         old = old_by_id[event_id]
         new = new_by_id[event_id]
@@ -83,18 +82,17 @@ else:
         removed_missions = sorted(old_missions - new_missions)
         caption = new.get("caption", "")
         if added_missions or removed_missions:
-            line = f""
+            line = ""
             if added_missions:
                 line += f"\n Added missions: {', '.join(map(str, added_missions))}."
             if removed_missions:
                 line += f"\n Removed missions: {', '.join(map(str, removed_missions))}."
-            mission_type_changes.append(line)
-    if mission_type_changes:
-        send_discord(
-            title=f"[CHANGED] id={event_id} {caption}",
-            description="\n".join(mission_type_changes),
-        )
-        time.sleep(2)
+            send_discord(
+                title=f"[CHANGED] id={event_id} {caption}",
+                description=line.strip(),
+            )
+            time.sleep(2)
+            changes_found = True
 
     for event_id in sorted(added_ids, key=sort_key):
         msg = f"**[ADDED]** id={event_id} — {new_by_id[event_id].get('caption', '')}"
