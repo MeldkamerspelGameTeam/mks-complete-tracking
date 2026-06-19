@@ -38,6 +38,8 @@
   "coastal_rescue_count": "Kustwacht havens",
   "coastal_rescue_ocean": "Kustwacht inzetten (Zee)",
   "coastal_rescue_small_count": "Boten uitbreidingen",
+  "date_end": "Eind",
+  "date_start": "Start",
   "detention_unit": "Aanhoudingseenheden",
   "detention_unit_count": "Aanhoudingseenheiduitbreidingen",
   "disaster_response": "TS-STH",
@@ -160,7 +162,5 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
-  "date_start": "Start",
-  "date_end": "Eind"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
 }
