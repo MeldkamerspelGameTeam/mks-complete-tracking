@@ -9,6 +9,7 @@ import requests
 SAVE_PATH = "missions.json"
 KEYS_PATH = "keys.json"
 IGNORE_KEYS_PATH = "ignore_keys.json"
+MISSIONFILES_DIR = "missionfiles"
 WEBHOOK_URLS = [os.getenv("DISCORD"), os.getenv("DISCORD2")]
 url = "https://github.com/Piet2001/Inzetten/raw/refs/heads/main/complete.json"
 
@@ -162,11 +163,73 @@ else:
 
     changes_found = False
 
+    def safe_mission_id(mission_id: str) -> str:
+        return str(mission_id).replace("/", "_").replace("\\", "_")
+
+    def get_field_changes(old: dict, new: dict) -> list[str]:
+        all_keys = set(old) | set(new)
+        field_changes = []
+        for key in sorted(all_keys):
+            if key in ignore_keys:
+                continue
+            old_val = old.get(key)
+            new_val = new.get(key)
+            if old_val != new_val:
+                label = translate_key(key)
+                if isinstance(old_val, dict) or isinstance(new_val, dict):
+                    old_dict = old_val if isinstance(old_val, dict) else {}
+                    new_dict = new_val if isinstance(new_val, dict) else {}
+                    sub_keys = sorted(set(old_dict) | set(new_dict))
+                    sub_lines = []
+                    for sk in sub_keys:
+                        if sk in ignore_keys:
+                            continue
+                        sv_old = old_dict.get(sk)
+                        sv_new = new_dict.get(sk)
+                        if sv_old != sv_new:
+                            sk_label = translate_key(sk)
+                            if sv_old is None:
+                                sub_lines.append(f"[ADDED] {sv_new} {sk_label}\n")
+                            elif sv_new is None:
+                                sub_lines.append(f"[REMOVED] {sv_old} {sk_label}\n")
+                            else:
+                                sub_lines.append(f"[CHANGED] {sv_old} -> {sv_new} {sk_label}\n")
+                    if sub_lines:
+                        field_changes.append(f"  {label}: \n" + "".join(sub_lines))
+                else:
+                    field_changes.append(f"  {label}: {old_val!r} -> {new_val!r}\n")
+        return field_changes
+
     added_lines = []
     for mission_id in sorted(added_ids, key=sort_key):
-        msg = f"**[ADDED]** id={mission_id} — {new_by_id[mission_id].get('name', '')}"
-        print(msg)
-        added_lines.append(f"id={mission_id} — {new_by_id[mission_id].get('name', '')}")
+        new_mission = new_by_id[mission_id]
+        safe_id = safe_mission_id(mission_id)
+        mission_file_path = os.path.join(MISSIONFILES_DIR, f"{safe_id}.json")
+
+        if os.path.exists(mission_file_path):
+            with open(mission_file_path, "r", encoding="utf-8") as f:
+                archived_mission = json.load(f)
+            field_changes = get_field_changes(archived_mission, new_mission)
+            header = f"**[RE-ADDED]** id={mission_id} — {new_mission.get('name', '')}"
+            print(header)
+            if field_changes:
+                body = "\n".join(field_changes)
+                print(body)
+                send_discord_batched(
+                    title=f"[RE-ADDED] id={mission_id} — {new_mission.get('name', '')}",
+                    lines=field_changes,
+                )
+            else:
+                send_discord(
+                    title=f"[RE-ADDED] id={mission_id}",
+                    description=new_mission.get("name", ""),
+                )
+                time.sleep(2)
+        else:
+            msg = f"**[ADDED]** id={mission_id} — {new_mission.get('name', '')}"
+            print(msg)
+            added_lines.append(f"id={mission_id} — {new_mission.get('name', '')}")
+
         changes_found = True
 
     if added_lines:
@@ -191,48 +254,16 @@ else:
     for mission_id in sorted(common_ids, key=sort_key):
         old = old_by_id[mission_id]
         new = new_by_id[mission_id]
-        all_keys = set(old) | set(new)
-        field_changes = []
-        for key in sorted(all_keys):
-            if key in ignore_keys:
-                continue
-            old_val = old.get(key)
-            new_val = new.get(key)
-            if old_val != new_val:
-                label = translate_key(key)
-                # Expand dict fields into per-subkey lines
-                if isinstance(old_val, dict) or isinstance(new_val, dict):
-                    old_dict = old_val if isinstance(old_val, dict) else {}
-                    new_dict = new_val if isinstance(new_val, dict) else {}
-                    sub_keys = sorted(set(old_dict) | set(new_dict))
-                    sub_lines = []
-                    for sk in sub_keys:
-                        if sk in ignore_keys:
-                            continue
-                        sv_old = old_dict.get(sk)
-                        sv_new = new_dict.get(sk)
-                        if sv_old != sv_new:
-                            sk_label = translate_key(sk)
-                            if sv_old is None:
-                                sub_lines.append(f"[ADDED] {sv_new} {sk_label}\n")
-                            elif sv_new is None:
-                                sub_lines.append(f"[REMOVED] {sv_old} {sk_label}\n")
-                            else:
-                                sub_lines.append(f"[CHANGED] {sv_old} -> {sv_new} {sk_label}\n")
-                    if sub_lines:
-                        field_changes.append(f"  {label}: \n" + "".join(sub_lines))
-                else:
-                    field_changes.append(f"  {label}: {old_val!r} -> {new_val!r}\n")
+        field_changes = get_field_changes(old, new)
         if field_changes:
             header = f"**[CHANGED]** id={mission_id} — {new.get('name', '')}:"
             body = "\n".join(field_changes)
             print(header)
             print(body)
-            send_discord(
+            send_discord_batched(
                 title=f"[CHANGED] id={mission_id} — {new.get('name', '')}",
-                description=body[:3800],
+                lines=field_changes,
             )
-            time.sleep(5)
             changes_found = True
 
     if not changes_found:
