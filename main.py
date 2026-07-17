@@ -105,16 +105,25 @@ def send_discord(title: str, description: str):
             print(f"Not sent with {result.status_code} to {webhook_url}, response:\n{result.json()}")
 
 
-def send_discord_batched(title: str, lines: list[str], description_limit: int = 3800) -> None:
+def send_discord_batched(
+    title: str,
+    lines: list[str],
+    description_limit: int = 3800,
+    top_note: str | None = None,
+) -> None:
     """Send lines in as few messages as possible, splitting only if needed."""
     if not lines:
         return
+
+    content_limit = description_limit
+    if top_note:
+        content_limit = max(1, description_limit - len(top_note) - 2)
 
     chunks = []
     current = ""
     for line in lines:
         candidate = line if not current else f"{current}\n{line}"
-        if len(candidate) <= description_limit:
+        if len(candidate) <= content_limit:
             current = candidate
         else:
             if current:
@@ -126,7 +135,8 @@ def send_discord_batched(title: str, lines: list[str], description_limit: int = 
     total = len(chunks)
     for index, chunk in enumerate(chunks, start=1):
         chunk_title = title if total == 1 else f"{title} ({index}/{total})"
-        send_discord(chunk_title, chunk)
+        description = chunk if not top_note else f"{top_note}\n\n{chunk}"
+        send_discord(chunk_title, description)
         time.sleep(2)
 
 
@@ -249,6 +259,7 @@ else:
         send_discord_batched(
             title="[REMOVED] Missions",
             lines=removed_lines,
+            top_note="These missions were de-activated more than 3 months ago.",
         )
 
     for mission_id in sorted(common_ids, key=sort_key):
