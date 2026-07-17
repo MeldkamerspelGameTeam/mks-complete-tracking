@@ -104,6 +104,31 @@ def send_discord(title: str, description: str):
             print(f"Not sent with {result.status_code} to {webhook_url}, response:\n{result.json()}")
 
 
+def send_discord_batched(title: str, lines: list[str], description_limit: int = 3800) -> None:
+    """Send lines in as few messages as possible, splitting only if needed."""
+    if not lines:
+        return
+
+    chunks = []
+    current = ""
+    for line in lines:
+        candidate = line if not current else f"{current}\n{line}"
+        if len(candidate) <= description_limit:
+            current = candidate
+        else:
+            if current:
+                chunks.append(current)
+            current = line
+    if current:
+        chunks.append(current)
+
+    total = len(chunks)
+    for index, chunk in enumerate(chunks, start=1):
+        chunk_title = title if total == 1 else f"{title} ({index}/{total})"
+        send_discord(chunk_title, chunk)
+        time.sleep(2)
+
+
 
 # Load existing data for comparison (if available)
 old_by_id = {}
@@ -137,25 +162,31 @@ else:
 
     changes_found = False
 
+    added_lines = []
     for mission_id in sorted(added_ids, key=sort_key):
         msg = f"**[ADDED]** id={mission_id} — {new_by_id[mission_id].get('name', '')}"
         print(msg)
-        send_discord(
-            title=f"[ADDED] id={mission_id}",
-            description=new_by_id[mission_id].get("name", ""),
-        )
-        time.sleep(5)
+        added_lines.append(f"id={mission_id} — {new_by_id[mission_id].get('name', '')}")
         changes_found = True
 
+    if added_lines:
+        send_discord_batched(
+            title="[ADDED] Missions",
+            lines=added_lines,
+        )
+
+    removed_lines = []
     for mission_id in sorted(removed_ids, key=sort_key):
         msg = f"**[REMOVED]** id={mission_id} — {old_by_id[mission_id].get('name', '')}"
         print(msg)
-        send_discord(
-            title=f"[REMOVED] id={mission_id}",
-            description=old_by_id[mission_id].get("name", ""),
-        )
-        time.sleep(5)
+        removed_lines.append(f"id={mission_id} — {old_by_id[mission_id].get('name', '')}")
         changes_found = True
+
+    if removed_lines:
+        send_discord_batched(
+            title="[REMOVED] Missions",
+            lines=removed_lines,
+        )
 
     for mission_id in sorted(common_ids, key=sort_key):
         old = old_by_id[mission_id]
