@@ -5,23 +5,24 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron: "*/5 * * * *"
-  workflow_dispatch: 
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
-          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: setup python
-        uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.9"
+          python-version: "3.12"
 
-      - name: install python packages
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
@@ -31,7 +32,7 @@ jobs:
           python main.py
           python find_missing_keys.py
           python compare_events.py
-          python Missionfiles/Scripts/split_missions.py
+          python missionfiles/scripts/split_missions.py
         env:
           DISCORD: ${{ secrets.DISCORD  }}
           DISCORD2: ${{ secrets.DISCORD2 }}
@@ -44,12 +45,15 @@ jobs:
       - name: Prettify code
         run: npx prettier --write "**/*.{js,md,json}"
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "Update files"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update files"
+            git push
+          fi
+
