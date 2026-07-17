@@ -16,7 +16,6 @@ Structure:
 """
 import json
 import os
-import shutil
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MISSIONS_PATH = os.path.join(ROOT, "missions.json")
@@ -33,12 +32,6 @@ def range_folder(base_id: int) -> str:
 def main() -> None:
     with open(MISSIONS_PATH, "r", encoding="utf-8") as f:
         missions = json.load(f)
-
-    # Clear output dir (excluding the scripts folder) before regenerating
-    if os.path.exists(OUTPUT_DIR):
-        for entry in os.scandir(OUTPUT_DIR):
-            if entry.is_dir() and entry.name.lower() != "scripts":
-                shutil.rmtree(entry.path)
 
     for mission in missions:
         mission_id = str(mission["id"])
