@@ -2,9 +2,7 @@
   "id": "353",
   "name": "Brand in terminal",
   "place": "Vliegveld (groot): Terminal",
-  "place_array": [
-    "Vliegveld (groot): Terminal"
-  ],
+  "place_array": ["Vliegveld (groot): Terminal"],
   "average_credits": 3300,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true,
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -45,7 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 353,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

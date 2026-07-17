@@ -2,9 +2,7 @@
   "id": "272",
   "name": "Klein vliegtuig met motorisch probleem",
   "place": "Vliegveld (klein): Start-/Landingsbaan",
-  "place_array": [
-    "Vliegveld (klein): Start-/Landingsbaan"
-  ],
+  "place_array": ["Vliegveld (klein): Start-/Landingsbaan"],
   "average_credits": 2140,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -45,7 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 272,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

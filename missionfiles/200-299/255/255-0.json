@@ -2,9 +2,7 @@
   "id": "255-0",
   "name": "Brandende goederenwagon",
   "place": "Rangeeremplacement",
-  "place_array": [
-    "Rangeeremplacement"
-  ],
+  "place_array": ["Rangeeremplacement"],
   "average_credits": 3950,
   "generated_by": "",
   "icons": [
@@ -35,9 +33,5 @@
   "overlay_index": 0,
   "base_mission_id": 255,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

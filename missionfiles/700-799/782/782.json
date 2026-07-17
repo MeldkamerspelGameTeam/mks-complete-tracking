@@ -18,16 +18,10 @@
   "additional": {
     "possible_patient": 1,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      783
-    ],
+    "expansion_missions_ids": [783],
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -37,7 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 782,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

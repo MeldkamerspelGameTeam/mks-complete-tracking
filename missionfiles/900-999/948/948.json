@@ -2,9 +2,7 @@
   "id": "948",
   "name": "Brand op windmolenpark",
   "place": "Windmolenpark",
-  "place_array": [
-    "Windmolenpark"
-  ],
+  "place_array": ["Windmolenpark"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -27,8 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 948,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

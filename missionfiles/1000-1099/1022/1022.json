@@ -2,10 +2,7 @@
   "id": "1022",
   "name": "Omgevallen hijskraan",
   "place": "Bouwterrein\nBedrijventerrein",
-  "place_array": [
-    "Bouwterrein",
-    "Bedrijventerrein"
-  ],
+  "place_array": ["Bouwterrein", "Bedrijventerrein"],
   "average_credits": 3110,
   "generated_by": "",
   "icons": [
@@ -27,15 +24,9 @@
     "possible_patient": 3,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      870
-    ],
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "subsequent_missions_ids": [870],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -47,8 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 1022,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

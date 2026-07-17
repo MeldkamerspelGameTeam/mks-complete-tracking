@@ -2,9 +2,7 @@
   "id": "1097",
   "name": "Boze toeschouwer bij sportzwembad",
   "place": "Zwembad",
-  "place_array": [
-    "Zwembad"
-  ],
+  "place_array": ["Zwembad"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -29,7 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 1097,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

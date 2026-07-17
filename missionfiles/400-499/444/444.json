@@ -2,9 +2,7 @@
   "id": "444",
   "name": "Brand in hotel",
   "place": "Hotel",
-  "place_array": [
-    "Hotel"
-  ],
+  "place_array": ["Hotel"],
   "average_credits": 1550,
   "generated_by": "",
   "icons": [
@@ -31,8 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 444,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

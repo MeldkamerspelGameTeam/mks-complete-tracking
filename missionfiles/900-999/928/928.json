@@ -2,9 +2,7 @@
   "id": "928",
   "name": "Dief aangevallen door een koe",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -25,12 +23,8 @@
     "subsequent_mission_only": true,
     "date_start": "2026-03-13T10:00:00Z",
     "date_end": "2026-06-19T22:00:00Z",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -41,7 +35,5 @@
   "overlay_index": null,
   "base_mission_id": 928,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

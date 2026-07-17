@@ -2,9 +2,7 @@
   "id": "961/a",
   "name": "Toezicht Horeca",
   "place": "Café/Club",
-  "place_array": [
-    "Café/Club"
-  ],
+  "place_array": ["Café/Club"],
   "average_credits": 9545,
   "generated_by": "",
   "icons": [
@@ -38,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 961,
   "additive_overlays": "a",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

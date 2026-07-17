@@ -2,9 +2,7 @@
   "id": "220",
   "name": "Open dag, groot",
   "place": "Marktplein",
-  "place_array": [
-    "Marktplein"
-  ],
+  "place_array": ["Marktplein"],
   "average_credits": 3000,
   "generated_by": "",
   "icons": [
@@ -36,9 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 220,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

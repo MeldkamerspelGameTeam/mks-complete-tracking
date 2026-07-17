@@ -2,9 +2,7 @@
   "id": "123",
   "name": "Overval winkel",
   "place": "Supermarkt",
-  "place_array": [
-    "Supermarkt"
-  ],
+  "place_array": ["Supermarkt"],
   "average_credits": 2980,
   "generated_by": "",
   "icons": [
@@ -31,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 123,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

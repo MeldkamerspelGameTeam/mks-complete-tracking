@@ -2,9 +2,7 @@
   "id": "884",
   "name": "Doorrijden rood kruis",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 884,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

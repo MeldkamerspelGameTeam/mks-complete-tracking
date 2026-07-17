@@ -2,9 +2,7 @@
   "id": "383",
   "name": "Brand in parkeergarage",
   "place": "Parkeergarage",
-  "place_array": [
-    "Parkeergarage"
-  ],
+  "place_array": ["Parkeergarage"],
   "average_credits": 900,
   "generated_by": "",
   "icons": [
@@ -30,8 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 383,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -19,12 +19,8 @@
     "possible_patient_min": 1,
     "filter_id": "ambulance_station_missions",
     "subsequent_mission_only": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -34,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 1001,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

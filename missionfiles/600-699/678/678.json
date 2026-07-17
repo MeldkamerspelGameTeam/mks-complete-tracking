@@ -2,9 +2,7 @@
   "id": "678",
   "name": "Dienstverlening SEH ziekenhuis",
   "place": "Ziekenhuis",
-  "place_array": [
-    "Ziekenhuis"
-  ],
+  "place_array": ["Ziekenhuis"],
   "average_credits": 910,
   "generated_by": "",
   "icons": [
@@ -28,8 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 678,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

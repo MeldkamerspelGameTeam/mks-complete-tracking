@@ -2,9 +2,7 @@
   "id": "1091",
   "name": "Verdacht pakket gevonden bij de ingang van het sportstadion",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 1180,
   "generated_by": "",
   "icons": [
@@ -28,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 1091,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

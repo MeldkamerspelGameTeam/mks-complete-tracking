@@ -2,9 +2,7 @@
   "id": "269",
   "name": "Vliegtuig met brandmelding in vrachtruim",
   "place": "Vliegveld (groot): Start-/Landingsbaan",
-  "place_array": [
-    "Vliegveld (groot): Start-/Landingsbaan"
-  ],
+  "place_array": ["Vliegveld (groot): Start-/Landingsbaan"],
   "average_credits": 7720,
   "generated_by": "",
   "icons": [
@@ -39,7 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 269,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

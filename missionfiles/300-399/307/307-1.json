@@ -31,14 +31,8 @@
     "possible_patient": 100,
     "possible_patient_min": 50,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4,
-      0
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie",
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [4, 0],
+    "patient_specialization_captions": ["Traumatologie", "Interne Geneeskunde"],
     "patient_specializations": "Traumatologie, Interne Geneeskunde"
   },
   "prerequisites": {

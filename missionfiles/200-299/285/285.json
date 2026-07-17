@@ -2,9 +2,7 @@
   "id": "285",
   "name": "Brand in supermarkt",
   "place": "Supermarkt",
-  "place_array": [
-    "Supermarkt"
-  ],
+  "place_array": ["Supermarkt"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -20,10 +18,7 @@
     "platform_trucks": 10
   },
   "additional": {
-    "expansion_missions_ids": [
-      26,
-      34
-    ],
+    "expansion_missions_ids": [26, 34],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true
   },
@@ -34,8 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 285,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

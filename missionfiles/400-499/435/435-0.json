@@ -2,9 +2,7 @@
   "id": "435-0",
   "name": "Lekkende tankwagen",
   "place": "Haventerrein",
-  "place_array": [
-    "Haventerrein"
-  ],
+  "place_array": ["Haventerrein"],
   "average_credits": 7510,
   "generated_by": "",
   "icons": [
@@ -31,12 +29,8 @@
   "additional": {
     "possible_patient": 4,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -49,9 +43,5 @@
   "overlay_index": 0,
   "base_mission_id": 435,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

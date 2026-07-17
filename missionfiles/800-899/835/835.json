@@ -2,11 +2,7 @@
   "id": "835",
   "name": "Gaslek bedrijventerrein",
   "place": "Bedrijventerrein\nIndustrieterrein\nHaventerrein",
-  "place_array": [
-    "Bedrijventerrein",
-    "Industrieterrein",
-    "Haventerrein"
-  ],
+  "place_array": ["Bedrijventerrein", "Industrieterrein", "Haventerrein"],
   "average_credits": 1010,
   "generated_by": "",
   "icons": [
@@ -22,10 +18,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      836,
-      837
-    ],
+    "expansion_missions_ids": [836, 837],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -36,9 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 835,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization",
-    "urban"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
 }

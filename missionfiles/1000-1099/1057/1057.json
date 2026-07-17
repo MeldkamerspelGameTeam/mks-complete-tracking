@@ -2,10 +2,7 @@
   "id": "1057",
   "name": "Autobrand op snelweg",
   "place": "Snelweg oprit / afrit\nTunnel",
-  "place_array": [
-    "Snelweg oprit / afrit",
-    "Tunnel"
-  ],
+  "place_array": ["Snelweg oprit / afrit", "Tunnel"],
   "average_credits": 2550,
   "generated_by": "",
   "icons": [
@@ -37,8 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 1057,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "technical_aid"
-  ]
+  "mission_categories": ["fire", "technical_aid"]
 }

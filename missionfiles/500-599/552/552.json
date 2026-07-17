@@ -2,9 +2,7 @@
   "id": "552",
   "name": "Brand in theater",
   "place": "Theater",
-  "place_array": [
-    "Theater"
-  ],
+  "place_array": ["Theater"],
   "average_credits": 2200,
   "generated_by": "",
   "icons": [
@@ -30,12 +28,8 @@
     "possible_patient": 4,
     "possible_patient_min": 2,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -47,8 +41,5 @@
   "overlay_index": null,
   "base_mission_id": 552,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

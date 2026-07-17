@@ -2,9 +2,7 @@
   "id": "1180",
   "name": "Brand in snackbar (Grip 1)",
   "place": "Frietkraam",
-  "place_array": [
-    "Frietkraam"
-  ],
+  "place_array": ["Frietkraam"],
   "average_credits": 13200,
   "generated_by": "",
   "icons": [
@@ -33,16 +31,10 @@
   "additional": {
     "possible_patient": 5,
     "possible_patient_min": 2,
-    "followup_missions_ids": [
-      878
-    ],
+    "followup_missions_ids": [878],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -56,7 +48,5 @@
   "overlay_index": null,
   "base_mission_id": 1180,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

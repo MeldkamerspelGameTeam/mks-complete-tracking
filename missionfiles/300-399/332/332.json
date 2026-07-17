@@ -2,9 +2,7 @@
   "id": "332",
   "name": "Inbraak in bedrijfspand",
   "place": "Magazijn",
-  "place_array": [
-    "Magazijn"
-  ],
+  "place_array": ["Magazijn"],
   "average_credits": 1500,
   "generated_by": "",
   "icons": [
@@ -30,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 332,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

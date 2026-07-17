@@ -2,9 +2,7 @@
   "id": "366",
   "name": "Personen op dak school",
   "place": "School",
-  "place_array": [
-    "School"
-  ],
+  "place_array": ["School"],
   "average_credits": 550,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 366,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

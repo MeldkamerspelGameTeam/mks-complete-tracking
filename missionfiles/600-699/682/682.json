@@ -2,9 +2,7 @@
   "id": "682",
   "name": "Gevangenisbewaarder aangevallen",
   "place": "Gevangenis",
-  "place_array": [
-    "Gevangenis"
-  ],
+  "place_array": ["Gevangenis"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -22,12 +20,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -38,7 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 682,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

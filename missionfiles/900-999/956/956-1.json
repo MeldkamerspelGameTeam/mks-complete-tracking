@@ -2,10 +2,7 @@
   "id": "956-1",
   "name": "Brand in station",
   "place": "Centraal Station\nStation",
-  "place_array": [
-    "Centraal Station",
-    "Station"
-  ],
+  "place_array": ["Centraal Station", "Station"],
   "average_credits": 13220,
   "generated_by": "",
   "icons": [
@@ -37,12 +34,8 @@
     "filter_id": "firehouse_missions",
     "need_bike_police_only_if_present": true,
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -54,8 +47,5 @@
   "overlay_index": 1,
   "base_mission_id": 956,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

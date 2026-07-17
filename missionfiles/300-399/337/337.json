@@ -20,12 +20,8 @@
     "possible_patient": 1,
     "max_possible_prisoners": 1,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -36,7 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 337,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

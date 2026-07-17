@@ -2,9 +2,7 @@
   "id": "885/df",
   "name": "Brand in vuurwerkopslag",
   "place": "Vuurwerkopslag",
-  "place_array": [
-    "Vuurwerkopslag"
-  ],
+  "place_array": ["Vuurwerkopslag"],
   "average_credits": 50520,
   "generated_by": "",
   "icons": [
@@ -39,23 +37,11 @@
   "additional": {
     "possible_patient": 30,
     "possible_patient_min": 5,
-    "followup_missions_ids": [
-      48,
-      99,
-      768,
-      878,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 768, 878, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "subsequent_missions_ids": [877],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {

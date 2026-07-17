@@ -2,9 +2,7 @@
   "id": "216/a",
   "name": "Bosbrand (Grip 1)",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 15140,
   "generated_by": "",
   "icons": [
@@ -53,7 +51,5 @@
   "overlay_index": null,
   "base_mission_id": 216,
   "additive_overlays": "a",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

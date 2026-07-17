@@ -2,9 +2,7 @@
   "id": "363",
   "name": "Brand op passagiersschip",
   "place": "Rivier",
-  "place_array": [
-    "Rivier"
-  ],
+  "place_array": ["Rivier"],
   "average_credits": 1450,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
     "possible_patient_min": 1,
     "filter_id": "water_watch_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -44,7 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 363,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

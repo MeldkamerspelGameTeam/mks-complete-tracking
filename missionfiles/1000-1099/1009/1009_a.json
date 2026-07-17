@@ -2,10 +2,7 @@
   "id": "1009/a",
   "name": "Auto tegen pijlwagen gereden",
   "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
-  "place_array": [
-    "Snelweg oprit / afrit",
-    "Verzorgingsplaats (Snelweg)"
-  ],
+  "place_array": ["Snelweg oprit / afrit", "Verzorgingsplaats (Snelweg)"],
   "average_credits": 5300,
   "generated_by": "",
   "icons": [
@@ -30,14 +27,8 @@
     "filter_id": "firehouse_missions",
     "possible_crashed_car_min": 1,
     "possible_crashed_car_max": 1,
-    "patient_specialization_ids": [
-      1,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde",
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
     "patient_specializations": "Algemene Heelkunde, Traumatologie"
   },
   "prerequisites": {
@@ -53,8 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 1009,
   "additive_overlays": "a",
-  "mission_categories": [
-    "fire",
-    "technical_aid"
-  ]
+  "mission_categories": ["fire", "technical_aid"]
 }

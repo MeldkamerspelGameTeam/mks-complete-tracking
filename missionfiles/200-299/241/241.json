@@ -2,9 +2,7 @@
   "id": "241",
   "name": "Zwemmer vermist (Klein)",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 1910,
   "generated_by": "",
   "icons": [
@@ -25,21 +23,11 @@
   },
   "additional": {
     "possible_patient": 1,
-    "expansion_missions_ids": [
-      348,
-      349
-    ],
+    "expansion_missions_ids": [348, 349],
     "filter_id": "firehouse_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -52,7 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 241,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

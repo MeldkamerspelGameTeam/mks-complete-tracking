@@ -2,9 +2,7 @@
   "id": "408",
   "name": "Brand in kerkgebouw",
   "place": "Kerkgebouw",
-  "place_array": [
-    "Kerkgebouw"
-  ],
+  "place_array": ["Kerkgebouw"],
   "average_credits": 800,
   "generated_by": "",
   "icons": [
@@ -30,8 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 408,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

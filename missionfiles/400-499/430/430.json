@@ -2,9 +2,7 @@
   "id": "430",
   "name": "Persoon bekneld tussen containers",
   "place": "Haventerrein",
-  "place_array": [
-    "Haventerrein"
-  ],
+  "place_array": ["Haventerrein"],
   "average_credits": null,
   "generated_by": "",
   "icons": [
@@ -20,12 +18,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -35,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 430,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

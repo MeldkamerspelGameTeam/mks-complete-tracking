@@ -2,9 +2,7 @@
   "id": "764",
   "name": "Opbreken manifestatie",
   "place": "Park",
-  "place_array": [
-    "Park"
-  ],
+  "place_array": ["Park"],
   "average_credits": 10365,
   "generated_by": "",
   "icons": [
@@ -33,12 +31,8 @@
     "filter_id": "riot_police_missions",
     "need_bike_police_only_if_present": true,
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -55,7 +49,5 @@
   "overlay_index": null,
   "base_mission_id": 764,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

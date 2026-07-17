@@ -16,9 +16,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      955
-    ],
+    "expansion_missions_ids": [955],
     "filter_id": "police_station_missions"
   },
   "prerequisites": {
@@ -28,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 954,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

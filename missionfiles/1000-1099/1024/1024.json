@@ -2,9 +2,7 @@
   "id": "1024",
   "name": "Auto met pech op vluchtstrook",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 1450,
   "generated_by": "",
   "icons": [
@@ -30,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 1024,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

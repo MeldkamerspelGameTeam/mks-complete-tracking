@@ -2,13 +2,7 @@
   "id": "1182",
   "name": "Bootje op drift",
   "place": "Strand\nMeer\nJachthaven\nPontsteiger\nRivier",
-  "place_array": [
-    "Strand",
-    "Meer",
-    "Jachthaven",
-    "Pontsteiger",
-    "Rivier"
-  ],
+  "place_array": ["Strand", "Meer", "Jachthaven", "Pontsteiger", "Rivier"],
   "average_credits": 3250,
   "generated_by": "",
   "icons": [
@@ -31,12 +25,8 @@
   "additional": {
     "possible_patient": 2,
     "filter_id": "coastal_rescue_missions",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -50,7 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 1182,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue"
-  ]
+  "mission_categories": ["coastal_rescue"]
 }

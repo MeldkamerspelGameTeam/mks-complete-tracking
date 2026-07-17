@@ -2,9 +2,7 @@
   "id": "390",
   "name": "Brand bij afvalverwerker (Klein)",
   "place": "Afvalverwerker",
-  "place_array": [
-    "Afvalverwerker"
-  ],
+  "place_array": ["Afvalverwerker"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -20,13 +18,7 @@
     "platform_trucks": 20
   },
   "additional": {
-    "expansion_missions_ids": [
-      391,
-      392,
-      393,
-      394,
-      395
-    ],
+    "expansion_missions_ids": [391, 392, 393, 394, 395],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -36,8 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 390,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "717",
   "name": "Akkerbrand",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 16895,
   "generated_by": "",
   "icons": [
@@ -39,7 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 717,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

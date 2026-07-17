@@ -2,9 +2,7 @@
   "id": "1169",
   "name": "Mogelijk explosief gevonden bij magneetvissen",
   "place": "Sloot",
-  "place_array": [
-    "Sloot"
-  ],
+  "place_array": ["Sloot"],
   "average_credits": 1645,
   "generated_by": "",
   "icons": [
@@ -30,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 1169,
   "additive_overlays": "",
-  "mission_categories": [
-    "bomb_disposal"
-  ]
+  "mission_categories": ["bomb_disposal"]
 }

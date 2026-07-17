@@ -19,18 +19,11 @@
   "additional": {
     "possible_patient": 3,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      883,
-      25
-    ],
+    "expansion_missions_ids": [883, 25],
     "filter_id": "ambulance_station_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      5
-    ],
-    "patient_specialization_captions": [
-      "Neurologie"
-    ],
+    "patient_specialization_ids": [5],
+    "patient_specialization_captions": ["Neurologie"],
     "patient_specializations": "Neurologie"
   },
   "prerequisites": {
@@ -41,7 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 943,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

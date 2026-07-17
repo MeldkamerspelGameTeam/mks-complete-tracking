@@ -27,7 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 137,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

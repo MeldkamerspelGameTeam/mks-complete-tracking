@@ -23,9 +23,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      1162
-    ],
+    "expansion_missions_ids": [1162],
     "max_possible_prisoners": 2,
     "filter_id": "police_station_missions"
   },
@@ -39,7 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 1162,
   "additive_overlays": "",
-  "mission_categories": [
-    "bomb_disposal"
-  ]
+  "mission_categories": ["bomb_disposal"]
 }

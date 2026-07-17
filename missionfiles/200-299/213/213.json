@@ -2,9 +2,7 @@
   "id": "213",
   "name": "Omgeslagen Zeilboot",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 3150,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
   "additional": {
     "possible_patient": 2,
     "filter_id": "water_watch_missions",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -46,7 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 213,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

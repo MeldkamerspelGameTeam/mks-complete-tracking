@@ -2,10 +2,7 @@
   "id": "1205",
   "name": "Brand in station (Groot)",
   "place": "Centraal Station\nStation",
-  "place_array": [
-    "Centraal Station",
-    "Station"
-  ],
+  "place_array": ["Centraal Station", "Station"],
   "average_credits": 15360,
   "generated_by": "",
   "icons": [
@@ -33,17 +30,10 @@
   },
   "additional": {
     "possible_patient": 30,
-    "expansion_missions_ids": [
-      1206,
-      1207
-    ],
+    "expansion_missions_ids": [1206, 1207],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -56,8 +46,5 @@
   "overlay_index": null,
   "base_mission_id": 1205,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

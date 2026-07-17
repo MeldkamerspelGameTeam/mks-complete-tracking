@@ -2,9 +2,7 @@
   "id": "414",
   "name": "Brand in transformatorhuisje",
   "place": "Transformatorhuisje",
-  "place_array": [
-    "Transformatorhuisje"
-  ],
+  "place_array": ["Transformatorhuisje"],
   "average_credits": 800,
   "generated_by": "",
   "icons": [
@@ -29,8 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 414,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

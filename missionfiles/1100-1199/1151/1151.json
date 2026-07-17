@@ -2,10 +2,7 @@
   "id": "1151",
   "name": "Verdacht vaartuig in de haven",
   "place": "Haventerrein\nJachthaven",
-  "place_array": [
-    "Haventerrein",
-    "Jachthaven"
-  ],
+  "place_array": ["Haventerrein", "Jachthaven"],
   "average_credits": 1170,
   "generated_by": "",
   "icons": [
@@ -28,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 1151,
   "additive_overlays": "",
-  "mission_categories": [
-    "military_police"
-  ]
+  "mission_categories": ["military_police"]
 }

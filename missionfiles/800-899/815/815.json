@@ -2,9 +2,7 @@
   "id": "815",
   "name": "Vrachtwagen vast in tunnel",
   "place": "Tunnel",
-  "place_array": [
-    "Tunnel"
-  ],
+  "place_array": ["Tunnel"],
   "average_credits": 1590,
   "generated_by": "",
   "icons": [
@@ -19,9 +17,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      816
-    ],
+    "expansion_missions_ids": [816],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -33,9 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 815,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "technical_aid",
-    "urban"
-  ]
+  "mission_categories": ["fire", "technical_aid", "urban"]
 }

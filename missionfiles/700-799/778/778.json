@@ -2,9 +2,7 @@
   "id": "778",
   "name": "Brand in houtzagerij",
   "place": "Bedrijventerrein",
-  "place_array": [
-    "Bedrijventerrein"
-  ],
+  "place_array": ["Bedrijventerrein"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -18,10 +16,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      779,
-      780
-    ],
+    "expansion_missions_ids": [779, 780],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true
   },
@@ -32,8 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 778,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

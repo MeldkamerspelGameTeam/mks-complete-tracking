@@ -26,12 +26,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -44,8 +40,5 @@
   "overlay_index": 0,
   "base_mission_id": 370,
   "additive_overlays": "",
-  "mission_categories": [
-    "police",
-    "traffic_police_specialization"
-  ]
+  "mission_categories": ["police", "traffic_police_specialization"]
 }

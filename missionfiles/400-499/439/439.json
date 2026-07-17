@@ -2,9 +2,7 @@
   "id": "439",
   "name": "Duiker vermist",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 1100,
   "generated_by": "",
   "icons": [
@@ -30,12 +28,8 @@
     "possible_patient": 1,
     "filter_id": "water_watch_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -48,7 +42,5 @@
   "overlay_index": null,
   "base_mission_id": 439,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

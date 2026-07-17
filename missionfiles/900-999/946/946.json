@@ -2,11 +2,7 @@
   "id": "946",
   "name": "Personen geraakt door weggevlogen parasol",
   "place": "Strand\nDuinen\nStrandopgang",
-  "place_array": [
-    "Strand",
-    "Duinen",
-    "Strandopgang"
-  ],
+  "place_array": ["Strand", "Duinen", "Strandopgang"],
   "average_credits": 3190,
   "generated_by": "",
   "icons": [
@@ -26,12 +22,8 @@
     "possible_patient": 4,
     "possible_patient_min": 1,
     "filter_id": "water_watch_missions",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -44,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 946,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue_2"
-  ]
+  "mission_categories": ["water_rescue_2"]
 }

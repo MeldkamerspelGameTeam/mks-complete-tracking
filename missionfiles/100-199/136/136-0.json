@@ -2,10 +2,7 @@
   "id": "136-0",
   "name": "Brandende caravan",
   "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
-  "place_array": [
-    "Snelweg oprit / afrit",
-    "Verzorgingsplaats (Snelweg)"
-  ],
+  "place_array": ["Snelweg oprit / afrit", "Verzorgingsplaats (Snelweg)"],
   "average_credits": 2690,
   "generated_by": "",
   "icons": [
@@ -27,12 +24,8 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -45,9 +38,5 @@
   "overlay_index": 0,
   "base_mission_id": 136,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

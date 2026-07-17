@@ -2,9 +2,7 @@
   "id": "229-1",
   "name": "Brand in tankstation",
   "place": "Tankstation",
-  "place_array": [
-    "Tankstation"
-  ],
+  "place_array": ["Tankstation"],
   "average_credits": 14910,
   "generated_by": "",
   "icons": [
@@ -43,19 +41,10 @@
     "possible_patient": 40,
     "possible_patient_min": 10,
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      995,
-      878,
-      879,
-      877
-    ],
+    "subsequent_missions_ids": [995, 878, 879, 877],
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -70,9 +59,5 @@
   "overlay_index": 1,
   "base_mission_id": 229,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

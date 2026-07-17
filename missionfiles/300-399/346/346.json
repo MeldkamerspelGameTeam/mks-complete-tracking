@@ -44,12 +44,8 @@
     "only_alliance_mission": true,
     "filter_id": "firehouse_missions",
     "need_bike_police_only_if_present": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde",
     "unavailable_in_normal_missions": true
   },
@@ -68,7 +64,5 @@
   "overlay_index": null,
   "base_mission_id": 346,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

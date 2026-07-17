@@ -2,9 +2,7 @@
   "id": "326",
   "name": "Brand in landbouwschuur",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 5635,
   "generated_by": "",
   "icons": [
@@ -32,21 +30,9 @@
     "heavy_rescue_vehicles": 50
   },
   "additional": {
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ]
+    "subsequent_missions_ids": [877]
   },
   "prerequisites": {
     "main_building": 0,
@@ -56,9 +42,5 @@
   "overlay_index": null,
   "base_mission_id": 326,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "rural", "fire_support_specialization"]
 }

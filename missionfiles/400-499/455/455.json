@@ -2,9 +2,7 @@
   "id": "455",
   "name": "Ree vast in hek",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 300,
   "generated_by": "",
   "icons": [
@@ -27,9 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 455,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

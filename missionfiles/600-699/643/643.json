@@ -2,9 +2,7 @@
   "id": "643",
   "name": "Heterdaad fietsendiefstal",
   "place": "Station",
-  "place_array": [
-    "Station"
-  ],
+  "place_array": ["Station"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 643,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

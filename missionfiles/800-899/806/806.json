@@ -2,11 +2,7 @@
   "id": "806",
   "name": "Zwemmer vermist",
   "place": "Strand\nMeer\nRivier",
-  "place_array": [
-    "Strand",
-    "Meer",
-    "Rivier"
-  ],
+  "place_array": ["Strand", "Meer", "Rivier"],
   "average_credits": 1400,
   "generated_by": "",
   "icons": [
@@ -26,12 +22,8 @@
     "possible_patient": 1,
     "filter_id": "water_watch_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -43,7 +35,5 @@
   "overlay_index": null,
   "base_mission_id": 806,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue_2"
-  ]
+  "mission_categories": ["water_rescue_2"]
 }

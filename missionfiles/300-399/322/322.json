@@ -2,9 +2,7 @@
   "id": "322",
   "name": "Brandende wegberm",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 2350,
   "generated_by": "",
   "icons": [
@@ -32,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 322,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

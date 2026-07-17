@@ -2,9 +2,7 @@
   "id": "492",
   "name": "Ongeregeldheden voetbalsupporters horeca",
   "place": "Café/Club",
-  "place_array": [
-    "Café/Club"
-  ],
+  "place_array": ["Café/Club"],
   "average_credits": 6010,
   "generated_by": "",
   "icons": [
@@ -36,7 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 492,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

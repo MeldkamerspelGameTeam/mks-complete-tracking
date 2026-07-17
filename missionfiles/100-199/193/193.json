@@ -2,9 +2,7 @@
   "id": "193",
   "name": "Koe in sloot",
   "place": "Sloot",
-  "place_array": [
-    "Sloot"
-  ],
+  "place_array": ["Sloot"],
   "average_credits": 140,
   "generated_by": "",
   "icons": [
@@ -29,8 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 193,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

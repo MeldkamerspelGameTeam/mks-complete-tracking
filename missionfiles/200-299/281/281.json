@@ -2,9 +2,7 @@
   "id": "281",
   "name": "Brand in garagebedrijf",
   "place": "Garagebedrijf",
-  "place_array": [
-    "Garagebedrijf"
-  ],
+  "place_array": ["Garagebedrijf"],
   "average_credits": 2700,
   "generated_by": "",
   "icons": [
@@ -38,8 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 281,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

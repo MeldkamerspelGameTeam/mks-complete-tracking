@@ -2,9 +2,7 @@
   "id": "504",
   "name": "Brand in fabriekshal",
   "place": "Industrieterrein",
-  "place_array": [
-    "Industrieterrein"
-  ],
+  "place_array": ["Industrieterrein"],
   "average_credits": 900,
   "generated_by": "",
   "icons": [
@@ -32,8 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 504,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

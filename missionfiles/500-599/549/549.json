@@ -2,9 +2,7 @@
   "id": "549",
   "name": "Steekincident (groot)",
   "place": "Centraal Station",
-  "place_array": [
-    "Centraal Station"
-  ],
+  "place_array": ["Centraal Station"],
   "average_credits": 6000,
   "generated_by": "",
   "icons": [
@@ -28,12 +26,8 @@
     "possible_patient_min": 5,
     "max_possible_prisoners": 1,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -46,7 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 549,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

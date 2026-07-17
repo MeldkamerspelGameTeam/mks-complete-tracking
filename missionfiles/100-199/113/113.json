@@ -2,9 +2,7 @@
   "id": "113",
   "name": "Overval winkel",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 1000,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 113,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

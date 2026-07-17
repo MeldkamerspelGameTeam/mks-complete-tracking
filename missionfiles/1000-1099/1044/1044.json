@@ -2,9 +2,7 @@
   "id": "1044",
   "name": "Overval tankstation met gijzeling",
   "place": "Tankstation",
-  "place_array": [
-    "Tankstation"
-  ],
+  "place_array": ["Tankstation"],
   "average_credits": 7400,
   "generated_by": "",
   "icons": [
@@ -29,12 +27,8 @@
     "possible_patient": 4,
     "possible_patient_min": 1,
     "filter_id": "riot_police_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -49,8 +43,5 @@
   "overlay_index": null,
   "base_mission_id": 1044,
   "additive_overlays": "",
-  "mission_categories": [
-    "police",
-    "riot_police"
-  ]
+  "mission_categories": ["police", "riot_police"]
 }

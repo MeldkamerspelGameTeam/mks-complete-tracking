@@ -2,9 +2,7 @@
   "id": "195",
   "name": "Lekkende woonboot",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 420,
   "generated_by": "",
   "icons": [
@@ -29,8 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 195,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

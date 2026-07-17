@@ -24,7 +24,5 @@
   "overlay_index": null,
   "base_mission_id": 284,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

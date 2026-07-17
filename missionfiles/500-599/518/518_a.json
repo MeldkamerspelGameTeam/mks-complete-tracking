@@ -2,9 +2,7 @@
   "id": "518/a",
   "name": "Aanvaring vrachtschip met veerboot (Grip 4)",
   "place": "Rivier",
-  "place_array": [
-    "Rivier"
-  ],
+  "place_array": ["Rivier"],
   "average_credits": 12250,
   "generated_by": "",
   "icons": [
@@ -35,12 +33,8 @@
     "possible_patient_min": 12,
     "filter_id": "water_watch_missions",
     "care_includes_staff_members": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -56,7 +50,5 @@
   "overlay_index": null,
   "base_mission_id": 518,
   "additive_overlays": "a",
-  "mission_categories": [
-    "water_rescue_specialization"
-  ]
+  "mission_categories": ["water_rescue_specialization"]
 }

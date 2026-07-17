@@ -2,9 +2,7 @@
   "id": "609",
   "name": "Assistentie huisarts",
   "place": "Huisartsenpraktijk",
-  "place_array": [
-    "Huisartsenpraktijk"
-  ],
+  "place_array": ["Huisartsenpraktijk"],
   "average_credits": null,
   "generated_by": "",
   "icons": [
@@ -20,12 +18,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      7
-    ],
-    "patient_specialization_captions": [
-      "Cardiologie"
-    ],
+    "patient_specialization_ids": [7],
+    "patient_specialization_captions": ["Cardiologie"],
     "patient_specializations": "Cardiologie"
   },
   "prerequisites": {
@@ -35,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 609,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

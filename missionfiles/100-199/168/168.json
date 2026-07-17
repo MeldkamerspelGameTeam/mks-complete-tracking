@@ -22,12 +22,8 @@
     "filter_id": "ambulance_station_missions",
     "date_start": "2025-11-14T10:00:00Z",
     "date_end": "2025-12-06T23:59:59Z",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -38,7 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 168,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

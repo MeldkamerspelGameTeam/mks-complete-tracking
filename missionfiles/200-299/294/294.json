@@ -2,9 +2,7 @@
   "id": "294",
   "name": "Overlast jeugd",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 550,
   "generated_by": "",
   "icons": [
@@ -26,7 +24,5 @@
   "overlay_index": null,
   "base_mission_id": 294,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

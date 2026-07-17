@@ -2,9 +2,7 @@
   "id": "371",
   "name": "Verlaten slee langs waterkant",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 1510,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
     "patient_at_end_of_mission": true,
     "date_start": "2025-12-01T10:00:00Z",
     "date_end": "2025-12-26T23:59:59+01:00",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -45,7 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 371,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

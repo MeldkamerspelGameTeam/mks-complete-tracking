@@ -2,9 +2,7 @@
   "id": "302",
   "name": "Brand in kantoorgebouw",
   "place": "Kantoorgebouw",
-  "place_array": [
-    "Kantoorgebouw"
-  ],
+  "place_array": ["Kantoorgebouw"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -20,12 +18,7 @@
     "platform_trucks": 20
   },
   "additional": {
-    "expansion_missions_ids": [
-      303,
-      304,
-      474,
-      475
-    ],
+    "expansion_missions_ids": [303, 304, 474, 475],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true
   },
@@ -36,8 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 302,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "355/b",
   "name": "Heidebrand (Grip 1)",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 27392,
   "generated_by": "",
   "icons": [
@@ -34,21 +32,10 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      356
-    ],
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      768,
-      878,
-      879
-    ],
+    "expansion_missions_ids": [356],
+    "followup_missions_ids": [48, 99, 225, 768, 878, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      1191
-    ],
+    "subsequent_missions_ids": [1191],
     "personnel_educations": {
       "Handcrew": 18
     }
@@ -67,7 +54,5 @@
   "overlay_index": null,
   "base_mission_id": 355,
   "additive_overlays": "b",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

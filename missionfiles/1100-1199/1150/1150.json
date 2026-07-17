@@ -2,9 +2,7 @@
   "id": "1150",
   "name": "Verdovende middelen aangetroffen in bagage",
   "place": "Vliegveld (groot): Terminal",
-  "place_array": [
-    "Vliegveld (groot): Terminal"
-  ],
+  "place_array": ["Vliegveld (groot): Terminal"],
   "average_credits": 600,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 1150,
   "additive_overlays": "",
-  "mission_categories": [
-    "military_police"
-  ]
+  "mission_categories": ["military_police"]
 }

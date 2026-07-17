@@ -2,9 +2,7 @@
   "id": "367",
   "name": "Gestolen scooter gevonden",
   "place": "School",
-  "place_array": [
-    "School"
-  ],
+  "place_array": ["School"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 367,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

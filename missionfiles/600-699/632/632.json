@@ -2,9 +2,7 @@
   "id": "632",
   "name": "Brandende frietkraam",
   "place": "Frietkraam",
-  "place_array": [
-    "Frietkraam"
-  ],
+  "place_array": ["Frietkraam"],
   "average_credits": 3040,
   "generated_by": "",
   "icons": [
@@ -26,12 +24,8 @@
     "possible_patient": 4,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -43,8 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 632,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "1047",
   "name": "Demonstranten vastgelijmd aan snelweg",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 13230,
   "generated_by": "",
   "icons": [
@@ -29,18 +27,12 @@
   },
   "additional": {
     "possible_patient": 45,
-    "followup_missions_ids": [
-      1069
-    ],
+    "followup_missions_ids": [1069],
     "min_possible_prisoners": 1,
     "max_possible_prisoners": 8,
     "filter_id": "riot_police_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -58,7 +50,5 @@
   "overlay_index": null,
   "base_mission_id": 1047,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

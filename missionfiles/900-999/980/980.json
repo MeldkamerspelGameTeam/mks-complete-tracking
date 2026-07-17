@@ -33,14 +33,8 @@
     "max_possible_prisoners": 150,
     "filter_id": "riot_police_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      1,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde",
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
     "patient_specializations": "Algemene Heelkunde, Traumatologie",
     "unavailable_in_normal_missions": true
   },
@@ -50,7 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 980,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

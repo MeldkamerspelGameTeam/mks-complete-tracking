@@ -2,9 +2,7 @@
   "id": "429/ab",
   "name": "Brand in bouwmarkt (Grip 2)",
   "place": "Bouwmarkt",
-  "place_array": [
-    "Bouwmarkt"
-  ],
+  "place_array": ["Bouwmarkt"],
   "average_credits": 19562,
   "generated_by": "",
   "icons": [
@@ -41,22 +39,11 @@
   "additional": {
     "possible_patient": 10,
     "possible_patient_min": 5,
-    "expansion_missions_ids": [
-      429
-    ],
+    "expansion_missions_ids": [429],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
+    "subsequent_missions_ids": [877],
     "care_includes_staff_members": true,
-    "patient_specialization_ids": [
-      1,
-      8,
-      7,
-      0,
-      5,
-      4
-    ],
+    "patient_specialization_ids": [1, 8, 7, 0, 5, 4],
     "patient_specialization_captions": [
       "Algemene Heelkunde",
       "Cardiochirurgie",
@@ -80,9 +67,5 @@
   "overlay_index": null,
   "base_mission_id": 429,
   "additive_overlays": "ab",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

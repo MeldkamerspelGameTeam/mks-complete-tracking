@@ -2,9 +2,7 @@
   "id": "266",
   "name": "Vliegtuig met rook in cabine",
   "place": "Vliegveld (groot): Start-/Landingsbaan",
-  "place_array": [
-    "Vliegveld (groot): Start-/Landingsbaan"
-  ],
+  "place_array": ["Vliegveld (groot): Start-/Landingsbaan"],
   "average_credits": 2010,
   "generated_by": "",
   "icons": [
@@ -31,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 266,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

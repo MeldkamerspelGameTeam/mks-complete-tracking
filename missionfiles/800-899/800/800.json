@@ -2,10 +2,7 @@
   "id": "800",
   "name": "Groep zwemmers in problemen",
   "place": "Strand\nMeer",
-  "place_array": [
-    "Strand",
-    "Meer"
-  ],
+  "place_array": ["Strand", "Meer"],
   "average_credits": 3320,
   "generated_by": "",
   "icons": [
@@ -26,12 +23,8 @@
     "possible_patient_min": 1,
     "filter_id": "water_watch_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -43,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 800,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue_2"
-  ]
+  "mission_categories": ["water_rescue_2"]
 }

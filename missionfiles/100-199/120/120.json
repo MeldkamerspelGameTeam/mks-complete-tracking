@@ -33,8 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 120,
   "additive_overlays": "",
-  "mission_categories": [
-    "police",
-    "traffic_police_specialization"
-  ]
+  "mission_categories": ["police", "traffic_police_specialization"]
 }

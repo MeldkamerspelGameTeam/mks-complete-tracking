@@ -2,9 +2,7 @@
   "id": "601",
   "name": "Bewusteloos persoon op een bankje",
   "place": "Marktplein",
-  "place_array": [
-    "Marktplein"
-  ],
+  "place_array": ["Marktplein"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -21,17 +19,10 @@
   "additional": {
     "possible_patient": 1,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      917,
-      918
-    ],
+    "expansion_missions_ids": [917, 918],
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -42,7 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 601,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

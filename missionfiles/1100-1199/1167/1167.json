@@ -49,7 +49,5 @@
   "overlay_index": null,
   "base_mission_id": 1167,
   "additive_overlays": "",
-  "mission_categories": [
-    "bomb_disposal"
-  ]
+  "mission_categories": ["bomb_disposal"]
 }

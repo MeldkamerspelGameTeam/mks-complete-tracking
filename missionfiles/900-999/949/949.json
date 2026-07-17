@@ -2,9 +2,7 @@
   "id": "949",
   "name": "Personen vast in achtbaan",
   "place": "Pretpark",
-  "place_array": [
-    "Pretpark"
-  ],
+  "place_array": ["Pretpark"],
   "average_credits": 7600,
   "generated_by": "",
   "icons": [
@@ -30,12 +28,8 @@
     "possible_patient_min": 5,
     "filter_id": "ambulance_station_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -47,7 +41,5 @@
   "overlay_index": null,
   "base_mission_id": 949,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

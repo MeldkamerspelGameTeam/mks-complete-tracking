@@ -2,9 +2,7 @@
   "id": "254",
   "name": "Brandende goederenwagon (Klein)",
   "place": "Rangeeremplacement",
-  "place_array": [
-    "Rangeeremplacement"
-  ],
+  "place_array": ["Rangeeremplacement"],
   "average_credits": 1490,
   "generated_by": "",
   "icons": [
@@ -31,8 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 254,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

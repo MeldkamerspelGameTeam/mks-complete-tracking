@@ -2,9 +2,7 @@
   "id": "394-0",
   "name": "Brand bij afvalverwerker",
   "place": "Afvalverwerker",
-  "place_array": [
-    "Afvalverwerker"
-  ],
+  "place_array": ["Afvalverwerker"],
   "average_credits": 12450,
   "generated_by": "",
   "icons": [
@@ -31,21 +29,9 @@
     "heavy_rescue_vehicles": 20
   },
   "additional": {
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
+    "subsequent_missions_ids": [877],
     "fire_alarm_system_possible": true
   },
   "prerequisites": {
@@ -57,8 +43,5 @@
   "overlay_index": 0,
   "base_mission_id": 394,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization"]
 }

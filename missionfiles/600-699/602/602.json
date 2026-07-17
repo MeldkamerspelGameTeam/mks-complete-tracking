@@ -2,9 +2,7 @@
   "id": "602",
   "name": "Beveiliger aangevallen",
   "place": "Café/Club",
-  "place_array": [
-    "Café/Club"
-  ],
+  "place_array": ["Café/Club"],
   "average_credits": 510,
   "generated_by": "",
   "icons": [
@@ -21,17 +19,11 @@
   "additional": {
     "possible_patient": 1,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      202
-    ],
+    "expansion_missions_ids": [202],
     "max_possible_prisoners": 2,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -42,7 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 602,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

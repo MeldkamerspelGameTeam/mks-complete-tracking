@@ -18,16 +18,7 @@
     "water_tankers": 10
   },
   "additional": {
-    "expansion_missions_ids": [
-      140,
-      141,
-      142,
-      143,
-      144,
-      308,
-      309,
-      357
-    ],
+    "expansion_missions_ids": [140, 141, 142, 143, 144, 308, 309, 357],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -38,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 139,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

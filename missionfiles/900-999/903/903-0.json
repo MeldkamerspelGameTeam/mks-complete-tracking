@@ -2,9 +2,7 @@
   "id": "903-0",
   "name": "Verhoog bewustzijn van het bestaan van 112 onder kinderen",
   "place": "School",
-  "place_array": [
-    "School"
-  ],
+  "place_array": ["School"],
   "average_credits": 2905,
   "generated_by": "",
   "icons": [
@@ -37,7 +35,5 @@
   "overlay_index": 0,
   "base_mission_id": 903,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

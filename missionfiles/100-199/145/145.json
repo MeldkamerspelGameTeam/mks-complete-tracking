@@ -30,9 +30,7 @@
   "additional": {
     "only_alliance_mission": true,
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      1191
-    ],
+    "subsequent_missions_ids": [1191],
     "personnel_educations": {
       "Handcrew": 36
     },
@@ -44,7 +42,5 @@
   "overlay_index": null,
   "base_mission_id": 145,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

@@ -2,9 +2,7 @@
   "id": "215",
   "name": "Bosbrand (Groot)",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 8732,
   "generated_by": "",
   "icons": [
@@ -27,9 +25,7 @@
     "mobile_command_vehicles": 50
   },
   "additional": {
-    "expansion_missions_ids": [
-      216
-    ],
+    "expansion_missions_ids": [216],
     "filter_id": "firehouse_missions",
     "personnel_educations": {
       "Handcrew": 18
@@ -46,7 +42,5 @@
   "overlay_index": null,
   "base_mission_id": 215,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

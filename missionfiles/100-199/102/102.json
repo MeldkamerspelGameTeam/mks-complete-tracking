@@ -2,9 +2,7 @@
   "id": "102",
   "name": "Lekkende goederenwagon (Klein)",
   "place": "Rangeeremplacement",
-  "place_array": [
-    "Rangeeremplacement"
-  ],
+  "place_array": ["Rangeeremplacement"],
   "average_credits": 1900,
   "generated_by": "",
   "icons": [
@@ -20,9 +18,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      312
-    ],
+    "expansion_missions_ids": [312],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -32,8 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 102,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

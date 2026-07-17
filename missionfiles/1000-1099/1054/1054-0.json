@@ -2,9 +2,7 @@
   "id": "1054-0",
   "name": "Explosief gevonden in winkelcentrum",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 6645,
   "generated_by": "",
   "icons": [
@@ -31,18 +29,12 @@
   "additional": {
     "possible_patient": 1,
     "possible_patient_min": 1,
-    "followup_missions_ids": [
-      993
-    ],
+    "followup_missions_ids": [993],
     "allow_rw_instead_of_lf": true,
     "filter_id": "police_station_missions",
     "need_bike_police_only_if_present": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -56,8 +48,5 @@
   "overlay_index": 0,
   "base_mission_id": 1054,
   "additive_overlays": "",
-  "mission_categories": [
-    "police",
-    "riot_police"
-  ]
+  "mission_categories": ["police", "riot_police"]
 }

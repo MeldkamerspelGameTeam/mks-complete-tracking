@@ -2,10 +2,7 @@
   "id": "86",
   "name": "Aanrijding door trein",
   "place": "Centraal Station\nStation",
-  "place_array": [
-    "Centraal Station",
-    "Station"
-  ],
+  "place_array": ["Centraal Station", "Station"],
   "average_credits": 1580,
   "generated_by": "",
   "icons": [
@@ -26,12 +23,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -43,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 86,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

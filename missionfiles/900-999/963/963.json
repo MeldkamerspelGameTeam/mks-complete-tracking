@@ -42,7 +42,5 @@
   "overlay_index": null,
   "base_mission_id": 963,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

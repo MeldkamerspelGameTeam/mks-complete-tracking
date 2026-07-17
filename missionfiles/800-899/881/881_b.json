@@ -2,9 +2,7 @@
   "id": "881/b",
   "name": "Duinbrand (Grip 3)",
   "place": "Duinen",
-  "place_array": [
-    "Duinen"
-  ],
+  "place_array": ["Duinen"],
   "average_credits": 45654,
   "generated_by": "",
   "icons": [
@@ -44,32 +42,14 @@
   "additional": {
     "possible_patient": 10,
     "possible_patient_min": 5,
-    "expansion_missions_ids": [
-      882
-    ],
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "expansion_missions_ids": [882],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "filter_id": "water_watch_missions",
     "allow_arff_instead_of_lf": true,
-    "subsequent_missions_ids": [
-      1191
-    ],
+    "subsequent_missions_ids": [1191],
     "need_bike_police_only_if_present": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde",
     "personnel_educations": {
       "Handcrew": 36
@@ -93,7 +73,5 @@
   "overlay_index": null,
   "base_mission_id": 881,
   "additive_overlays": "b",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

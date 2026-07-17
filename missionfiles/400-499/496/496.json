@@ -2,9 +2,7 @@
   "id": "496",
   "name": "Personenauto te water",
   "place": "Rivier",
-  "place_array": [
-    "Rivier"
-  ],
+  "place_array": ["Rivier"],
   "average_credits": 900,
   "generated_by": "",
   "icons": [
@@ -30,16 +28,10 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "water_watch_missions",
-    "subsequent_missions_ids": [
-      1027
-    ],
+    "subsequent_missions_ids": [1027],
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -52,7 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 496,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

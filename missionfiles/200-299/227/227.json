@@ -2,10 +2,7 @@
   "id": "227",
   "name": "Assistentie treinconducteur",
   "place": "Station\nCentraal Station",
-  "place_array": [
-    "Station",
-    "Centraal Station"
-  ],
+  "place_array": ["Station", "Centraal Station"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -18,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      228
-    ],
+    "expansion_missions_ids": [228],
     "max_possible_prisoners": 1,
     "filter_id": "police_station_missions"
   },
@@ -31,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 227,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

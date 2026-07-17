@@ -2,9 +2,7 @@
   "id": "39",
   "name": "Brandende afvalbak bij centraal station",
   "place": "Centraal Station",
-  "place_array": [
-    "Centraal Station"
-  ],
+  "place_array": ["Centraal Station"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -17,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      956
-    ],
+    "expansion_missions_ids": [956],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -29,8 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 39,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

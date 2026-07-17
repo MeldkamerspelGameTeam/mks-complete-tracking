@@ -2,9 +2,7 @@
   "id": "652",
   "name": "Stellingkast op persoon gevallen",
   "place": "Bedrijventerrein",
-  "place_array": [
-    "Bedrijventerrein"
-  ],
+  "place_array": ["Bedrijventerrein"],
   "average_credits": null,
   "generated_by": "",
   "icons": [
@@ -20,12 +18,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -35,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 652,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

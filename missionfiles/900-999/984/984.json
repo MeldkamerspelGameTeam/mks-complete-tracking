@@ -22,13 +22,9 @@
     "min_possible_prisoners": 3,
     "max_possible_prisoners": 5,
     "filter_id": "coastal_rescue_missions",
-    "vehicle_groups": [
-      "ocean_missions"
-    ],
+    "vehicle_groups": ["ocean_missions"],
     "uses_custom_spawn_area": true,
-    "handoff_possible_via_building_types": [
-      19
-    ]
+    "handoff_possible_via_building_types": [19]
   },
   "prerequisites": {
     "main_building": 19,
@@ -40,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 984,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue_ocean"
-  ]
+  "mission_categories": ["coastal_rescue_ocean"]
 }

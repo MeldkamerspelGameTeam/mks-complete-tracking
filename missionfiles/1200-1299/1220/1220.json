@@ -23,14 +23,8 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      1,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde",
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
     "patient_specializations": "Algemene Heelkunde, Traumatologie"
   },
   "prerequisites": {

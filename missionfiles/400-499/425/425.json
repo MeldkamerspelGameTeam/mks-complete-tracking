@@ -2,9 +2,7 @@
   "id": "425",
   "name": "Brand in bouwmarkt (Klein)",
   "place": "Bouwmarkt",
-  "place_array": [
-    "Bouwmarkt"
-  ],
+  "place_array": ["Bouwmarkt"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -20,12 +18,7 @@
     "platform_trucks": 20
   },
   "additional": {
-    "expansion_missions_ids": [
-      426,
-      427,
-      428,
-      429
-    ],
+    "expansion_missions_ids": [426, 427, 428, 429],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -35,8 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 425,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

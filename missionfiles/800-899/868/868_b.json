@@ -2,9 +2,7 @@
   "id": "868/b",
   "name": "Duinbrand (Grip 1)",
   "place": "Duinen",
-  "place_array": [
-    "Duinen"
-  ],
+  "place_array": ["Duinen"],
   "average_credits": 21547,
   "generated_by": "",
   "icons": [
@@ -35,26 +33,10 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      880,
-      881,
-      882
-    ],
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "expansion_missions_ids": [880, 881, 882],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "filter_id": "water_watch_missions",
-    "subsequent_missions_ids": [
-      1191
-    ],
+    "subsequent_missions_ids": [1191],
     "need_bike_police_only_if_present": true,
     "personnel_educations": {
       "Handcrew": 36
@@ -75,7 +57,5 @@
   "overlay_index": null,
   "base_mission_id": 868,
   "additive_overlays": "b",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

@@ -2,9 +2,7 @@
   "id": "1099",
   "name": "Storing in attractie pretpark",
   "place": "Pretpark",
-  "place_array": [
-    "Pretpark"
-  ],
+  "place_array": ["Pretpark"],
   "average_credits": 1420,
   "generated_by": "",
   "icons": [
@@ -28,12 +26,8 @@
     "filter_id": "firehouse_missions",
     "date_start": "2026-06-26T09:00:00Z",
     "date_end": "2026-08-21T09:00:00Z",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -45,9 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 1099,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

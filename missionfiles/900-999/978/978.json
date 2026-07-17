@@ -23,12 +23,8 @@
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -40,8 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 978,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

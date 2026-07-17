@@ -2,9 +2,7 @@
   "id": "772",
   "name": "Vrachtwagenongeval met zwaar letsel",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 3860,
   "generated_by": "",
   "icons": [
@@ -26,16 +24,10 @@
   "additional": {
     "possible_patient": 3,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      773
-    ],
+    "expansion_missions_ids": [773],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -48,9 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 772,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "technical_aid",
-    "urban"
-  ]
+  "mission_categories": ["fire", "technical_aid", "urban"]
 }

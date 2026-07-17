@@ -2,9 +2,7 @@
   "id": "24",
   "name": "Brandend bushokje",
   "place": "Bushalte",
-  "place_array": [
-    "Bushalte"
-  ],
+  "place_array": ["Bushalte"],
   "average_credits": 900,
   "generated_by": "",
   "icons": [
@@ -26,8 +24,5 @@
   "overlay_index": null,
   "base_mission_id": 24,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

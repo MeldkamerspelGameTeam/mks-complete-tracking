@@ -2,9 +2,7 @@
   "id": "116-0",
   "name": "Voetbalwedstrijd",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 10200,
   "generated_by": "",
   "icons": [
@@ -36,7 +34,5 @@
   "overlay_index": 0,
   "base_mission_id": 116,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

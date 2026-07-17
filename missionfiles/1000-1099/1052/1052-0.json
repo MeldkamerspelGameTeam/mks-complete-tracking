@@ -23,12 +23,8 @@
     "possible_patient": 2,
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -40,8 +36,5 @@
   "overlay_index": 0,
   "base_mission_id": 1052,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

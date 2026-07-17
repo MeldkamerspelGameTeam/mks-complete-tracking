@@ -27,12 +27,8 @@
     "possible_crashed_car_large_max": 1,
     "date_start": "2026-03-23T10:00:00+01:00",
     "date_end": "2026-04-07T23:59:59+02:00",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -45,7 +41,5 @@
   "overlay_index": null,
   "base_mission_id": 1197,
   "additive_overlays": "a",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

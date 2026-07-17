@@ -2,9 +2,7 @@
   "id": "649",
   "name": "Persoon valt voorbijgangers lastig",
   "place": "Park",
-  "place_array": [
-    "Park"
-  ],
+  "place_array": ["Park"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 649,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

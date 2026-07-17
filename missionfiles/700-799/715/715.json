@@ -2,9 +2,7 @@
   "id": "715",
   "name": "Akkerbrand",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 2515,
   "generated_by": "",
   "icons": [
@@ -20,10 +18,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      716,
-      717
-    ],
+    "expansion_missions_ids": [716, 717],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -34,8 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 715,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

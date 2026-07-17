@@ -20,12 +20,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      3
-    ],
-    "patient_specialization_captions": [
-      "Urologie"
-    ],
+    "patient_specialization_ids": [3],
+    "patient_specialization_captions": ["Urologie"],
     "patient_specializations": "Urologie"
   },
   "prerequisites": {
@@ -36,7 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 664,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

@@ -2,9 +2,7 @@
   "id": "299",
   "name": "Brandend plezierjacht",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 900,
   "generated_by": "",
   "icons": [
@@ -34,7 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 299,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

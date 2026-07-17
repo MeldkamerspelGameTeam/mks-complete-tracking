@@ -2,9 +2,7 @@
   "id": "157",
   "name": "Brand in ziekenhuis (Groot)",
   "place": "Ziekenhuis",
-  "place_array": [
-    "Ziekenhuis"
-  ],
+  "place_array": ["Ziekenhuis"],
   "average_credits": 8600,
   "generated_by": "",
   "icons": [
@@ -32,18 +30,11 @@
   "additional": {
     "possible_patient": 10,
     "possible_patient_min": 2,
-    "expansion_missions_ids": [
-      1202,
-      1203
-    ],
+    "expansion_missions_ids": [1202, 1203],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -56,8 +47,5 @@
   "overlay_index": null,
   "base_mission_id": 157,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

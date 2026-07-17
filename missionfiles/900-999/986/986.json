@@ -2,9 +2,7 @@
   "id": "986",
   "name": "Surfer vermist",
   "place": "Strand",
-  "place_array": [
-    "Strand"
-  ],
+  "place_array": ["Strand"],
   "average_credits": 4080,
   "generated_by": "",
   "icons": [
@@ -23,17 +21,10 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "coastal_rescue_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -46,7 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 986,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue"
-  ]
+  "mission_categories": ["coastal_rescue"]
 }

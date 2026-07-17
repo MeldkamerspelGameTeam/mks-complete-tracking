@@ -2,9 +2,7 @@
   "id": "320-0",
   "name": "Brand op binnenvaartschip",
   "place": "Rivier",
-  "place_array": [
-    "Rivier"
-  ],
+  "place_array": ["Rivier"],
   "average_credits": 6850,
   "generated_by": "",
   "icons": [
@@ -37,12 +35,8 @@
     "possible_patient": 2,
     "filter_id": "water_watch_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -55,8 +49,5 @@
   "overlay_index": 0,
   "base_mission_id": 320,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["water_rescue", "fire_support_specialization"]
 }

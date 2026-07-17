@@ -26,12 +26,8 @@
     "possible_crashed_car_large_max": 1,
     "date_start": "2026-02-23T10:00:00+01:00",
     "date_end": "2026-03-06T22:59:00Z",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -45,8 +41,5 @@
   "overlay_index": null,
   "base_mission_id": 1194,
   "additive_overlays": "a",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

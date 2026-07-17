@@ -2,9 +2,7 @@
   "id": "1070",
   "name": "Oefening Handcrew",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 33072,
   "generated_by": "",
   "icons": [
@@ -43,7 +41,5 @@
   "overlay_index": null,
   "base_mission_id": 1070,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

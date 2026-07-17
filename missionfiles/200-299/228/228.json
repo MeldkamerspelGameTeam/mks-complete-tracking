@@ -2,10 +2,7 @@
   "id": "228",
   "name": "Assistentie treinconducteur",
   "place": "Station\nCentraal Station",
-  "place_array": [
-    "Station",
-    "Centraal Station"
-  ],
+  "place_array": ["Station", "Centraal Station"],
   "average_credits": 2310,
   "generated_by": "",
   "icons": [
@@ -32,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 228,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

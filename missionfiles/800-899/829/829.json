@@ -2,9 +2,7 @@
   "id": "829",
   "name": "Brandende cornervlag",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -28,9 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 829,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

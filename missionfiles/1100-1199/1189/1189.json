@@ -2,11 +2,7 @@
   "id": "1189",
   "name": "Aanhanger losgeschoten",
   "place": "Snelweg oprit / afrit\nTankstation\nTunnel",
-  "place_array": [
-    "Snelweg oprit / afrit",
-    "Tankstation",
-    "Tunnel"
-  ],
+  "place_array": ["Snelweg oprit / afrit", "Tankstation", "Tunnel"],
   "average_credits": 3450,
   "generated_by": "",
   "icons": [
@@ -25,18 +21,12 @@
   },
   "additional": {
     "possible_patient": 1,
-    "followup_missions_ids": [
-      1190
-    ],
+    "followup_missions_ids": [1190],
     "filter_id": "tow_trucks_missions",
     "possible_crashed_car_min": 1,
     "possible_crashed_car_max": 3,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -50,8 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 1189,
   "additive_overlays": "",
-  "mission_categories": [
-    "tow_trucks",
-    "tow_trucks_only"
-  ]
+  "mission_categories": ["tow_trucks", "tow_trucks_only"]
 }

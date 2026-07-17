@@ -2,9 +2,7 @@
   "id": "969",
   "name": "Illegale raceauto op snelweg",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 4330,
   "generated_by": "",
   "icons": [
@@ -35,7 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 969,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

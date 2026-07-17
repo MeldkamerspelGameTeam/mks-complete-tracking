@@ -2,9 +2,7 @@
   "id": "599",
   "name": "Tanken zonder betalen",
   "place": "Tankstation",
-  "place_array": [
-    "Tankstation"
-  ],
+  "place_array": ["Tankstation"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -17,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      600
-    ],
+    "expansion_missions_ids": [600],
     "filter_id": "police_station_missions"
   },
   "prerequisites": {
@@ -29,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 599,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

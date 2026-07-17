@@ -2,9 +2,7 @@
   "id": "276",
   "name": "Brandend klein vliegtuig",
   "place": "Vliegveld (klein): Vliegtuig parkeerplaats",
-  "place_array": [
-    "Vliegveld (klein): Vliegtuig parkeerplaats"
-  ],
+  "place_array": ["Vliegveld (klein): Vliegtuig parkeerplaats"],
   "average_credits": 3570,
   "generated_by": "",
   "icons": [
@@ -37,7 +35,5 @@
   "overlay_index": null,
   "base_mission_id": 276,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

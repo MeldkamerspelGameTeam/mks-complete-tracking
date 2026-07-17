@@ -46,14 +46,8 @@
     "possible_patient": 100,
     "possible_patient_min": 30,
     "filter_id": "riot_police_missions",
-    "patient_specialization_ids": [
-      1,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde",
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
     "patient_specializations": "Algemene Heelkunde, Traumatologie"
   },
   "prerequisites": {
@@ -71,7 +65,5 @@
   "overlay_index": null,
   "base_mission_id": 1028,
   "additive_overlays": "a",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

@@ -2,11 +2,7 @@
   "id": "979/a",
   "name": "Verward persoon bij spoor",
   "place": "Station\nCentraal Station\nSpoorwegovergang",
-  "place_array": [
-    "Station",
-    "Centraal Station",
-    "Spoorwegovergang"
-  ],
+  "place_array": ["Station", "Centraal Station", "Spoorwegovergang"],
   "average_credits": 1640,
   "generated_by": "",
   "icons": [
@@ -24,17 +20,11 @@
   "additional": {
     "possible_patient": 1,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      86
-    ],
+    "expansion_missions_ids": [86],
     "filter_id": "ambulance_station_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      5
-    ],
-    "patient_specialization_captions": [
-      "Neurologie"
-    ],
+    "patient_specialization_ids": [5],
+    "patient_specialization_captions": ["Neurologie"],
     "patient_specializations": "Neurologie"
   },
   "prerequisites": {
@@ -46,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 979,
   "additive_overlays": "a",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

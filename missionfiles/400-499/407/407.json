@@ -2,9 +2,7 @@
   "id": "407",
   "name": "Nacontrole brand",
   "place": "Kerkgebouw",
-  "place_array": [
-    "Kerkgebouw"
-  ],
+  "place_array": ["Kerkgebouw"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -29,9 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 407,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

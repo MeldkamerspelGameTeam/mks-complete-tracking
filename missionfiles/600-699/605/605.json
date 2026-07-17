@@ -2,9 +2,7 @@
   "id": "605",
   "name": "Brand in Silo",
   "place": "Silo",
-  "place_array": [
-    "Silo"
-  ],
+  "place_array": ["Silo"],
   "average_credits": 11760,
   "generated_by": "",
   "icons": [
@@ -36,27 +34,11 @@
   "additional": {
     "possible_patient": 9,
     "possible_patient_min": 1,
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "subsequent_missions_ids": [877],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -68,9 +50,5 @@
   "overlay_index": null,
   "base_mission_id": 605,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization",
-    "rural"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization", "rural"]
 }

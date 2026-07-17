@@ -2,9 +2,7 @@
   "id": "959",
   "name": "Voetbalwedstrijd, risicowedstrijd",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 22510,
   "generated_by": "",
   "icons": [
@@ -42,7 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 959,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

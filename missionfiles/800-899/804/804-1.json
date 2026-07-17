@@ -2,10 +2,7 @@
   "id": "804-1",
   "name": "Grote zoekactie vermist persoon",
   "place": "Duinen\nStrand",
-  "place_array": [
-    "Duinen",
-    "Strand"
-  ],
+  "place_array": ["Duinen", "Strand"],
   "average_credits": 9550,
   "generated_by": "",
   "icons": [
@@ -30,17 +27,10 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "water_watch_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -58,7 +48,5 @@
   "overlay_index": 1,
   "base_mission_id": 804,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue_2"
-  ]
+  "mission_categories": ["water_rescue_2"]
 }

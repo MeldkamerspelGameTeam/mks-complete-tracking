@@ -27,9 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 1132,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural",
-    "urban"
-  ]
+  "mission_categories": ["fire", "rural", "urban"]
 }

@@ -20,9 +20,7 @@
     "platform_trucks": 50
   },
   "additional": {
-    "expansion_missions_ids": [
-      131
-    ],
+    "expansion_missions_ids": [131],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -33,8 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 130,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

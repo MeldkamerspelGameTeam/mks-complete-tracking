@@ -25,9 +25,7 @@
   "additional": {
     "duration_text": "een uur",
     "duration": 3600,
-    "followup_missions_ids": [
-      905
-    ],
+    "followup_missions_ids": [905],
     "guard_mission": true,
     "filter_id": "firehouse_missions",
     "date_start": "2026-02-11T10:00:00Z",
@@ -42,9 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 906,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

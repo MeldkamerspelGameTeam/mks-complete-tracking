@@ -2,9 +2,7 @@
   "id": "650",
   "name": "Personen vallen voorbijgangers lastig",
   "place": "Park",
-  "place_array": [
-    "Park"
-  ],
+  "place_array": ["Park"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -28,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 650,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

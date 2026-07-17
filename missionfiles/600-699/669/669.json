@@ -2,9 +2,7 @@
   "id": "669",
   "name": "Toezicht Park",
   "place": "Park",
-  "place_array": [
-    "Park"
-  ],
+  "place_array": ["Park"],
   "average_credits": 2110,
   "generated_by": "",
   "icons": [
@@ -29,7 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 669,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

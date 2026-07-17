@@ -15,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      701
-    ],
+    "expansion_missions_ids": [701],
     "max_possible_prisoners": 1,
     "filter_id": "police_station_missions",
     "date_start": "2025-12-26T10:00:00Z",
@@ -30,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 700,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

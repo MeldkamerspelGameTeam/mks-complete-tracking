@@ -2,9 +2,7 @@
   "id": "487",
   "name": "Wateroverlast",
   "place": "Kantoorgebouw",
-  "place_array": [
-    "Kantoorgebouw"
-  ],
+  "place_array": ["Kantoorgebouw"],
   "average_credits": 1810,
   "generated_by": "",
   "icons": [
@@ -31,9 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 487,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

@@ -2,9 +2,7 @@
   "id": "867",
   "name": "Duinbrand (Middel)",
   "place": "Duinen",
-  "place_array": [
-    "Duinen"
-  ],
+  "place_array": ["Duinen"],
   "average_credits": 2690,
   "generated_by": "",
   "icons": [
@@ -21,12 +19,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      868,
-      880,
-      881,
-      882
-    ],
+    "expansion_missions_ids": [868, 880, 881, 882],
     "filter_id": "water_watch_missions"
   },
   "prerequisites": {
@@ -39,7 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 867,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

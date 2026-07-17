@@ -27,19 +27,13 @@
   },
   "additional": {
     "possible_patient": 1,
-    "followup_missions_ids": [
-      993
-    ],
+    "followup_missions_ids": [993],
     "min_possible_prisoners": 1,
     "max_possible_prisoners": 2,
     "filter_id": "riot_police_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -57,7 +51,5 @@
   "overlay_index": null,
   "base_mission_id": 992,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

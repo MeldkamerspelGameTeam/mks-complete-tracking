@@ -2,9 +2,7 @@
   "id": "965",
   "name": "Crash op Circuit",
   "place": "Circuit",
-  "place_array": [
-    "Circuit"
-  ],
+  "place_array": ["Circuit"],
   "average_credits": 2090,
   "generated_by": "",
   "icons": [
@@ -28,12 +26,8 @@
     "filter_id": "firehouse_missions",
     "date_start": "2026-07-17T09:00:00Z",
     "date_end": "2026-07-19T23:59:59Z",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -45,9 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 965,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

@@ -2,9 +2,7 @@
   "id": "610",
   "name": "Brand in nachtclub",
   "place": "Café/Club",
-  "place_array": [
-    "Café/Club"
-  ],
+  "place_array": ["Café/Club"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -17,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      611
-    ],
+    "expansion_missions_ids": [611],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true
   },
@@ -30,8 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 610,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

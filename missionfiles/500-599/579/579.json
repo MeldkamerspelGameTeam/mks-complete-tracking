@@ -2,9 +2,7 @@
   "id": "579",
   "name": "Kwast gestolen uit werkplaats",
   "place": "School",
-  "place_array": [
-    "School"
-  ],
+  "place_array": ["School"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -29,7 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 579,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

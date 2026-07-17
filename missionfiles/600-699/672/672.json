@@ -2,9 +2,7 @@
   "id": "672",
   "name": "Vluchtende verdachte in voetgangersgebied",
   "place": "Supermarkt",
-  "place_array": [
-    "Supermarkt"
-  ],
+  "place_array": ["Supermarkt"],
   "average_credits": 1445,
   "generated_by": "",
   "icons": [
@@ -20,9 +18,7 @@
   "chances": {},
   "additional": {
     "filter_id": "police_station_missions",
-    "subsequent_missions_ids": [
-      1001
-    ],
+    "subsequent_missions_ids": [1001],
     "need_bike_police_only_if_present": true
   },
   "prerequisites": {
@@ -33,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 672,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

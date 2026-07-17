@@ -2,9 +2,7 @@
   "id": "488",
   "name": "Wateroverlast",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 1660,
   "generated_by": "",
   "icons": [
@@ -31,9 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 488,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

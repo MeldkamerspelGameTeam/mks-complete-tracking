@@ -2,9 +2,7 @@
   "id": "173",
   "name": "Ruzie op de kerstmarkt",
   "place": "Kerstmarkt",
-  "place_array": [
-    "Kerstmarkt"
-  ],
+  "place_array": ["Kerstmarkt"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -30,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 173,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

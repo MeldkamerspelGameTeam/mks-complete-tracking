@@ -2,9 +2,7 @@
   "id": "1083",
   "name": "Brand in stadion",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 9000,
   "generated_by": "",
   "icons": [
@@ -33,12 +31,8 @@
     "allow_without_poi": true,
     "date_start": "2026-06-11T09:00:00Z",
     "date_end": "2026-07-19T22:00:00Z",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -51,9 +45,5 @@
   "overlay_index": null,
   "base_mission_id": 1083,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

@@ -2,11 +2,7 @@
   "id": "942-0/a",
   "name": "Schoolbus te water",
   "place": "Meer\nSloot\nRivier",
-  "place_array": [
-    "Meer",
-    "Sloot",
-    "Rivier"
-  ],
+  "place_array": ["Meer", "Sloot", "Rivier"],
   "average_credits": 8820,
   "generated_by": "",
   "icons": [
@@ -35,12 +31,8 @@
     "possible_patient_min": 10,
     "filter_id": "water_watch_missions",
     "possible_crashed_car_large_max": 1,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -56,8 +48,5 @@
   "overlay_index": 0,
   "base_mission_id": 942,
   "additive_overlays": "a",
-  "mission_categories": [
-    "water_rescue",
-    "water_rescue_specialization"
-  ]
+  "mission_categories": ["water_rescue", "water_rescue_specialization"]
 }

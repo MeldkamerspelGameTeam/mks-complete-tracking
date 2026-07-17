@@ -2,9 +2,7 @@
   "id": "870",
   "name": "Persoon bekneld in bouwkraan",
   "place": "Bouwterrein",
-  "place_array": [
-    "Bouwterrein"
-  ],
+  "place_array": ["Bouwterrein"],
   "average_credits": 2430,
   "generated_by": "",
   "icons": [
@@ -29,12 +27,8 @@
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -46,8 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 870,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

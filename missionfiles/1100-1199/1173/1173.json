@@ -18,10 +18,7 @@
   },
   "chances": {},
   "additional": {
-    "followup_missions_ids": [
-      1165,
-      553
-    ],
+    "followup_missions_ids": [1165, 553],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -32,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 1173,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

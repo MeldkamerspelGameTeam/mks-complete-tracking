@@ -2,9 +2,7 @@
   "id": "181",
   "name": "Verkeersongeval met beknelling",
   "place": "Sloot",
-  "place_array": [
-    "Sloot"
-  ],
+  "place_array": ["Sloot"],
   "average_credits": 2090,
   "generated_by": "",
   "icons": [
@@ -28,12 +26,8 @@
     "possible_patient": 1,
     "filter_id": "water_watch_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -46,7 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 181,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

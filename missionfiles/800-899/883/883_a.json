@@ -20,12 +20,8 @@
     "possible_patient": 4,
     "filter_id": "ambulance_station_missions",
     "possible_crashed_car_max": 1,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -37,7 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 883,
   "additive_overlays": "a",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

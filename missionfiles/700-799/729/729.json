@@ -20,12 +20,8 @@
     "filter_id": "ambulance_station_missions",
     "date_start": "2026-01-30T10:00:00Z",
     "date_end": "2026-02-15T23:59:59+01:00",
-    "patient_specialization_ids": [
-      7
-    ],
-    "patient_specialization_captions": [
-      "Cardiologie"
-    ],
+    "patient_specialization_ids": [7],
+    "patient_specialization_captions": ["Cardiologie"],
     "patient_specializations": "Cardiologie"
   },
   "prerequisites": {
@@ -35,7 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 729,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

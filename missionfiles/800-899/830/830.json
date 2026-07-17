@@ -2,10 +2,7 @@
   "id": "830",
   "name": "Beveiligen zwemwedstrijd",
   "place": "Meer\nRivier",
-  "place_array": [
-    "Meer",
-    "Rivier"
-  ],
+  "place_array": ["Meer", "Rivier"],
   "average_credits": 4410,
   "generated_by": "",
   "icons": [
@@ -33,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 830,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

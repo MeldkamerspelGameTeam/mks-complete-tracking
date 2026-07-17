@@ -2,9 +2,7 @@
   "id": "647",
   "name": "Brand in restaurant",
   "place": "Restaurant",
-  "place_array": [
-    "Restaurant"
-  ],
+  "place_array": ["Restaurant"],
   "average_credits": 2540,
   "generated_by": "",
   "icons": [
@@ -24,16 +22,10 @@
   "additional": {
     "possible_patient": 4,
     "possible_patient_min": 2,
-    "expansion_missions_ids": [
-      648
-    ],
+    "expansion_missions_ids": [648],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -45,8 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 647,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

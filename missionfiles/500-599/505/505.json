@@ -2,9 +2,7 @@
   "id": "505",
   "name": "Brand in fabriekshal",
   "place": "Industrieterrein",
-  "place_array": [
-    "Industrieterrein"
-  ],
+  "place_array": ["Industrieterrein"],
   "average_credits": 1600,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true,
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -44,8 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 505,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

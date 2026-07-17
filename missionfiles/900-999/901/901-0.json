@@ -36,16 +36,10 @@
     "possible_patient": 20,
     "possible_patient_min": 5,
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      995
-    ],
+    "subsequent_missions_ids": [995],
     "need_bike_police_only_if_present": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -57,9 +51,5 @@
   "overlay_index": 0,
   "base_mission_id": 901,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization",
-    "urban"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
 }

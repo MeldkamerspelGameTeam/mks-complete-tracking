@@ -2,9 +2,7 @@
   "id": "182",
   "name": "Personenauto in sloot",
   "place": "Sloot",
-  "place_array": [
-    "Sloot"
-  ],
+  "place_array": ["Sloot"],
   "average_credits": 2090,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
   "additional": {
     "possible_patient": 2,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -45,7 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 182,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

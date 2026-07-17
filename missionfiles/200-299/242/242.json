@@ -2,9 +2,7 @@
   "id": "242",
   "name": "Verlaten kleding langs waterkant",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 900,
   "generated_by": "",
   "icons": [
@@ -20,10 +18,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      241,
-      348
-    ],
+    "expansion_missions_ids": [241, 348],
     "filter_id": "water_watch_missions"
   },
   "prerequisites": {
@@ -35,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 242,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

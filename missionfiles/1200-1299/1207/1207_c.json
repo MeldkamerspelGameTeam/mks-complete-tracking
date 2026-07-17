@@ -2,10 +2,7 @@
   "id": "1207/c",
   "name": "Brand in station (Grip 2)",
   "place": "Centraal Station\nStation",
-  "place_array": [
-    "Centraal Station",
-    "Station"
-  ],
+  "place_array": ["Centraal Station", "Station"],
   "average_credits": 42760,
   "generated_by": "",
   "icons": [
@@ -38,12 +35,8 @@
     "possible_patient": 100,
     "possible_patient_min": 60,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -58,8 +51,5 @@
   "overlay_index": null,
   "base_mission_id": 1207,
   "additive_overlays": "c",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

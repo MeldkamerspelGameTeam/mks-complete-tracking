@@ -2,9 +2,7 @@
   "id": "973/a",
   "name": "Uit de handgelopen overwinningsfeest",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 8540,
   "generated_by": "",
   "icons": [
@@ -33,12 +31,8 @@
     "min_possible_prisoners": 2,
     "max_possible_prisoners": 6,
     "filter_id": "riot_police_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -56,7 +50,5 @@
   "overlay_index": null,
   "base_mission_id": 973,
   "additive_overlays": "a",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

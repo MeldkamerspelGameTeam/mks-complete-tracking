@@ -2,9 +2,7 @@
   "id": "761",
   "name": "Lekkage gevaarlijke stoffen (Klein)",
   "place": "Tankstation",
-  "place_array": [
-    "Tankstation"
-  ],
+  "place_array": ["Tankstation"],
   "average_credits": 2570,
   "generated_by": "",
   "icons": [
@@ -26,16 +24,10 @@
   "additional": {
     "possible_patient": 1,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      762
-    ],
+    "expansion_missions_ids": [762],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -47,8 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 761,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

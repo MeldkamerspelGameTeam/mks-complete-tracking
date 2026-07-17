@@ -25,12 +25,8 @@
     "filter_id": "firehouse_missions",
     "possible_crashed_car_min": 1,
     "possible_crashed_car_max": 2,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -43,8 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 501,
   "additive_overlays": "",
-  "mission_categories": [
-    "urban",
-    "fire"
-  ]
+  "mission_categories": ["urban", "fire"]
 }

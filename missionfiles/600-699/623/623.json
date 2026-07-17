@@ -2,9 +2,7 @@
   "id": "623",
   "name": "Auto tankstation ingereden",
   "place": "Tankstation",
-  "place_array": [
-    "Tankstation"
-  ],
+  "place_array": ["Tankstation"],
   "average_credits": 1930,
   "generated_by": "",
   "icons": [
@@ -26,12 +24,8 @@
     "possible_patient": 2,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -43,8 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 623,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

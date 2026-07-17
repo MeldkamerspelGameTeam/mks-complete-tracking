@@ -2,9 +2,7 @@
   "id": "670/a",
   "name": "Toezicht Winkelcentrum",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 3010,
   "generated_by": "",
   "icons": [
@@ -31,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 670,
   "additive_overlays": "a",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

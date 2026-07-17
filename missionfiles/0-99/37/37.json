@@ -2,9 +2,7 @@
   "id": "37",
   "name": "Brandende afvalbak bij tramhalte",
   "place": "Tramhalte",
-  "place_array": [
-    "Tramhalte"
-  ],
+  "place_array": ["Tramhalte"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -26,8 +24,5 @@
   "overlay_index": null,
   "base_mission_id": 37,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -40,12 +40,8 @@
     "filter_id": "police_station_missions",
     "date_start": "2025-12-26T10:00:00Z",
     "date_end": "2026-01-01T23:59:59+01:00",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -63,8 +59,5 @@
   "overlay_index": null,
   "base_mission_id": 1188,
   "additive_overlays": "",
-  "mission_categories": [
-    "bomb_disposal",
-    "police"
-  ]
+  "mission_categories": ["bomb_disposal", "police"]
 }

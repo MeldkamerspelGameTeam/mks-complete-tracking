@@ -2,9 +2,7 @@
   "id": "321",
   "name": "Brandende wegberm",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 1250,
   "generated_by": "",
   "icons": [
@@ -18,9 +16,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      322
-    ],
+    "expansion_missions_ids": [322],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -31,7 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 321,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

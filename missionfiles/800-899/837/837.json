@@ -2,11 +2,7 @@
   "id": "837",
   "name": "Gaslek bedrijventerrein",
   "place": "Bedrijventerrein\nIndustrieterrein\nHaventerrein",
-  "place_array": [
-    "Bedrijventerrein",
-    "Industrieterrein",
-    "Haventerrein"
-  ],
+  "place_array": ["Bedrijventerrein", "Industrieterrein", "Haventerrein"],
   "average_credits": 8580,
   "generated_by": "",
   "icons": [
@@ -35,12 +31,8 @@
     "possible_patient": 5,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -52,9 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 837,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization",
-    "urban"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
 }

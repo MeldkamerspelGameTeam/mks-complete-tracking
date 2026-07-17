@@ -21,12 +21,8 @@
     "patient_allow_first_responder_chance": 50,
     "date_start": "2024-07-26T09:00:00Z",
     "date_end": "2024-08-11T23:59:59Z",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -36,7 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 1089,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

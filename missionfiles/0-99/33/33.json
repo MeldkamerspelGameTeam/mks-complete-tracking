@@ -15,16 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      28,
-      126,
-      127,
-      326,
-      327,
-      709,
-      710,
-      711
-    ],
+    "expansion_missions_ids": [28, 126, 127, 326, 327, 709, 710, 711],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -34,8 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 33,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

@@ -2,9 +2,7 @@
   "id": "842",
   "name": "Voertuigbrand in tunnel",
   "place": "Tunnel",
-  "place_array": [
-    "Tunnel"
-  ],
+  "place_array": ["Tunnel"],
   "average_credits": 2170,
   "generated_by": "",
   "icons": [
@@ -20,9 +18,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      843
-    ],
+    "expansion_missions_ids": [843],
     "filter_id": "firehouse_missions",
     "possible_crashed_car_min": 1,
     "possible_crashed_car_max": 2
@@ -36,9 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 842,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization",
-    "urban"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
 }

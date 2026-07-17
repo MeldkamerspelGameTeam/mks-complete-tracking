@@ -2,11 +2,7 @@
   "id": "72",
   "name": "Winkeldiefstal",
   "place": "Buurtsuper\nSupermarkt\nWinkelcentrum",
-  "place_array": [
-    "Buurtsuper",
-    "Supermarkt",
-    "Winkelcentrum"
-  ],
+  "place_array": ["Buurtsuper", "Supermarkt", "Winkelcentrum"],
   "average_credits": 2310,
   "generated_by": "",
   "icons": [
@@ -33,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 72,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

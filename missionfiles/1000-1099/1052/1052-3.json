@@ -40,18 +40,10 @@
     "possible_patient": 100,
     "possible_patient_min": 25,
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      878,
-      877,
-      995
-    ],
+    "subsequent_missions_ids": [878, 877, 995],
     "need_bike_police_only_if_present": true,
     "fire_alarm_system_possible": false,
-    "patient_specialization_ids": [
-      0,
-      4,
-      1
-    ],
+    "patient_specialization_ids": [0, 4, 1],
     "patient_specialization_captions": [
       "Interne Geneeskunde",
       "Traumatologie",
@@ -73,8 +65,5 @@
   "overlay_index": 3,
   "base_mission_id": 1052,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "866",
   "name": "Duinbrand",
   "place": "Duinen",
-  "place_array": [
-    "Duinen"
-  ],
+  "place_array": ["Duinen"],
   "average_credits": 1170,
   "generated_by": "",
   "icons": [
@@ -19,13 +17,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      867,
-      868,
-      880,
-      881,
-      882
-    ],
+    "expansion_missions_ids": [867, 868, 880, 881, 882],
     "filter_id": "water_watch_missions"
   },
   "prerequisites": {
@@ -38,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 866,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

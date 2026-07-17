@@ -2,9 +2,7 @@
   "id": "185",
   "name": "Verlaten kinderfiets langs waterkant",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 1200,
   "generated_by": "",
   "icons": [
@@ -30,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 185,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

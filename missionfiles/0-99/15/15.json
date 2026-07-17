@@ -2,9 +2,7 @@
   "id": "15",
   "name": "Bosbrand (Klein)",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 1090,
   "generated_by": "",
   "icons": [
@@ -20,11 +18,7 @@
     "water_tankers": 10
   },
   "additional": {
-    "expansion_missions_ids": [
-      214,
-      215,
-      216
-    ],
+    "expansion_missions_ids": [214, 215, 216],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -35,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 15,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

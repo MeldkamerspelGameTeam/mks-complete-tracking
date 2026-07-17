@@ -2,9 +2,7 @@
   "id": "708-0",
   "name": "ANPR hit: Gesignaleerd persoon",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 1090,
   "generated_by": "",
   "icons": [
@@ -18,9 +16,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      124
-    ],
+    "expansion_missions_ids": [124],
     "min_possible_prisoners": 1,
     "max_possible_prisoners": 2,
     "filter_id": "police_station_missions"
@@ -33,8 +29,5 @@
   "overlay_index": 0,
   "base_mission_id": 708,
   "additive_overlays": "",
-  "mission_categories": [
-    "police",
-    "traffic_police_specialization"
-  ]
+  "mission_categories": ["police", "traffic_police_specialization"]
 }

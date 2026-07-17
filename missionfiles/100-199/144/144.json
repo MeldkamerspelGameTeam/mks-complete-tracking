@@ -2,9 +2,7 @@
   "id": "144",
   "name": "Natuurbrand (Grip 2)",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 24642,
   "generated_by": "",
   "icons": [
@@ -32,23 +30,10 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      308,
-      309,
-      357
-    ],
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      768,
-      878,
-      879
-    ],
+    "expansion_missions_ids": [308, 309, 357],
+    "followup_missions_ids": [48, 99, 225, 768, 878, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      1191
-    ],
+    "subsequent_missions_ids": [1191],
     "personnel_educations": {
       "Handcrew": 18
     }
@@ -66,7 +51,5 @@
   "overlay_index": null,
   "base_mission_id": 144,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

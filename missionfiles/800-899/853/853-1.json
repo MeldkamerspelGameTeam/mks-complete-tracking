@@ -41,15 +41,9 @@
   "additional": {
     "possible_patient": 292,
     "possible_patient_min": 100,
-    "followup_missions_ids": [
-      1069
-    ],
+    "followup_missions_ids": [1069],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4,
-      0,
-      1
-    ],
+    "patient_specialization_ids": [4, 0, 1],
     "patient_specialization_captions": [
       "Traumatologie",
       "Interne Geneeskunde",
@@ -70,9 +64,5 @@
   "overlay_index": 1,
   "base_mission_id": 853,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "airport"
-  ]
+  "mission_categories": ["fire", "urban", "airport"]
 }

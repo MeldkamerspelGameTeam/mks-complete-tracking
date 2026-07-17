@@ -2,9 +2,7 @@
   "id": "396",
   "name": "Lekkende LPG installatie",
   "place": "Tankstation",
-  "place_array": [
-    "Tankstation"
-  ],
+  "place_array": ["Tankstation"],
   "average_credits": 2600,
   "generated_by": "",
   "icons": [
@@ -37,8 +35,5 @@
   "overlay_index": null,
   "base_mission_id": 396,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

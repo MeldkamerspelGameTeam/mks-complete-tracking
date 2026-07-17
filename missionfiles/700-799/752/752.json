@@ -24,12 +24,8 @@
     "filter_id": "police_station_missions",
     "date_start": "2026-02-05T10:00:00Z",
     "date_end": "2026-02-08T23:59:59Z",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -41,7 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 752,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

@@ -2,9 +2,7 @@
   "id": "1034/defg",
   "name": "Brand in nucleaire installatie",
   "place": "Nucleaire installatie",
-  "place_array": [
-    "Nucleaire installatie"
-  ],
+  "place_array": ["Nucleaire installatie"],
   "average_credits": 74910,
   "generated_by": "",
   "icons": [
@@ -42,20 +40,11 @@
   },
   "additional": {
     "possible_patient": 100,
-    "followup_missions_ids": [
-      879,
-      878
-    ],
+    "followup_missions_ids": [879, 878],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "subsequent_missions_ids": [877],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {

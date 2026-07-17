@@ -25,21 +25,12 @@
   },
   "additional": {
     "possible_patient": 40,
-    "followup_missions_ids": [
-      878,
-      879
-    ],
+    "followup_missions_ids": [878, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
+    "subsequent_missions_ids": [877],
     "fire_alarm_system_possible": false,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -52,8 +43,5 @@
   "overlay_index": 0,
   "base_mission_id": 1026,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

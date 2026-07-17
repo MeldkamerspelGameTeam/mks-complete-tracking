@@ -2,10 +2,7 @@
   "id": "159",
   "name": "Brand in sporthal",
   "place": "School\nSporthal",
-  "place_array": [
-    "School",
-    "Sporthal"
-  ],
+  "place_array": ["School", "Sporthal"],
   "average_credits": 2790,
   "generated_by": "",
   "icons": [
@@ -36,8 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 159,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

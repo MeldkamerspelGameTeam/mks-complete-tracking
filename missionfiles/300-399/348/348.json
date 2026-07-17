@@ -2,9 +2,7 @@
   "id": "348",
   "name": "Zwemmer vermist (Middel)",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 3500,
   "generated_by": "",
   "icons": [
@@ -29,20 +27,11 @@
   },
   "additional": {
     "possible_patient": 1,
-    "expansion_missions_ids": [
-      349
-    ],
+    "expansion_missions_ids": [349],
     "filter_id": "firehouse_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -55,7 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 348,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

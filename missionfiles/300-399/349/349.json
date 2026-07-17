@@ -2,9 +2,7 @@
   "id": "349",
   "name": "Zwemmer vermist (Grip 1)",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 5350,
   "generated_by": "",
   "icons": [
@@ -31,16 +29,9 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -54,7 +45,5 @@
   "overlay_index": null,
   "base_mission_id": 349,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

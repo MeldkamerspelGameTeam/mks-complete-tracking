@@ -2,11 +2,7 @@
   "id": "854-0",
   "name": "Ongeval waterscooter",
   "place": "Strand\nStrandopgang\nDuinen",
-  "place_array": [
-    "Strand",
-    "Strandopgang",
-    "Duinen"
-  ],
+  "place_array": ["Strand", "Strandopgang", "Duinen"],
   "average_credits": 4980,
   "generated_by": "",
   "icons": [
@@ -29,16 +25,9 @@
     "possible_patient": 2,
     "possible_patient_min": 1,
     "filter_id": "water_watch_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -52,7 +41,5 @@
   "overlay_index": 0,
   "base_mission_id": 854,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue_2"
-  ]
+  "mission_categories": ["water_rescue_2"]
 }

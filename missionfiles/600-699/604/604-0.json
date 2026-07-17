@@ -2,9 +2,7 @@
   "id": "604-0",
   "name": "Brand in Silo",
   "place": "Silo",
-  "place_array": [
-    "Silo"
-  ],
+  "place_array": ["Silo"],
   "average_credits": 6305,
   "generated_by": "",
   "icons": [
@@ -31,16 +29,10 @@
   "additional": {
     "possible_patient": 2,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      605
-    ],
+    "expansion_missions_ids": [605],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -53,9 +45,5 @@
   "overlay_index": 0,
   "base_mission_id": 604,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization",
-    "rural"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization", "rural"]
 }

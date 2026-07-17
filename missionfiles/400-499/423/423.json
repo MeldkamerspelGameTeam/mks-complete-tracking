@@ -2,9 +2,7 @@
   "id": "423",
   "name": "Overval bankkantoor",
   "place": "Bankkantoor",
-  "place_array": [
-    "Bankkantoor"
-  ],
+  "place_array": ["Bankkantoor"],
   "average_credits": 4100,
   "generated_by": "",
   "icons": [
@@ -31,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 423,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

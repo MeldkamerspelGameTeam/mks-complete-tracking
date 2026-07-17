@@ -2,9 +2,7 @@
   "id": "966",
   "name": "Aanhouding persoon zonder geldig toegangsbewijs",
   "place": "Circuit",
-  "place_array": [
-    "Circuit"
-  ],
+  "place_array": ["Circuit"],
   "average_credits": 775,
   "generated_by": "",
   "icons": [
@@ -32,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 966,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

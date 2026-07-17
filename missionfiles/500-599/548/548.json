@@ -2,9 +2,7 @@
   "id": "548",
   "name": "Steekincident (groot)",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 6000,
   "generated_by": "",
   "icons": [
@@ -28,12 +26,8 @@
     "possible_patient_min": 2,
     "max_possible_prisoners": 1,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -46,7 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 548,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

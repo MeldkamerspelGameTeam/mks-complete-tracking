@@ -2,9 +2,7 @@
   "id": "255/a",
   "name": "Brandende goederenwagon (Middel)",
   "place": "Rangeeremplacement",
-  "place_array": [
-    "Rangeeremplacement"
-  ],
+  "place_array": ["Rangeeremplacement"],
   "average_credits": 2690,
   "generated_by": "",
   "icons": [
@@ -36,9 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 255,
   "additive_overlays": "a",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

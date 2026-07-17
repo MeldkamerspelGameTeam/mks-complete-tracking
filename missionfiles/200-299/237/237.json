@@ -21,9 +21,7 @@
     "mobile_air_vehicles": 10
   },
   "additional": {
-    "expansion_missions_ids": [
-      29
-    ],
+    "expansion_missions_ids": [29],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true
   },
@@ -35,8 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 237,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

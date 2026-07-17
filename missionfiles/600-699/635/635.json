@@ -2,9 +2,7 @@
   "id": "635",
   "name": "Ladingdiefstal",
   "place": "Verzorgingsplaats (Snelweg)",
-  "place_array": [
-    "Verzorgingsplaats (Snelweg)"
-  ],
+  "place_array": ["Verzorgingsplaats (Snelweg)"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 635,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

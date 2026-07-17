@@ -2,9 +2,7 @@
   "id": "287",
   "name": "Brand in magazijn",
   "place": "Magazijn",
-  "place_array": [
-    "Magazijn"
-  ],
+  "place_array": ["Magazijn"],
   "average_credits": 350,
   "generated_by": "",
   "icons": [
@@ -30,8 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 287,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

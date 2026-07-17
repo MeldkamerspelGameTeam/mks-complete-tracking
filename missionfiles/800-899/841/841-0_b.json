@@ -2,9 +2,7 @@
   "id": "841-0/b",
   "name": "Aanrijding met zwaar letsel",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 7540,
   "generated_by": "",
   "icons": [
@@ -31,12 +29,8 @@
     "possible_patient": 6,
     "possible_patient_min": 2,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -51,9 +45,5 @@
   "overlay_index": 0,
   "base_mission_id": 841,
   "additive_overlays": "b",
-  "mission_categories": [
-    "fire",
-    "police",
-    "traffic_police_specialization"
-  ]
+  "mission_categories": ["fire", "police", "traffic_police_specialization"]
 }

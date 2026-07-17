@@ -2,9 +2,7 @@
   "id": "175",
   "name": "Brandende kerstmarktkraam",
   "place": "Kerstmarkt",
-  "place_array": [
-    "Kerstmarkt"
-  ],
+  "place_array": ["Kerstmarkt"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -29,9 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 175,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

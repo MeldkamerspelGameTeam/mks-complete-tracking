@@ -20,10 +20,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      1161,
-      1162
-    ],
+    "expansion_missions_ids": [1161, 1162],
     "filter_id": "police_station_missions"
   },
   "prerequisites": {
@@ -33,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 1161,
   "additive_overlays": "",
-  "mission_categories": [
-    "bomb_disposal"
-  ]
+  "mission_categories": ["bomb_disposal"]
 }

@@ -2,10 +2,7 @@
   "id": "56",
   "name": "Brand in sporthal",
   "place": "School\nSporthal",
-  "place_array": [
-    "School",
-    "Sporthal"
-  ],
+  "place_array": ["School", "Sporthal"],
   "average_credits": 6260,
   "generated_by": "",
   "icons": [
@@ -30,12 +27,8 @@
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -47,8 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 56,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "400",
   "name": "Inbraakalarm bedrijfspand",
   "place": "Magazijn",
-  "place_array": [
-    "Magazijn"
-  ],
+  "place_array": ["Magazijn"],
   "average_credits": 1170,
   "generated_by": "",
   "icons": [
@@ -18,9 +16,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      333
-    ],
+    "expansion_missions_ids": [333],
     "max_possible_prisoners": 1,
     "filter_id": "riot_police_missions"
   },
@@ -33,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 400,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

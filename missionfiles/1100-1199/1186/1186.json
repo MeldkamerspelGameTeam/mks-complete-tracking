@@ -31,12 +31,8 @@
     "filter_id": "police_station_missions",
     "possible_crashed_car_large_min": 2,
     "possible_crashed_car_large_max": 4,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -52,8 +48,5 @@
   "overlay_index": null,
   "base_mission_id": 1186,
   "additive_overlays": "",
-  "mission_categories": [
-    "traffic_police_specialization",
-    "police"
-  ]
+  "mission_categories": ["traffic_police_specialization", "police"]
 }

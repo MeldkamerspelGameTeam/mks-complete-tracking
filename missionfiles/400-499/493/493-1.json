@@ -2,9 +2,7 @@
   "id": "493-1",
   "name": "Ongeregeldheden voetbalsupporters horeca",
   "place": "Café/Club",
-  "place_array": [
-    "Café/Club"
-  ],
+  "place_array": ["Café/Club"],
   "average_credits": 3720,
   "generated_by": "",
   "icons": [
@@ -23,9 +21,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      492
-    ],
+    "expansion_missions_ids": [492],
     "max_possible_prisoners": 7,
     "filter_id": "riot_police_missions"
   },
@@ -41,7 +37,5 @@
   "overlay_index": 1,
   "base_mission_id": 493,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

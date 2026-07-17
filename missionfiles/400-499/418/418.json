@@ -2,9 +2,7 @@
   "id": "418",
   "name": "Verkeersongeval met lijnbus en voetganger",
   "place": "Bushalte",
-  "place_array": [
-    "Bushalte"
-  ],
+  "place_array": ["Bushalte"],
   "average_credits": 1150,
   "generated_by": "",
   "icons": [
@@ -23,12 +21,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -39,7 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 418,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

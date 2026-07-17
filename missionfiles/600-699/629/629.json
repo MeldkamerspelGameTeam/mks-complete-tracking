@@ -2,9 +2,7 @@
   "id": "629",
   "name": "Lek/zinken plezierjacht",
   "place": "Jachthaven",
-  "place_array": [
-    "Jachthaven"
-  ],
+  "place_array": ["Jachthaven"],
   "average_credits": 2320,
   "generated_by": "",
   "icons": [
@@ -33,7 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 629,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

@@ -2,9 +2,7 @@
   "id": "660",
   "name": "Brand in hoogspanningsruimte",
   "place": "Transformatorhuisje",
-  "place_array": [
-    "Transformatorhuisje"
-  ],
+  "place_array": ["Transformatorhuisje"],
   "average_credits": 2180,
   "generated_by": "",
   "icons": [
@@ -25,16 +23,10 @@
   "additional": {
     "possible_patient": 2,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      661
-    ],
+    "expansion_missions_ids": [661],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -46,8 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 660,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

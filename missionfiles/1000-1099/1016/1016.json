@@ -2,9 +2,7 @@
   "id": "1016",
   "name": "Aanvaring veerpont",
   "place": "Pontsteiger",
-  "place_array": [
-    "Pontsteiger"
-  ],
+  "place_array": ["Pontsteiger"],
   "average_credits": 14730,
   "generated_by": "",
   "icons": [
@@ -27,22 +25,11 @@
   "additional": {
     "possible_patient": 110,
     "possible_patient_min": 30,
-    "followup_missions_ids": [
-      1017
-    ],
+    "followup_missions_ids": [1017],
     "filter_id": "coastal_rescue_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
-    "patient_specialization_ids": [
-      1,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde",
-      "Traumatologie"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
     "patient_specializations": "Algemene Heelkunde, Traumatologie"
   },
   "prerequisites": {
@@ -57,7 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 1016,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue_ocean"
-  ]
+  "mission_categories": ["coastal_rescue_ocean"]
 }

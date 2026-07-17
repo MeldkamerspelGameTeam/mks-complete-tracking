@@ -2,9 +2,7 @@
   "id": "519",
   "name": "Aanvaring vrachtschip met passagiersschip (Grip 4)",
   "place": "Rivier",
-  "place_array": [
-    "Rivier"
-  ],
+  "place_array": ["Rivier"],
   "average_credits": 15530,
   "generated_by": "",
   "icons": [
@@ -43,16 +41,9 @@
     "possible_patient": 24,
     "possible_patient_min": 13,
     "filter_id": "coastal_rescue_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {

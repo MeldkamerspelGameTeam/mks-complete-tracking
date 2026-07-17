@@ -2,9 +2,7 @@
   "id": "1043",
   "name": "Overval tankstation",
   "place": "Tankstation",
-  "place_array": [
-    "Tankstation"
-  ],
+  "place_array": ["Tankstation"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -20,16 +18,10 @@
   },
   "additional": {
     "possible_patient": 2,
-    "expansion_missions_ids": [
-      1044
-    ],
+    "expansion_missions_ids": [1044],
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -40,7 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 1043,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

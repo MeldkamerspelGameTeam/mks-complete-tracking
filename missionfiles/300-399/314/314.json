@@ -2,9 +2,7 @@
   "id": "314",
   "name": "Brand in passagierstrein",
   "place": "Centraal Station",
-  "place_array": [
-    "Centraal Station"
-  ],
+  "place_array": ["Centraal Station"],
   "average_credits": 2100,
   "generated_by": "",
   "icons": [
@@ -26,12 +24,8 @@
     "possible_patient": 2,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -43,8 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 314,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "1154",
   "name": "Brand in graandroger",
   "place": "Silo",
-  "place_array": [
-    "Silo"
-  ],
+  "place_array": ["Silo"],
   "average_credits": 9500,
   "generated_by": "",
   "icons": [
@@ -40,8 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 1154,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

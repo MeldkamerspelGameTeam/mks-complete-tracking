@@ -2,9 +2,7 @@
   "id": "787/ab",
   "name": "Persoon bekneld in gierput",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 6310,
   "generated_by": "",
   "icons": [
@@ -31,12 +29,8 @@
     "possible_patient": 3,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {

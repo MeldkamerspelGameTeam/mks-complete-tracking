@@ -25,12 +25,8 @@
     "patient_at_end_of_mission": true,
     "date_start": "2025-10-17T09:00:00Z",
     "date_end": "2025-10-31T23:59:59+01:00",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -42,7 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 1060,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

@@ -2,9 +2,7 @@
   "id": "773-0",
   "name": "Vrachtwagen op file ingereden",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 9010,
   "generated_by": "",
   "icons": [
@@ -31,17 +29,11 @@
   "additional": {
     "possible_patient": 10,
     "possible_patient_min": 1,
-    "followup_missions_ids": [
-      1069
-    ],
+    "followup_missions_ids": [1069],
     "max_possible_prisoners": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {

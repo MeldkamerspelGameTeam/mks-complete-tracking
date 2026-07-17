@@ -29,12 +29,8 @@
     "possible_patient": 1,
     "max_possible_prisoners": 1,
     "filter_id": "riot_police_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -49,7 +45,5 @@
   "overlay_index": null,
   "base_mission_id": 569,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

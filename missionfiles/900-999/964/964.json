@@ -2,9 +2,7 @@
   "id": "964",
   "name": "Racewagen brand",
   "place": "Circuit",
-  "place_array": [
-    "Circuit"
-  ],
+  "place_array": ["Circuit"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -28,9 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 964,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

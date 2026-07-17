@@ -2,9 +2,7 @@
   "id": "352",
   "name": "Brand in terminal",
   "place": "Vliegveld (groot): Terminal",
-  "place_array": [
-    "Vliegveld (groot): Terminal"
-  ],
+  "place_array": ["Vliegveld (groot): Terminal"],
   "average_credits": 1400,
   "generated_by": "",
   "icons": [
@@ -33,7 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 352,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

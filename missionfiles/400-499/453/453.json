@@ -2,9 +2,7 @@
   "id": "453",
   "name": "Vissen met zuurstoftekort",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 300,
   "generated_by": "",
   "icons": [
@@ -26,9 +24,5 @@
   "overlay_index": null,
   "base_mission_id": 453,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

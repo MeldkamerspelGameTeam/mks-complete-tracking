@@ -2,9 +2,7 @@
   "id": "926",
   "name": "Persoon steelt kalveren",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -19,10 +17,7 @@
   "additional": {
     "max_possible_prisoners": 1,
     "filter_id": "police_station_missions",
-    "subsequent_missions_ids": [
-      927,
-      928
-    ],
+    "subsequent_missions_ids": [927, 928],
     "date_start": "2026-03-13T10:00:00Z",
     "date_end": "2026-06-19T22:00:00Z"
   },
@@ -33,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 926,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

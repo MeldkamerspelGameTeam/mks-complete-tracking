@@ -2,9 +2,7 @@
   "id": "625",
   "name": "Onbeheerde bagage gevonden",
   "place": "Centraal Station",
-  "place_array": [
-    "Centraal Station"
-  ],
+  "place_array": ["Centraal Station"],
   "average_credits": 1970,
   "generated_by": "",
   "icons": [
@@ -32,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 625,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

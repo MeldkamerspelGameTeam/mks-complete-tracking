@@ -2,9 +2,7 @@
   "id": "219",
   "name": "Open dag, klein",
   "place": "Marktplein",
-  "place_array": [
-    "Marktplein"
-  ],
+  "place_array": ["Marktplein"],
   "average_credits": 2000,
   "generated_by": "",
   "icons": [
@@ -31,9 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 219,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

@@ -2,9 +2,7 @@
   "id": "624",
   "name": "Onbeheerde bagage gevonden",
   "place": "Centraal Station",
-  "place_array": [
-    "Centraal Station"
-  ],
+  "place_array": ["Centraal Station"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -17,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      625
-    ],
+    "expansion_missions_ids": [625],
     "filter_id": "police_station_missions"
   },
   "prerequisites": {
@@ -29,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 624,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

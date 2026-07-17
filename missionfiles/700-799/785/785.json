@@ -2,10 +2,7 @@
   "id": "785",
   "name": "Voetganger op de snelweg",
   "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
-  "place_array": [
-    "Snelweg oprit / afrit",
-    "Verzorgingsplaats (Snelweg)"
-  ],
+  "place_array": ["Snelweg oprit / afrit", "Verzorgingsplaats (Snelweg)"],
   "average_credits": 1590,
   "generated_by": "",
   "icons": [
@@ -29,8 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 785,
   "additive_overlays": "",
-  "mission_categories": [
-    "police",
-    "technical_aid"
-  ]
+  "mission_categories": ["police", "technical_aid"]
 }

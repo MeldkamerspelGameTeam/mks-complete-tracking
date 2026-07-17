@@ -2,9 +2,7 @@
   "id": "564",
   "name": "Voetganger onder tram",
   "place": "Tramhalte",
-  "place_array": [
-    "Tramhalte"
-  ],
+  "place_array": ["Tramhalte"],
   "average_credits": 2040,
   "generated_by": "",
   "icons": [
@@ -26,12 +24,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -43,7 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 564,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

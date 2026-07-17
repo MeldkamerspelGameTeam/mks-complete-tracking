@@ -30,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 990,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

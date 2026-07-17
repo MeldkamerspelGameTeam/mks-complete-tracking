@@ -2,9 +2,7 @@
   "id": "335",
   "name": "Brand in schoolgebouw",
   "place": "School",
-  "place_array": [
-    "School"
-  ],
+  "place_array": ["School"],
   "average_credits": 1750,
   "generated_by": "",
   "icons": [
@@ -33,8 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 335,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

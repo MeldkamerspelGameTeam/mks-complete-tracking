@@ -2,9 +2,7 @@
   "id": "121",
   "name": "Test brandalarm school",
   "place": "School",
-  "place_array": [
-    "School"
-  ],
+  "place_array": ["School"],
   "average_credits": 1000,
   "generated_by": "",
   "icons": [
@@ -29,8 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 121,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

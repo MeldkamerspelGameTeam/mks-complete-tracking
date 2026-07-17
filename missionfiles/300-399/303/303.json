@@ -2,9 +2,7 @@
   "id": "303",
   "name": "Brand in kantoorgebouw",
   "place": "Kantoorgebouw",
-  "place_array": [
-    "Kantoorgebouw"
-  ],
+  "place_array": ["Kantoorgebouw"],
   "average_credits": 2200,
   "generated_by": "",
   "icons": [
@@ -23,21 +21,11 @@
   },
   "additional": {
     "possible_patient": 5,
-    "expansion_missions_ids": [
-      304,
-      474,
-      475
-    ],
+    "expansion_missions_ids": [304, 474, 475],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      1,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde",
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
     "patient_specializations": "Algemene Heelkunde, Traumatologie"
   },
   "prerequisites": {
@@ -48,8 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 303,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

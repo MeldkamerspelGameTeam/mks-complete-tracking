@@ -2,9 +2,7 @@
   "id": "698",
   "name": "Toezicht nieuwjaarsfeest",
   "place": "Stadscentrum",
-  "place_array": [
-    "Stadscentrum"
-  ],
+  "place_array": ["Stadscentrum"],
   "average_credits": 27975,
   "generated_by": "",
   "icons": [
@@ -46,7 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 698,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

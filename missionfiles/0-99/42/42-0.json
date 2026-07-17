@@ -2,9 +2,7 @@
   "id": "42-0",
   "name": "Brand in tankstation",
   "place": "Tankstation",
-  "place_array": [
-    "Tankstation"
-  ],
+  "place_array": ["Tankstation"],
   "average_credits": 7360,
   "generated_by": "",
   "icons": [
@@ -44,9 +42,5 @@
   "overlay_index": 0,
   "base_mission_id": 42,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

@@ -2,9 +2,7 @@
   "id": "1000",
   "name": "Kerstcadeau's gestolen in winkelcentrum",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -28,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 1000,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

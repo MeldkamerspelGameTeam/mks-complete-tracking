@@ -2,9 +2,7 @@
   "id": "231",
   "name": "Vernieling bushokje",
   "place": "Bushalte",
-  "place_array": [
-    "Bushalte"
-  ],
+  "place_array": ["Bushalte"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 231,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

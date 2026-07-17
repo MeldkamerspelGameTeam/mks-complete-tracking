@@ -2,9 +2,7 @@
   "id": "985",
   "name": "Olietanker in de problemen",
   "place": "Haventerrein",
-  "place_array": [
-    "Haventerrein"
-  ],
+  "place_array": ["Haventerrein"],
   "average_credits": 19360,
   "generated_by": "",
   "icons": [
@@ -31,10 +29,7 @@
   "chances": {},
   "additional": {
     "filter_id": "coastal_rescue_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ]
+    "vehicle_groups": ["default", "ocean_missions"]
   },
   "prerequisites": {
     "main_building": 19,
@@ -47,7 +42,5 @@
   "overlay_index": null,
   "base_mission_id": 985,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue"
-  ]
+  "mission_categories": ["coastal_rescue"]
 }

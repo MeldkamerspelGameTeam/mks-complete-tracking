@@ -43,12 +43,8 @@
     "possible_patient": 35,
     "max_possible_prisoners": 3,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -66,7 +62,5 @@
   "overlay_index": null,
   "base_mission_id": 1163,
   "additive_overlays": "",
-  "mission_categories": [
-    "bomb_disposal"
-  ]
+  "mission_categories": ["bomb_disposal"]
 }

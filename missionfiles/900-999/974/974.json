@@ -2,9 +2,7 @@
   "id": "974",
   "name": "Ontspoorde tram botst tegen gebouw",
   "place": "Tramhalte",
-  "place_array": [
-    "Tramhalte"
-  ],
+  "place_array": ["Tramhalte"],
   "average_credits": 3110,
   "generated_by": "",
   "icons": [
@@ -28,12 +26,8 @@
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -45,8 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 974,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

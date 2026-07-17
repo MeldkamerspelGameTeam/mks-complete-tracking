@@ -42,12 +42,8 @@
     "possible_patient_min": 4,
     "filter_id": "firehouse_missions",
     "need_bike_police_only_if_present": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -59,8 +55,5 @@
   "overlay_index": 0,
   "base_mission_id": 945,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "392",
   "name": "Brand bij afvalverwerker (Groot)",
   "place": "Afvalverwerker",
-  "place_array": [
-    "Afvalverwerker"
-  ],
+  "place_array": ["Afvalverwerker"],
   "average_credits": 5600,
   "generated_by": "",
   "icons": [
@@ -31,11 +29,7 @@
     "gwmess": 20
   },
   "additional": {
-    "expansion_missions_ids": [
-      393,
-      394,
-      395
-    ],
+    "expansion_missions_ids": [393, 394, 395],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -45,8 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 392,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

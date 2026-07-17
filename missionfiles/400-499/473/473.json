@@ -2,9 +2,7 @@
   "id": "473",
   "name": "Personen onwel door hitte",
   "place": "Kantoorgebouw",
-  "place_array": [
-    "Kantoorgebouw"
-  ],
+  "place_array": ["Kantoorgebouw"],
   "average_credits": 1100,
   "generated_by": "",
   "icons": [
@@ -28,12 +26,8 @@
     "possible_patient": 30,
     "possible_patient_min": 15,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -45,9 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 473,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

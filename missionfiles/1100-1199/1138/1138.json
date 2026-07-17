@@ -24,12 +24,8 @@
     "max_possible_prisoners": 1,
     "filter_id": "ambulance_station_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      7
-    ],
-    "patient_specialization_captions": [
-      "Cardiologie"
-    ],
+    "patient_specialization_ids": [7],
+    "patient_specialization_captions": ["Cardiologie"],
     "patient_specializations": "Cardiologie"
   },
   "prerequisites": {
@@ -40,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 1138,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

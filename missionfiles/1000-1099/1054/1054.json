@@ -2,9 +2,7 @@
   "id": "1054",
   "name": "Explosief gevonden in winkelcentrum",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 2320,
   "generated_by": "",
   "icons": [
@@ -20,9 +18,7 @@
   },
   "chances": {},
   "additional": {
-    "followup_missions_ids": [
-      993
-    ],
+    "followup_missions_ids": [993],
     "filter_id": "police_station_missions"
   },
   "prerequisites": {
@@ -34,8 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 1054,
   "additive_overlays": "",
-  "mission_categories": [
-    "police",
-    "riot_police"
-  ]
+  "mission_categories": ["police", "riot_police"]
 }

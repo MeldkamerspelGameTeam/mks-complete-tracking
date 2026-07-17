@@ -2,9 +2,7 @@
   "id": "1096",
   "name": "Waterredding vereist bij zeilevenement",
   "place": "Strand",
-  "place_array": [
-    "Strand"
-  ],
+  "place_array": ["Strand"],
   "average_credits": 1230,
   "generated_by": "",
   "icons": [
@@ -22,19 +20,12 @@
     "possible_patient": 2,
     "possible_patient_min": 1,
     "filter_id": "coastal_rescue_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
     "patient_at_end_of_mission": true,
     "date_start": "2024-08-05T08:00:00Z",
     "date_end": "2024-08-11T23:59:59Z",
-    "patient_specialization_ids": [
-      7
-    ],
-    "patient_specialization_captions": [
-      "Cardiologie"
-    ],
+    "patient_specialization_ids": [7],
+    "patient_specialization_captions": ["Cardiologie"],
     "patient_specializations": "Cardiologie"
   },
   "prerequisites": {
@@ -45,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 1096,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue"
-  ]
+  "mission_categories": ["coastal_rescue"]
 }

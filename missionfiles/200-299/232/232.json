@@ -2,9 +2,7 @@
   "id": "232",
   "name": "Buspassagier weigert te betalen",
   "place": "Bushalte",
-  "place_array": [
-    "Bushalte"
-  ],
+  "place_array": ["Bushalte"],
   "average_credits": 800,
   "generated_by": "",
   "icons": [
@@ -27,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 232,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

@@ -2,9 +2,7 @@
   "id": "209",
   "name": "Aanvaring vrachtschip met vlet (Grip 3)",
   "place": "Rivier",
-  "place_array": [
-    "Rivier"
-  ],
+  "place_array": ["Rivier"],
   "average_credits": 3330,
   "generated_by": "",
   "icons": [
@@ -30,12 +28,8 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "water_watch_missions",
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -48,7 +42,5 @@
   "overlay_index": null,
   "base_mission_id": 209,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

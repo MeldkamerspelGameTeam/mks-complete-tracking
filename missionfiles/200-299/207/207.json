@@ -2,11 +2,7 @@
   "id": "207",
   "name": "Personenauto te water",
   "place": "Meer\nRivier\nSloot",
-  "place_array": [
-    "Meer",
-    "Rivier",
-    "Sloot"
-  ],
+  "place_array": ["Meer", "Rivier", "Sloot"],
   "average_credits": 3680,
   "generated_by": "",
   "icons": [
@@ -33,15 +29,9 @@
     "possible_patient": 4,
     "possible_patient_min": 1,
     "filter_id": "water_watch_missions",
-    "subsequent_missions_ids": [
-      1027
-    ],
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "subsequent_missions_ids": [1027],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -55,8 +45,5 @@
   "overlay_index": null,
   "base_mission_id": 207,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue",
-    "water_rescue_specialization"
-  ]
+  "mission_categories": ["water_rescue", "water_rescue_specialization"]
 }

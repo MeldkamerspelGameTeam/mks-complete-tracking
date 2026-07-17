@@ -32,12 +32,8 @@
     "possible_patient_min": 55,
     "only_alliance_mission": true,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie",
     "unavailable_in_normal_missions": true
   },
@@ -47,7 +43,5 @@
   "overlay_index": null,
   "base_mission_id": 234,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

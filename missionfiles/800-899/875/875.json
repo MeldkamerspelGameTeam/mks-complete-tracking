@@ -2,9 +2,7 @@
   "id": "875",
   "name": "Personen onwel in school",
   "place": "School",
-  "place_array": [
-    "School"
-  ],
+  "place_array": ["School"],
   "average_credits": 10290,
   "generated_by": "",
   "icons": [
@@ -33,12 +31,8 @@
   "additional": {
     "possible_patient": 30,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -50,7 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 875,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

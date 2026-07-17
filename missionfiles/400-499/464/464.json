@@ -21,11 +21,7 @@
     "hazmat_vehicles": 10
   },
   "additional": {
-    "expansion_missions_ids": [
-      200,
-      462,
-      463
-    ],
+    "expansion_missions_ids": [200, 462, 463],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -36,9 +32,5 @@
   "overlay_index": null,
   "base_mission_id": 464,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

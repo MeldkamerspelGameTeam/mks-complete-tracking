@@ -2,9 +2,7 @@
   "id": "484-0",
   "name": "Vat met gevaarlijke stoffen omgevallen",
   "place": "Industrieterrein",
-  "place_array": [
-    "Industrieterrein"
-  ],
+  "place_array": ["Industrieterrein"],
   "average_credits": 4730,
   "generated_by": "",
   "icons": [
@@ -30,12 +28,8 @@
     "possible_patient": 4,
     "filter_id": "firehouse_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -48,9 +42,5 @@
   "overlay_index": 0,
   "base_mission_id": 484,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

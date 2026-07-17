@@ -2,9 +2,7 @@
   "id": "218",
   "name": "Plofkraak",
   "place": "Winkelcentrum",
-  "place_array": [
-    "Winkelcentrum"
-  ],
+  "place_array": ["Winkelcentrum"],
   "average_credits": 3490,
   "generated_by": "",
   "icons": [
@@ -21,9 +19,7 @@
   },
   "chances": {},
   "additional": {
-    "followup_missions_ids": [
-      851
-    ],
+    "followup_missions_ids": [851],
     "max_possible_prisoners": 2,
     "filter_id": "police_station_missions"
   },
@@ -37,7 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 218,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

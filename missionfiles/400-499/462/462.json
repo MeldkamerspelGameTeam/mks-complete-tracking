@@ -2,9 +2,7 @@
   "id": "462",
   "name": "Drugsafval aangetroffen",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 3590,
   "generated_by": "",
   "icons": [
@@ -36,7 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 462,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

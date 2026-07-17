@@ -2,9 +2,7 @@
   "id": "274",
   "name": "Klein vliegtuig neergestort",
   "place": "Vliegveld (klein): Start-/Landingsbaan",
-  "place_array": [
-    "Vliegveld (klein): Start-/Landingsbaan"
-  ],
+  "place_array": ["Vliegveld (klein): Start-/Landingsbaan"],
   "average_credits": 5770,
   "generated_by": "",
   "icons": [
@@ -33,12 +31,8 @@
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -52,7 +46,5 @@
   "overlay_index": null,
   "base_mission_id": 274,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

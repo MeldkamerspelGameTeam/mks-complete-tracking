@@ -2,9 +2,7 @@
   "id": "282",
   "name": "Brand in garagebedrijf",
   "place": "Garagebedrijf",
-  "place_array": [
-    "Garagebedrijf"
-  ],
+  "place_array": ["Garagebedrijf"],
   "average_credits": 6340,
   "generated_by": "",
   "icons": [
@@ -32,28 +30,12 @@
   },
   "additional": {
     "possible_patient": 1,
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
+    "subsequent_missions_ids": [877],
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -65,9 +47,5 @@
   "overlay_index": null,
   "base_mission_id": 282,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

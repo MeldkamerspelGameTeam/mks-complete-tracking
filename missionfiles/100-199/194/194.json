@@ -2,9 +2,7 @@
   "id": "194",
   "name": "Koe in gierput",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 190,
   "generated_by": "",
   "icons": [
@@ -29,8 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 194,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

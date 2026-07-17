@@ -2,9 +2,7 @@
   "id": "432",
   "name": "Persoon bekneld onder heftruck",
   "place": "Haventerrein",
-  "place_array": [
-    "Haventerrein"
-  ],
+  "place_array": ["Haventerrein"],
   "average_credits": 1050,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -44,8 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 432,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

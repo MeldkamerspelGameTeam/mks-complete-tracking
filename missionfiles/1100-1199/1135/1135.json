@@ -2,9 +2,7 @@
   "id": "1135",
   "name": "Persoon onwel in hijskraan",
   "place": "Bouwterrein",
-  "place_array": [
-    "Bouwterrein"
-  ],
+  "place_array": ["Bouwterrein"],
   "average_credits": 4620,
   "generated_by": "",
   "icons": [
@@ -33,14 +31,8 @@
     "filter_id": "firehouse_missions",
     "need_bike_police_only_if_present": true,
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      5,
-      7
-    ],
-    "patient_specialization_captions": [
-      "Neurologie",
-      "Cardiologie"
-    ],
+    "patient_specialization_ids": [5, 7],
+    "patient_specialization_captions": ["Neurologie", "Cardiologie"],
     "patient_specializations": "Neurologie, Cardiologie"
   },
   "prerequisites": {
@@ -53,7 +45,5 @@
   "overlay_index": null,
   "base_mission_id": 1135,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

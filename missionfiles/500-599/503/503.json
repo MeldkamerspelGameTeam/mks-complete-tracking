@@ -2,9 +2,7 @@
   "id": "503",
   "name": "Kettingbotsing",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 8900,
   "generated_by": "",
   "icons": [
@@ -29,20 +27,12 @@
   "additional": {
     "possible_patient": 8,
     "possible_patient_min": 4,
-    "followup_missions_ids": [
-      1069
-    ],
+    "followup_missions_ids": [1069],
     "filter_id": "firehouse_missions",
     "possible_crashed_car_min": 3,
     "possible_crashed_car_max": 8,
-    "patient_specialization_ids": [
-      1,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde",
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
     "patient_specializations": "Algemene Heelkunde, Traumatologie"
   },
   "prerequisites": {

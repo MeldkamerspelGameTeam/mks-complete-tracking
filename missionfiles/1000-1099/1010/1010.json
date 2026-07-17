@@ -2,9 +2,7 @@
   "id": "1010",
   "name": "Meningsverschil in bankkantoor",
   "place": "Bankkantoor",
-  "place_array": [
-    "Bankkantoor"
-  ],
+  "place_array": ["Bankkantoor"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -17,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      1011
-    ],
+    "expansion_missions_ids": [1011],
     "filter_id": "police_station_missions"
   },
   "prerequisites": {
@@ -29,7 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 1010,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

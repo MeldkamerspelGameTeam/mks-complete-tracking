@@ -2,9 +2,7 @@
   "id": "1203/a",
   "name": "Brand in ziekenhuis (Grip 2)",
   "place": "Ziekenhuis",
-  "place_array": [
-    "Ziekenhuis"
-  ],
+  "place_array": ["Ziekenhuis"],
   "average_credits": 27562,
   "generated_by": "",
   "icons": [
@@ -38,12 +36,8 @@
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true,
     "care_includes_staff_members": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -59,8 +53,5 @@
   "overlay_index": null,
   "base_mission_id": 1203,
   "additive_overlays": "a",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

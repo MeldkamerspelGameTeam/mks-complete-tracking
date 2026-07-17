@@ -2,9 +2,7 @@
   "id": "205",
   "name": "Persoon te water",
   "place": "Rivier",
-  "place_array": [
-    "Rivier"
-  ],
+  "place_array": ["Rivier"],
   "average_credits": 850,
   "generated_by": "",
   "icons": [
@@ -28,16 +26,10 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "water_watch_missions",
-    "subsequent_missions_ids": [
-      1027
-    ],
+    "subsequent_missions_ids": [1027],
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -50,7 +42,5 @@
   "overlay_index": null,
   "base_mission_id": 205,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue"
-  ]
+  "mission_categories": ["water_rescue"]
 }

@@ -2,9 +2,7 @@
   "id": "779-0",
   "name": "Brand in houtzagerij",
   "place": "Bedrijventerrein",
-  "place_array": [
-    "Bedrijventerrein"
-  ],
+  "place_array": ["Bedrijventerrein"],
   "average_credits": 3130,
   "generated_by": "",
   "icons": [
@@ -27,16 +25,10 @@
   "additional": {
     "possible_patient": 2,
     "possible_patient_min": 2,
-    "expansion_missions_ids": [
-      780
-    ],
+    "expansion_missions_ids": [780],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -49,9 +41,5 @@
   "overlay_index": 0,
   "base_mission_id": 779,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization",
-    "urban"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
 }

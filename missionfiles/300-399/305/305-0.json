@@ -25,17 +25,10 @@
   "additional": {
     "possible_patient": 6,
     "possible_patient_min": 3,
-    "expansion_missions_ids": [
-      306,
-      307
-    ],
+    "expansion_missions_ids": [306, 307],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {

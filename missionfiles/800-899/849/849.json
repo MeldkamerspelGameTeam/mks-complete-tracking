@@ -2,11 +2,7 @@
   "id": "849",
   "name": "Gevallen groep mountainbikers",
   "place": "Duinen\nStrand\nStrandopgang",
-  "place_array": [
-    "Duinen",
-    "Strand",
-    "Strandopgang"
-  ],
+  "place_array": ["Duinen", "Strand", "Strandopgang"],
   "average_credits": 3020,
   "generated_by": "",
   "icons": [
@@ -25,12 +21,8 @@
     "possible_patient": 8,
     "possible_patient_min": 1,
     "filter_id": "water_watch_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -42,7 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 849,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue_2"
-  ]
+  "mission_categories": ["water_rescue_2"]
 }

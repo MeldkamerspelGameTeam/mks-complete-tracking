@@ -2,9 +2,7 @@
   "id": "296",
   "name": "Brand in museum",
   "place": "Museum",
-  "place_array": [
-    "Museum"
-  ],
+  "place_array": ["Museum"],
   "average_credits": 900,
   "generated_by": "",
   "icons": [
@@ -30,8 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 296,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

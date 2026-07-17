@@ -29,12 +29,8 @@
     "possible_patient_min": 4,
     "filter_id": "firehouse_missions",
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -49,8 +45,5 @@
   "overlay_index": null,
   "base_mission_id": 994,
   "additive_overlays": "a",
-  "mission_categories": [
-    "airport",
-    "airport_specialization"
-  ]
+  "mission_categories": ["airport", "airport_specialization"]
 }

@@ -2,9 +2,7 @@
   "id": "655",
   "name": "Koperdiefstal",
   "place": "Rangeeremplacement",
-  "place_array": [
-    "Rangeeremplacement"
-  ],
+  "place_array": ["Rangeeremplacement"],
   "average_credits": 840,
   "generated_by": "",
   "icons": [
@@ -17,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      656
-    ],
+    "expansion_missions_ids": [656],
     "max_possible_prisoners": 2,
     "filter_id": "police_station_missions"
   },
@@ -30,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 655,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

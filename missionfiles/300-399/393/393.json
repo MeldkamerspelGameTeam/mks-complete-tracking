@@ -2,9 +2,7 @@
   "id": "393",
   "name": "Brand bij afvalverwerker (Zeer Groot)",
   "place": "Afvalverwerker",
-  "place_array": [
-    "Afvalverwerker"
-  ],
+  "place_array": ["Afvalverwerker"],
   "average_credits": 7100,
   "generated_by": "",
   "icons": [
@@ -32,10 +30,7 @@
     "gwmess": 60
   },
   "additional": {
-    "expansion_missions_ids": [
-      394,
-      395
-    ],
+    "expansion_missions_ids": [394, 395],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -45,8 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 393,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

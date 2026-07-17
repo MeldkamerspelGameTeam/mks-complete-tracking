@@ -24,8 +24,5 @@
   "overlay_index": null,
   "base_mission_id": 1123,
   "additive_overlays": "",
-  "mission_categories": [
-    "tow_trucks_only",
-    "tow_trucks"
-  ]
+  "mission_categories": ["tow_trucks_only", "tow_trucks"]
 }

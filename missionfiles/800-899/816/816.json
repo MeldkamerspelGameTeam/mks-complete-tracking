@@ -2,9 +2,7 @@
   "id": "816",
   "name": "Vrachtwagen vast in tunnel",
   "place": "Tunnel",
-  "place_array": [
-    "Tunnel"
-  ],
+  "place_array": ["Tunnel"],
   "average_credits": 3480,
   "generated_by": "",
   "icons": [
@@ -26,12 +24,8 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -45,9 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 816,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "technical_aid",
-    "urban"
-  ]
+  "mission_categories": ["fire", "technical_aid", "urban"]
 }

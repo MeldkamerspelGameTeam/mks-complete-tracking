@@ -2,9 +2,7 @@
   "id": "186",
   "name": "Parkeergarage onder water",
   "place": "Parkeergarage",
-  "place_array": [
-    "Parkeergarage"
-  ],
+  "place_array": ["Parkeergarage"],
   "average_credits": 2590,
   "generated_by": "",
   "icons": [
@@ -31,8 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 186,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

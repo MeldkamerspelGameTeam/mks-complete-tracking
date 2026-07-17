@@ -2,9 +2,7 @@
   "id": "38",
   "name": "Brandende afvalbak",
   "place": "Station",
-  "place_array": [
-    "Station"
-  ],
+  "place_array": ["Station"],
   "average_credits": 110,
   "generated_by": "",
   "icons": [
@@ -27,8 +25,5 @@
   "overlay_index": null,
   "base_mission_id": 38,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

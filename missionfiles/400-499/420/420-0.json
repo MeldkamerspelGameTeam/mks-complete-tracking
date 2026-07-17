@@ -2,9 +2,7 @@
   "id": "420-0",
   "name": "Verkeersongeval met lijnbus en fietser",
   "place": "Bushalte",
-  "place_array": [
-    "Bushalte"
-  ],
+  "place_array": ["Bushalte"],
   "average_credits": 2890,
   "generated_by": "",
   "icons": [
@@ -28,12 +26,8 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -46,9 +40,5 @@
   "overlay_index": 0,
   "base_mission_id": 420,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "traffic_police_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "traffic_police_specialization"]
 }

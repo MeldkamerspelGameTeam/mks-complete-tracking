@@ -2,11 +2,7 @@
   "id": "805",
   "name": "Kind vermist",
   "place": "Duinen\nStrand\nStrandopgang",
-  "place_array": [
-    "Duinen",
-    "Strand",
-    "Strandopgang"
-  ],
+  "place_array": ["Duinen", "Strand", "Strandopgang"],
   "average_credits": 900,
   "generated_by": "",
   "icons": [
@@ -30,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 805,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue_2"
-  ]
+  "mission_categories": ["water_rescue_2"]
 }

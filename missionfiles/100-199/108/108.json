@@ -2,9 +2,7 @@
   "id": "108",
   "name": "Ongeval met trein en personenauto",
   "place": "Spoorwegovergang",
-  "place_array": [
-    "Spoorwegovergang"
-  ],
+  "place_array": ["Spoorwegovergang"],
   "average_credits": 2270,
   "generated_by": "",
   "icons": [
@@ -25,12 +23,8 @@
     "possible_patient": 5,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -42,8 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 108,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

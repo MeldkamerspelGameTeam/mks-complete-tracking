@@ -2,9 +2,7 @@
   "id": "1030/ad",
   "name": "Brand bij papierrecyclaar",
   "place": "Afvalverwerker",
-  "place_array": [
-    "Afvalverwerker"
-  ],
+  "place_array": ["Afvalverwerker"],
   "average_credits": 42560,
   "generated_by": "",
   "icons": [
@@ -36,22 +34,11 @@
   },
   "additional": {
     "possible_patient": 4,
-    "followup_missions_ids": [
-      48,
-      99,
-      878,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 878, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "subsequent_missions_ids": [877],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {

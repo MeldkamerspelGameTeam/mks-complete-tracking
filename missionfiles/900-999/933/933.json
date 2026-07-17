@@ -2,9 +2,7 @@
   "id": "933",
   "name": "Bouwsteiger ingestort",
   "place": "Bouwterrein",
-  "place_array": [
-    "Bouwterrein"
-  ],
+  "place_array": ["Bouwterrein"],
   "average_credits": 4480,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
     "possible_patient": 10,
     "possible_patient_min": 2,
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -44,8 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 933,
   "additive_overlays": "",
-  "mission_categories": [
-    "disaster_response",
-    "search_and_rescue"
-  ]
+  "mission_categories": ["disaster_response", "search_and_rescue"]
 }

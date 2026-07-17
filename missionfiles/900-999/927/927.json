@@ -2,9 +2,7 @@
   "id": "927",
   "name": "Koeien dief op de vlucht",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 2180,
   "generated_by": "",
   "icons": [
@@ -32,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 927,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

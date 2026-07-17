@@ -22,21 +22,11 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "coastal_rescue_missions",
-    "vehicle_groups": [
-      "ocean_missions"
-    ],
+    "vehicle_groups": ["ocean_missions"],
     "uses_custom_spawn_area": true,
-    "handoff_possible_via_building_types": [
-      19
-    ],
-    "patient_specialization_ids": [
-      0,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde",
-      "Traumatologie"
-    ],
+    "handoff_possible_via_building_types": [19],
+    "patient_specialization_ids": [0, 4],
+    "patient_specialization_captions": ["Interne Geneeskunde", "Traumatologie"],
     "patient_specializations": "Interne Geneeskunde, Traumatologie"
   },
   "prerequisites": {
@@ -49,8 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 1137,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue_ocean",
-    "water_rescue_2"
-  ]
+  "mission_categories": ["coastal_rescue_ocean", "water_rescue_2"]
 }

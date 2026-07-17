@@ -2,9 +2,7 @@
   "id": "847",
   "name": "Brand in stacaravan",
   "place": "Camping",
-  "place_array": [
-    "Camping"
-  ],
+  "place_array": ["Camping"],
   "average_credits": 3630,
   "generated_by": "",
   "icons": [
@@ -27,12 +25,8 @@
     "possible_patient": 5,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -44,8 +38,5 @@
   "overlay_index": null,
   "base_mission_id": 847,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

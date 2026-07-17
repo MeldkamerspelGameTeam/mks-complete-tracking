@@ -2,9 +2,7 @@
   "id": "710",
   "name": "Brand in boerderij",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 5945,
   "generated_by": "",
   "icons": [
@@ -27,19 +25,11 @@
   },
   "additional": {
     "possible_patient": 4,
-    "expansion_missions_ids": [
-      711
-    ],
-    "followup_missions_ids": [
-      1069
-    ],
+    "expansion_missions_ids": [711],
+    "followup_missions_ids": [1069],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -51,8 +41,5 @@
   "overlay_index": null,
   "base_mission_id": 710,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

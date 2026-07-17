@@ -2,9 +2,7 @@
   "id": "898",
   "name": "Accu ontploft",
   "place": "Garagebedrijf",
-  "place_array": [
-    "Garagebedrijf"
-  ],
+  "place_array": ["Garagebedrijf"],
   "average_credits": 1750,
   "generated_by": "",
   "icons": [
@@ -25,12 +23,8 @@
     "possible_patient": 2,
     "possible_patient_min": 2,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -42,8 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 898,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "1062-1",
   "name": "School shooting",
   "place": "School",
-  "place_array": [
-    "School"
-  ],
+  "place_array": ["School"],
   "average_credits": 12570,
   "generated_by": "",
   "icons": [
@@ -30,21 +28,13 @@
   "additional": {
     "possible_patient": 35,
     "possible_patient_min": 10,
-    "followup_missions_ids": [
-      993
-    ],
+    "followup_missions_ids": [993],
     "min_possible_prisoners": 1,
     "max_possible_prisoners": 1,
     "filter_id": "riot_police_missions",
     "need_bike_police_only_if_present": true,
-    "patient_specialization_ids": [
-      1,
-      4
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde",
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
     "patient_specializations": "Algemene Heelkunde, Traumatologie"
   },
   "prerequisites": {
@@ -60,7 +50,5 @@
   "overlay_index": 1,
   "base_mission_id": 1062,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

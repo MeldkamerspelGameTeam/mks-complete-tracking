@@ -2,9 +2,7 @@
   "id": "36",
   "name": "Brandende goederenwagon (Groot)",
   "place": "Rangeeremplacement",
-  "place_array": [
-    "Rangeeremplacement"
-  ],
+  "place_array": ["Rangeeremplacement"],
   "average_credits": 5970,
   "generated_by": "",
   "icons": [
@@ -36,9 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 36,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "industrial_response_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "industrial_response_specialization"]
 }

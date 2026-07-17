@@ -2,9 +2,7 @@
   "id": "122",
   "name": "Overval winkel",
   "place": "Buurtsuper",
-  "place_array": [
-    "Buurtsuper"
-  ],
+  "place_array": ["Buurtsuper"],
   "average_credits": 2980,
   "generated_by": "",
   "icons": [
@@ -31,7 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 122,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

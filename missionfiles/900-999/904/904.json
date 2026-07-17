@@ -17,9 +17,7 @@
   },
   "chances": {},
   "additional": {
-    "followup_missions_ids": [
-      905
-    ],
+    "followup_missions_ids": [905],
     "filter_id": "firehouse_missions",
     "date_start": "2026-02-11T10:00:00Z",
     "date_end": "2026-02-12T23:59:59+01:00"
@@ -33,9 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 904,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "rural"
-  ]
+  "mission_categories": ["fire", "urban", "rural"]
 }

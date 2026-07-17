@@ -2,9 +2,7 @@
   "id": "585",
   "name": "Hazenbijeenkomst in Paaseistad",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 10530,
   "generated_by": "",
   "icons": [
@@ -35,7 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 585,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

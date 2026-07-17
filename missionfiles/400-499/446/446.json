@@ -2,9 +2,7 @@
   "id": "446",
   "name": "Brand in hotel",
   "place": "Hotel",
-  "place_array": [
-    "Hotel"
-  ],
+  "place_array": ["Hotel"],
   "average_credits": 2600,
   "generated_by": "",
   "icons": [
@@ -31,12 +29,8 @@
     "possible_patient_min": 4,
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -49,8 +43,5 @@
   "overlay_index": null,
   "base_mission_id": 446,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

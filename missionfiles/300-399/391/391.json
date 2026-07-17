@@ -2,9 +2,7 @@
   "id": "391",
   "name": "Brand bij afvalverwerker (Middel)",
   "place": "Afvalverwerker",
-  "place_array": [
-    "Afvalverwerker"
-  ],
+  "place_array": ["Afvalverwerker"],
   "average_credits": 1940,
   "generated_by": "",
   "icons": [
@@ -23,12 +21,7 @@
     "water_tankers": 20
   },
   "additional": {
-    "expansion_missions_ids": [
-      392,
-      393,
-      394,
-      395
-    ],
+    "expansion_missions_ids": [392, 393, 394, 395],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -38,8 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 391,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

@@ -2,9 +2,7 @@
   "id": "201",
   "name": "Vechtpartij in café",
   "place": "Café/Club",
-  "place_array": [
-    "Café/Club"
-  ],
+  "place_array": ["Café/Club"],
   "average_credits": 1810,
   "generated_by": "",
   "icons": [
@@ -22,17 +20,11 @@
   },
   "additional": {
     "possible_patient": 1,
-    "expansion_missions_ids": [
-      330
-    ],
+    "expansion_missions_ids": [330],
     "max_possible_prisoners": 2,
     "filter_id": "police_station_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -44,7 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 201,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

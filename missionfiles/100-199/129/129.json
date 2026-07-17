@@ -2,9 +2,7 @@
   "id": "129",
   "name": "Heidebrand (Groot)",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 10210,
   "generated_by": "",
   "icons": [
@@ -22,14 +20,9 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      355,
-      356
-    ],
+    "expansion_missions_ids": [355, 356],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      1191
-    ]
+    "subsequent_missions_ids": [1191]
   },
   "prerequisites": {
     "main_building": 0,
@@ -40,7 +33,5 @@
   "overlay_index": null,
   "base_mission_id": 129,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

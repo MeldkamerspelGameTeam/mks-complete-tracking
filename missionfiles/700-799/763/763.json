@@ -2,9 +2,7 @@
   "id": "763",
   "name": "Toezicht bij manifestatie",
   "place": "Park",
-  "place_array": [
-    "Park"
-  ],
+  "place_array": ["Park"],
   "average_credits": 4715,
   "generated_by": "",
   "icons": [
@@ -23,9 +21,7 @@
     "ovdp": 50
   },
   "additional": {
-    "expansion_missions_ids": [
-      764
-    ],
+    "expansion_missions_ids": [764],
     "max_possible_prisoners": 2,
     "filter_id": "riot_police_missions",
     "need_bike_police_only_if_present": true
@@ -39,7 +35,5 @@
   "overlay_index": null,
   "base_mission_id": 763,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

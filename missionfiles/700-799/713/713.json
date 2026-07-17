@@ -2,9 +2,7 @@
   "id": "713",
   "name": "Brand in hooischuur",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 4515,
   "generated_by": "",
   "icons": [
@@ -26,16 +24,10 @@
   },
   "additional": {
     "possible_patient": 2,
-    "expansion_missions_ids": [
-      714
-    ],
+    "expansion_missions_ids": [714],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      1
-    ],
-    "patient_specialization_captions": [
-      "Algemene Heelkunde"
-    ],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"
   },
   "prerequisites": {
@@ -47,9 +39,5 @@
   "overlay_index": null,
   "base_mission_id": 713,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "rural", "fire_support_specialization"]
 }

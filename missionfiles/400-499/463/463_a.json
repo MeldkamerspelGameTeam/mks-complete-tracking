@@ -2,9 +2,7 @@
   "id": "463/a",
   "name": "Verdachte vaten aangetroffen",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 4390,
   "generated_by": "",
   "icons": [
@@ -39,7 +37,5 @@
   "overlay_index": null,
   "base_mission_id": 463,
   "additive_overlays": "a",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

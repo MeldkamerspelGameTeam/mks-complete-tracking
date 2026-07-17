@@ -2,9 +2,7 @@
   "id": "640",
   "name": "Brand in hangaar",
   "place": "Vliegveld (klein): Hangaar",
-  "place_array": [
-    "Vliegveld (klein): Hangaar"
-  ],
+  "place_array": ["Vliegveld (klein): Hangaar"],
   "average_credits": 910,
   "generated_by": "",
   "icons": [
@@ -18,9 +16,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      641
-    ],
+    "expansion_missions_ids": [641],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true
   },
@@ -32,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 640,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

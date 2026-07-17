@@ -2,9 +2,7 @@
   "id": "1148",
   "name": "Grenscontrole",
   "place": "Grensovergang",
-  "place_array": [
-    "Grensovergang"
-  ],
+  "place_array": ["Grensovergang"],
   "average_credits": 17370,
   "generated_by": "",
   "icons": [
@@ -33,7 +31,5 @@
   "overlay_index": null,
   "base_mission_id": 1148,
   "additive_overlays": "",
-  "mission_categories": [
-    "military_police"
-  ]
+  "mission_categories": ["military_police"]
 }

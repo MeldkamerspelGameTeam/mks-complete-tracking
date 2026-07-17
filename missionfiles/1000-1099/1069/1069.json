@@ -2,9 +2,7 @@
   "id": "1069",
   "name": "Kijkers op de vluchtstrook",
   "place": "Snelweg oprit / afrit",
-  "place_array": [
-    "Snelweg oprit / afrit"
-  ],
+  "place_array": ["Snelweg oprit / afrit"],
   "average_credits": 1080,
   "generated_by": "",
   "icons": [
@@ -28,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 1069,
   "additive_overlays": "",
-  "mission_categories": [
-    "technical_aid"
-  ]
+  "mission_categories": ["technical_aid"]
 }

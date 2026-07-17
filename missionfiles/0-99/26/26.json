@@ -2,9 +2,7 @@
   "id": "26",
   "name": "Brand in supermarkt",
   "place": "Supermarkt",
-  "place_array": [
-    "Supermarkt"
-  ],
+  "place_array": ["Supermarkt"],
   "average_credits": 3550,
   "generated_by": "",
   "icons": [
@@ -38,8 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 26,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

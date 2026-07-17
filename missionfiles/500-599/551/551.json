@@ -2,9 +2,7 @@
   "id": "551",
   "name": "Brand in theater",
   "place": "Theater",
-  "place_array": [
-    "Theater"
-  ],
+  "place_array": ["Theater"],
   "average_credits": 1600,
   "generated_by": "",
   "icons": [
@@ -21,9 +19,7 @@
     "platform_trucks": 40
   },
   "additional": {
-    "expansion_missions_ids": [
-      552
-    ],
+    "expansion_missions_ids": [552],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -33,8 +29,5 @@
   "overlay_index": null,
   "base_mission_id": 551,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

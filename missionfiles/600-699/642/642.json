@@ -2,9 +2,7 @@
   "id": "642",
   "name": "Brand in hangaar",
   "place": "Vliegveld (klein): Hangaar",
-  "place_array": [
-    "Vliegveld (klein): Hangaar"
-  ],
+  "place_array": ["Vliegveld (klein): Hangaar"],
   "average_credits": 10580,
   "generated_by": "",
   "icons": [
@@ -36,12 +34,8 @@
     "possible_patient": 12,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -54,7 +48,5 @@
   "overlay_index": null,
   "base_mission_id": 642,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

@@ -2,9 +2,7 @@
   "id": "427",
   "name": "Brand in bouwmarkt (Groot)",
   "place": "Bouwmarkt",
-  "place_array": [
-    "Bouwmarkt"
-  ],
+  "place_array": ["Bouwmarkt"],
   "average_credits": 3550,
   "generated_by": "",
   "icons": [
@@ -27,10 +25,7 @@
     "water_tankers": 40
   },
   "additional": {
-    "expansion_missions_ids": [
-      428,
-      429
-    ],
+    "expansion_missions_ids": [428, 429],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
@@ -41,8 +36,5 @@
   "overlay_index": null,
   "base_mission_id": 427,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

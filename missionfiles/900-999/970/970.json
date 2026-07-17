@@ -2,9 +2,7 @@
   "id": "970",
   "name": "Racistisch gezang van fans op de tribune",
   "place": "Circuit",
-  "place_array": [
-    "Circuit"
-  ],
+  "place_array": ["Circuit"],
   "average_credits": 1010,
   "generated_by": "",
   "icons": [
@@ -29,7 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 970,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

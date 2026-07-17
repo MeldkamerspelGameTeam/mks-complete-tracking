@@ -2,9 +2,7 @@
   "id": "952-1",
   "name": "Brand in stadion",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 25160,
   "generated_by": "",
   "icons": [
@@ -40,32 +38,16 @@
   },
   "additional": {
     "possible_patient": 35,
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "min_possible_prisoners": 10,
     "max_possible_prisoners": 30,
     "filter_id": "riot_police_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
+    "subsequent_missions_ids": [877],
     "need_bike_police_only_if_present": true,
     "fire_alarm_system_possible": false,
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -83,8 +65,5 @@
   "overlay_index": 1,
   "base_mission_id": 952,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

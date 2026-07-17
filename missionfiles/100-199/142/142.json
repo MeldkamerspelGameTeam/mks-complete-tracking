@@ -2,9 +2,7 @@
   "id": "142",
   "name": "Natuurbrand (Zeer Groot)",
   "place": "Bos",
-  "place_array": [
-    "Bos"
-  ],
+  "place_array": ["Bos"],
   "average_credits": 12020,
   "generated_by": "",
   "icons": [
@@ -23,17 +21,9 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      143,
-      144,
-      308,
-      309,
-      357
-    ],
+    "expansion_missions_ids": [143, 144, 308, 309, 357],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      1191
-    ]
+    "subsequent_missions_ids": [1191]
   },
   "prerequisites": {
     "main_building": 0,
@@ -44,7 +34,5 @@
   "overlay_index": null,
   "base_mission_id": 142,
   "additive_overlays": "",
-  "mission_categories": [
-    "forestry"
-  ]
+  "mission_categories": ["forestry"]
 }

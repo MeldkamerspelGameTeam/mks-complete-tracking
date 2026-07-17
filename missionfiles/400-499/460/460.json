@@ -2,9 +2,7 @@
   "id": "460",
   "name": "Brandende vliegtuigtrekker",
   "place": "Vliegveld (groot): Platform / Gate",
-  "place_array": [
-    "Vliegveld (groot): Platform / Gate"
-  ],
+  "place_array": ["Vliegveld (groot): Platform / Gate"],
   "average_credits": 1840,
   "generated_by": "",
   "icons": [
@@ -30,7 +28,5 @@
   "overlay_index": null,
   "base_mission_id": 460,
   "additive_overlays": "",
-  "mission_categories": [
-    "airport"
-  ]
+  "mission_categories": ["airport"]
 }

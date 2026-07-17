@@ -2,9 +2,7 @@
   "id": "312/abc",
   "name": "Lekkende goederenwagon (Groot)",
   "place": "Rangeeremplacement",
-  "place_array": [
-    "Rangeeremplacement"
-  ],
+  "place_array": ["Rangeeremplacement"],
   "average_credits": 7870,
   "generated_by": "",
   "icons": [
@@ -34,17 +32,10 @@
   },
   "additional": {
     "possible_patient": 1,
-    "expansion_missions_ids": [
-      255,
-      36
-    ],
+    "expansion_missions_ids": [255, 36],
     "filter_id": "firehouse_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {

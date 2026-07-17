@@ -2,9 +2,7 @@
   "id": "1084",
   "name": "Supporters met vuurwerk op tribune",
   "place": "Stadion",
-  "place_array": [
-    "Stadion"
-  ],
+  "place_array": ["Stadion"],
   "average_credits": 1200,
   "generated_by": "",
   "icons": [
@@ -37,7 +35,5 @@
   "overlay_index": null,
   "base_mission_id": 1084,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

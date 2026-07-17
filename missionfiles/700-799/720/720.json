@@ -17,9 +17,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      721
-    ],
+    "expansion_missions_ids": [721],
     "max_possible_prisoners": 5,
     "filter_id": "riot_police_missions"
   },
@@ -32,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 720,
   "additive_overlays": "",
-  "mission_categories": [
-    "riot_police"
-  ]
+  "mission_categories": ["riot_police"]
 }

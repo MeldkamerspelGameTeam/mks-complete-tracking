@@ -2,9 +2,7 @@
   "id": "158",
   "name": "Brand in ziekenhuis (Klein)",
   "place": "Ziekenhuis",
-  "place_array": [
-    "Ziekenhuis"
-  ],
+  "place_array": ["Ziekenhuis"],
   "average_credits": 500,
   "generated_by": "",
   "icons": [
@@ -17,12 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      35,
-      157,
-      1202,
-      1203
-    ],
+    "expansion_missions_ids": [35, 157, 1202, 1203],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true
   },
@@ -33,8 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 158,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

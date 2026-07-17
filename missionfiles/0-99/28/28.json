@@ -2,9 +2,7 @@
   "id": "28",
   "name": "Brand in landbouwschuur",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 1600,
   "generated_by": "",
   "icons": [
@@ -32,8 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 28,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural"
-  ]
+  "mission_categories": ["fire", "rural"]
 }

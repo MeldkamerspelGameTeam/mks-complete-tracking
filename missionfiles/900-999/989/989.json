@@ -17,9 +17,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      124
-    ],
+    "expansion_missions_ids": [124],
     "max_possible_prisoners": 2,
     "filter_id": "police_station_missions"
   },
@@ -32,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 989,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

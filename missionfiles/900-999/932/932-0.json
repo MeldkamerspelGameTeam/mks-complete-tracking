@@ -2,12 +2,7 @@
   "id": "932-0",
   "name": "Brand op veerpont",
   "place": "Haventerrein\nJachthaven\nRivier\nMeer",
-  "place_array": [
-    "Haventerrein",
-    "Jachthaven",
-    "Rivier",
-    "Meer"
-  ],
+  "place_array": ["Haventerrein", "Jachthaven", "Rivier", "Meer"],
   "average_credits": 10070,
   "generated_by": "",
   "icons": [
@@ -39,12 +34,8 @@
     "possible_patient": 20,
     "possible_patient_min": 5,
     "filter_id": "water_watch_missions",
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -59,8 +50,5 @@
   "overlay_index": 0,
   "base_mission_id": 932,
   "additive_overlays": "",
-  "mission_categories": [
-    "water_rescue",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["water_rescue", "fire_support_specialization"]
 }

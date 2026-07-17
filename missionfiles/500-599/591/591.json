@@ -2,9 +2,7 @@
   "id": "591",
   "name": "Uitslaande brand in veestal",
   "place": "Boerderij",
-  "place_array": [
-    "Boerderij"
-  ],
+  "place_array": ["Boerderij"],
   "average_credits": 10775,
   "generated_by": "",
   "icons": [
@@ -32,27 +30,11 @@
   "additional": {
     "possible_patient": 3,
     "possible_patient_min": 1,
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "subsequent_missions_ids": [877],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -64,9 +46,5 @@
   "overlay_index": null,
   "base_mission_id": 591,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "rural",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "rural", "fire_support_specialization"]
 }

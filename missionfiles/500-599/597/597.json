@@ -2,9 +2,7 @@
   "id": "597",
   "name": "Brand in asielzoekerscentrum",
   "place": "Asielzoekerscentrum",
-  "place_array": [
-    "Asielzoekerscentrum"
-  ],
+  "place_array": ["Asielzoekerscentrum"],
   "average_credits": 170,
   "generated_by": "",
   "icons": [
@@ -17,9 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      598
-    ],
+    "expansion_missions_ids": [598],
     "filter_id": "firehouse_missions",
     "fire_alarm_system_possible": true
   },
@@ -30,8 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 597,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban"
-  ]
+  "mission_categories": ["fire", "urban"]
 }

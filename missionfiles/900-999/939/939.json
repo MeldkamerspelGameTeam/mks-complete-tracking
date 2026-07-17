@@ -2,9 +2,7 @@
   "id": "939",
   "name": "Schrootbrand op schip",
   "place": "Haventerrein",
-  "place_array": [
-    "Haventerrein"
-  ],
+  "place_array": ["Haventerrein"],
   "average_credits": 2280,
   "generated_by": "",
   "icons": [
@@ -32,9 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 939,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "fire_support_specialization",
-    "urban"
-  ]
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
 }

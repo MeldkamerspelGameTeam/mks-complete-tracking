@@ -2,9 +2,7 @@
   "id": "987",
   "name": "Schipbreukeling vermist",
   "place": "Strand",
-  "place_array": [
-    "Strand"
-  ],
+  "place_array": ["Strand"],
   "average_credits": 5880,
   "generated_by": "",
   "icons": [
@@ -25,17 +23,10 @@
     "possible_patient": 1,
     "possible_patient_min": 1,
     "filter_id": "coastal_rescue_missions",
-    "vehicle_groups": [
-      "default",
-      "ocean_missions"
-    ],
+    "vehicle_groups": ["default", "ocean_missions"],
     "patient_at_end_of_mission": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
@@ -49,7 +40,5 @@
   "overlay_index": null,
   "base_mission_id": 987,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue"
-  ]
+  "mission_categories": ["coastal_rescue"]
 }

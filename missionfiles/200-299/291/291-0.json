@@ -2,9 +2,7 @@
   "id": "291-0",
   "name": "Brand in magazijn",
   "place": "Magazijn",
-  "place_array": [
-    "Magazijn"
-  ],
+  "place_array": ["Magazijn"],
   "average_credits": 10780,
   "generated_by": "",
   "icons": [
@@ -31,21 +29,9 @@
     "gwmess": 50
   },
   "additional": {
-    "followup_missions_ids": [
-      48,
-      99,
-      225,
-      240,
-      768,
-      878,
-      878,
-      879,
-      879
-    ],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
+    "subsequent_missions_ids": [877],
     "fire_alarm_system_possible": true
   },
   "prerequisites": {
@@ -57,9 +43,5 @@
   "overlay_index": 0,
   "base_mission_id": 291,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire",
-    "urban",
-    "fire_support_specialization"
-  ]
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
 }

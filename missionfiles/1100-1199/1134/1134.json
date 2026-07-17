@@ -2,9 +2,7 @@
   "id": "1134",
   "name": "Scootmobiel te water",
   "place": "Meer",
-  "place_array": [
-    "Meer"
-  ],
+  "place_array": ["Meer"],
   "average_credits": 4240,
   "generated_by": "",
   "icons": [
@@ -31,12 +29,8 @@
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
     "need_bike_police_only_if_present": true,
-    "patient_specialization_ids": [
-      0
-    ],
-    "patient_specialization_captions": [
-      "Interne Geneeskunde"
-    ],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
   },
   "prerequisites": {
@@ -50,7 +44,5 @@
   "overlay_index": null,
   "base_mission_id": 1134,
   "additive_overlays": "",
-  "mission_categories": [
-    "fire"
-  ]
+  "mission_categories": ["fire"]
 }

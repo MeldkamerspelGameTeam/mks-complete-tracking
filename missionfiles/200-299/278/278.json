@@ -2,9 +2,7 @@
   "id": "278",
   "name": "Beroerte",
   "place": "Vliegveld (groot): Terminal",
-  "place_array": [
-    "Vliegveld (groot): Terminal"
-  ],
+  "place_array": ["Vliegveld (groot): Terminal"],
   "average_credits": null,
   "generated_by": "",
   "icons": [
@@ -19,16 +17,10 @@
   "additional": {
     "possible_patient": 1,
     "possible_patient_min": 1,
-    "expansion_missions_ids": [
-      917
-    ],
+    "expansion_missions_ids": [917],
     "filter_id": "ambulance_station_missions",
-    "patient_specialization_ids": [
-      5
-    ],
-    "patient_specialization_captions": [
-      "Neurologie"
-    ],
+    "patient_specialization_ids": [5],
+    "patient_specialization_captions": ["Neurologie"],
     "patient_specializations": "Neurologie"
   },
   "prerequisites": {
@@ -38,7 +30,5 @@
   "overlay_index": null,
   "base_mission_id": 278,
   "additive_overlays": "",
-  "mission_categories": [
-    "ambulance"
-  ]
+  "mission_categories": ["ambulance"]
 }

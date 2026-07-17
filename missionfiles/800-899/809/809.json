@@ -2,13 +2,7 @@
   "id": "809",
   "name": "Bootje op drift",
   "place": "Strand\nMeer\nJachthaven\nPontsteiger\nRivier",
-  "place_array": [
-    "Strand",
-    "Meer",
-    "Jachthaven",
-    "Pontsteiger",
-    "Rivier"
-  ],
+  "place_array": ["Strand", "Meer", "Jachthaven", "Pontsteiger", "Rivier"],
   "average_credits": 1730,
   "generated_by": "",
   "icons": [
@@ -22,9 +16,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [
-      1182
-    ],
+    "expansion_missions_ids": [1182],
     "filter_id": "coastal_rescue_missions"
   },
   "prerequisites": {
@@ -34,7 +26,5 @@
   "overlay_index": null,
   "base_mission_id": 809,
   "additive_overlays": "",
-  "mission_categories": [
-    "coastal_rescue"
-  ]
+  "mission_categories": ["coastal_rescue"]
 }

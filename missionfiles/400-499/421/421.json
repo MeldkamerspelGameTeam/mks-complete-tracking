@@ -2,9 +2,7 @@
   "id": "421",
   "name": "Overvalalarm bankkantoor",
   "place": "Bankkantoor",
-  "place_array": [
-    "Bankkantoor"
-  ],
+  "place_array": ["Bankkantoor"],
   "average_credits": 1810,
   "generated_by": "",
   "icons": [
@@ -29,7 +27,5 @@
   "overlay_index": null,
   "base_mission_id": 421,
   "additive_overlays": "",
-  "mission_categories": [
-    "police"
-  ]
+  "mission_categories": ["police"]
 }

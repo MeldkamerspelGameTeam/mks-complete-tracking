@@ -2,9 +2,7 @@
   "id": "929/ace",
   "name": "Brand in gasverdeelstation",
   "place": "Gasverdeelstation",
-  "place_array": [
-    "Gasverdeelstation"
-  ],
+  "place_array": ["Gasverdeelstation"],
   "average_credits": 33160,
   "generated_by": "",
   "icons": [
@@ -39,23 +37,12 @@
   "additional": {
     "possible_patient": 30,
     "possible_patient_min": 5,
-    "followup_missions_ids": [
-      48,
-      878,
-      879,
-      99
-    ],
+    "followup_missions_ids": [48, 878, 879, 99],
     "filter_id": "firehouse_missions",
-    "subsequent_missions_ids": [
-      877
-    ],
+    "subsequent_missions_ids": [877],
     "fire_alarm_system_possible": true,
-    "patient_specialization_ids": [
-      4
-    ],
-    "patient_specialization_captions": [
-      "Traumatologie"
-    ],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
