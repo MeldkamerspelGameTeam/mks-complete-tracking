@@ -1,0 +1,46 @@
+{
+  "id": "934",
+  "name": "Ontsnapping gevaarlijke gedetineerde",
+  "place": "Gevangenis",
+  "place_array": [
+    "Gevangenis"
+  ],
+  "average_credits": 8820,
+  "generated_by": "",
+  "icons": [
+    "/images/cuffs_gruen.png",
+    "/images/cuffs_gelb.png",
+    "/images/cuffs_rot.png"
+  ],
+  "requirements": {
+    "at_c": 1,
+    "at_m": 1,
+    "at_o": 4,
+    "bike_police": 2,
+    "gefkw": 1,
+    "hondengeleider": 2,
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "police_cars": 12
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 4,
+    "filter_id": "riot_police_missions",
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 15,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 4,
+    "prisoner_transport_count": 1,
+    "at": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 934,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

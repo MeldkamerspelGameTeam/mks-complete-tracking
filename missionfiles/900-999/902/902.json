@@ -1,0 +1,36 @@
+{
+  "id": "902",
+  "name": "Verhoog bewustzijn van het bestaan van 112 onder kinderen",
+  "place": "School",
+  "place_array": [
+    "School"
+  ],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/comment_gruen.png",
+    "/images/comment_gelb.png",
+    "/images/comment_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-02-11T10:00:00Z",
+    "date_end": "2026-02-12T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 902,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "984",
+  "name": "Drugssmokkel op zee",
+  "place": "",
+  "place_array": [],
+  "average_credits": 4980,
+  "generated_by": "",
+  "icons": [
+    "/images/cannabis_gruen.png",
+    "/images/cannabis_gelb.png",
+    "/images/cannabis_rot.png"
+  ],
+  "requirements": {
+    "coastal_guard_boat": 3,
+    "coastal_helicopter": 1,
+    "police_helicopters": 1
+  },
+  "chances": {
+    "coastal_helicopter": 55
+  },
+  "additional": {
+    "min_possible_prisoners": 3,
+    "max_possible_prisoners": 5,
+    "filter_id": "coastal_rescue_missions",
+    "vehicle_groups": [
+      "ocean_missions"
+    ],
+    "uses_custom_spawn_area": true,
+    "handoff_possible_via_building_types": [
+      19
+    ]
+  },
+  "prerequisites": {
+    "main_building": 19,
+    "police_stations": 3,
+    "police_helicopter_stations": 1,
+    "coastal_rescue_count": 3,
+    "coastal_helicopter_count": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 984,
+  "additive_overlays": "",
+  "mission_categories": [
+    "coastal_rescue_ocean"
+  ]
+}

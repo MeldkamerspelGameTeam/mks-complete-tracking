@@ -1,0 +1,48 @@
+{
+  "id": "963",
+  "name": "Grote alcoholcontrole bij race-evenement",
+  "place": "Snelweg oprit / afrit\nTankstation\nVerzorgingsplaats (Snelweg)\nCircuit",
+  "place_array": [
+    "Snelweg oprit / afrit",
+    "Tankstation",
+    "Verzorgingsplaats (Snelweg)",
+    "Circuit"
+  ],
+  "average_credits": 12390,
+  "generated_by": "",
+  "icons": [
+    "/images/cuffs_gruen.png",
+    "/images/cuffs_gelb.png",
+    "/images/cuffs_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 2,
+    "gefkw": 2,
+    "hondengeleider": 4,
+    "ovdp": 1,
+    "police_cars": 14
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "2 uur",
+    "duration": 7200,
+    "guard_mission": true,
+    "filter_id": "riot_police_missions",
+    "need_bike_police_only_if_present": true,
+    "date_start": "2026-07-17T09:00:00Z",
+    "date_end": "2026-07-19T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 16,
+    "bereitschaftspolizei": 6,
+    "prisoner_transport_count": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 963,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

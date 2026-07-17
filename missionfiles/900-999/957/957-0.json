@@ -1,0 +1,49 @@
+{
+  "id": "957-0",
+  "name": "Persoon onwel in attractie",
+  "place": "Pretpark",
+  "place_array": [
+    "Pretpark"
+  ],
+  "average_credits": 1760,
+  "generated_by": "",
+  "icons": [
+    "/images/medicalstore_gruen.png",
+    "/images/medicalstore_gelb.png",
+    "/images/medicalstore_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "patient_transport": 70
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [
+      5
+    ],
+    "patient_specialization_captions": [
+      "Neurologie"
+    ],
+    "patient_specializations": "Neurologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 1,
+    "police_stations": 3,
+    "fire_stations": 4
+  },
+  "overlay_index": 0,
+  "base_mission_id": 957,
+  "additive_overlays": "",
+  "mission_categories": [
+    "ambulance"
+  ]
+}

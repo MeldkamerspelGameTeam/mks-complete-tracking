@@ -1,0 +1,45 @@
+{
+  "id": "808",
+  "name": "Persoon van paard gevallen",
+  "place": "Strand\nDuinen",
+  "place_array": [
+    "Strand",
+    "Duinen"
+  ],
+  "average_credits": 1330,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "water_rescue": 1
+  },
+  "chances": {
+    "nef": 25,
+    "patient_transport": 80
+  },
+  "additional": {
+    "possible_patient": 1,
+    "filter_id": "water_watch_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 1,
+    "rescue_stations": 10
+  },
+  "overlay_index": null,
+  "base_mission_id": 808,
+  "additive_overlays": "",
+  "mission_categories": [
+    "water_rescue_2"
+  ]
+}

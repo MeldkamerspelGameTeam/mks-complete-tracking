@@ -1,0 +1,59 @@
+{
+  "id": "1026-0",
+  "name": "Brand in bioscoop",
+  "place": "",
+  "place_array": [],
+  "average_credits": 5620,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "water_tankers": 1,
+    "ovdp": 1,
+    "water_needed": 27000,
+    "firetrucks": 3,
+    "police_cars": 8
+  },
+  "chances": {
+    "nef": 7,
+    "patient_transport": 55
+  },
+  "additional": {
+    "possible_patient": 40,
+    "followup_missions_ids": [
+      878,
+      879
+    ],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [
+      877
+    ],
+    "fire_alarm_system_possible": false,
+    "patient_specialization_ids": [
+      0
+    ],
+    "patient_specialization_captions": [
+      "Interne Geneeskunde"
+    ],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 15,
+    "police_stations": 9,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 7
+  },
+  "overlay_index": 0,
+  "base_mission_id": 1026,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

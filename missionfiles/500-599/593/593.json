@@ -1,0 +1,37 @@
+{
+  "id": "593",
+  "name": "Begeleiding demonstratie (klein)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 9720,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "grukw": 3,
+    "lebefkw": 1,
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "2 uur",
+    "duration": 7200,
+    "guard_mission": true,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 3,
+    "bereitschaftspolizei": 1,
+    "riot_unit_count": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 593,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

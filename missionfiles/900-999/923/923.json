@@ -1,0 +1,45 @@
+{
+  "id": "923",
+  "name": "Wild dier valt picknickers aan",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1850,
+  "generated_by": "",
+  "icons": [
+    "/images/spring_gruen.png",
+    "/images/spring_gelb.png",
+    "/images/spring_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 1
+  },
+  "chances": {
+    "nef": 10,
+    "patient_transport": 60
+  },
+  "additional": {
+    "possible_patient": 3,
+    "possible_patient_min": 1,
+    "filter_id": "police_station_missions",
+    "date_start": "2026-03-13T10:00:00Z",
+    "date_end": "2026-06-19T22:00:00Z",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "rescue_stations": 10,
+    "police_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 923,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

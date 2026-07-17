@@ -1,0 +1,40 @@
+{
+  "id": "596",
+  "name": "Ongeval bijtend middel (huishoudelijk)",
+  "place": "",
+  "place_array": [],
+  "average_credits": null,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {},
+  "chances": {
+    "nef": 30,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 10
+  },
+  "overlay_index": null,
+  "base_mission_id": 596,
+  "additive_overlays": "",
+  "mission_categories": [
+    "ambulance"
+  ]
+}

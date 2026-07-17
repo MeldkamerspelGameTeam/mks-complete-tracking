@@ -1,0 +1,45 @@
+{
+  "id": "763",
+  "name": "Toezicht bij manifestatie",
+  "place": "Park",
+  "place_array": [
+    "Park"
+  ],
+  "average_credits": 4715,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "grukw": 6,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "ovdp": 50
+  },
+  "additional": {
+    "expansion_missions_ids": [
+      764
+    ],
+    "max_possible_prisoners": 2,
+    "filter_id": "riot_police_missions",
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 6,
+    "bereitschaftspolizei": 2,
+    "riot_unit_count": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 763,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

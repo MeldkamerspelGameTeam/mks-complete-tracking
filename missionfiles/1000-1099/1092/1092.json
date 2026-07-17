@@ -1,0 +1,35 @@
+{
+  "id": "1092",
+  "name": "Atleet vast in lift",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1400,
+  "generated_by": "",
+  "icons": [
+    "/images/elevator_gruen.png",
+    "/images/elevator_gelb.png",
+    "/images/elevator_rot.png"
+  ],
+  "requirements": {
+    "oneof_fire_engine_or_rescue": 1,
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2024-07-26T09:00:00Z",
+    "date_end": "2024-08-11T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1092,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "128",
+  "name": "Heidebrand (Klein)",
+  "place": "Bos",
+  "place_array": [
+    "Bos"
+  ],
+  "average_credits": 1090,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "water_tankers": 1,
+    "brush_truck": 1
+  },
+  "chances": {
+    "water_tankers": 10
+  },
+  "additional": {
+    "expansion_missions_ids": [
+      14,
+      129,
+      355,
+      356
+    ],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "brush_extension": 1,
+    "fire_stations": 7
+  },
+  "overlay_index": null,
+  "base_mission_id": 128,
+  "additive_overlays": "",
+  "mission_categories": [
+    "forestry"
+  ]
+}

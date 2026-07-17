@@ -1,0 +1,48 @@
+{
+  "id": "1072",
+  "name": "Kerstman vast in schoorsteen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1250,
+  "generated_by": "",
+  "icons": [
+    "/images/climbing_gruen.png",
+    "/images/climbing_gelb.png",
+    "/images/climbing_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "patient_transport": 80
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-12-01T10:00:00Z",
+    "date_end": "2025-12-26T23:59:59+01:00",
+    "patient_specialization_ids": [
+      0
+    ],
+    "patient_specialization_captions": [
+      "Interne Geneeskunde"
+    ],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "fire_stations": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 1072,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

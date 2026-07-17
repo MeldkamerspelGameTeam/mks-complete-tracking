@@ -1,0 +1,45 @@
+{
+  "id": "391",
+  "name": "Brand bij afvalverwerker (Middel)",
+  "place": "Afvalverwerker",
+  "place_array": [
+    "Afvalverwerker"
+  ],
+  "average_credits": 1940,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "water_tankers": 1,
+    "firetrucks": 2
+  },
+  "chances": {
+    "platform_trucks": 50,
+    "water_tankers": 20
+  },
+  "additional": {
+    "expansion_missions_ids": [
+      392,
+      393,
+      394,
+      395
+    ],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 7
+  },
+  "overlay_index": null,
+  "base_mission_id": 391,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

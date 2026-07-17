@@ -1,0 +1,48 @@
+{
+  "id": "427",
+  "name": "Brand in bouwmarkt (Groot)",
+  "place": "Bouwmarkt",
+  "place_array": [
+    "Bouwmarkt"
+  ],
+  "average_credits": 3550,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 1,
+    "firetrucks": 3,
+    "police_cars": 1
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "mobile_air_vehicles": 20,
+    "water_tankers": 40
+  },
+  "additional": {
+    "expansion_missions_ids": [
+      428,
+      429
+    ],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 1,
+    "fire_stations": 13
+  },
+  "overlay_index": null,
+  "base_mission_id": 427,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

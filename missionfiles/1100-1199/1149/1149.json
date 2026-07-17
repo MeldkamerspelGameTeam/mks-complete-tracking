@@ -1,0 +1,33 @@
+{
+  "id": "1149",
+  "name": "Militair onder invloed achter het stuur",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1140,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "military_police": 1,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "military_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 25,
+    "police_stations": 2,
+    "military_police": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1149,
+  "additive_overlays": "",
+  "mission_categories": [
+    "military_police"
+  ]
+}

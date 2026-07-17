@@ -1,0 +1,42 @@
+{
+  "id": "819",
+  "name": "Toezicht/Begeleiding Surfwedstrijd",
+  "place": "Meer\nStrand\nStrandopgang",
+  "place_array": [
+    "Meer",
+    "Strand",
+    "Strandopgang"
+  ],
+  "average_credits": 7860,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "boats": 4,
+    "ambulances": 1,
+    "police_cars": 2,
+    "water_rescue": 4
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "een uur",
+    "duration": 3600,
+    "guard_mission": true,
+    "filter_id": "water_watch_missions"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 8,
+    "rescue_stations": 1,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 819,
+  "additive_overlays": "",
+  "mission_categories": [
+    "water_rescue_2"
+  ]
+}

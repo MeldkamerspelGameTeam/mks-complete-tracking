@@ -1,0 +1,90 @@
+{
+  "id": "952-1",
+  "name": "Brand in stadion",
+  "place": "Stadion",
+  "place_array": [
+    "Stadion"
+  ],
+  "average_credits": 25160,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 2,
+    "detention_unit": 1,
+    "platform_trucks": 3,
+    "battalion_chief_vehicles": 3,
+    "mobile_command_vehicles": 2,
+    "elw3": 1,
+    "gefkw": 1,
+    "grukw": 6,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 2,
+    "gwmess": 6,
+    "hondengeleider": 2,
+    "lebefkw": 1,
+    "ovdp": 2,
+    "police_helicopters": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "water_needed": 62000,
+    "firetrucks": 1,
+    "police_cars": 10
+  },
+  "chances": {
+    "nef": 15,
+    "patient_transport": 70
+  },
+  "additional": {
+    "possible_patient": 35,
+    "followup_missions_ids": [
+      48,
+      99,
+      225,
+      240,
+      768,
+      878,
+      878,
+      879,
+      879
+    ],
+    "min_possible_prisoners": 10,
+    "max_possible_prisoners": 30,
+    "filter_id": "riot_police_missions",
+    "subsequent_missions_ids": [
+      877
+    ],
+    "need_bike_police_only_if_present": true,
+    "fire_alarm_system_possible": false,
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [
+      0
+    ],
+    "patient_specialization_captions": [
+      "Interne Geneeskunde"
+    ],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "rescue_stations": 13,
+    "police_stations": 15,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 5,
+    "riot_unit_count": 2,
+    "detention_unit_count": 1,
+    "prisoner_transport_count": 1,
+    "at": 1,
+    "fire_stations": 31
+  },
+  "overlay_index": 1,
+  "base_mission_id": 952,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

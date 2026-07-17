@@ -1,0 +1,36 @@
+{
+  "id": "414",
+  "name": "Brand in transformatorhuisje",
+  "place": "Transformatorhuisje",
+  "place_array": [
+    "Transformatorhuisje"
+  ],
+  "average_credits": 800,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "battalion_chief_vehicles": 10
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 414,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

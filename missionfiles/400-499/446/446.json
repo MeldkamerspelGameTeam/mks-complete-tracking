@@ -1,0 +1,56 @@
+{
+  "id": "446",
+  "name": "Brand in hotel",
+  "place": "Hotel",
+  "place_array": [
+    "Hotel"
+  ],
+  "average_credits": 2600,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "ovdp": 1,
+    "firetrucks": 3,
+    "police_cars": 2
+  },
+  "chances": {
+    "mobile_air_vehicles": 10,
+    "patient_transport": 40
+  },
+  "additional": {
+    "possible_patient": 8,
+    "possible_patient_min": 4,
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true,
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 6,
+    "police_stations": 2,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 16
+  },
+  "overlay_index": null,
+  "base_mission_id": 446,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

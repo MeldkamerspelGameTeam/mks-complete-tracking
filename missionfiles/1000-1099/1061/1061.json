@@ -1,0 +1,47 @@
+{
+  "id": "1061",
+  "name": "Vermist persoon op begraafplaats",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1010,
+  "generated_by": "",
+  "icons": [
+    "/images/ghost_gruen.png",
+    "/images/ghost_gelb.png",
+    "/images/ghost_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 2,
+    "possible_patient_min": 1,
+    "filter_id": "police_station_missions",
+    "patient_at_end_of_mission": true,
+    "date_start": "2025-10-17T09:00:00Z",
+    "date_end": "2025-10-31T23:59:59+01:00",
+    "patient_specialization_ids": [
+      0
+    ],
+    "patient_specialization_captions": [
+      "Interne Geneeskunde"
+    ],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "rescue_stations": 2,
+    "police_stations": 3,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1061,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

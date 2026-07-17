@@ -1,0 +1,41 @@
+{
+  "id": "969",
+  "name": "Illegale raceauto op snelweg",
+  "place": "Snelweg oprit / afrit",
+  "place_array": [
+    "Snelweg oprit / afrit"
+  ],
+  "average_credits": 4330,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "hondengeleider": 1,
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "police_cars": 10
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "riot_police_missions",
+    "date_start": "2026-07-17T09:00:00Z",
+    "date_end": "2026-07-19T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 10,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 969,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "118",
+  "name": "Hardloopevenement",
+  "place": "",
+  "place_array": [],
+  "average_credits": 3700,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "ambulances": 3,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "4 uur",
+    "duration": 14400,
+    "guard_mission": true,
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 3,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 118,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

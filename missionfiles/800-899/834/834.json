@@ -1,0 +1,33 @@
+{
+  "id": "834",
+  "name": "Paniekknop geactiveerd",
+  "place": "",
+  "place_array": [],
+  "average_credits": 840,
+  "generated_by": "",
+  "icons": [
+    "/images/mobilephonetower_gruen.png",
+    "/images/mobilephonetower_gelb.png",
+    "/images/mobilephonetower_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "followup_missions_ids": [
+      1018
+    ],
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 834,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

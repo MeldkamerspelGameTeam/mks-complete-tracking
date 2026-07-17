@@ -1,0 +1,34 @@
+{
+  "id": "350",
+  "name": "Insluiping in woning",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2350,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "hondengeleider": 1,
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 3,
+    "bereitschaftspolizei": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 350,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

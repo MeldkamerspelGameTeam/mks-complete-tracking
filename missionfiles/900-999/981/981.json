@@ -1,0 +1,36 @@
+{
+  "id": "981",
+  "name": "Oefening brandweer",
+  "place": "",
+  "place_array": [],
+  "average_credits": 3585,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 3
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "een uur",
+    "duration": 3600,
+    "guard_mission": true,
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 981,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

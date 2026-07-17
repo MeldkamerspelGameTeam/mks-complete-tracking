@@ -1,0 +1,38 @@
+{
+  "id": "966",
+  "name": "Aanhouding persoon zonder geldig toegangsbewijs",
+  "place": "Circuit",
+  "place_array": [
+    "Circuit"
+  ],
+  "average_credits": 775,
+  "generated_by": "",
+  "icons": [
+    "/images/cuffs_gruen.png",
+    "/images/cuffs_gelb.png",
+    "/images/cuffs_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "min_possible_prisoners": 1,
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "need_bike_police_only_if_present": true,
+    "date_start": "2026-07-17T09:00:00Z",
+    "date_end": "2026-07-19T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 966,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "1044/a",
+  "name": "Overval tankstation met gijzeling",
+  "place": "Tankstation",
+  "place_array": [
+    "Tankstation"
+  ],
+  "average_credits": 8200,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "at_c": 1,
+    "at_m": 1,
+    "at_o": 4,
+    "hondengeleider": 1,
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "drone_police": 1,
+    "police_cars": 6
+  },
+  "chances": {
+    "nef": 15,
+    "patient_transport": 10
+  },
+  "additional": {
+    "possible_patient": 4,
+    "possible_patient_min": 1,
+    "filter_id": "riot_police_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "rescue_stations": 10,
+    "police_stations": 7,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 2,
+    "at": 1,
+    "hondengeleider": 1,
+    "drone_police": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1044,
+  "additive_overlays": "a",
+  "mission_categories": [
+    "police",
+    "riot_police"
+  ]
+}

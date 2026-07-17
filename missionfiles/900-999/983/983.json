@@ -1,0 +1,53 @@
+{
+  "id": "983",
+  "name": "Zeiljacht in problemen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 3080,
+  "generated_by": "",
+  "icons": [
+    "/images/cruiseship_gruen.png",
+    "/images/cruiseship_gelb.png",
+    "/images/cruiseship_rot.png"
+  ],
+  "requirements": {
+    "coastal_boat": 2,
+    "coastal_helicopter": 1
+  },
+  "chances": {
+    "coastal_helicopter": 45,
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 2,
+    "possible_patient_min": 1,
+    "filter_id": "water_watch_missions",
+    "vehicle_groups": [
+      "ocean_missions"
+    ],
+    "uses_custom_spawn_area": true,
+    "handoff_possible_via_building_types": [
+      19
+    ],
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 19,
+    "rescue_stations": 2,
+    "coastal_rescue_small_count": 2,
+    "coastal_helicopter_count": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 983,
+  "additive_overlays": "",
+  "mission_categories": [
+    "coastal_rescue_ocean"
+  ]
+}

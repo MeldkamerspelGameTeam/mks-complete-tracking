@@ -1,0 +1,75 @@
+{
+  "id": "395/a",
+  "name": "Brand bij afvalverwerker (Grip 3)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 15387,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 3,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 4,
+    "gwmess": 1,
+    "heavy_rescue_vehicles": 1,
+    "foam_needed": 1000,
+    "care_service_command": 1,
+    "firetrucks": 12,
+    "police_cars": 2
+  },
+  "chances": {
+    "elw3": 50,
+    "water_tankers": 80,
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 4,
+    "possible_patient_min": 1,
+    "followup_missions_ids": [
+      48,
+      99,
+      225,
+      240,
+      768,
+      878,
+      879
+    ],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [
+      877
+    ],
+    "care_includes_staff_members": true,
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 2,
+    "fire_support_count": 1,
+    "care_service": 1,
+    "clean_service": 1,
+    "fire_stations": 30
+  },
+  "overlay_index": null,
+  "base_mission_id": 395,
+  "additive_overlays": "a",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "fire_support_specialization"
+  ]
+}

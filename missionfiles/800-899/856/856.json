@@ -1,0 +1,41 @@
+{
+  "id": "856",
+  "name": "Persoon uitgegleden over natte bladeren",
+  "place": "",
+  "place_array": [],
+  "average_credits": null,
+  "generated_by": "",
+  "icons": [
+    "/images/autumn_gruen.png",
+    "/images/autumn_gelb.png",
+    "/images/autumn_rot.png"
+  ],
+  "requirements": {},
+  "chances": {
+    "patient_transport": 45
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "date_start": "2025-09-19T09:00:00Z",
+    "date_end": "2025-11-28T23:59:59+01:00",
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 856,
+  "additive_overlays": "",
+  "mission_categories": [
+    "ambulance"
+  ]
+}

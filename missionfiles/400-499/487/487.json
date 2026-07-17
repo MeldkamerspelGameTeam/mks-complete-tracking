@@ -1,0 +1,39 @@
+{
+  "id": "487",
+  "name": "Wateroverlast",
+  "place": "Kantoorgebouw",
+  "place_array": [
+    "Kantoorgebouw"
+  ],
+  "average_credits": 1810,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1,
+    "min_pump_speed": 1500
+  },
+  "chances": {
+    "heavy_rescue_vehicles": 20
+  },
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "pump_water_amount": 6000
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 487,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

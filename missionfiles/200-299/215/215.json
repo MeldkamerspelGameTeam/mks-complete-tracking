@@ -1,0 +1,52 @@
+{
+  "id": "215",
+  "name": "Bosbrand (Groot)",
+  "place": "Bos",
+  "place_array": [
+    "Bos"
+  ],
+  "average_credits": 8732,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "water_needed": 27000,
+    "brush_truck": 2,
+    "wildfire_command": 1,
+    "wildfire_equipment": 1,
+    "personnel_educations": {
+      "wildfire": 18
+    }
+  },
+  "chances": {
+    "mobile_command_vehicles": 50
+  },
+  "additional": {
+    "expansion_missions_ids": [
+      216
+    ],
+    "filter_id": "firehouse_missions",
+    "personnel_educations": {
+      "Handcrew": 18
+    }
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "brush_extension": 3,
+    "personnel_educations": {
+      "wildfire": 18
+    },
+    "fire_stations": 13
+  },
+  "overlay_index": null,
+  "base_mission_id": 215,
+  "additive_overlays": "",
+  "mission_categories": [
+    "forestry"
+  ]
+}

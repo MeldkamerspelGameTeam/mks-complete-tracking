@@ -1,0 +1,38 @@
+{
+  "id": "840-0",
+  "name": "Spookrijder",
+  "place": "Snelweg oprit / afrit",
+  "place_array": [
+    "Snelweg oprit / afrit"
+  ],
+  "average_credits": 1090,
+  "generated_by": "",
+  "icons": [
+    "/images/icy_road_gruen.png",
+    "/images/icy_road_gelb.png",
+    "/images/icy_road_rot.png"
+  ],
+  "requirements": {
+    "traffic_patrol": 1,
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [
+      841
+    ],
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 4,
+    "traffic_police": 1
+  },
+  "overlay_index": 0,
+  "base_mission_id": 840,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police",
+    "traffic_police_specialization"
+  ]
+}

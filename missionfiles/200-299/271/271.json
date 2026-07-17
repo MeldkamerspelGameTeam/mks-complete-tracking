@@ -1,0 +1,36 @@
+{
+  "id": "271",
+  "name": "Rookontwikkeling in vrachtruim vliegtuig",
+  "place": "Vliegveld (groot): Platform / Gate",
+  "place_array": [
+    "Vliegveld (groot): Platform / Gate"
+  ],
+  "average_credits": 2010,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "arff": 2,
+    "elw_airport": 1,
+    "oneof_fire_engine_or_rescue": 1,
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "airport": 1,
+    "fire_stations": 10
+  },
+  "overlay_index": null,
+  "base_mission_id": 271,
+  "additive_overlays": "",
+  "mission_categories": [
+    "airport"
+  ]
+}

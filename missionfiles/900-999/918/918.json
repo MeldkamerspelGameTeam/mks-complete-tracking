@@ -1,0 +1,48 @@
+{
+  "id": "918",
+  "name": "Kinderreanimatie",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2180,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "ambulances": 2,
+    "firetrucks": 2,
+    "police_cars": 3
+  },
+  "chances": {
+    "firetrucks": 30,
+    "nef": 100,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [
+      7
+    ],
+    "patient_specialization_captions": [
+      "Cardiologie"
+    ],
+    "patient_specializations": "Cardiologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 10,
+    "police_stations": 3,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 918,
+  "additive_overlays": "",
+  "mission_categories": [
+    "ambulance"
+  ]
+}

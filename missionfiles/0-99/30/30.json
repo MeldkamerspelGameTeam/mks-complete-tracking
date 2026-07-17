@@ -1,0 +1,34 @@
+{
+  "id": "30",
+  "name": "Lekkende dieseltank",
+  "place": "",
+  "place_array": [],
+  "average_credits": 190,
+  "generated_by": "",
+  "icons": [
+    "/images/oil_gruen.png",
+    "/images/oil_gelb.png",
+    "/images/oil_rot.png"
+  ],
+  "requirements": {
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "heavy_rescue_vehicles": 20
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 30,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "195",
+  "name": "Lekkende woonboot",
+  "place": "Meer",
+  "place_array": [
+    "Meer"
+  ],
+  "average_credits": 420,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "heavy_rescue_vehicles": 10
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 195,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

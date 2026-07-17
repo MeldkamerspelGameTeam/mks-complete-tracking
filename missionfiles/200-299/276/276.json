@@ -1,0 +1,43 @@
+{
+  "id": "276",
+  "name": "Brandend klein vliegtuig",
+  "place": "Vliegveld (klein): Vliegtuig parkeerplaats",
+  "place_array": [
+    "Vliegveld (klein): Vliegtuig parkeerplaats"
+  ],
+  "average_credits": 3570,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "arff": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "ovdp": 1,
+    "firetrucks": 2,
+    "police_cars": 2
+  },
+  "chances": {
+    "mobile_command_vehicles": 10,
+    "ovdp": 10
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "airport": 1,
+    "fire_stations": 13
+  },
+  "overlay_index": null,
+  "base_mission_id": 276,
+  "additive_overlays": "",
+  "mission_categories": [
+    "airport"
+  ]
+}

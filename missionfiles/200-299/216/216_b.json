@@ -1,0 +1,57 @@
+{
+  "id": "216/b",
+  "name": "Bosbrand (Grip 1)",
+  "place": "Bos",
+  "place_array": [
+    "Bos"
+  ],
+  "average_credits": 12312,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "water_needed": 31000,
+    "brush_truck": 4,
+    "wildfire_command": 1,
+    "wildfire_equipment": 1,
+    "fire_aviation": 1,
+    "drone_fire": 1,
+    "police_cars": 2,
+    "personnel_educations": {
+      "wildfire": 18
+    }
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "elw3": 10
+  },
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "personnel_educations": {
+      "Handcrew": 18
+    }
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 2,
+    "brush_extension": 5,
+    "fire_aviation_count": 1,
+    "personnel_educations": {
+      "wildfire": 18
+    },
+    "drone_fire": 1,
+    "fire_stations": 14
+  },
+  "overlay_index": null,
+  "base_mission_id": 216,
+  "additive_overlays": "b",
+  "mission_categories": [
+    "forestry"
+  ]
+}

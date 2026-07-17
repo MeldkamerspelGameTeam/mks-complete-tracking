@@ -1,0 +1,35 @@
+{
+  "id": "1191-1",
+  "name": "Nablussen natuur",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2110,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "water_tankers": 1,
+    "firetrucks": 5
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "subsequent_mission_only": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 8
+  },
+  "overlay_index": 1,
+  "base_mission_id": 1191,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

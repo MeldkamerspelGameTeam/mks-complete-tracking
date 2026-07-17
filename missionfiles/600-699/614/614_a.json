@@ -1,0 +1,44 @@
+{
+  "id": "614/a",
+  "name": "Verward persoon op dak",
+  "place": "",
+  "place_array": [],
+  "average_credits": 5190,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "at_c": 1,
+    "at_m": 1,
+    "at_o": 4,
+    "platform_trucks": 1,
+    "ovdp": 1,
+    "drone_police": 1,
+    "firetrucks": 1,
+    "police_cars": 4
+  },
+  "chances": {
+    "ovdp": 50
+  },
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "at": 1,
+    "drone_police": 1,
+    "fire_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 614,
+  "additive_overlays": "a",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

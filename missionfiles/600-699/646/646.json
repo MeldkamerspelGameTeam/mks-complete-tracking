@@ -1,0 +1,38 @@
+{
+  "id": "646",
+  "name": "Brand in restaurant",
+  "place": "Restaurant",
+  "place_array": [
+    "Restaurant"
+  ],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [
+      647,
+      648
+    ],
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 646,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "817",
+  "name": "Gevallen blokarter",
+  "place": "Strand\nStrandopgang",
+  "place_array": [
+    "Strand",
+    "Strandopgang"
+  ],
+  "average_credits": 830,
+  "generated_by": "",
+  "icons": [
+    "/images/medicalstore_gruen.png",
+    "/images/medicalstore_gelb.png",
+    "/images/medicalstore_rot.png"
+  ],
+  "requirements": {
+    "water_rescue": 1
+  },
+  "chances": {
+    "patient_transport": 75
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "water_watch_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 1,
+    "rescue_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 817,
+  "additive_overlays": "",
+  "mission_categories": [
+    "water_rescue_2"
+  ]
+}

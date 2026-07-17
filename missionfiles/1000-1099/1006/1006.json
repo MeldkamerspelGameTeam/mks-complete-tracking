@@ -1,0 +1,32 @@
+{
+  "id": "1006",
+  "name": "Sneeuwbalgevecht aan de gang",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/snowy_gruen.png",
+    "/images/snowy_gelb.png",
+    "/images/snowy_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "date_start": "2026-01-02T10:00:00Z",
+    "date_end": "2026-03-06T22:59:00Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1006,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

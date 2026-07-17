@@ -1,0 +1,46 @@
+{
+  "id": "492-0/a",
+  "name": "Ongeregeldheden voetbalsupporters horeca",
+  "place": "Café/Club",
+  "place_array": [
+    "Café/Club"
+  ],
+  "average_credits": 7310,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "detention_unit": 1,
+    "gefkw": 1,
+    "grukw": 6,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_horse": 4,
+    "drone_police": 1,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 10,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 5,
+    "bereitschaftspolizei": 4,
+    "riot_unit_count": 2,
+    "detention_unit_count": 1,
+    "prisoner_transport_count": 1,
+    "police_horse": 1,
+    "drone_police": 1
+  },
+  "overlay_index": 0,
+  "base_mission_id": 492,
+  "additive_overlays": "a",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

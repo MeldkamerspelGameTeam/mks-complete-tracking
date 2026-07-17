@@ -1,0 +1,59 @@
+{
+  "id": "723-0",
+  "name": "Explosie in woonhuis",
+  "place": "",
+  "place_array": [],
+  "average_credits": 6210,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "disaster_response": 1,
+    "disaster_response_equipment": 1,
+    "firetrucks": 3,
+    "police_cars": 3
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "nef": 30,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 3,
+    "possible_patient_min": 1,
+    "expansion_missions_ids": [
+      724
+    ],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 3,
+    "disaster_response_count": 1,
+    "fire_stations": 14
+  },
+  "overlay_index": 0,
+  "base_mission_id": 723,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "disaster_response"
+  ]
+}

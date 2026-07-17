@@ -1,0 +1,34 @@
+{
+  "id": "263",
+  "name": "Brandende personenauto in parkeergarage",
+  "place": "Vliegveld (groot): Parkeergarage",
+  "place_array": [
+    "Vliegveld (groot): Parkeergarage"
+  ],
+  "average_credits": 300,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 263,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

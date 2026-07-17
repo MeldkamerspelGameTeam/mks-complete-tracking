@@ -1,0 +1,67 @@
+{
+  "id": "901-0/a",
+  "name": "Trein ontspoord",
+  "place": "Spoorwegovergang\nStation\nCentraal Station\nRangeeremplacement",
+  "place_array": [
+    "Spoorwegovergang",
+    "Station",
+    "Centraal Station",
+    "Rangeeremplacement"
+  ],
+  "average_credits": 8210,
+  "generated_by": "",
+  "icons": [
+    "/images/tramway_gruen.png",
+    "/images/tramway_gelb.png",
+    "/images/tramway_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 2,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "oneof_fire_engine_or_rescue": 4,
+    "drone_police": 1,
+    "firetrucks": 1,
+    "police_cars": 4
+  },
+  "chances": {
+    "hazmat_vehicles": 30,
+    "nef": 40,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 20,
+    "possible_patient_min": 5,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [
+      995
+    ],
+    "need_bike_police_only_if_present": true,
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 8,
+    "drone_police": 1,
+    "fire_stations": 14
+  },
+  "overlay_index": 0,
+  "base_mission_id": 901,
+  "additive_overlays": "a",
+  "mission_categories": [
+    "fire",
+    "fire_support_specialization",
+    "urban"
+  ]
+}

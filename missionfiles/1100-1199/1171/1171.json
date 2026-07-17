@@ -1,0 +1,33 @@
+{
+  "id": "1171",
+  "name": "Vermoedelijke illegale plantage – (Thermische luchtbeelden nodig)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 7000,
+  "generated_by": "",
+  "icons": [
+    "/images/cannabis_gruen.png",
+    "/images/cannabis_gelb.png",
+    "/images/cannabis_rot.png"
+  ],
+  "requirements": {
+    "police_helicopters": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "subsequent_missions_ids": [
+      1172
+    ]
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_helicopter_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1171,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "497",
+  "name": "Personenauto te water",
+  "place": "Rivier",
+  "place_array": [
+    "Rivier"
+  ],
+  "average_credits": 4850,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "boats": 1,
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "diver_units": 2,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "boats": 50,
+    "platform_trucks": 50,
+    "heavy_rescue_vehicles": 60,
+    "nef": 10,
+    "patient_transport": 90
+  },
+  "additional": {
+    "possible_patient": 3,
+    "filter_id": "water_watch_missions",
+    "subsequent_missions_ids": [
+      1027
+    ],
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": -1,
+    "wasserrettung": 3,
+    "rescue_stations": 10,
+    "police_stations": 3,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 497,
+  "additive_overlays": "",
+  "mission_categories": [
+    "water_rescue"
+  ]
+}

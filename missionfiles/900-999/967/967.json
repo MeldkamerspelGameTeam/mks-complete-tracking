@@ -1,0 +1,43 @@
+{
+  "id": "967",
+  "name": "Persoon van tribune gevallen",
+  "place": "Circuit",
+  "place_array": [
+    "Circuit"
+  ],
+  "average_credits": null,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {},
+  "chances": {
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "date_start": "2026-07-17T09:00:00Z",
+    "date_end": "2026-07-19T23:59:59Z",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 967,
+  "additive_overlays": "",
+  "mission_categories": [
+    "ambulance"
+  ]
+}

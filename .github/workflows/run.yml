@@ -32,7 +32,7 @@ jobs:
           python main.py
           python find_missing_keys.py
           python compare_events.py
-          python Missionfiles/Scripts/split_missions.py
+          python scripts/split_missions.py
         env:
           DISCORD: ${{ secrets.DISCORD  }}
           DISCORD2: ${{ secrets.DISCORD2 }}

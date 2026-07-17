@@ -1,0 +1,38 @@
+{
+  "id": "186",
+  "name": "Parkeergarage onder water",
+  "place": "Parkeergarage",
+  "place_array": [
+    "Parkeergarage"
+  ],
+  "average_credits": 2590,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "water_tankers": 1,
+    "firetrucks": 1,
+    "min_pump_speed": 3000
+  },
+  "chances": {
+    "water_tankers": 40
+  },
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "pump_water_amount": 10000
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 7
+  },
+  "overlay_index": null,
+  "base_mission_id": 186,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "548",
+  "name": "Steekincident (groot)",
+  "place": "Winkelcentrum",
+  "place_array": [
+    "Winkelcentrum"
+  ],
+  "average_credits": 6000,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "ovdp": 1,
+    "oneof_fire_engine_or_rescue": 1,
+    "police_cars": 10
+  },
+  "chances": {
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 5,
+    "possible_patient_min": 2,
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "rescue_stations": 8,
+    "police_stations": 10,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 14
+  },
+  "overlay_index": null,
+  "base_mission_id": 548,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "1039-0",
+  "name": "Vader vermist",
+  "place": "",
+  "place_array": [],
+  "average_credits": 3480,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "hondengeleider": 1,
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "police_cars": 5
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "date_start": "2026-06-19T09:00:00Z",
+    "date_end": "2026-06-21T23:59:59+02:00"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 5,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": 0,
+  "base_mission_id": 1039,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

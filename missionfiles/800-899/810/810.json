@@ -1,0 +1,49 @@
+{
+  "id": "810",
+  "name": "Gewonden op strand/ in de duinen",
+  "place": "Meer\nStrand\nStrandopgang\nDuinen",
+  "place_array": [
+    "Meer",
+    "Strand",
+    "Strandopgang",
+    "Duinen"
+  ],
+  "average_credits": 3020,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2,
+    "water_rescue": 3
+  },
+  "chances": {
+    "patient_transport": 75
+  },
+  "additional": {
+    "possible_patient": 6,
+    "possible_patient_min": 1,
+    "filter_id": "water_watch_missions",
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 3,
+    "rescue_stations": 8,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 810,
+  "additive_overlays": "",
+  "mission_categories": [
+    "water_rescue_2"
+  ]
+}

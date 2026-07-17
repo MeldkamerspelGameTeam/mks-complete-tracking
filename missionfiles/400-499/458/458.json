@@ -1,0 +1,40 @@
+{
+  "id": "458",
+  "name": "Brand in manege",
+  "place": "Manege",
+  "place_array": [
+    "Manege"
+  ],
+  "average_credits": 2980,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "water_tankers": 1,
+    "firetrucks": 3
+  },
+  "chances": {
+    "mobile_command_vehicles": 50
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 13
+  },
+  "overlay_index": null,
+  "base_mission_id": 458,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "fire_support_specialization"
+  ]
+}

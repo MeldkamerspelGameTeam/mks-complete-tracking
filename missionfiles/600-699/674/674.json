@@ -1,0 +1,43 @@
+{
+  "id": "674",
+  "name": "Aanhouding verdachte in winkelcentrum",
+  "place": "Winkelcentrum",
+  "place_array": [
+    "Winkelcentrum"
+  ],
+  "average_credits": 1445,
+  "generated_by": "",
+  "icons": [
+    "/images/cuffs_gruen.png",
+    "/images/cuffs_gelb.png",
+    "/images/cuffs_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "hondengeleider": 1,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "followup_missions_ids": [
+      1018
+    ],
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "subsequent_missions_ids": [
+      1001
+    ],
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 6,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 674,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "1022",
+  "name": "Omgevallen hijskraan",
+  "place": "Bouwterrein\nBedrijventerrein",
+  "place_array": [
+    "Bouwterrein",
+    "Bedrijventerrein"
+  ],
+  "average_credits": 3110,
+  "generated_by": "",
+  "icons": [
+    "/images/constructioncrane_gruen.png",
+    "/images/constructioncrane_gelb.png",
+    "/images/constructioncrane_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 2
+  },
+  "chances": {
+    "nef": 15,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 3,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [
+      870
+    ],
+    "patient_specialization_ids": [
+      0
+    ],
+    "patient_specialization_captions": [
+      "Interne Geneeskunde"
+    ],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 1022,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

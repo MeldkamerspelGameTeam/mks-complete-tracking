@@ -1,0 +1,35 @@
+{
+  "id": "191",
+  "name": "Losgewaaide dakbedekking",
+  "place": "",
+  "place_array": [],
+  "average_credits": 840,
+  "generated_by": "",
+  "icons": [
+    "/images/sawmill_gruen.png",
+    "/images/sawmill_gelb.png",
+    "/images/sawmill_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "platform_trucks": 80
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 191,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

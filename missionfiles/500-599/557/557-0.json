@@ -1,0 +1,78 @@
+{
+  "id": "557-0",
+  "name": "Brand in theater",
+  "place": "Theater",
+  "place_array": [
+    "Theater"
+  ],
+  "average_credits": 11300,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "foam": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "foam_needed": 250,
+    "firetrucks": 8,
+    "police_cars": 4
+  },
+  "chances": {
+    "mobile_air_vehicles": 20,
+    "patient_transport": 60
+  },
+  "additional": {
+    "possible_patient": 16,
+    "possible_patient_min": 6,
+    "followup_missions_ids": [
+      48,
+      99,
+      225,
+      240,
+      768,
+      878,
+      878,
+      879,
+      879
+    ],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [
+      877
+    ],
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "fire_support_count": 1,
+    "fire_stations": 22
+  },
+  "overlay_index": 0,
+  "base_mission_id": 557,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "fire_support_specialization"
+  ]
+}

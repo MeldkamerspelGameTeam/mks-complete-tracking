@@ -1,0 +1,49 @@
+{
+  "id": "598",
+  "name": "Brand in asielzoekerscentrum (wasserette)",
+  "place": "Asielzoekerscentrum",
+  "place_array": [
+    "Asielzoekerscentrum"
+  ],
+  "average_credits": 1360,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 2
+  },
+  "chances": {
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 2,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 598,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

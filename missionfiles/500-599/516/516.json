@@ -1,0 +1,54 @@
+{
+  "id": "516",
+  "name": "Aanvaring met rondvaartboot (Grip 3)",
+  "place": "Rivier",
+  "place_array": [
+    "Rivier"
+  ],
+  "average_credits": 5590,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "boats": 2,
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "diver_units": 3,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 4
+  },
+  "chances": {
+    "platform_trucks": 30,
+    "heavy_rescue_vehicles": 70,
+    "patient_transport": 0
+  },
+  "additional": {
+    "possible_patient": 15,
+    "possible_patient_min": 10,
+    "filter_id": "water_watch_missions",
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": -1,
+    "wasserrettung": 5,
+    "rescue_stations": 8,
+    "police_stations": 4,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 516,
+  "additive_overlays": "",
+  "mission_categories": [
+    "water_rescue"
+  ]
+}

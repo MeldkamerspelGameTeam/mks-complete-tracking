@@ -1,0 +1,33 @@
+{
+  "id": "649",
+  "name": "Persoon valt voorbijgangers lastig",
+  "place": "Park",
+  "place_array": [
+    "Park"
+  ],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 649,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

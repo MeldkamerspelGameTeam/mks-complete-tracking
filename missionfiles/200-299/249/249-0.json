@@ -1,0 +1,33 @@
+{
+  "id": "249-0",
+  "name": "Straatroof",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1840,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "police_helicopters": 1,
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 2,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 3,
+    "police_helicopter_stations": 1
+  },
+  "overlay_index": 0,
+  "base_mission_id": 249,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "692",
+  "name": "Politie aangevallen met illegaal vuurwerk",
+  "place": "",
+  "place_array": [],
+  "average_credits": 4580,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "grukw": 3,
+    "hondengeleider": 2,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_cars": 5
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 4,
+    "filter_id": "riot_police_missions",
+    "date_start": "2025-12-26T10:00:00Z",
+    "date_end": "2026-01-01T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 6,
+    "bereitschaftspolizei": 3,
+    "riot_unit_count": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 692,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

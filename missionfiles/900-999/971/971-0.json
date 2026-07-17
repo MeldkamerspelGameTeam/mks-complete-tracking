@@ -1,0 +1,57 @@
+{
+  "id": "971-0",
+  "name": "Protest voor racecircuit",
+  "place": "Circuit",
+  "place_array": [
+    "Circuit"
+  ],
+  "average_credits": 5230,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "grukw": 3,
+    "hondengeleider": 1,
+    "lebefkw": 1,
+    "police_horse": 2,
+    "police_cars": 10
+  },
+  "chances": {
+    "patient_transport": 10
+  },
+  "additional": {
+    "possible_patient": 10,
+    "possible_patient_min": 3,
+    "min_possible_prisoners": 1,
+    "max_possible_prisoners": 5,
+    "filter_id": "riot_police_missions",
+    "patient_at_end_of_mission": true,
+    "date_start": "2026-07-17T09:00:00Z",
+    "date_end": "2026-07-19T23:59:59Z",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "rescue_stations": 8,
+    "police_stations": 4,
+    "bereitschaftspolizei": 3,
+    "riot_unit_count": 1,
+    "police_horse": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": 0,
+  "base_mission_id": 971,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

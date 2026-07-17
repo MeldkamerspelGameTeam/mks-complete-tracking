@@ -1,0 +1,36 @@
+{
+  "id": "243/a",
+  "name": "Verdachte situatie",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1550,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "drone_police": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "bike_police": 10
+  },
+  "additional": {
+    "filter_id": "police_station_missions",
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2,
+    "drone_police": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 243,
+  "additive_overlays": "a",
+  "mission_categories": [
+    "police"
+  ]
+}

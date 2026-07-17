@@ -1,0 +1,33 @@
+{
+  "id": "690",
+  "name": "Vernieling met vuurwerk",
+  "place": "",
+  "place_array": [],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "date_start": "2025-12-26T10:00:00Z",
+    "date_end": "2026-01-01T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 690,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

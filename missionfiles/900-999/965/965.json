@@ -1,0 +1,53 @@
+{
+  "id": "965",
+  "name": "Crash op Circuit",
+  "place": "Circuit",
+  "place_array": [
+    "Circuit"
+  ],
+  "average_credits": 2090,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "oneof_fire_engine_or_rescue": 1,
+    "firetrucks": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "nef": 55,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 2,
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-07-17T09:00:00Z",
+    "date_end": "2026-07-19T23:59:59Z",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 965,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

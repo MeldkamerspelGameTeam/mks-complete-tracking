@@ -1,0 +1,47 @@
+{
+  "id": "835-0",
+  "name": "Gaslek bedrijventerrein",
+  "place": "Bedrijventerrein\nIndustrieterrein\nHaventerrein",
+  "place_array": [
+    "Bedrijventerrein",
+    "Industrieterrein",
+    "Haventerrein"
+  ],
+  "average_credits": 1860,
+  "generated_by": "",
+  "icons": [
+    "/images/gas_gruen.png",
+    "/images/gas_gelb.png",
+    "/images/gas_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "foam": 1,
+    "foam_needed": 250,
+    "oneof_fire_engine_or_rescue": 1,
+    "firetrucks": 1,
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [
+      836,
+      837
+    ],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 1,
+    "fire_support_count": 1,
+    "fire_stations": 6
+  },
+  "overlay_index": 0,
+  "base_mission_id": 835,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "fire_support_specialization",
+    "urban"
+  ]
+}

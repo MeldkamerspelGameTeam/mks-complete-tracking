@@ -1,0 +1,31 @@
+{
+  "id": "1118",
+  "name": "Lege band",
+  "place": "",
+  "place_array": [],
+  "average_credits": 700,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {},
+  "chances": {},
+  "additional": {
+    "filter_id": "tow_trucks_missions",
+    "possible_crashed_car_min": 1,
+    "possible_crashed_car_max": 1
+  },
+  "prerequisites": {
+    "main_building": 24,
+    "tow_trucks": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1118,
+  "additive_overlays": "",
+  "mission_categories": [
+    "tow_trucks",
+    "tow_trucks_only"
+  ]
+}

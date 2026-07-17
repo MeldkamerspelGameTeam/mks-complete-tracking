@@ -1,0 +1,32 @@
+{
+  "id": "825",
+  "name": "Gestolen trofee",
+  "place": "",
+  "place_array": [],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/soccer_gruen.png",
+    "/images/soccer_gelb.png",
+    "/images/soccer_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "date_start": "2026-06-11T09:00:00Z",
+    "date_end": "2026-07-19T22:00:00Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 825,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

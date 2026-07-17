@@ -1,0 +1,62 @@
+{
+  "id": "442",
+  "name": "Brand in gevangenis",
+  "place": "Gevangenis",
+  "place_array": [
+    "Gevangenis"
+  ],
+  "average_credits": 8040,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "gefkw": 2,
+    "hondengeleider": 2,
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "firetrucks": 2,
+    "police_cars": 4
+  },
+  "chances": {
+    "platform_trucks": 60,
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 2,
+    "min_possible_prisoners": 10,
+    "max_possible_prisoners": 30,
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true,
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 2,
+    "police_stations": 5,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 4,
+    "prisoner_transport_count": 1,
+    "hondengeleider": 1,
+    "fire_stations": 14
+  },
+  "overlay_index": null,
+  "base_mission_id": 442,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

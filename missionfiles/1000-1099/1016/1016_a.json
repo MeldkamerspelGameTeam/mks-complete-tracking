@@ -1,0 +1,66 @@
+{
+  "id": "1016/a",
+  "name": "Aanvaring veerpont",
+  "place": "Pontsteiger",
+  "place_array": [
+    "Pontsteiger"
+  ],
+  "average_credits": 15530,
+  "generated_by": "",
+  "icons": [
+    "/images/cruiseship_gruen.png",
+    "/images/cruiseship_gelb.png",
+    "/images/cruiseship_rot.png"
+  ],
+  "requirements": {
+    "boats": 2,
+    "coastal_boat": 5,
+    "coastal_guard_boat": 3,
+    "coastal_helicopter": 1,
+    "mass_casualty": 2,
+    "mass_casualty_advanced": 1,
+    "drone_police": 1,
+    "water_rescue": 5
+  },
+  "chances": {
+    "patient_transport": 5
+  },
+  "additional": {
+    "possible_patient": 110,
+    "possible_patient_min": 30,
+    "followup_missions_ids": [
+      1017
+    ],
+    "filter_id": "coastal_rescue_missions",
+    "vehicle_groups": [
+      "default",
+      "ocean_missions"
+    ],
+    "patient_specialization_ids": [
+      1,
+      4
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde",
+      "Traumatologie"
+    ],
+    "patient_specializations": "Algemene Heelkunde, Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 19,
+    "water_rescue_2": 7,
+    "rescue_stations": 35,
+    "police_stations": 1,
+    "mass_casualty_count": 2,
+    "coastal_rescue_count": 3,
+    "coastal_rescue_small_count": 4,
+    "coastal_helicopter_count": 1,
+    "drone_police": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1016,
+  "additive_overlays": "a",
+  "mission_categories": [
+    "coastal_rescue_ocean"
+  ]
+}

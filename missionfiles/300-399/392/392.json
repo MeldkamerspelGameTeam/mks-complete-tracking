@@ -1,0 +1,52 @@
+{
+  "id": "392",
+  "name": "Brand bij afvalverwerker (Groot)",
+  "place": "Afvalverwerker",
+  "place_array": [
+    "Afvalverwerker"
+  ],
+  "average_credits": 5600,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 1,
+    "gwmess": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 3
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "elw3": 50,
+    "hazmat_vehicles": 60,
+    "water_tankers": 80,
+    "gwmess": 20
+  },
+  "additional": {
+    "expansion_missions_ids": [
+      393,
+      394,
+      395
+    ],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 14
+  },
+  "overlay_index": null,
+  "base_mission_id": 392,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

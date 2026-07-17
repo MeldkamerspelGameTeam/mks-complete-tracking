@@ -1,0 +1,40 @@
+{
+  "id": "245",
+  "name": "Ontruimen kraakpand",
+  "place": "",
+  "place_array": [],
+  "average_credits": 7365,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "gefkw": 1,
+    "grukw": 3,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "een uur",
+    "duration": 3600,
+    "guard_mission": true,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 5,
+    "bereitschaftspolizei": 2,
+    "riot_unit_count": 1,
+    "prisoner_transport_count": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 245,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

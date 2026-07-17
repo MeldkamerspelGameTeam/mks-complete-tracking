@@ -1,0 +1,50 @@
+{
+  "id": "977",
+  "name": "Begeleiding demonstratie (groot)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 43135,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "detention_unit": 1,
+    "gefkw": 1,
+    "grukw": 6,
+    "hondengeleider": 2,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_horse": 10,
+    "ambulances": 1,
+    "wasserwerfer": 2,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "3 uur",
+    "duration": 10800,
+    "guard_mission": true,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "rescue_stations": 1,
+    "police_stations": 5,
+    "bereitschaftspolizei": 8,
+    "riot_unit_count": 2,
+    "detention_unit_count": 1,
+    "prisoner_transport_count": 1,
+    "water_cannon": 1,
+    "police_horse": 3,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 977,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

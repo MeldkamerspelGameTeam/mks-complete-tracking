@@ -1,0 +1,34 @@
+{
+  "id": "1069",
+  "name": "Kijkers op de vluchtstrook",
+  "place": "Snelweg oprit / afrit",
+  "place_array": [
+    "Snelweg oprit / afrit"
+  ],
+  "average_credits": 1080,
+  "generated_by": "",
+  "icons": [
+    "/images/bus_gruen.png",
+    "/images/bus_gelb.png",
+    "/images/bus_rot.png"
+  ],
+  "requirements": {
+    "traffic_unit": 1,
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "allow_traffic_car_instead_of_fustw": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "technical_aid": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 1069,
+  "additive_overlays": "",
+  "mission_categories": [
+    "technical_aid"
+  ]
+}

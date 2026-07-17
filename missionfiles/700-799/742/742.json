@@ -1,0 +1,36 @@
+{
+  "id": "742",
+  "name": "Verjaardagsgast vermist",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1340,
+  "generated_by": "",
+  "icons": [
+    "/images/dancinghall_gruen.png",
+    "/images/dancinghall_gelb.png",
+    "/images/dancinghall_rot.png"
+  ],
+  "requirements": {
+    "hondengeleider": 1,
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "date_start": "2026-02-05T10:00:00Z",
+    "date_end": "2026-02-08T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 3,
+    "bereitschaftspolizei": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 742,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

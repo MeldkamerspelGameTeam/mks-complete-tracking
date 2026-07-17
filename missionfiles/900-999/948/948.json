@@ -1,0 +1,34 @@
+{
+  "id": "948",
+  "name": "Brand op windmolenpark",
+  "place": "Windmolenpark",
+  "place_array": [
+    "Windmolenpark"
+  ],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/lightningStrike_gruen.png",
+    "/images/lightningStrike_gelb.png",
+    "/images/lightningStrike_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 948,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "rural"
+  ]
+}

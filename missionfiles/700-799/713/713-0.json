@@ -1,0 +1,58 @@
+{
+  "id": "713-0",
+  "name": "Brand in hooischuur",
+  "place": "Boerderij",
+  "place_array": [
+    "Boerderij"
+  ],
+  "average_credits": 5365,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "foam": 1,
+    "spokesman": 1,
+    "water_needed": 39000,
+    "foam_needed": 250,
+    "firetrucks": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 2,
+    "expansion_missions_ids": [
+      714
+    ],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "police_stations": 8,
+    "fire_support_count": 1,
+    "fire_stations": 14
+  },
+  "overlay_index": 0,
+  "base_mission_id": 713,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "rural",
+    "fire_support_specialization"
+  ]
+}

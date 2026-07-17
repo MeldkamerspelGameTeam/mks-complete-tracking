@@ -1,0 +1,64 @@
+{
+  "id": "1202/b",
+  "name": "Brand in ziekenhuis (Grip 1)",
+  "place": "Ziekenhuis",
+  "place_array": [
+    "Ziekenhuis"
+  ],
+  "average_credits": 13380,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 3,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 2,
+    "hazmat_vehicles": 1,
+    "water_tankers": 4,
+    "gwmess": 2,
+    "ovdp": 1,
+    "spokesman": 1,
+    "drone_fire": 1,
+    "firetrucks": 6,
+    "police_cars": 4
+  },
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 30,
+    "possible_patient_min": 10,
+    "expansion_missions_ids": [
+      1203
+    ],
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true,
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 11,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "drone_fire": 1,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1202,
+  "additive_overlays": "b",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

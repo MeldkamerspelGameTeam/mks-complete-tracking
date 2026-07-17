@@ -1,0 +1,41 @@
+{
+  "id": "613",
+  "name": "Doorzoeking risicopand",
+  "place": "",
+  "place_array": [],
+  "average_credits": 4210,
+  "generated_by": "",
+  "icons": [
+    "/images/shooting_gruen.png",
+    "/images/shooting_gelb.png",
+    "/images/shooting_rot.png"
+  ],
+  "requirements": {
+    "at_c": 1,
+    "at_m": 1,
+    "at_o": 4,
+    "hondengeleider": 1,
+    "ovdp": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "ovdp": 10
+  },
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 5,
+    "bereitschaftspolizei": 2,
+    "at": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 613,
+  "additive_overlays": "",
+  "mission_categories": [
+    "riot_police"
+  ]
+}

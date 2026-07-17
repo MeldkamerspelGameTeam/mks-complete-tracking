@@ -1,0 +1,60 @@
+{
+  "id": "890",
+  "name": "500 Politiebureau mijlpaal",
+  "place": "",
+  "place_array": [],
+  "average_credits": 40000,
+  "generated_by": "",
+  "icons": [
+    "/images/cuffs_gruen.png",
+    "/images/cuffs_gelb.png",
+    "/images/cuffs_rot.png"
+  ],
+  "requirements": {
+    "at_c": 1,
+    "at_m": 1,
+    "at_o": 4,
+    "bike_police": 3,
+    "detention_unit": 2,
+    "platform_trucks": 5,
+    "battalion_chief_vehicles": 6,
+    "mobile_command_vehicles": 4,
+    "elw3": 3,
+    "gefkw": 2,
+    "grukw": 6,
+    "mobile_air_vehicles": 2,
+    "hondengeleider": 3,
+    "lebefkw": 1,
+    "ovdp": 6,
+    "police_helicopters": 2,
+    "heavy_rescue_vehicles": 5,
+    "spokesman": 1,
+    "firetrucks": 15,
+    "police_cars": 50
+  },
+  "chances": {},
+  "additional": {
+    "min_possible_prisoners": 50,
+    "max_possible_prisoners": 50,
+    "filter_id": "police_station_missions",
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 500,
+    "police_helicopter_stations": 2,
+    "bereitschaftspolizei": 8,
+    "riot_unit_count": 2,
+    "detention_unit_count": 2,
+    "prisoner_transport_count": 1,
+    "at": 1,
+    "hondengeleider": 1,
+    "fire_stations": 41
+  },
+  "overlay_index": null,
+  "base_mission_id": 890,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "893",
+  "name": "500 Brandweerkazerne mijlpaal",
+  "place": "",
+  "place_array": [],
+  "average_credits": 30000,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 25,
+    "battalion_chief_vehicles": 10,
+    "mobile_command_vehicles": 6,
+    "elw3": 3,
+    "mobile_air_vehicles": 3,
+    "hazmat_vehicles": 3,
+    "gwmess": 3,
+    "spokesman": 1,
+    "firetrucks": 50
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 500
+  },
+  "overlay_index": null,
+  "base_mission_id": 893,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

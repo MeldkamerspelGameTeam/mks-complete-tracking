@@ -1,0 +1,37 @@
+{
+  "id": "122",
+  "name": "Overval winkel",
+  "place": "Buurtsuper",
+  "place_array": [
+    "Buurtsuper"
+  ],
+  "average_credits": 2980,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "police_cars": 5
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 2,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 6,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 122,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

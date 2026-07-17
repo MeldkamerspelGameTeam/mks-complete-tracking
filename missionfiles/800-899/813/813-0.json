@@ -1,0 +1,40 @@
+{
+  "id": "813-0",
+  "name": "ANPR hit: Mobiel banditisme",
+  "place": "Snelweg oprit / afrit",
+  "place_array": [
+    "Snelweg oprit / afrit"
+  ],
+  "average_credits": 920,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "traffic_patrol": 1,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [
+      124
+    ],
+    "min_possible_prisoners": 0,
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 3,
+    "traffic_police": 1
+  },
+  "overlay_index": 0,
+  "base_mission_id": 813,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police",
+    "traffic_police_specialization"
+  ]
+}

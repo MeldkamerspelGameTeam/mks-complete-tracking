@@ -1,0 +1,44 @@
+{
+  "id": "220",
+  "name": "Open dag, groot",
+  "place": "Marktplein",
+  "place_array": [
+    "Marktplein"
+  ],
+  "average_credits": 3000,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "ambulances": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "2 uur",
+    "duration": 7200,
+    "guard_mission": true,
+    "filter_id": "firehouse_missions",
+    "allow_ktw_instead_of_rtw": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "police_stations": 1,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 220,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

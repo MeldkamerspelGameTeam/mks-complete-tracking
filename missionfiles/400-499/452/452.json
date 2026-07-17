@@ -1,0 +1,37 @@
+{
+  "id": "452",
+  "name": "Vogel vast in schoorsteen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 350,
+  "generated_by": "",
+  "icons": [
+    "/images/cat_gruen.png",
+    "/images/cat_gelb.png",
+    "/images/cat_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "platform_trucks": 40,
+    "heavy_rescue_vehicles": 20
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 452,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

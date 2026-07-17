@@ -1,0 +1,31 @@
+{
+  "id": "1211",
+  "name": "Dakpannen los in dakgoot",
+  "place": "",
+  "place_array": [],
+  "average_credits": 840,
+  "generated_by": "",
+  "icons": [
+    "/images/fallingrocks_gruen.png",
+    "/images/fallingrocks_gelb.png",
+    "/images/fallingrocks_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 1211,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire"
+  ]
+}

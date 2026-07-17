@@ -1,0 +1,38 @@
+{
+  "id": "127",
+  "name": "Brand in landbouwschuur",
+  "place": "Boerderij",
+  "place_array": [
+    "Boerderij"
+  ],
+  "average_credits": 3245,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "water_needed": 27000,
+    "firetrucks": 1
+  },
+  "chances": {
+    "mobile_command_vehicles": 50
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 13
+  },
+  "overlay_index": null,
+  "base_mission_id": 127,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "1209",
+  "name": "Vrachtwagen omgewaaid",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1760,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 2
+  },
+  "chances": {
+    "patient_transport": 25
+  },
+  "additional": {
+    "possible_patient": 2,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [
+      1,
+      4
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde",
+      "Traumatologie"
+    ],
+    "patient_specializations": "Algemene Heelkunde, Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 2,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 1209,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire"
+  ]
+}

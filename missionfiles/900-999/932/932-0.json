@@ -1,0 +1,66 @@
+{
+  "id": "932-0",
+  "name": "Brand op veerpont",
+  "place": "Haventerrein\nJachthaven\nRivier\nMeer",
+  "place_array": [
+    "Haventerrein",
+    "Jachthaven",
+    "Rivier",
+    "Meer"
+  ],
+  "average_credits": 10070,
+  "generated_by": "",
+  "icons": [
+    "/images/boat_gruen.png",
+    "/images/boat_gelb.png",
+    "/images/boat_rot.png"
+  ],
+  "requirements": {
+    "boats": 3,
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "foam": 1,
+    "diver_units": 3,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "foam_needed": 500,
+    "oneof_fire_engine_or_rescue": 1,
+    "firetrucks": 3,
+    "police_cars": 4,
+    "water_rescue": 1
+  },
+  "chances": {
+    "boats": 40,
+    "nef": 15,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 20,
+    "possible_patient_min": 5,
+    "filter_id": "water_watch_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": -1,
+    "wasserrettung": 6,
+    "water_rescue_2": 5,
+    "rescue_stations": 10,
+    "police_stations": 5,
+    "fire_support_count": 1,
+    "fire_stations": 13
+  },
+  "overlay_index": 0,
+  "base_mission_id": 932,
+  "additive_overlays": "",
+  "mission_categories": [
+    "water_rescue",
+    "fire_support_specialization"
+  ]
+}

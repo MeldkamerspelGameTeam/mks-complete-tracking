@@ -1,0 +1,39 @@
+{
+  "id": "865",
+  "name": "Bladeren op spoor",
+  "place": "Station\nCentraal Station\nSpoorwegovergang",
+  "place_array": [
+    "Station",
+    "Centraal Station",
+    "Spoorwegovergang"
+  ],
+  "average_credits": 1080,
+  "generated_by": "",
+  "icons": [
+    "/images/autumn_gruen.png",
+    "/images/autumn_gelb.png",
+    "/images/autumn_rot.png"
+  ],
+  "requirements": {
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-09-19T09:00:00Z",
+    "date_end": "2025-11-28T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 865,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

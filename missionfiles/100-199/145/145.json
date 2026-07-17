@@ -1,0 +1,50 @@
+{
+  "id": "145",
+  "name": "Natuurbrand",
+  "place": "",
+  "place_array": [],
+  "average_credits": 70194,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 10,
+    "mobile_command_vehicles": 4,
+    "elw3": 2,
+    "mobile_air_vehicles": 2,
+    "heavy_rescue_vehicles": 4,
+    "water_needed": 310000,
+    "brush_truck": 20,
+    "wildfire_command": 1,
+    "wildfire_equipment": 2,
+    "fire_aviation": 3,
+    "police_cars": 8,
+    "personnel_educations": {
+      "wildfire": 36
+    }
+  },
+  "chances": {},
+  "additional": {
+    "only_alliance_mission": true,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [
+      1191
+    ],
+    "personnel_educations": {
+      "Handcrew": 36
+    },
+    "unavailable_in_normal_missions": true
+  },
+  "prerequisites": {
+    "main_building": 0
+  },
+  "overlay_index": null,
+  "base_mission_id": 145,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire"
+  ]
+}

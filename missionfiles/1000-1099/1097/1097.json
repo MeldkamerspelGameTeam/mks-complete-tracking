@@ -1,0 +1,35 @@
+{
+  "id": "1097",
+  "name": "Boze toeschouwer bij sportzwembad",
+  "place": "Zwembad",
+  "place_array": [
+    "Zwembad"
+  ],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "date_start": "2024-08-05T08:00:00Z",
+    "date_end": "2024-08-11T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 1097,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

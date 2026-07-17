@@ -1,0 +1,52 @@
+{
+  "id": "1077",
+  "name": "Vrachtwagen gekanteld door ijzel",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2260,
+  "generated_by": "",
+  "icons": [
+    "/images/snowy_gruen.png",
+    "/images/snowy_gelb.png",
+    "/images/snowy_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 2
+  },
+  "chances": {
+    "nef": 25,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 2,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_at_end_of_mission": true,
+    "date_start": "2026-01-02T10:00:00Z",
+    "date_end": "2026-03-06T22:59:00Z",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 1077,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

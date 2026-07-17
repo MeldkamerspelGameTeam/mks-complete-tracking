@@ -1,0 +1,36 @@
+{
+  "id": "40",
+  "name": "Brandende afvalbak bij ziekenhuis",
+  "place": "Ziekenhuis",
+  "place_array": [
+    "Ziekenhuis"
+  ],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [
+      158
+    ],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 40,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

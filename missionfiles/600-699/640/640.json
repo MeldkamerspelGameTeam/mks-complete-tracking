@@ -1,0 +1,38 @@
+{
+  "id": "640",
+  "name": "Brand in hangaar",
+  "place": "Vliegveld (klein): Hangaar",
+  "place_array": [
+    "Vliegveld (klein): Hangaar"
+  ],
+  "average_credits": 910,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "elw_airport": 1,
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [
+      641
+    ],
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "airport": 1,
+    "fire_stations": 10
+  },
+  "overlay_index": null,
+  "base_mission_id": 640,
+  "additive_overlays": "",
+  "mission_categories": [
+    "airport"
+  ]
+}

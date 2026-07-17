@@ -1,0 +1,45 @@
+{
+  "id": "202",
+  "name": "Steekincident",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2480,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "ovdp": 1,
+    "police_cars": 5
+  },
+  "chances": {
+    "nef": 100,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "rescue_stations": 10,
+    "police_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 202,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

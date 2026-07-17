@@ -1,0 +1,45 @@
+{
+  "id": "1162",
+  "name": "Verdacht pakket luchthaven",
+  "place": "Vliegveld (groot): Platform / Gate\nVliegveld (groot): Terminal\nVliegveld (klein): Hangaar",
+  "place_array": [
+    "Vliegveld (groot): Platform / Gate",
+    "Vliegveld (groot): Terminal",
+    "Vliegveld (klein): Hangaar"
+  ],
+  "average_credits": 2840,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "military_police": 3,
+    "bomb_disposal": 1,
+    "bomb_disposal_dogs": 1,
+    "bomb_disposal_patrol": 1,
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [
+      1162
+    ],
+    "max_possible_prisoners": 2,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 15,
+    "bomb_disposal_count": 1,
+    "military_police": 2,
+    "bomb_disposal_patrol": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1162,
+  "additive_overlays": "",
+  "mission_categories": [
+    "bomb_disposal"
+  ]
+}

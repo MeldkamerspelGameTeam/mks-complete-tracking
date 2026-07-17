@@ -1,0 +1,38 @@
+{
+  "id": "877-1",
+  "name": "Nablussen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1350,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 2
+  },
+  "chances": {
+    "platform_trucks": 45,
+    "battalion_chief_vehicles": 50
+  },
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "subsequent_mission_only": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 6
+  },
+  "overlay_index": 1,
+  "base_mission_id": 877,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

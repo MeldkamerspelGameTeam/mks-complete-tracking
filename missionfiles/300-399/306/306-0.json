@@ -1,0 +1,58 @@
+{
+  "id": "306-0",
+  "name": "Verkeersongeval met touringcar",
+  "place": "",
+  "place_array": [],
+  "average_credits": 5200,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "traffic_unit": 1,
+    "traffic_inspector": 1,
+    "firetrucks": 2,
+    "police_cars": 3
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 8,
+    "possible_patient_min": 5,
+    "expansion_missions_ids": [
+      307
+    ],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 4,
+    "traffic_police": 1,
+    "technical_aid": 2,
+    "fire_stations": 13
+  },
+  "overlay_index": 0,
+  "base_mission_id": 306,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "technical_aid",
+    "traffic_police_specialization"
+  ]
+}

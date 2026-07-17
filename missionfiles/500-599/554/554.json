@@ -1,0 +1,50 @@
+{
+  "id": "554",
+  "name": "Monteur in aanraking met hoogspanning",
+  "place": "Transformatorhuisje",
+  "place_array": [
+    "Transformatorhuisje"
+  ],
+  "average_credits": 3800,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "heavy_rescue_vehicles": 60,
+    "nef": 100,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 10,
+    "police_stations": 5,
+    "fire_stations": 5
+  },
+  "overlay_index": null,
+  "base_mission_id": 554,
+  "additive_overlays": "",
+  "mission_categories": [
+    "ambulance"
+  ]
+}

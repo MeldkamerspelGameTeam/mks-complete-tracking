@@ -1,0 +1,35 @@
+{
+  "id": "669",
+  "name": "Toezicht Park",
+  "place": "Park",
+  "place_array": [
+    "Park"
+  ],
+  "average_credits": 2110,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "een uur",
+    "duration": 3600,
+    "guard_mission": true,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 669,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "36/b",
+  "name": "Brandende goederenwagon (Groot)",
+  "place": "Rangeeremplacement",
+  "place_array": [
+    "Rangeeremplacement"
+  ],
+  "average_credits": 6770,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 1,
+    "gwmess": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "industrial_response_engine": 1,
+    "firetrucks": 4,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 14,
+    "industrial_response_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 36,
+  "additive_overlays": "b",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "industrial_response_specialization"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "904",
+  "name": "Aankondiging voor nieuwe 112 functionaliteiten",
+  "place": "",
+  "place_array": [],
+  "average_credits": 4500,
+  "generated_by": "",
+  "icons": [
+    "/images/comment_gruen.png",
+    "/images/comment_gelb.png",
+    "/images/comment_rot.png"
+  ],
+  "requirements": {
+    "ambulances": 1,
+    "firetrucks": 1,
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "followup_missions_ids": [
+      905
+    ],
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-02-11T10:00:00Z",
+    "date_end": "2026-02-12T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "police_stations": 1,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 904,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "rural"
+  ]
+}

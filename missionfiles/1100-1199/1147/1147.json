@@ -1,0 +1,31 @@
+{
+  "id": "1147",
+  "name": "Verdachte situatie",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1300,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "military_police": 2,
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "military_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 25,
+    "military_police": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1147,
+  "additive_overlays": "",
+  "mission_categories": [
+    "military_police"
+  ]
+}

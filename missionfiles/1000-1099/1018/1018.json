@@ -1,0 +1,32 @@
+{
+  "id": "1018",
+  "name": "Assistentie collega",
+  "place": "",
+  "place_array": [],
+  "average_credits": 840,
+  "generated_by": "",
+  "icons": [
+    "/images/cuffs_gruen.png",
+    "/images/cuffs_gelb.png",
+    "/images/cuffs_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "followup_mission_only": true
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 1018,
+  "additive_overlays": "",
+  "mission_categories": [
+    "police"
+  ]
+}

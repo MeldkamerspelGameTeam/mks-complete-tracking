@@ -1,0 +1,41 @@
+{
+  "id": "297",
+  "name": "Brand in museum",
+  "place": "Museum",
+  "place_array": [
+    "Museum"
+  ],
+  "average_credits": 1500,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_air_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 1
+  },
+  "chances": {
+    "mobile_air_vehicles": 10
+  },
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 1,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 297,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

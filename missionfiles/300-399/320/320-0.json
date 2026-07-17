@@ -1,0 +1,62 @@
+{
+  "id": "320-0",
+  "name": "Brand op binnenvaartschip",
+  "place": "Rivier",
+  "place_array": [
+    "Rivier"
+  ],
+  "average_credits": 6850,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "boats": 2,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "foam": 2,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "diver_units": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "foam_needed": 500,
+    "firetrucks": 3
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "mobile_air_vehicles": 10,
+    "hazmat_vehicles": 10,
+    "diver_units": 20,
+    "heavy_rescue_vehicles": 20,
+    "patient_transport": 90
+  },
+  "additional": {
+    "possible_patient": 2,
+    "filter_id": "water_watch_missions",
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": -1,
+    "wasserrettung": 4,
+    "rescue_stations": 2,
+    "fire_support_count": 2,
+    "fire_stations": 14
+  },
+  "overlay_index": 0,
+  "base_mission_id": 320,
+  "additive_overlays": "",
+  "mission_categories": [
+    "water_rescue",
+    "fire_support_specialization"
+  ]
+}

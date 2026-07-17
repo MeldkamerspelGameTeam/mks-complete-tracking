@@ -1,0 +1,62 @@
+{
+  "id": "354-0",
+  "name": "Brand in terminal",
+  "place": "Vliegveld (groot): Terminal",
+  "place_array": [
+    "Vliegveld (groot): Terminal"
+  ],
+  "average_credits": 7320,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "elw_airport": 1,
+    "foam": 1,
+    "mobile_air_vehicles": 1,
+    "ovdp": 1,
+    "foam_needed": 250,
+    "firetrucks": 3,
+    "police_cars": 4
+  },
+  "chances": {
+    "mobile_air_vehicles": 10,
+    "patient_transport": 20
+  },
+  "additional": {
+    "possible_patient": 8,
+    "possible_patient_min": 4,
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true,
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "fire_support_count": 1,
+    "airport": 1,
+    "fire_stations": 14
+  },
+  "overlay_index": 0,
+  "base_mission_id": 354,
+  "additive_overlays": "",
+  "mission_categories": [
+    "airport",
+    "fire_support_specialization"
+  ]
+}

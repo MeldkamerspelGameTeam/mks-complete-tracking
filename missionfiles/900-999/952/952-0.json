@@ -1,0 +1,61 @@
+{
+  "id": "952-0",
+  "name": "Brand in stadion",
+  "place": "Stadion",
+  "place_array": [
+    "Stadion"
+  ],
+  "average_credits": 7980,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 2,
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "ovdp": 1,
+    "spokesman": 1,
+    "water_needed": 27000,
+    "firetrucks": 1,
+    "police_cars": 6
+  },
+  "chances": {
+    "nef": 10,
+    "patient_transport": 80
+  },
+  "additional": {
+    "possible_patient": 25,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [
+      995
+    ],
+    "need_bike_police_only_if_present": true,
+    "fire_alarm_system_possible": false,
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [
+      1
+    ],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 10,
+    "fire_stations": 14
+  },
+  "overlay_index": 0,
+  "base_mission_id": 952,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "urban"
+  ]
+}

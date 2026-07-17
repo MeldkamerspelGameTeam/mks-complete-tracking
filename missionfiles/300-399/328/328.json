@@ -1,0 +1,55 @@
+{
+  "id": "328",
+  "name": "Persoon onwel na mixen mest",
+  "place": "Boerderij",
+  "place_array": [
+    "Boerderij"
+  ],
+  "average_credits": 700,
+  "generated_by": "",
+  "icons": [
+    "/images/gas_gruen.png",
+    "/images/gas_gelb.png",
+    "/images/gas_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "gwmess": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 1
+  },
+  "chances": {
+    "battalion_chief_vehicles": 50,
+    "hazmat_vehicles": 50,
+    "gwmess": 10,
+    "heavy_rescue_vehicles": 20,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 2,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [
+      4
+    ],
+    "patient_specialization_captions": [
+      "Traumatologie"
+    ],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 2,
+    "police_stations": 1,
+    "fire_stations": 11
+  },
+  "overlay_index": null,
+  "base_mission_id": 328,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "rural"
+  ]
+}
