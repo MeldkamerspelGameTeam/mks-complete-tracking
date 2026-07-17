@@ -1,0 +1,35 @@
+{
+  "id": "98",
+  "name": "Vreemde lucht",
+  "place": "",
+  "place_array": [],
+  "average_credits": 600,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "battalion_chief_vehicles": 30,
+    "hazmat_vehicles": 20,
+    "heavy_rescue_vehicles": 10
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 11
+  },
+  "overlay_index": null,
+  "base_mission_id": 98,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

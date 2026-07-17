@@ -1,0 +1,46 @@
+{
+  "id": "889",
+  "name": "500 Ambulancestandplaats mijlpaal",
+  "place": "",
+  "place_array": [],
+  "average_credits": 30000,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 5,
+    "battalion_chief_vehicles": 6,
+    "mobile_command_vehicles": 3,
+    "elw3": 3,
+    "mobile_air_vehicles": 2,
+    "heavy_rescue_vehicles": 3,
+    "spokesman": 1,
+    "firetrucks": 15,
+    "police_cars": 10
+  },
+  "chances": {
+    "nef": 15,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 50,
+    "possible_patient_min": 50,
+    "filter_id": "ambulance_station_missions",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 500,
+    "police_stations": 8,
+    "fire_stations": 38
+  },
+  "overlay_index": null,
+  "base_mission_id": 889,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

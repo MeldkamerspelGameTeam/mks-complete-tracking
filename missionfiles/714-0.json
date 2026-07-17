@@ -1,0 +1,52 @@
+{
+  "id": "714-0",
+  "name": "Brand in hooischuur",
+  "place": "Boerderij",
+  "place_array": ["Boerderij"],
+  "average_credits": 15295,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "foam": 2,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "gwmess": 3,
+    "ovdp": 1,
+    "spokesman": 1,
+    "water_needed": 93000,
+    "foam_needed": 500,
+    "firetrucks": 1,
+    "police_cars": 6
+  },
+  "chances": {
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 4,
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [877],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 3,
+    "police_stations": 7,
+    "fire_support_count": 2,
+    "fire_stations": 28
+  },
+  "overlay_index": 0,
+  "base_mission_id": 714,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "rural", "fire_support_specialization"]
+}

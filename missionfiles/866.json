@@ -1,0 +1,34 @@
+{
+  "id": "866",
+  "name": "Duinbrand",
+  "place": "Duinen",
+  "place_array": ["Duinen"],
+  "average_credits": 1170,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "brush_truck": 1,
+    "police_cars": 1,
+    "water_rescue": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [867, 868, 880, 881, 882],
+    "filter_id": "water_watch_missions"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 1,
+    "police_stations": 1,
+    "brush_extension": 1,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 866,
+  "additive_overlays": "",
+  "mission_categories": ["forestry"]
+}

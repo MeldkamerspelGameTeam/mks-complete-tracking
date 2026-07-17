@@ -1,0 +1,32 @@
+{
+  "id": "1198",
+  "name": "Paaseieren vermist",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1670,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "police_helicopters": 1,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "date_start": "2026-03-23T10:00:00+01:00",
+    "date_end": "2026-04-07T23:59:59+02:00"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2,
+    "police_helicopter_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1198,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

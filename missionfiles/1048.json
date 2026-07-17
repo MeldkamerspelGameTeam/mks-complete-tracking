@@ -1,0 +1,30 @@
+{
+  "id": "1048",
+  "name": "Geluidsoverlast door Racefans",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/dancinghall_gruen.png",
+    "/images/dancinghall_gelb.png",
+    "/images/dancinghall_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "date_start": "2026-07-17T09:00:00Z",
+    "date_end": "2026-07-19T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1048,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

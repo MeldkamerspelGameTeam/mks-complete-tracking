@@ -1,0 +1,41 @@
+{
+  "id": "995-1",
+  "name": "Opvang slachtoffers",
+  "place": "",
+  "place_array": [],
+  "average_credits": 3170,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "ovdp": 1,
+    "firetrucks": 1,
+    "police_cars": 6
+  },
+  "chances": {
+    "patient_transport": 0
+  },
+  "additional": {
+    "possible_patient": 40,
+    "possible_patient_min": 20,
+    "filter_id": "ambulance_station_missions",
+    "subsequent_mission_only": true,
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 14,
+    "police_stations": 7,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 1
+  },
+  "overlay_index": 1,
+  "base_mission_id": 995,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

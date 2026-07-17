@@ -1,0 +1,29 @@
+{
+  "id": "553",
+  "name": "Hennepkwekerij aangetroffen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 840,
+  "generated_by": "",
+  "icons": [
+    "/images/cannabis_gruen.png",
+    "/images/cannabis_gelb.png",
+    "/images/cannabis_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 553,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

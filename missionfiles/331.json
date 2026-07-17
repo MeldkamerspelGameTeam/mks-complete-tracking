@@ -1,0 +1,32 @@
+{
+  "id": "331",
+  "name": "Inbraak in bedrijfspand",
+  "place": "Kantoorgebouw",
+  "place_array": ["Kantoorgebouw"],
+  "average_credits": 1500,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "hondengeleider": 1,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 2,
+    "bereitschaftspolizei": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 331,
+  "additive_overlays": "",
+  "mission_categories": ["riot_police"]
+}

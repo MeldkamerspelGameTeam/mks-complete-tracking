@@ -1,0 +1,54 @@
+{
+  "id": "1019-1",
+  "name": "Brand in sauna",
+  "place": "",
+  "place_array": [],
+  "average_credits": 13015,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 4,
+    "ovdp": 1,
+    "spokesman": 1,
+    "water_needed": 54000,
+    "firetrucks": 6,
+    "police_cars": 6
+  },
+  "chances": {
+    "nef": 15,
+    "patient_transport": 75
+  },
+  "additional": {
+    "possible_patient": 30,
+    "possible_patient_min": 10,
+    "filter_id": "firehouse_missions",
+    "need_bike_police_only_if_present": true,
+    "fire_alarm_system_possible": false,
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 12,
+    "police_stations": 8,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 22
+  },
+  "overlay_index": 1,
+  "base_mission_id": 1019,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

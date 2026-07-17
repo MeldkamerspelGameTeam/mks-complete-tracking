@@ -1,0 +1,38 @@
+{
+  "id": "576",
+  "name": "Zwemmer in nood",
+  "place": "Zwembad",
+  "place_array": ["Zwembad"],
+  "average_credits": 510,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 1,
+    "police_stations": 2,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 576,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

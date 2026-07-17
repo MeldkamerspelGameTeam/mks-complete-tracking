@@ -1,0 +1,28 @@
+{
+  "id": "66",
+  "name": "Boom op fietspad",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/sawmill_gruen.png",
+    "/images/sawmill_gelb.png",
+    "/images/sawmill_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 66,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

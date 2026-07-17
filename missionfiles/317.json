@@ -1,0 +1,34 @@
+{
+  "id": "317",
+  "name": "Bedreiging met vuurwapen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1810,
+  "generated_by": "",
+  "icons": [
+    "/images/shooting_gruen.png",
+    "/images/shooting_gelb.png",
+    "/images/shooting_rot.png"
+  ],
+  "requirements": {
+    "ovdp": 1,
+    "police_cars": 4
+  },
+  "chances": {
+    "ovdp": 50
+  },
+  "additional": {
+    "min_possible_prisoners": 1,
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 317,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

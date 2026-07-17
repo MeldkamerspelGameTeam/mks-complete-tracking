@@ -1,0 +1,54 @@
+{
+  "id": "518/a",
+  "name": "Aanvaring vrachtschip met veerboot (Grip 4)",
+  "place": "Rivier",
+  "place_array": ["Rivier"],
+  "average_credits": 12250,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "boats": 2,
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "diver_units": 4,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "care_service_command": 1,
+    "firetrucks": 2,
+    "police_cars": 4
+  },
+  "chances": {
+    "platform_trucks": 50,
+    "nef": 5,
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 18,
+    "possible_patient_min": 12,
+    "filter_id": "water_watch_missions",
+    "care_includes_staff_members": true,
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": -1,
+    "wasserrettung": 6,
+    "rescue_stations": 10,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "care_service": 1,
+    "clean_service": 1,
+    "fire_stations": 14
+  },
+  "overlay_index": null,
+  "base_mission_id": 518,
+  "additive_overlays": "a",
+  "mission_categories": ["water_rescue_specialization"]
+}

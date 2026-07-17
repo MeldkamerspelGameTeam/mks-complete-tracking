@@ -1,0 +1,49 @@
+{
+  "id": "377",
+  "name": "Persoon te water",
+  "place": "Rivier",
+  "place_array": ["Rivier"],
+  "average_credits": 5200,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "boats": 2,
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "diver_units": 4,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "platform_trucks": 50,
+    "mobile_command_vehicles": 20,
+    "heavy_rescue_vehicles": 70,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "filter_id": "water_watch_missions",
+    "subsequent_missions_ids": [1027],
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": -1,
+    "wasserrettung": 4,
+    "rescue_stations": 1,
+    "police_stations": 2,
+    "fire_stations": 14
+  },
+  "overlay_index": null,
+  "base_mission_id": 377,
+  "additive_overlays": "",
+  "mission_categories": ["water_rescue"]
+}

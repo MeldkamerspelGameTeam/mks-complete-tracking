@@ -1,0 +1,34 @@
+{
+  "id": "588",
+  "name": "Paashaas in een kraan",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1690,
+  "generated_by": "",
+  "icons": [
+    "/images/constructioncrane_gruen.png",
+    "/images/constructioncrane_gelb.png",
+    "/images/constructioncrane_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-03-20T10:00:00Z",
+    "date_end": "2026-04-07T23:59:59+02:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 588,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

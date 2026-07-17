@@ -1,0 +1,29 @@
+{
+  "id": "113",
+  "name": "Overval winkel",
+  "place": "Winkelcentrum",
+  "place_array": ["Winkelcentrum"],
+  "average_credits": 1000,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 113,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

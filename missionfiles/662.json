@@ -1,0 +1,31 @@
+{
+  "id": "662",
+  "name": "Verkeerscontrole",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2205,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "een uur",
+    "duration": 3600,
+    "guard_mission": true,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 662,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

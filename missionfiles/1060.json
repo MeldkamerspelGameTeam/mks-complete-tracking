@@ -1,0 +1,42 @@
+{
+  "id": "1060",
+  "name": "Voedselvergiftiging door vergiftigd snoep",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1860,
+  "generated_by": "",
+  "icons": [
+    "/images/ghost_gruen.png",
+    "/images/ghost_gelb.png",
+    "/images/ghost_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 1
+  },
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 10,
+    "possible_patient_min": 2,
+    "filter_id": "ambulance_station_missions",
+    "patient_at_end_of_mission": true,
+    "date_start": "2025-10-17T09:00:00Z",
+    "date_end": "2025-10-31T23:59:59+01:00",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 8,
+    "police_stations": 1,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 1060,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

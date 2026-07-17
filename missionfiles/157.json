@@ -1,0 +1,51 @@
+{
+  "id": "157",
+  "name": "Brand in ziekenhuis (Groot)",
+  "place": "Ziekenhuis",
+  "place_array": ["Ziekenhuis"],
+  "average_credits": 8600,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 2,
+    "ovdp": 1,
+    "spokesman": 1,
+    "firetrucks": 5,
+    "police_cars": 4
+  },
+  "chances": {
+    "elw3": 90,
+    "mobile_air_vehicles": 50,
+    "patient_transport": 80
+  },
+  "additional": {
+    "possible_patient": 10,
+    "possible_patient_min": 2,
+    "expansion_missions_ids": [1202, 1203],
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true,
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 17
+  },
+  "overlay_index": null,
+  "base_mission_id": 157,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "464",
+  "name": "Stankoverlast",
+  "place": "",
+  "place_array": [],
+  "average_credits": 550,
+  "generated_by": "",
+  "icons": [
+    "/images/gas_gruen.png",
+    "/images/gas_gelb.png",
+    "/images/gas_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 1
+  },
+  "chances": {
+    "battalion_chief_vehicles": 20,
+    "hazmat_vehicles": 10
+  },
+  "additional": {
+    "expansion_missions_ids": [200, 462, 463],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 1,
+    "fire_stations": 11
+  },
+  "overlay_index": null,
+  "base_mission_id": 464,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

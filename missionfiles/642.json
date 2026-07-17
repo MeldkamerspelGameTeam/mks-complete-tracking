@@ -1,0 +1,52 @@
+{
+  "id": "642",
+  "name": "Brand in hangaar",
+  "place": "Vliegveld (klein): Hangaar",
+  "place_array": ["Vliegveld (klein): Hangaar"],
+  "average_credits": 10580,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "elw_airport": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 1,
+    "gwmess": 3,
+    "ovdp": 1,
+    "spokesman": 1,
+    "firetrucks": 4,
+    "police_cars": 4
+  },
+  "chances": {
+    "mobile_air_vehicles": 40,
+    "nef": 15,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 12,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 5,
+    "airport": 1,
+    "fire_stations": 16
+  },
+  "overlay_index": null,
+  "base_mission_id": 642,
+  "additive_overlays": "",
+  "mission_categories": ["airport"]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "1167",
+  "name": "Vermoeden van opslag grote partij illegaal vuurwerk",
+  "place": "",
+  "place_array": [],
+  "average_credits": 8380,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "at_c": 1,
+    "at_m": 1,
+    "at_o": 4,
+    "bike_police": 2,
+    "battalion_chief_vehicles": 1,
+    "gefkw": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "bomb_disposal": 1,
+    "bomb_disposal_dogs": 2,
+    "bomb_disposal_robot": 1,
+    "bomb_disposal_patrol": 2,
+    "firetrucks": 2,
+    "police_cars": 3
+  },
+  "chances": {
+    "bike_police": 90
+  },
+  "additional": {
+    "min_possible_prisoners": 2,
+    "max_possible_prisoners": 4,
+    "filter_id": "police_station_missions",
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 15,
+    "bereitschaftspolizei": 2,
+    "bomb_disposal_count": 1,
+    "prisoner_transport_count": 1,
+    "at": 1,
+    "military_police": 1,
+    "bomb_disposal_patrol": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 1167,
+  "additive_overlays": "",
+  "mission_categories": ["bomb_disposal"]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "356",
+  "name": "Heidebrand (Grip 2)",
+  "place": "Bos",
+  "place_array": ["Bos"],
+  "average_credits": 31702,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 5,
+    "gwmess": 2,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "water_needed": 85000,
+    "brush_truck": 8,
+    "wildfire_command": 1,
+    "wildfire_equipment": 1,
+    "fire_aviation": 1,
+    "police_cars": 4,
+    "personnel_educations": {
+      "wildfire": 18
+    }
+  },
+  "chances": {},
+  "additional": {
+    "followup_missions_ids": [48, 99, 225, 768, 878, 879],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [1191],
+    "personnel_educations": {
+      "Handcrew": 18
+    }
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "brush_extension": 8,
+    "fire_aviation_count": 1,
+    "personnel_educations": {
+      "wildfire": 18
+    },
+    "fire_stations": 78
+  },
+  "overlay_index": null,
+  "base_mission_id": 356,
+  "additive_overlays": "",
+  "mission_categories": ["forestry"]
+}

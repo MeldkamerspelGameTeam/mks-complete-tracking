@@ -1,0 +1,42 @@
+{
+  "id": "440",
+  "name": "Brand in gevangenis",
+  "place": "Gevangenis",
+  "place_array": ["Gevangenis"],
+  "average_credits": 950,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "platform_trucks": 30,
+    "battalion_chief_vehicles": 20,
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 1,
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true,
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "police_stations": 3,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 440,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

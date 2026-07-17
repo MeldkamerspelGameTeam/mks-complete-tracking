@@ -1,0 +1,35 @@
+{
+  "id": "1085",
+  "name": "Voetballer uitgegleden in douche",
+  "place": "",
+  "place_array": [],
+  "average_credits": null,
+  "generated_by": "",
+  "icons": [
+    "/images/stadium_gruen.png",
+    "/images/stadium_gelb.png",
+    "/images/stadium_rot.png"
+  ],
+  "requirements": {},
+  "chances": {
+    "patient_transport": 40
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "date_start": "2026-06-11T09:00:00Z",
+    "date_end": "2026-07-19T22:00:00Z",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1085,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

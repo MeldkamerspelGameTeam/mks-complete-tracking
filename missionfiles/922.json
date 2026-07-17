@@ -1,0 +1,38 @@
+{
+  "id": "922",
+  "name": "Val van ladder tijdens voorjaarsschoonmaak",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1170,
+  "generated_by": "",
+  "icons": [
+    "/images/spring_gruen.png",
+    "/images/spring_gelb.png",
+    "/images/spring_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "date_start": "2026-03-13T10:00:00Z",
+    "date_end": "2026-06-19T22:00:00Z",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 1,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 922,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

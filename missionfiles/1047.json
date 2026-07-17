@@ -1,0 +1,54 @@
+{
+  "id": "1047",
+  "name": "Demonstranten vastgelijmd aan snelweg",
+  "place": "Snelweg oprit / afrit",
+  "place_array": ["Snelweg oprit / afrit"],
+  "average_credits": 13230,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "gefkw": 2,
+    "grukw": 3,
+    "hondengeleider": 2,
+    "lebefkw": 1,
+    "ovdp": 2,
+    "heavy_rescue_vehicles": 1,
+    "traffic_unit": 2,
+    "wasserwerfer": 1,
+    "firetrucks": 2,
+    "police_cars": 20
+  },
+  "chances": {
+    "patient_transport": 15
+  },
+  "additional": {
+    "possible_patient": 45,
+    "followup_missions_ids": [1069],
+    "min_possible_prisoners": 1,
+    "max_possible_prisoners": 8,
+    "filter_id": "riot_police_missions",
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "rescue_stations": 16,
+    "police_stations": 20,
+    "bereitschaftspolizei": 5,
+    "riot_unit_count": 1,
+    "prisoner_transport_count": 1,
+    "water_cannon": 1,
+    "hondengeleider": 1,
+    "technical_aid": 3,
+    "fire_stations": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 1047,
+  "additive_overlays": "",
+  "mission_categories": ["riot_police"]
+}

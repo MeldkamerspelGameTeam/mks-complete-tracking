@@ -1,0 +1,40 @@
+{
+  "id": "586",
+  "name": "Gekantelde paaseivrachtwagen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1420,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2
+  },
+  "chances": {
+    "patient_transport": 30
+  },
+  "additional": {
+    "possible_patient": 2,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-03-20T10:00:00Z",
+    "date_end": "2026-04-07T23:59:59+02:00",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 586,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

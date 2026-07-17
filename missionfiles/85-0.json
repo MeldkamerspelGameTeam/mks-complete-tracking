@@ -1,0 +1,44 @@
+{
+  "id": "85-0",
+  "name": "Aanrijding voetganger (> 30km/h)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2680,
+  "generated_by": "",
+  "icons": [
+    "/images/medicalstore_gruen.png",
+    "/images/medicalstore_gelb.png",
+    "/images/medicalstore_rot.png"
+  ],
+  "requirements": {
+    "ovdp": 1,
+    "traffic_inspector": 1,
+    "police_cars": 5
+  },
+  "chances": {
+    "ovdp": 10,
+    "traffic_inspector": 10,
+    "nef": 100,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "rescue_stations": 10,
+    "police_stations": 7,
+    "bereitschaftspolizei": 1,
+    "traffic_police": 1
+  },
+  "overlay_index": 0,
+  "base_mission_id": 85,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

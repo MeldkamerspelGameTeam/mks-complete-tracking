@@ -1,0 +1,32 @@
+{
+  "id": "221",
+  "name": "Inval in woning",
+  "place": "",
+  "place_array": [],
+  "average_credits": 800,
+  "generated_by": "",
+  "icons": [
+    "/images/cuffs_gruen.png",
+    "/images/cuffs_gelb.png",
+    "/images/cuffs_rot.png"
+  ],
+  "requirements": {
+    "ovdp": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "ovdp": 50
+  },
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 5
+  },
+  "overlay_index": null,
+  "base_mission_id": 221,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

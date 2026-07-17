@@ -1,0 +1,44 @@
+{
+  "id": "906",
+  "name": "Nationale 112 award ceremonie",
+  "place": "",
+  "place_array": [],
+  "average_credits": 10380,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 3,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 1,
+    "ambulances": 2,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 4,
+    "police_cars": 6
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "een uur",
+    "duration": 3600,
+    "followup_missions_ids": [905],
+    "guard_mission": true,
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-02-11T10:00:00Z",
+    "date_end": "2026-02-12T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "police_stations": 5,
+    "fire_stations": 14
+  },
+  "overlay_index": null,
+  "base_mission_id": 906,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

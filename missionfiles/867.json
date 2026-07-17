@@ -1,0 +1,36 @@
+{
+  "id": "867",
+  "name": "Duinbrand (Middel)",
+  "place": "Duinen",
+  "place_array": ["Duinen"],
+  "average_credits": 2690,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "water_needed": 16000,
+    "brush_truck": 2,
+    "police_cars": 2,
+    "water_rescue": 2
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [868, 880, 881, 882],
+    "filter_id": "water_watch_missions"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 2,
+    "police_stations": 2,
+    "brush_extension": 2,
+    "fire_stations": 7
+  },
+  "overlay_index": null,
+  "base_mission_id": 867,
+  "additive_overlays": "",
+  "mission_categories": ["forestry"]
+}

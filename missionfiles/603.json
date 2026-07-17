@@ -1,0 +1,31 @@
+{
+  "id": "603",
+  "name": "Brand in silo",
+  "place": "Silo",
+  "place_array": ["Silo"],
+  "average_credits": 1020,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 2
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [604],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 603,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "rural"]
+}

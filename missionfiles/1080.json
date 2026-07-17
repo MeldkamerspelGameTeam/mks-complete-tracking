@@ -1,0 +1,32 @@
+{
+  "id": "1080",
+  "name": "Kersenbloesems in brand",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1000,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 3
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-03-13T10:00:00Z",
+    "date_end": "2026-06-19T22:00:00Z"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 1080,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

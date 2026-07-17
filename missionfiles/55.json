@@ -1,0 +1,31 @@
+{
+  "id": "55",
+  "name": "Brand in sporthal",
+  "place": "School\nSporthal",
+  "place_array": ["School", "Sporthal"],
+  "average_credits": 1180,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 5
+  },
+  "overlay_index": null,
+  "base_mission_id": 55,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "784",
+  "name": "Dier op de snelweg",
+  "place": "Snelweg oprit / afrit\nVerzorgingsplaats (Snelweg)",
+  "place_array": ["Snelweg oprit / afrit", "Verzorgingsplaats (Snelweg)"],
+  "average_credits": 1420,
+  "generated_by": "",
+  "icons": [
+    "/images/cat_gruen.png",
+    "/images/cat_gelb.png",
+    "/images/cat_rot.png"
+  ],
+  "requirements": {
+    "traffic_unit": 1,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2,
+    "technical_aid": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 784,
+  "additive_overlays": "",
+  "mission_categories": ["police", "technical_aid"]
+}

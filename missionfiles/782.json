@@ -1,0 +1,35 @@
+{
+  "id": "782",
+  "name": "Diepe snijwond",
+  "place": "",
+  "place_array": [],
+  "average_credits": null,
+  "generated_by": "",
+  "icons": [
+    "/images/medicalstore_gruen.png",
+    "/images/medicalstore_gelb.png",
+    "/images/medicalstore_rot.png"
+  ],
+  "requirements": {},
+  "chances": {
+    "nef": 20,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "expansion_missions_ids": [783],
+    "filter_id": "ambulance_station_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 10
+  },
+  "overlay_index": null,
+  "base_mission_id": 782,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

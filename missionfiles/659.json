@@ -1,0 +1,33 @@
+{
+  "id": "659",
+  "name": "Brand in hoogspanningsruimte",
+  "place": "Transformatorhuisje",
+  "place_array": ["Transformatorhuisje"],
+  "average_credits": 1250,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "battalion_chief_vehicles": 10
+  },
+  "additional": {
+    "expansion_missions_ids": [660, 661],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 659,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

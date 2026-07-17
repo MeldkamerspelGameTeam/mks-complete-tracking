@@ -1,0 +1,35 @@
+{
+  "id": "695",
+  "name": "Verwonding door onjuist vuurwerkgebruik",
+  "place": "",
+  "place_array": [],
+  "average_credits": null,
+  "generated_by": "",
+  "icons": [
+    "/images/medicalstore_gruen.png",
+    "/images/medicalstore_gelb.png",
+    "/images/medicalstore_rot.png"
+  ],
+  "requirements": {},
+  "chances": {
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 3,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "date_start": "2025-12-26T10:00:00Z",
+    "date_end": "2026-01-01T23:59:59+01:00",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 695,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

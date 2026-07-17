@@ -1,0 +1,37 @@
+{
+  "id": "148",
+  "name": "Overkookte pompoensoep",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/ghost_gruen.png",
+    "/images/ghost_gelb.png",
+    "/images/ghost_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {
+    "patient_transport": 30
+  },
+  "additional": {
+    "possible_patient": 1,
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-10-17T09:00:00Z",
+    "date_end": "2025-10-31T23:59:59+01:00",
+    "patient_specialization_ids": [5],
+    "patient_specialization_captions": ["Neurologie"],
+    "patient_specializations": "Neurologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 148,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

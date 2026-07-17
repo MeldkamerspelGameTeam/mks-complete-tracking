@@ -1,0 +1,52 @@
+{
+  "id": "787/a",
+  "name": "Persoon bekneld in gierput",
+  "place": "Boerderij",
+  "place_array": ["Boerderij"],
+  "average_credits": 5660,
+  "generated_by": "",
+  "icons": [
+    "/images/gas_gruen.png",
+    "/images/gas_gelb.png",
+    "/images/gas_rot.png"
+  ],
+  "requirements": {
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "hazard_response_suits": 1,
+    "firetrucks": 2,
+    "police_cars": 4
+  },
+  "chances": {
+    "mobile_air_vehicles": 20,
+    "nef": 90,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 3,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 12,
+    "hazard_response_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 787,
+  "additive_overlays": "a",
+  "mission_categories": [
+    "fire",
+    "rural",
+    "industrial_response_specialization",
+    "hazard_response_specialization"
+  ]
+}

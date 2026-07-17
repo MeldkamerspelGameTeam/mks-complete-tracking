@@ -1,0 +1,42 @@
+{
+  "id": "800/a",
+  "name": "Groep zwemmers in problemen",
+  "place": "Strand\nMeer",
+  "place_array": ["Strand", "Meer"],
+  "average_credits": 4120,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "boats": 2,
+    "drone_police": 1,
+    "police_cars": 2,
+    "water_rescue": 2
+  },
+  "chances": {
+    "patient_transport": 65
+  },
+  "additional": {
+    "possible_patient": 5,
+    "possible_patient_min": 1,
+    "filter_id": "water_watch_missions",
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 4,
+    "rescue_stations": 8,
+    "police_stations": 2,
+    "drone_police": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 800,
+  "additive_overlays": "a",
+  "mission_categories": ["water_rescue_2"]
+}

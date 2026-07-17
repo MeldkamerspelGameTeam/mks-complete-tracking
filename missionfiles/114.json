@@ -1,0 +1,29 @@
+{
+  "id": "114",
+  "name": "Brandend dak",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1000,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 114,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

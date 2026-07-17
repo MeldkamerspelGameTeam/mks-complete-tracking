@@ -1,0 +1,31 @@
+{
+  "id": "562",
+  "name": "Pijlen Cupido gestolen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "date_start": "2026-01-30T10:00:00Z",
+    "date_end": "2026-02-15T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 562,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

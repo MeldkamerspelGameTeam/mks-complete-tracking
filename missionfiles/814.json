@@ -1,0 +1,31 @@
+{
+  "id": "814",
+  "name": "ANPR hit: Vervreemd voertuig",
+  "place": "Snelweg oprit / afrit",
+  "place_array": ["Snelweg oprit / afrit"],
+  "average_credits": 840,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [124],
+    "min_possible_prisoners": 1,
+    "max_possible_prisoners": 2,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 814,
+  "additive_overlays": "",
+  "mission_categories": ["police", "traffic_police_specialization"]
+}

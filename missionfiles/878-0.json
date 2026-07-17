@@ -1,0 +1,29 @@
+{
+  "id": "878-0",
+  "name": "Afzetten straat voor brandweer",
+  "place": "",
+  "place_array": [],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/comment_gruen.png",
+    "/images/comment_gelb.png",
+    "/images/comment_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "followup_mission_only": true
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": 0,
+  "base_mission_id": 878,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

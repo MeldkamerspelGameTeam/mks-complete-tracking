@@ -1,0 +1,55 @@
+{
+  "id": "312/b",
+  "name": "Lekkende goederenwagon (Groot)",
+  "place": "Rangeeremplacement",
+  "place_array": ["Rangeeremplacement"],
+  "average_credits": 6370,
+  "generated_by": "",
+  "icons": [
+    "/images/gas_gruen.png",
+    "/images/gas_gelb.png",
+    "/images/gas_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "gwmess": 1,
+    "heavy_rescue_vehicles": 2,
+    "hazard_response_material": 1,
+    "firetrucks": 4,
+    "police_cars": 3
+  },
+  "chances": {
+    "mobile_command_vehicles": 80,
+    "mobile_air_vehicles": 20,
+    "gwmess": 70,
+    "nef": 50,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "expansion_missions_ids": [255, 36],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 3,
+    "fire_stations": 14,
+    "industrial_response_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 312,
+  "additive_overlays": "b",
+  "mission_categories": [
+    "fire",
+    "urban",
+    "industrial_response_specialization",
+    "hazard_response_specialization"
+  ]
+}

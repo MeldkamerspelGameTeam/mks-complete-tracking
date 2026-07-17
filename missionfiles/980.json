@@ -1,0 +1,48 @@
+{
+  "id": "980",
+  "name": "Uit de hand gelopen manifestatie",
+  "place": "",
+  "place_array": [],
+  "average_credits": 45080,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "detention_unit": 3,
+    "gefkw": 20,
+    "grukw": 18,
+    "hondengeleider": 8,
+    "lebefkw": 3,
+    "ovdp": 3,
+    "police_horse": 24,
+    "police_helicopters": 1,
+    "police_cars": 50
+  },
+  "chances": {
+    "nef": 1,
+    "patient_transport": 30
+  },
+  "additional": {
+    "possible_patient": 15,
+    "possible_patient_min": 2,
+    "only_alliance_mission": true,
+    "min_possible_prisoners": 50,
+    "max_possible_prisoners": 150,
+    "filter_id": "riot_police_missions",
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
+    "patient_specializations": "Algemene Heelkunde, Traumatologie",
+    "unavailable_in_normal_missions": true
+  },
+  "prerequisites": {
+    "main_building": 11
+  },
+  "overlay_index": null,
+  "base_mission_id": 980,
+  "additive_overlays": "",
+  "mission_categories": ["riot_police"]
+}

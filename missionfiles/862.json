@@ -1,0 +1,39 @@
+{
+  "id": "862",
+  "name": "Ongeluk op mistige weg",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1580,
+  "generated_by": "",
+  "icons": [
+    "/images/autumn_gruen.png",
+    "/images/autumn_gelb.png",
+    "/images/autumn_rot.png"
+  ],
+  "requirements": {
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2
+  },
+  "chances": {
+    "nef": 20,
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 2,
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-09-19T09:00:00Z",
+    "date_end": "2025-11-28T23:59:59+01:00",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "fire_stations": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 862,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

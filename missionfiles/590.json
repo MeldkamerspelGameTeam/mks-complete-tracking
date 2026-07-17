@@ -1,0 +1,52 @@
+{
+  "id": "590",
+  "name": "Noodlanding groot vliegtuig",
+  "place": "Vliegveld (groot): Start-/Landingsbaan",
+  "place_array": ["Vliegveld (groot): Start-/Landingsbaan"],
+  "average_credits": 8970,
+  "generated_by": "",
+  "icons": [
+    "/images/planecrash_gruen.png",
+    "/images/planecrash_gelb.png",
+    "/images/planecrash_rot.png"
+  ],
+  "requirements": {
+    "arff": 3,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw_airport": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "gwmess": 2,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 4
+  },
+  "chances": {
+    "hazmat_vehicles": 10,
+    "gwmess": 10,
+    "heavy_rescue_vehicles": 20,
+    "patient_transport": 60
+  },
+  "additional": {
+    "possible_patient": 30,
+    "possible_patient_min": 12,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [995],
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 11,
+    "police_stations": 5,
+    "airport": 1,
+    "fire_stations": 13
+  },
+  "overlay_index": null,
+  "base_mission_id": 590,
+  "additive_overlays": "",
+  "mission_categories": ["airport"]
+}

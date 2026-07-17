@@ -1,0 +1,51 @@
+{
+  "id": "843-0",
+  "name": "Voertuigbrand in tunnel",
+  "place": "Tunnel",
+  "place_array": ["Tunnel"],
+  "average_credits": 5660,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "foam": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 1,
+    "ovdp": 1,
+    "foam_needed": 500,
+    "firetrucks": 2,
+    "police_cars": 3
+  },
+  "chances": {
+    "nef": 30,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 2,
+    "filter_id": "firehouse_missions",
+    "possible_crashed_car_min": 1,
+    "possible_crashed_car_max": 2,
+    "possible_crashed_car_large_max": 1,
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "fire_support_count": 1,
+    "tow_trucks": 2,
+    "tow_trucks_large": 1,
+    "fire_stations": 11
+  },
+  "overlay_index": 0,
+  "base_mission_id": 843,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
+}

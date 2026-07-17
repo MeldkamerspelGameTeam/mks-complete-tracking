@@ -1,0 +1,55 @@
+{
+  "id": "886-1",
+  "name": "Massa-beroerte tijdens het eten van fondue (enorm)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 16050,
+  "generated_by": "",
+  "icons": [
+    "/images/dancinghall_gruen.png",
+    "/images/dancinghall_gelb.png",
+    "/images/dancinghall_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 3,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "gwmess": 1,
+    "heavy_rescue_vehicles": 1,
+    "mass_casualty": 2,
+    "mass_casualty_advanced": 2,
+    "firetrucks": 20,
+    "police_cars": 14
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "mobile_air_vehicles": 25,
+    "gwmess": 50,
+    "nef": 2,
+    "patient_transport": 25
+  },
+  "additional": {
+    "possible_patient": 250,
+    "possible_patient_min": 120,
+    "filter_id": "ambulance_station_missions",
+    "date_start": "2025-12-26T10:00:00Z",
+    "date_end": "2026-01-01T23:59:59+01:00",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 78,
+    "police_stations": 16,
+    "mass_casualty_count": 2,
+    "fire_stations": 28
+  },
+  "overlay_index": 1,
+  "base_mission_id": 886,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

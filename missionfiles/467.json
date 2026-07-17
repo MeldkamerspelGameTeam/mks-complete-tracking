@@ -1,0 +1,44 @@
+{
+  "id": "467",
+  "name": "Brand in verzorgingshuis",
+  "place": "Verzorgingshuis",
+  "place_array": ["Verzorgingshuis"],
+  "average_credits": 2750,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "firetrucks": 3,
+    "police_cars": 2
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "patient_transport": 90
+  },
+  "additional": {
+    "possible_patient": 6,
+    "possible_patient_min": 2,
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true,
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 4,
+    "police_stations": 2,
+    "fire_stations": 12
+  },
+  "overlay_index": null,
+  "base_mission_id": 467,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "939-1",
+  "name": "Schrootbrand op schip",
+  "place": "Haventerrein",
+  "place_array": ["Haventerrein"],
+  "average_credits": 23560,
+  "generated_by": "",
+  "icons": [
+    "/images/cruiseship_gruen.png",
+    "/images/cruiseship_gelb.png",
+    "/images/cruiseship_rot.png"
+  ],
+  "requirements": {
+    "arff": 1,
+    "bike_police": 2,
+    "platform_trucks": 3,
+    "battalion_chief_vehicles": 4,
+    "mobile_command_vehicles": 2,
+    "elw3": 1,
+    "foam": 3,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 2,
+    "water_tankers": 4,
+    "gwmess": 6,
+    "ovdp": 2,
+    "spokesman": 1,
+    "water_needed": 92000,
+    "foam_needed": 3500,
+    "firetrucks": 8,
+    "police_cars": 12
+  },
+  "chances": {
+    "arff": 25,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 20,
+    "possible_patient_min": 8,
+    "filter_id": "firehouse_missions",
+    "need_bike_police_only_if_present": true,
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 16,
+    "fire_support_count": 3,
+    "airport": 1,
+    "fire_stations": 36
+  },
+  "overlay_index": 1,
+  "base_mission_id": 939,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
+}

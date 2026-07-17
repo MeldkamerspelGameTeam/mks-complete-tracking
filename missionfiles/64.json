@@ -1,0 +1,32 @@
+{
+  "id": "64",
+  "name": "Brand in keuken",
+  "place": "",
+  "place_array": [],
+  "average_credits": 700,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 2
+  },
+  "chances": {
+    "platform_trucks": 80
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 64,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

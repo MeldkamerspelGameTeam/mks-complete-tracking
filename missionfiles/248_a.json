@@ -1,0 +1,37 @@
+{
+  "id": "248/a",
+  "name": "Persoon vermist",
+  "place": "",
+  "place_array": [],
+  "average_credits": 6240,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "grukw": 6,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "drone_police": 1,
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 5,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 2,
+    "riot_unit_count": 2,
+    "drone_police": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 248,
+  "additive_overlays": "a",
+  "mission_categories": ["riot_police"]
+}

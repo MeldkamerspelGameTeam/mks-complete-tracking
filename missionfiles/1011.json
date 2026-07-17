@@ -1,0 +1,31 @@
+{
+  "id": "1011",
+  "name": "Vechtpartij in bankkantoor",
+  "place": "Bankkantoor",
+  "place_array": ["Bankkantoor"],
+  "average_credits": 1810,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "ovdp": 1,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1011,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

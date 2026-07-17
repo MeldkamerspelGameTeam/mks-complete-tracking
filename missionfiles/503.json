@@ -1,0 +1,57 @@
+{
+  "id": "503",
+  "name": "Kettingbotsing",
+  "place": "Snelweg oprit / afrit",
+  "place_array": ["Snelweg oprit / afrit"],
+  "average_credits": 8900,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 2,
+    "traffic_unit": 2,
+    "traffic_patrol": 1,
+    "traffic_inspector": 1,
+    "firetrucks": 4,
+    "police_cars": 4
+  },
+  "chances": {
+    "nef": 45,
+    "patient_transport": 80
+  },
+  "additional": {
+    "possible_patient": 8,
+    "possible_patient_min": 4,
+    "followup_missions_ids": [1069],
+    "filter_id": "firehouse_missions",
+    "possible_crashed_car_min": 3,
+    "possible_crashed_car_max": 8,
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
+    "patient_specializations": "Algemene Heelkunde, Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 7,
+    "bereitschaftspolizei": 1,
+    "traffic_police": 2,
+    "technical_aid": 3,
+    "tow_trucks": 5,
+    "fire_stations": 7
+  },
+  "overlay_index": null,
+  "base_mission_id": 503,
+  "additive_overlays": "",
+  "mission_categories": [
+    "fire",
+    "traffic_police_specialization",
+    "urban",
+    "technical_aid"
+  ]
+}

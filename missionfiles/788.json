@@ -1,0 +1,35 @@
+{
+  "id": "788",
+  "name": "Iemand uitgegleden over gesmolten chocolade",
+  "place": "",
+  "place_array": [],
+  "average_credits": null,
+  "generated_by": "",
+  "icons": [
+    "/images/medicalstore_gruen.png",
+    "/images/medicalstore_gelb.png",
+    "/images/medicalstore_rot.png"
+  ],
+  "requirements": {},
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "date_start": "2026-05-08T09:00:00Z",
+    "date_end": "2026-05-10T23:59:59+02:00",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 788,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

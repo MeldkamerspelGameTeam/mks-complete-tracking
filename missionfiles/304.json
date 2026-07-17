@@ -1,0 +1,46 @@
+{
+  "id": "304",
+  "name": "Brand in kantoorgebouw",
+  "place": "Kantoorgebouw",
+  "place_array": ["Kantoorgebouw"],
+  "average_credits": 4730,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 1,
+    "firetrucks": 3
+  },
+  "chances": {
+    "mobile_command_vehicles": 50,
+    "mobile_air_vehicles": 10,
+    "water_tankers": 10,
+    "nef": 1,
+    "patient_transport": 30
+  },
+  "additional": {
+    "possible_patient": 50,
+    "possible_patient_min": 10,
+    "expansion_missions_ids": [475, 475],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [1, 4],
+    "patient_specialization_captions": ["Algemene Heelkunde", "Traumatologie"],
+    "patient_specializations": "Algemene Heelkunde, Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 18,
+    "fire_stations": 13
+  },
+  "overlay_index": null,
+  "base_mission_id": 304,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

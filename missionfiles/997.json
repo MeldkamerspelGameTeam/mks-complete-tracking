@@ -1,0 +1,30 @@
+{
+  "id": "997",
+  "name": "Kerstdecoratie in brand",
+  "place": "",
+  "place_array": [],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/xmas_gruen.png",
+    "/images/xmas_gelb.png",
+    "/images/xmas_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-12-01T10:00:00Z",
+    "date_end": "2025-12-26T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 997,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

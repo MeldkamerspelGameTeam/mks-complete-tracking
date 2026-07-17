@@ -1,0 +1,33 @@
+{
+  "id": "140",
+  "name": "Natuurbrand (Middel)",
+  "place": "Bos",
+  "place_array": ["Bos"],
+  "average_credits": 5100,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "water_tankers": 1,
+    "water_needed": 17500,
+    "brush_truck": 2
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [141, 142, 143, 144, 308, 309, 357],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "brush_extension": 2,
+    "fire_stations": 16
+  },
+  "overlay_index": null,
+  "base_mission_id": 140,
+  "additive_overlays": "",
+  "mission_categories": ["forestry"]
+}

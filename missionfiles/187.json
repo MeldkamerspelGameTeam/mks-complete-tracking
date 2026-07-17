@@ -1,0 +1,33 @@
+{
+  "id": "187",
+  "name": "Kelder onder water",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2440,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "water_tankers": 1,
+    "firetrucks": 1,
+    "min_pump_speed": 2000
+  },
+  "chances": {
+    "water_tankers": 20
+  },
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "pump_water_amount": 9000
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 7
+  },
+  "overlay_index": null,
+  "base_mission_id": 187,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

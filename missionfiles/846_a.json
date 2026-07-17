@@ -1,0 +1,35 @@
+{
+  "id": "846/a",
+  "name": "Woningoverval",
+  "place": "",
+  "place_array": [],
+  "average_credits": 3480,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "hondengeleider": 1,
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "police_cars": 5
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 4,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 6,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 846,
+  "additive_overlays": "a",
+  "mission_categories": ["police"]
+}

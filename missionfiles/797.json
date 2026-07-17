@@ -1,0 +1,37 @@
+{
+  "id": "797",
+  "name": "Zwemmer in problemen",
+  "place": "Strand\nMeer",
+  "place_array": ["Strand", "Meer"],
+  "average_credits": 1230,
+  "generated_by": "",
+  "icons": [
+    "/images/medicalstore_gruen.png",
+    "/images/medicalstore_gelb.png",
+    "/images/medicalstore_rot.png"
+  ],
+  "requirements": {
+    "boats": 1,
+    "water_rescue": 1
+  },
+  "chances": {
+    "patient_transport": 80
+  },
+  "additional": {
+    "possible_patient": 1,
+    "filter_id": "water_watch_missions",
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 2,
+    "rescue_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 797,
+  "additive_overlays": "",
+  "mission_categories": ["water_rescue_2"]
+}

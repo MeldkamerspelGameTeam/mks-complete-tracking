@@ -1,0 +1,37 @@
+{
+  "id": "585",
+  "name": "Hazenbijeenkomst in Paaseistad",
+  "place": "Stadion",
+  "place_array": ["Stadion"],
+  "average_credits": 10530,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "ambulances": 4,
+    "firetrucks": 2,
+    "police_cars": 8
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "2 uur",
+    "duration": 7200,
+    "guard_mission": true,
+    "filter_id": "police_station_missions",
+    "date_start": "2026-03-20T10:00:00Z",
+    "date_end": "2026-04-07T23:59:59+02:00"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "rescue_stations": 4,
+    "police_stations": 7,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 585,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

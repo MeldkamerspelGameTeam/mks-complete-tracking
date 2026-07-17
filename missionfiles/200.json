@@ -1,0 +1,34 @@
+{
+  "id": "200",
+  "name": "Drugslab aangetroffen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 800,
+  "generated_by": "",
+  "icons": [
+    "/images/bar_cocktail_gruen.png",
+    "/images/bar_cocktail_gelb.png",
+    "/images/bar_cocktail_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "ovdp": 1,
+    "firetrucks": 1,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 2,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 5,
+    "fire_stations": 11
+  },
+  "overlay_index": null,
+  "base_mission_id": 200,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

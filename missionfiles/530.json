@@ -1,0 +1,39 @@
+{
+  "id": "530",
+  "name": "Kelderbrand door vuurwerk",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1180,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 3
+  },
+  "chances": {
+    "battalion_chief_vehicles": 90,
+    "patient_transport": 30
+  },
+  "additional": {
+    "possible_patient": 2,
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-12-26T10:00:00Z",
+    "date_end": "2026-01-01T23:59:59+01:00",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 530,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

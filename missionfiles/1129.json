@@ -1,0 +1,50 @@
+{
+  "id": "1129",
+  "name": "Achtervolging eindigt met botstende verdachte in supermarkt, waterleiding breekt",
+  "place": "",
+  "place_array": [],
+  "average_credits": 4530,
+  "generated_by": "",
+  "icons": [
+    "/images/icy_road_gruen.png",
+    "/images/icy_road_gelb.png",
+    "/images/icy_road_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "ovdp": 1,
+    "police_helicopters": 1,
+    "heavy_rescue_vehicles": 2,
+    "firetrucks": 4,
+    "police_cars": 8,
+    "min_pump_speed": 1500
+  },
+  "chances": {
+    "patient_transport": 40
+  },
+  "additional": {
+    "possible_patient": 15,
+    "possible_patient_min": 2,
+    "filter_id": "police_station_missions",
+    "pump_water_amount": 10000,
+    "possible_crashed_car_min": 1,
+    "possible_crashed_car_max": 1,
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "rescue_stations": 6,
+    "police_stations": 6,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1,
+    "tow_trucks": 1,
+    "fire_stations": 8
+  },
+  "overlay_index": null,
+  "base_mission_id": 1129,
+  "additive_overlays": "",
+  "mission_categories": ["tow_trucks", "tow_trucks_only"]
+}

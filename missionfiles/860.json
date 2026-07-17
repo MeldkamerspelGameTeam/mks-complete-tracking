@@ -1,0 +1,30 @@
+{
+  "id": "860",
+  "name": "Afvoerput verstopt met bladeren",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/autumn_gruen.png",
+    "/images/autumn_gelb.png",
+    "/images/autumn_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-09-19T09:00:00Z",
+    "date_end": "2025-11-28T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 860,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

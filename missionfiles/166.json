@@ -1,0 +1,48 @@
+{
+  "id": "166",
+  "name": "Toezicht manifestatie pietendiscussie",
+  "place": "",
+  "place_array": [],
+  "average_credits": 29430,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "detention_unit": 1,
+    "gefkw": 1,
+    "grukw": 6,
+    "hondengeleider": 2,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_horse": 8,
+    "police_helicopters": 1,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "2 uur",
+    "duration": 7200,
+    "guard_mission": true,
+    "filter_id": "police_station_missions",
+    "date_start": "2025-11-14T10:00:00Z",
+    "date_end": "2025-12-06T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 5,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 7,
+    "riot_unit_count": 2,
+    "detention_unit_count": 1,
+    "prisoner_transport_count": 1,
+    "police_horse": 2,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 166,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "801",
+  "name": "Groep kitesurfers in problemen",
+  "place": "Strand",
+  "place_array": ["Strand"],
+  "average_credits": 3990,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "boats": 2,
+    "police_cars": 3,
+    "water_rescue": 3
+  },
+  "chances": {
+    "patient_transport": 65
+  },
+  "additional": {
+    "possible_patient": 6,
+    "possible_patient_min": 1,
+    "filter_id": "water_watch_missions",
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 5,
+    "rescue_stations": 8,
+    "police_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 801,
+  "additive_overlays": "",
+  "mission_categories": ["water_rescue_2"]
+}

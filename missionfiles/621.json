@@ -1,0 +1,30 @@
+{
+  "id": "621",
+  "name": "Barbecuebrand",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-06-26T09:00:00Z",
+    "date_end": "2026-08-21T09:00:00Z"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 621,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

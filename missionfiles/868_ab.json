@@ -1,0 +1,65 @@
+{
+  "id": "868/ab",
+  "name": "Duinbrand (Grip 1)",
+  "place": "Duinen",
+  "place_array": ["Duinen"],
+  "average_credits": 27683,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "gwmess": 3,
+    "ovdp": 1,
+    "spokesman": 1,
+    "water_needed": 54000,
+    "brush_truck": 6,
+    "care_service_command": 1,
+    "wildfire_command": 1,
+    "wildfire_equipment": 1,
+    "drone_fire": 1,
+    "police_cars": 4,
+    "water_rescue": 2,
+    "personnel_educations": {
+      "wildfire": 36
+    }
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [880, 881, 882],
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+    "filter_id": "water_watch_missions",
+    "subsequent_missions_ids": [1191],
+    "need_bike_police_only_if_present": true,
+    "care_includes_staff_members": true,
+    "personnel_educations": {
+      "Handcrew": 36
+    }
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 2,
+    "police_stations": 7,
+    "bereitschaftspolizei": 1,
+    "brush_extension": 7,
+    "personnel_educations": {
+      "wildfire": 36
+    },
+    "care_service": 1,
+    "clean_service": 1,
+    "drone_fire": 1,
+    "fire_stations": 29
+  },
+  "overlay_index": null,
+  "base_mission_id": 868,
+  "additive_overlays": "ab",
+  "mission_categories": ["forestry"]
+}

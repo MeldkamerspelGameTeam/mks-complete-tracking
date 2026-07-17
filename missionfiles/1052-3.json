@@ -1,0 +1,69 @@
+{
+  "id": "1052-3",
+  "name": "Brand overheidsgebouw",
+  "place": "",
+  "place_array": [],
+  "average_credits": 26540,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 2,
+    "platform_trucks": 3,
+    "battalion_chief_vehicles": 3,
+    "mobile_command_vehicles": 2,
+    "elw3": 1,
+    "foam": 1,
+    "mobile_air_vehicles": 2,
+    "hazmat_vehicles": 2,
+    "water_tankers": 4,
+    "gwmess": 6,
+    "hondengeleider": 2,
+    "ovdp": 2,
+    "police_helicopters": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "foam_needed": 500,
+    "mass_casualty": 1,
+    "mass_casualty_advanced": 1,
+    "firetrucks": 10,
+    "police_cars": 15
+  },
+  "chances": {
+    "nef": 3,
+    "patient_transport": 20
+  },
+  "additional": {
+    "possible_patient": 100,
+    "possible_patient_min": 25,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [878, 877, 995],
+    "need_bike_police_only_if_present": true,
+    "fire_alarm_system_possible": false,
+    "patient_specialization_ids": [0, 4, 1],
+    "patient_specialization_captions": [
+      "Interne Geneeskunde",
+      "Traumatologie",
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Interne Geneeskunde, Traumatologie, Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 33,
+    "police_stations": 19,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 2,
+    "fire_support_count": 1,
+    "mass_casualty_count": 1,
+    "hondengeleider": 1,
+    "fire_stations": 40
+  },
+  "overlay_index": 3,
+  "base_mission_id": 1052,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "165",
+  "name": "Piet klem in schoorsteen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/sint_gruen.png",
+    "/images/sint_gelb.png",
+    "/images/sint_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "patient_transport": 30
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-11-14T10:00:00Z",
+    "date_end": "2025-12-06T23:59:59Z",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 165,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

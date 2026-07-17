@@ -1,0 +1,30 @@
+{
+  "id": "125",
+  "name": "Vermist persoon",
+  "place": "",
+  "place_array": [],
+  "average_credits": 3500,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "police_helicopters": 1,
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 3,
+    "police_helicopter_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 125,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

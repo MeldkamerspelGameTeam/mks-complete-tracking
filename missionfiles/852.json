@@ -1,0 +1,51 @@
+{
+  "id": "852",
+  "name": "Vliegtuig neergestort",
+  "place": "Snelweg oprit / afrit\nPark\nBos\nBoerderij\nVliegveld (klein): Start-/Landingsbaan\nVliegveld (groot): Start-/Landingsbaan",
+  "place_array": [
+    "Snelweg oprit / afrit",
+    "Park",
+    "Bos",
+    "Boerderij",
+    "Vliegveld (klein): Start-/Landingsbaan",
+    "Vliegveld (groot): Start-/Landingsbaan"
+  ],
+  "average_credits": 3380,
+  "generated_by": "",
+  "icons": [
+    "/images/planecrash_gruen.png",
+    "/images/planecrash_gelb.png",
+    "/images/planecrash_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 3
+  },
+  "chances": {
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 2,
+    "possible_patient_min": 2,
+    "expansion_missions_ids": [853],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 11
+  },
+  "overlay_index": null,
+  "base_mission_id": 852,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

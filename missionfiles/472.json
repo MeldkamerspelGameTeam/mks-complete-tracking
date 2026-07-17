@@ -1,0 +1,40 @@
+{
+  "id": "472",
+  "name": "Personen onwel door hitte",
+  "place": "Kantoorgebouw",
+  "place_array": ["Kantoorgebouw"],
+  "average_credits": 700,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "battalion_chief_vehicles": 50,
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 10,
+    "possible_patient_min": 5,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 5,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 472,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

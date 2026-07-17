@@ -1,0 +1,41 @@
+{
+  "id": "632",
+  "name": "Brandende frietkraam",
+  "place": "Frietkraam",
+  "place_array": ["Frietkraam"],
+  "average_credits": 3040,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 2,
+    "police_cars": 2
+  },
+  "chances": {
+    "nef": 20,
+    "patient_transport": 40
+  },
+  "additional": {
+    "possible_patient": 4,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 632,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

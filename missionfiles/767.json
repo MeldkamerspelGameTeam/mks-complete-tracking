@@ -1,0 +1,38 @@
+{
+  "id": "767",
+  "name": "Ongeregeldheden in de wijk",
+  "place": "",
+  "place_array": [],
+  "average_credits": 5125,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "detention_unit": 1,
+    "grukw": 6,
+    "lebefkw": 1,
+    "police_cars": 6
+  },
+  "chances": {},
+  "additional": {
+    "min_possible_prisoners": 2,
+    "max_possible_prisoners": 5,
+    "filter_id": "riot_police_missions",
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 7,
+    "bereitschaftspolizei": 2,
+    "riot_unit_count": 2,
+    "detention_unit_count": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 767,
+  "additive_overlays": "",
+  "mission_categories": ["riot_police"]
+}

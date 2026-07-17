@@ -1,0 +1,36 @@
+{
+  "id": "913",
+  "name": "Carnaval beveiliging",
+  "place": "",
+  "place_array": [],
+  "average_credits": 3735,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 4,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "een uur",
+    "duration": 3600,
+    "guard_mission": true,
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-02-13T10:00:00Z",
+    "date_end": "2026-02-18T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 913,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

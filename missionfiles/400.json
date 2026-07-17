@@ -1,0 +1,33 @@
+{
+  "id": "400",
+  "name": "Inbraakalarm bedrijfspand",
+  "place": "Magazijn",
+  "place_array": ["Magazijn"],
+  "average_credits": 1170,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "hondengeleider": 1,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [333],
+    "max_possible_prisoners": 1,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 2,
+    "bereitschaftspolizei": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 400,
+  "additive_overlays": "",
+  "mission_categories": ["riot_police"]
+}

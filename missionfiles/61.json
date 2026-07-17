@@ -1,0 +1,32 @@
+{
+  "id": "61",
+  "name": "Brand in slaapkamer",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "platform_trucks": 10
+  },
+  "additional": {
+    "expansion_missions_ids": [22],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 61,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

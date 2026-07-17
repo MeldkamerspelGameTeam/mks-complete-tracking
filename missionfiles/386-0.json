@@ -1,0 +1,46 @@
+{
+  "id": "386-0",
+  "name": "Brand in parkeergarage",
+  "place": "Parkeergarage",
+  "place_array": ["Parkeergarage"],
+  "average_credits": 6940,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "foam": 2,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 1,
+    "heavy_rescue_vehicles": 1,
+    "foam_needed": 500,
+    "firetrucks": 4,
+    "police_cars": 2
+  },
+  "chances": {
+    "elw3": 50,
+    "mobile_air_vehicles": 80,
+    "water_tankers": 40,
+    "heavy_rescue_vehicles": 30
+  },
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 2,
+    "fire_support_count": 2,
+    "fire_stations": 14
+  },
+  "overlay_index": 0,
+  "base_mission_id": 386,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "fire_support_specialization"]
+}

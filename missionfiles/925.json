@@ -1,0 +1,30 @@
+{
+  "id": "925",
+  "name": "Picknickmand in brand",
+  "place": "Park\nBos",
+  "place_array": ["Park", "Bos"],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-03-13T10:00:00Z",
+    "date_end": "2026-06-19T22:00:00Z"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 925,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "1002",
+  "name": "Blokkade door boze menigte",
+  "place": "",
+  "place_array": [],
+  "average_credits": 14530,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "detention_unit": 1,
+    "gefkw": 2,
+    "grukw": 6,
+    "hondengeleider": 4,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_horse": 10,
+    "police_helicopters": 1,
+    "police_cars": 20
+  },
+  "chances": {
+    "patient_transport": 60
+  },
+  "additional": {
+    "possible_patient": 20,
+    "possible_patient_min": 5,
+    "min_possible_prisoners": 10,
+    "max_possible_prisoners": 40,
+    "filter_id": "riot_police_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "rescue_stations": 8,
+    "police_stations": 18,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 10,
+    "riot_unit_count": 2,
+    "detention_unit_count": 1,
+    "prisoner_transport_count": 1,
+    "police_horse": 3,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1002,
+  "additive_overlays": "",
+  "mission_categories": ["police", "riot_police"]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "684",
+  "name": "Geweld tegen hulpverleners",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1510,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "hondengeleider": 1,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [685],
+    "followup_missions_ids": [1018],
+    "max_possible_prisoners": 2,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 4,
+    "bereitschaftspolizei": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 684,
+  "additive_overlays": "",
+  "mission_categories": ["riot_police"]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "147",
+  "name": "Brandend pompoenveld",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1010,
+  "generated_by": "",
+  "icons": [
+    "/images/ghost_gruen.png",
+    "/images/ghost_gelb.png",
+    "/images/ghost_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "date_start": "2025-10-17T09:00:00Z",
+    "date_end": "2025-10-31T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 147,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban", "rural"]
+}

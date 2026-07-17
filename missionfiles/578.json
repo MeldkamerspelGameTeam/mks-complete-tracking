@@ -1,0 +1,31 @@
+{
+  "id": "578",
+  "name": "Paasei dief",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/theft_gruen.png",
+    "/images/theft_gelb.png",
+    "/images/theft_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "date_start": "2026-03-20T10:00:00Z",
+    "date_end": "2026-04-07T23:59:59+02:00"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 578,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

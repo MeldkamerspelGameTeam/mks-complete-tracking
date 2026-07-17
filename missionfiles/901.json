@@ -1,0 +1,49 @@
+{
+  "id": "901",
+  "name": "Trein ontspoord",
+  "place": "Spoorwegovergang\nStation\nCentraal Station\nRangeeremplacement",
+  "place_array": [
+    "Spoorwegovergang",
+    "Station",
+    "Centraal Station",
+    "Rangeeremplacement"
+  ],
+  "average_credits": 4250,
+  "generated_by": "",
+  "icons": [
+    "/images/tramway_gruen.png",
+    "/images/tramway_gelb.png",
+    "/images/tramway_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "oneof_fire_engine_or_rescue": 2,
+    "firetrucks": 1,
+    "police_cars": 4
+  },
+  "chances": {
+    "nef": 40,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 15,
+    "possible_patient_min": 5,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [995],
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 5,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 901,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "988",
+  "name": "Persoon onwel op schip",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1230,
+  "generated_by": "",
+  "icons": [
+    "/images/boat_gruen.png",
+    "/images/boat_gelb.png",
+    "/images/boat_rot.png"
+  ],
+  "requirements": {
+    "coastal_boat": 1
+  },
+  "chances": {
+    "patient_transport": 90
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "coastal_rescue_missions",
+    "vehicle_groups": ["ocean_missions"],
+    "uses_custom_spawn_area": true,
+    "handoff_possible_via_building_types": [19],
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [0, 5, 7],
+    "patient_specialization_captions": [
+      "Interne Geneeskunde",
+      "Neurologie",
+      "Cardiologie"
+    ],
+    "patient_specializations": "Interne Geneeskunde, Neurologie, Cardiologie"
+  },
+  "prerequisites": {
+    "main_building": 19,
+    "rescue_stations": 1,
+    "coastal_rescue_small_count": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 988,
+  "additive_overlays": "",
+  "mission_categories": ["coastal_rescue_ocean"]
+}

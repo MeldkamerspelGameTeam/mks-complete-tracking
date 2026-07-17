@@ -1,0 +1,34 @@
+{
+  "id": "939",
+  "name": "Schrootbrand op schip",
+  "place": "Haventerrein",
+  "place_array": ["Haventerrein"],
+  "average_credits": 2280,
+  "generated_by": "",
+  "icons": [
+    "/images/cruiseship_gruen.png",
+    "/images/cruiseship_gelb.png",
+    "/images/cruiseship_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "water_tankers": 1,
+    "water_needed": 23000,
+    "firetrucks": 2,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 2,
+    "fire_stations": 7
+  },
+  "overlay_index": null,
+  "base_mission_id": 939,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
+}

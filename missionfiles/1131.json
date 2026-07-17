@@ -1,0 +1,32 @@
+{
+  "id": "1131",
+  "name": "Verlovingsring gestolen tijdens aanzoek",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 3
+  },
+  "chances": {},
+  "additional": {
+    "min_possible_prisoners": 1,
+    "max_possible_prisoners": 1,
+    "filter_id": "police_station_missions",
+    "date_start": "2026-01-30T10:00:00Z",
+    "date_end": "2026-02-15T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 1131,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

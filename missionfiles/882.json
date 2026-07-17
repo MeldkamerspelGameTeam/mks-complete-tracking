@@ -1,0 +1,74 @@
+{
+  "id": "882",
+  "name": "Duinbrand (Grip 4)",
+  "place": "Duinen",
+  "place_array": ["Duinen"],
+  "average_credits": 51574,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 2,
+    "battalion_chief_vehicles": 3,
+    "mobile_command_vehicles": 2,
+    "elw3": 2,
+    "mobile_air_vehicles": 2,
+    "hazmat_vehicles": 2,
+    "gwmess": 6,
+    "ovdp": 2,
+    "police_helicopters": 1,
+    "spokesman": 2,
+    "water_needed": 168000,
+    "brush_truck": 12,
+    "wildfire_command": 1,
+    "wildfire_equipment": 2,
+    "fire_aviation": 2,
+    "police_cars": 8,
+    "water_rescue": 2,
+    "personnel_educations": {
+      "wildfire": 36
+    }
+  },
+  "chances": {
+    "elw3": 80,
+    "mobile_air_vehicles": 75,
+    "gwmess": 80,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 15,
+    "possible_patient_min": 11,
+    "followup_missions_ids": [48, 99, 225, 240, 768, 878, 878, 879, 879],
+    "filter_id": "water_watch_missions",
+    "allow_arff_instead_of_lf": true,
+    "subsequent_missions_ids": [1191],
+    "need_bike_police_only_if_present": true,
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde",
+    "personnel_educations": {
+      "Handcrew": 36
+    }
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 2,
+    "rescue_stations": 8,
+    "police_stations": 13,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 2,
+    "brush_extension": 13,
+    "fire_aviation_count": 1,
+    "personnel_educations": {
+      "wildfire": 36
+    },
+    "fire_stations": 73
+  },
+  "overlay_index": null,
+  "base_mission_id": 882,
+  "additive_overlays": "",
+  "mission_categories": ["forestry"]
+}

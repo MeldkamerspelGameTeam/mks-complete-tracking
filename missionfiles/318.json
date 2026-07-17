@@ -1,0 +1,32 @@
+{
+  "id": "318",
+  "name": "Brand op binnenvaartschip",
+  "place": "Rivier",
+  "place_array": ["Rivier"],
+  "average_credits": 1450,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "boats": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "boats": 20
+  },
+  "additional": {
+    "filter_id": "water_watch_missions"
+  },
+  "prerequisites": {
+    "main_building": -1,
+    "wasserrettung": 1,
+    "fire_stations": 12
+  },
+  "overlay_index": null,
+  "base_mission_id": 318,
+  "additive_overlays": "",
+  "mission_categories": ["water_rescue"]
+}

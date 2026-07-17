@@ -1,0 +1,40 @@
+{
+  "id": "589",
+  "name": "Voorzorgslanding klein vliegtuig",
+  "place": "Vliegveld (klein): Start-/Landingsbaan",
+  "place_array": ["Vliegveld (klein): Start-/Landingsbaan"],
+  "average_credits": 2310,
+  "generated_by": "",
+  "icons": [
+    "/images/planecrash_gruen.png",
+    "/images/planecrash_gelb.png",
+    "/images/planecrash_rot.png"
+  ],
+  "requirements": {
+    "arff": 1,
+    "elw_airport": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "patient_transport": 60
+  },
+  "additional": {
+    "possible_patient": 6,
+    "possible_patient_min": 1,
+    "expansion_missions_ids": [590],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "airport": 1,
+    "fire_stations": 10
+  },
+  "overlay_index": null,
+  "base_mission_id": 589,
+  "additive_overlays": "",
+  "mission_categories": ["airport"]
+}

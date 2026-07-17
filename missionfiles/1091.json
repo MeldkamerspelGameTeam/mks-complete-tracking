@@ -1,0 +1,30 @@
+{
+  "id": "1091",
+  "name": "Verdacht pakket gevonden bij de ingang van het sportstadion",
+  "place": "Stadion",
+  "place_array": ["Stadion"],
+  "average_credits": 1180,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 5
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "date_start": "2024-07-26T09:00:00Z",
+    "date_end": "2024-08-11T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 1091,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

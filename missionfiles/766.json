@@ -1,0 +1,37 @@
+{
+  "id": "766",
+  "name": "Onrust in de wijk",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2885,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "grukw": 3,
+    "lebefkw": 1,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [767],
+    "min_possible_prisoners": 1,
+    "max_possible_prisoners": 3,
+    "filter_id": "riot_police_missions",
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "police_stations": 6,
+    "bereitschaftspolizei": 1,
+    "riot_unit_count": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 766,
+  "additive_overlays": "",
+  "mission_categories": ["riot_police"]
+}

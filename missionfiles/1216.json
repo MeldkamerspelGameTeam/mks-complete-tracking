@@ -1,0 +1,31 @@
+{
+  "id": "1216",
+  "name": "Doorgedraaide coach",
+  "place": "",
+  "place_array": [],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/soccer_gruen.png",
+    "/images/soccer_gelb.png",
+    "/images/soccer_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 2,
+    "filter_id": "police_station_missions",
+    "date_start": "2026-06-15T10:00:00+02:00",
+    "date_end": "2026-07-19T22:00:00Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 1216,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

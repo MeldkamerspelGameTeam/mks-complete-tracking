@@ -1,0 +1,30 @@
+{
+  "id": "741",
+  "name": "Sabotage van verjaardagsjukeboxes",
+  "place": "",
+  "place_array": [],
+  "average_credits": 670,
+  "generated_by": "",
+  "icons": [
+    "/images/dancinghall_gruen.png",
+    "/images/dancinghall_gelb.png",
+    "/images/dancinghall_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "date_start": "2026-02-05T10:00:00Z",
+    "date_end": "2026-02-08T23:59:59Z"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 741,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

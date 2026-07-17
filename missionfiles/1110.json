@@ -1,0 +1,38 @@
+{
+  "id": "1110",
+  "name": "Redding bij ijsvissen",
+  "place": "Meer\nRivier",
+  "place_array": ["Meer", "Rivier"],
+  "average_credits": 900,
+  "generated_by": "",
+  "icons": [
+    "/images/snowy_gruen.png",
+    "/images/snowy_gelb.png",
+    "/images/snowy_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {
+    "patient_transport": 60
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "date_start": "2026-01-02T10:00:00Z",
+    "date_end": "2026-03-06T22:59:00Z",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1110,
+  "additive_overlays": "",
+  "mission_categories": ["fire"]
+}

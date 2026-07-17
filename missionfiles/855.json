@@ -1,0 +1,32 @@
+{
+  "id": "855",
+  "name": "Observatie",
+  "place": "",
+  "place_array": [],
+  "average_credits": 5790,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "at_o": 2
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "2 uur",
+    "duration": 7200,
+    "guard_mission": true,
+    "filter_id": "riot_police_missions"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "bereitschaftspolizei": 1,
+    "at": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 855,
+  "additive_overlays": "",
+  "mission_categories": ["riot_police"]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "1125",
+  "name": "Vuilniswagen aangestoken",
+  "place": "",
+  "place_array": [],
+  "average_credits": 4400,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "firetrucks": 3,
+    "police_cars": 6
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "possible_crashed_car_large_min": 1,
+    "possible_crashed_car_large_max": 1
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 6,
+    "tow_trucks_large": 1,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 1125,
+  "additive_overlays": "",
+  "mission_categories": ["tow_trucks", "tow_trucks_only"]
+}

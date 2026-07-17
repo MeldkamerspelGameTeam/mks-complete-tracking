@@ -1,0 +1,32 @@
+{
+  "id": "334",
+  "name": "Brand in schoolgebouw",
+  "place": "School",
+  "place_array": ["School"],
+  "average_credits": 850,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "platform_trucks": 20
+  },
+  "additional": {
+    "filter_id": "firehouse_missions",
+    "fire_alarm_system_possible": true
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 3
+  },
+  "overlay_index": null,
+  "base_mission_id": 334,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "urban"]
+}

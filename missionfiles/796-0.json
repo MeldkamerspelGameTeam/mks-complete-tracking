@@ -1,0 +1,42 @@
+{
+  "id": "796-0",
+  "name": "Zoekactie vermist persoon",
+  "place": "Duinen\nStrand",
+  "place_array": ["Duinen", "Strand"],
+  "average_credits": 2090,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "police_horse": 2,
+    "police_cars": 3,
+    "water_rescue": 2
+  },
+  "chances": {
+    "patient_transport": 60
+  },
+  "additional": {
+    "possible_patient": 1,
+    "filter_id": "water_watch_missions",
+    "vehicle_groups": ["default", "ocean_missions"],
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 2,
+    "rescue_stations": 1,
+    "police_stations": 3,
+    "bereitschaftspolizei": 1,
+    "police_horse": 1
+  },
+  "overlay_index": 0,
+  "base_mission_id": 796,
+  "additive_overlays": "",
+  "mission_categories": ["water_rescue_2"]
+}

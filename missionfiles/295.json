@@ -1,0 +1,29 @@
+{
+  "id": "295",
+  "name": "Overlast zwervers",
+  "place": "Winkelcentrum",
+  "place_array": ["Winkelcentrum"],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/dancinghall_gruen.png",
+    "/images/dancinghall_gelb.png",
+    "/images/dancinghall_rot.png"
+  ],
+  "requirements": {
+    "police_cars": 1
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 2,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 295,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

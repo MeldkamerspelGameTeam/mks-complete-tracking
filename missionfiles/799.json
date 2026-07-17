@@ -1,0 +1,28 @@
+{
+  "id": "799",
+  "name": "Persoon op luchtbed in problemen",
+  "place": "Strand\nMeer\nRivier",
+  "place_array": ["Strand", "Meer", "Rivier"],
+  "average_credits": 830,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "water_rescue": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "water_watch_missions"
+  },
+  "prerequisites": {
+    "main_building": 16,
+    "water_rescue_2": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 799,
+  "additive_overlays": "",
+  "mission_categories": ["water_rescue_2"]
+}

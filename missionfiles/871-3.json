@@ -1,0 +1,48 @@
+{
+  "id": "871-3",
+  "name": "Brandende tankwagen",
+  "place": "",
+  "place_array": [],
+  "average_credits": 8980,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 1,
+    "gwmess": 3,
+    "ovdp": 1,
+    "spokesman": 1,
+    "firetrucks": 4,
+    "police_cars": 4
+  },
+  "chances": {
+    "nef": 20,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 5,
+    "fire_stations": 15
+  },
+  "overlay_index": 3,
+  "base_mission_id": 871,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "183",
+  "name": "Paard in sloot",
+  "place": "Sloot",
+  "place_array": ["Sloot"],
+  "average_credits": 1200,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "diver_units": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "diver_units": 10,
+    "heavy_rescue_vehicles": 20
+  },
+  "additional": {
+    "filter_id": "water_watch_missions"
+  },
+  "prerequisites": {
+    "main_building": -1,
+    "wasserrettung": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 183,
+  "additive_overlays": "",
+  "mission_categories": ["water_rescue"]
+}

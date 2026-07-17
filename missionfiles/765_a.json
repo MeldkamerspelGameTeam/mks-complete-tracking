@@ -1,0 +1,53 @@
+{
+  "id": "765/a",
+  "name": "Onaangekondigde demonstratie",
+  "place": "Marktplein",
+  "place_array": ["Marktplein"],
+  "average_credits": 7755,
+  "generated_by": "",
+  "icons": [
+    "/images/baseball_gruen.png",
+    "/images/baseball_gelb.png",
+    "/images/baseball_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "detention_unit": 1,
+    "gefkw": 1,
+    "grukw": 6,
+    "hondengeleider": 1,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "drone_police": 1,
+    "police_cars": 5
+  },
+  "chances": {
+    "patient_transport": 0
+  },
+  "additional": {
+    "possible_patient": 2,
+    "expansion_missions_ids": [721],
+    "min_possible_prisoners": 5,
+    "max_possible_prisoners": 7,
+    "filter_id": "riot_police_missions",
+    "need_bike_police_only_if_present": true,
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 11,
+    "rescue_stations": 1,
+    "police_stations": 8,
+    "bereitschaftspolizei": 4,
+    "riot_unit_count": 2,
+    "detention_unit_count": 1,
+    "prisoner_transport_count": 1,
+    "hondengeleider": 1,
+    "drone_police": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 765,
+  "additive_overlays": "a",
+  "mission_categories": ["riot_police"]
+}

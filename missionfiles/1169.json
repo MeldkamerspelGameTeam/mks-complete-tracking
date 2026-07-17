@@ -1,0 +1,32 @@
+{
+  "id": "1169",
+  "name": "Mogelijk explosief gevonden bij magneetvissen",
+  "place": "Sloot",
+  "place_array": ["Sloot"],
+  "average_credits": 1645,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 1,
+    "bomb_disposal_patrol": 1,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "police_station_missions",
+    "need_bike_police_only_if_present": true
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 15,
+    "bomb_disposal_patrol": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1169,
+  "additive_overlays": "",
+  "mission_categories": ["bomb_disposal"]
+}

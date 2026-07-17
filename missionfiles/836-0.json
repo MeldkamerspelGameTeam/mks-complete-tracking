@@ -1,0 +1,47 @@
+{
+  "id": "836-0",
+  "name": "Gaslek bedrijventerrein",
+  "place": "Bedrijventerrein\nIndustrieterrein\nHaventerrein",
+  "place_array": ["Bedrijventerrein", "Industrieterrein", "Haventerrein"],
+  "average_credits": 5470,
+  "generated_by": "",
+  "icons": [
+    "/images/gas_gruen.png",
+    "/images/gas_gelb.png",
+    "/images/gas_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "foam": 2,
+    "hazmat_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "foam_needed": 500,
+    "oneof_fire_engine_or_rescue": 2,
+    "firetrucks": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "patient_transport": 35
+  },
+  "additional": {
+    "possible_patient": 3,
+    "possible_patient_min": 1,
+    "expansion_missions_ids": [837],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 3,
+    "fire_support_count": 2,
+    "fire_stations": 14
+  },
+  "overlay_index": 0,
+  "base_mission_id": 836,
+  "additive_overlays": "",
+  "mission_categories": ["fire", "fire_support_specialization", "urban"]
+}

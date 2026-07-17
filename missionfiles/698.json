@@ -1,0 +1,48 @@
+{
+  "id": "698",
+  "name": "Toezicht nieuwjaarsfeest",
+  "place": "Stadscentrum",
+  "place_array": ["Stadscentrum"],
+  "average_credits": 27975,
+  "generated_by": "",
+  "icons": [
+    "/images/clock_gruen.png",
+    "/images/clock_gelb.png",
+    "/images/clock_rot.png"
+  ],
+  "requirements": {
+    "bike_police": 5,
+    "gefkw": 1,
+    "grukw": 6,
+    "hondengeleider": 2,
+    "lebefkw": 1,
+    "ovdp": 1,
+    "police_horse": 4,
+    "ambulances": 2,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "duration_text": "een uur 30 minuten",
+    "duration": 5400,
+    "guard_mission": true,
+    "filter_id": "police_station_missions",
+    "need_bike_police_only_if_present": true,
+    "date_start": "2025-12-26T10:00:00Z",
+    "date_end": "2026-01-01T23:59:59+01:00"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "rescue_stations": 1,
+    "police_stations": 12,
+    "bereitschaftspolizei": 6,
+    "riot_unit_count": 2,
+    "prisoner_transport_count": 1,
+    "police_horse": 1,
+    "hondengeleider": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 698,
+  "additive_overlays": "",
+  "mission_categories": ["police"]
+}

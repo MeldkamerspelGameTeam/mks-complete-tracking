@@ -1,0 +1,60 @@
+{
+  "id": "309/b",
+  "name": "Natuurbrand (Grip 4)",
+  "place": "Bos",
+  "place_array": ["Bos"],
+  "average_credits": 51442,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 3,
+    "mobile_command_vehicles": 2,
+    "elw3": 1,
+    "mobile_air_vehicles": 2,
+    "water_tankers": 6,
+    "gwmess": 2,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "water_needed": 167000,
+    "brush_truck": 8,
+    "wildfire_command": 1,
+    "wildfire_equipment": 1,
+    "fire_aviation": 1,
+    "drone_fire": 1,
+    "police_cars": 6,
+    "personnel_educations": {
+      "wildfire": 18
+    }
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [357],
+    "followup_missions_ids": [48, 99, 225, 768, 878, 879],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [1191],
+    "personnel_educations": {
+      "Handcrew": 18
+    }
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 7,
+    "bereitschaftspolizei": 1,
+    "brush_extension": 8,
+    "fire_aviation_count": 1,
+    "personnel_educations": {
+      "wildfire": 18
+    },
+    "drone_fire": 1,
+    "fire_stations": 133
+  },
+  "overlay_index": null,
+  "base_mission_id": 309,
+  "additive_overlays": "b",
+  "mission_categories": ["forestry"]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "476",
+  "name": "Verkeersongeval scooter",
+  "place": "",
+  "place_array": [],
+  "average_credits": null,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {},
+  "chances": {
+    "patient_transport": 40
+  },
+  "additional": {
+    "possible_patient": 2,
+    "possible_patient_min": 1,
+    "filter_id": "ambulance_station_missions",
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 476,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}

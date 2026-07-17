@@ -1,0 +1,43 @@
+{
+  "id": "769",
+  "name": "Wielrenner aangereden",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1590,
+  "generated_by": "",
+  "icons": [
+    "/images/ambulance_gruen.png",
+    "/images/ambulance_gelb.png",
+    "/images/ambulance_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "firetrucks": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "battalion_chief_vehicles": 30,
+    "heavy_rescue_vehicles": 10,
+    "nef": 60,
+    "patient_transport": 90
+  },
+  "additional": {
+    "possible_patient": 1,
+    "filter_id": "ambulance_station_missions",
+    "patient_at_end_of_mission": true,
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 10,
+    "police_stations": 2,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 769,
+  "additive_overlays": "",
+  "mission_categories": ["ambulance"]
+}
