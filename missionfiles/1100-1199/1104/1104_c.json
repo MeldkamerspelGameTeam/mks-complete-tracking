@@ -1,0 +1,64 @@
+{
+  "id": "1104/c",
+  "name": "Aanrijding trein & betonmixer",
+  "place": "Spoorwegovergang",
+  "place_array": ["Spoorwegovergang"],
+  "average_credits": 15380,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "hazmat_vehicles": 1,
+    "gwmess": 2,
+    "ovdp": 2,
+    "police_helicopters": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "traffic_inspector": 1,
+    "mass_casualty": 1,
+    "mass_casualty_advanced": 1,
+    "drone_police": 1,
+    "firetrucks": 8,
+    "police_cars": 8
+  },
+  "chances": {
+    "nef": 10,
+    "patient_transport": 25
+  },
+  "additional": {
+    "possible_patient": 75,
+    "possible_patient_min": 50,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [230, 943],
+    "patient_specialization_ids": [1, 4, 7, 5],
+    "patient_specialization_captions": [
+      "Algemene Heelkunde",
+      "Traumatologie",
+      "Cardiologie",
+      "Neurologie"
+    ],
+    "patient_specializations": "Algemene Heelkunde, Traumatologie, Cardiologie, Neurologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 26,
+    "police_stations": 2,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1,
+    "mass_casualty_count": 1,
+    "traffic_police": 1,
+    "drone_police": 1,
+    "fire_stations": 19
+  },
+  "overlay_index": null,
+  "base_mission_id": 1104,
+  "additive_overlays": "c",
+  "mission_categories": ["fire"]
+}

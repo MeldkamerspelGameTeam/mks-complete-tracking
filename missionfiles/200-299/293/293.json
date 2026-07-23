@@ -1,9 +1,9 @@
 {
   "id": "293",
-  "name": "Ongeval met trein en vrachtwagen",
+  "name": "Ongeval met trein en vrachtwagen (THV Middel)",
   "place": "Spoorwegovergang",
   "place_array": ["Spoorwegovergang"],
-  "average_credits": 2450,
+  "average_credits": 2430,
   "generated_by": "",
   "icons": [
     "/images/caraccident_gruen.png",
@@ -14,7 +14,7 @@
     "battalion_chief_vehicles": 1,
     "heavy_rescue_vehicles": 1,
     "firetrucks": 2,
-    "police_cars": 2
+    "police_cars": 3
   },
   "chances": {
     "nef": 100,
@@ -24,7 +24,6 @@
     "possible_patient": 2,
     "possible_patient_min": 1,
     "filter_id": "firehouse_missions",
-    "patient_at_end_of_mission": true,
     "patient_specialization_ids": [4],
     "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
@@ -32,7 +31,7 @@
   "prerequisites": {
     "main_building": 0,
     "rescue_stations": 10,
-    "police_stations": 2,
+    "police_stations": 3,
     "fire_stations": 6
   },
   "overlay_index": null,

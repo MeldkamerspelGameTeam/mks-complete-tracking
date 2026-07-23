@@ -1,0 +1,49 @@
+{
+  "id": "109/a",
+  "name": "Ongeval met trein en persoon",
+  "place": "Spoorwegovergang\nRangeeremplacement\nCentraal Station\nStation",
+  "place_array": [
+    "Spoorwegovergang",
+    "Rangeeremplacement",
+    "Centraal Station",
+    "Station"
+  ],
+  "average_credits": 4790,
+  "generated_by": "",
+  "icons": [
+    "/images/medicalstore_gruen.png",
+    "/images/medicalstore_gelb.png",
+    "/images/medicalstore_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "railway_fire_engine": 3,
+    "railway_elw": 1,
+    "firetrucks": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "nef": 30,
+    "patient_transport": 100
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 2,
+    "railway": 3,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 109,
+  "additive_overlays": "a",
+  "mission_categories": ["fire", "urban"]
+}

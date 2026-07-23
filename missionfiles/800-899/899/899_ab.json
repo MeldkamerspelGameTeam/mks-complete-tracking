@@ -1,0 +1,56 @@
+{
+  "id": "899/ab",
+  "name": "Aanrijding bus en tram",
+  "place": "Tramhalte",
+  "place_array": ["Tramhalte"],
+  "average_credits": 15770,
+  "generated_by": "",
+  "icons": [
+    "/images/bus_gruen.png",
+    "/images/bus_gelb.png",
+    "/images/bus_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "water_tankers": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "traffic_inspector": 1,
+    "drone_police": 1,
+    "railway_fire_engine": 6,
+    "railway_elw": 1,
+    "railway_recovery": 1,
+    "firetrucks": 8,
+    "police_cars": 10
+  },
+  "chances": {
+    "nef": 10,
+    "patient_transport": 25
+  },
+  "additional": {
+    "possible_patient": 48,
+    "possible_patient_min": 15,
+    "filter_id": "ambulance_station_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 3,
+    "rescue_stations": 17,
+    "police_stations": 2,
+    "bereitschaftspolizei": 1,
+    "traffic_police": 1,
+    "drone_police": 1,
+    "railway": 5,
+    "fire_stations": 18
+  },
+  "overlay_index": null,
+  "base_mission_id": 899,
+  "additive_overlays": "ab",
+  "mission_categories": ["ambulance"]
+}

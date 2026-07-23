@@ -1,8 +1,8 @@
 {
   "id": "607",
   "name": "Onbevoegden op spoor",
-  "place": "Spoorwegovergang",
-  "place_array": ["Spoorwegovergang"],
+  "place": "Spoorwegovergang\nRangeeremplacement\nStation",
+  "place_array": ["Spoorwegovergang", "Rangeeremplacement", "Station"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [

@@ -1,8 +1,8 @@
 {
   "id": "606",
-  "name": "Onbevoegden op spoor",
-  "place": "Rangeeremplacement",
-  "place_array": ["Rangeeremplacement"],
+  "name": "Onbevoegde op spoor",
+  "place": "Rangeeremplacement\nStation\nSpoorwegovergang",
+  "place_array": ["Rangeeremplacement", "Station", "Spoorwegovergang"],
   "average_credits": 670,
   "generated_by": "",
   "icons": [
@@ -15,7 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "max_possible_prisoners": 2,
+    "max_possible_prisoners": 1,
     "filter_id": "police_station_missions"
   },
   "prerequisites": {

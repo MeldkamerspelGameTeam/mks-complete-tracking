@@ -1,0 +1,45 @@
+{
+  "id": "108/b",
+  "name": "Ongeval met trein en personenauto",
+  "place": "Spoorwegovergang",
+  "place_array": ["Spoorwegovergang"],
+  "average_credits": 7060,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "railway_fire_engine": 4,
+    "railway_elw": 1,
+    "railway_recovery": 1,
+    "firetrucks": 1,
+    "police_cars": 3
+  },
+  "chances": {
+    "nef": 50,
+    "patient_transport": 60
+  },
+  "additional": {
+    "possible_patient": 5,
+    "possible_patient_min": 1,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 3,
+    "railway": 4,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 108,
+  "additive_overlays": "b",
+  "mission_categories": ["fire"]
+}

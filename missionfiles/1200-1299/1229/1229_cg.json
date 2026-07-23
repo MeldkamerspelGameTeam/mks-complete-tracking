@@ -1,0 +1,63 @@
+{
+  "id": "1229/cg",
+  "name": "Dieseltrein met gevaarlijke stoffen ontspoord",
+  "place": "",
+  "place_array": [],
+  "average_credits": 43590,
+  "generated_by": "",
+  "icons": [
+    "/images/blast_gruen.png",
+    "/images/blast_gelb.png",
+    "/images/blast_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 4,
+    "mobile_command_vehicles": 2,
+    "elw3": 1,
+    "mobile_air_vehicles": 2,
+    "hazmat_vehicles": 2,
+    "water_tankers": 2,
+    "gwmess": 6,
+    "ovdp": 2,
+    "police_helicopters": 1,
+    "heavy_rescue_vehicles": 3,
+    "spokesman": 1,
+    "water_needed": 45000,
+    "hazard_response_material": 2,
+    "hazard_response_suits": 1,
+    "railway_fire_engine": 8,
+    "railway_elw": 2,
+    "railway_recovery": 2,
+    "railway_material": 2,
+    "railway_fire_equipment_container": 2,
+    "firetrucks": 12,
+    "police_cars": 14
+  },
+  "chances": {
+    "nef": 50,
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 4,
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 10,
+    "police_stations": 15,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1,
+    "railway": 9,
+    "fire_stations": 3,
+    "industrial_response_fire": 2,
+    "hazard_response_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1229,
+  "additive_overlays": "cg",
+  "mission_categories": ["fire"]
+}

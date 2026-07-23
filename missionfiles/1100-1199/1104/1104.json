@@ -3,7 +3,7 @@
   "name": "Aanrijding trein & betonmixer",
   "place": "Spoorwegovergang",
   "place_array": ["Spoorwegovergang"],
-  "average_credits": 14520,
+  "average_credits": 14380,
   "generated_by": "",
   "icons": [
     "/images/caraccident_gruen.png",
@@ -12,21 +12,22 @@
   ],
   "requirements": {
     "platform_trucks": 1,
-    "battalion_chief_vehicles": 3,
-    "mobile_command_vehicles": 2,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
     "elw3": 1,
     "hazmat_vehicles": 1,
     "gwmess": 2,
-    "ovdp": 1,
+    "ovdp": 2,
     "police_helicopters": 1,
-    "heavy_rescue_vehicles": 3,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
     "mass_casualty": 1,
     "mass_casualty_advanced": 1,
     "firetrucks": 8,
-    "police_cars": 6
+    "police_cars": 8
   },
   "chances": {
-    "nef": 25,
+    "nef": 10,
     "patient_transport": 25
   },
   "additional": {
@@ -46,11 +47,11 @@
   "prerequisites": {
     "main_building": 0,
     "rescue_stations": 26,
-    "police_stations": 7,
+    "police_stations": 10,
     "police_helicopter_stations": 1,
     "bereitschaftspolizei": 1,
     "mass_casualty_count": 1,
-    "fire_stations": 22
+    "fire_stations": 19
   },
   "overlay_index": null,
   "base_mission_id": 1104,

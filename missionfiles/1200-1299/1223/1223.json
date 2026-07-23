@@ -1,0 +1,33 @@
+{
+  "id": "1223",
+  "name": "Dier op spoor",
+  "place": "Spoorwegovergang\nStation\nRangeeremplacement\nCentraal Station",
+  "place_array": [
+    "Spoorwegovergang",
+    "Station",
+    "Rangeeremplacement",
+    "Centraal Station"
+  ],
+  "average_credits": 1530,
+  "generated_by": "",
+  "icons": [
+    "/images/fallingrocks_gruen.png",
+    "/images/fallingrocks_gelb.png",
+    "/images/fallingrocks_rot.png"
+  ],
+  "requirements": {
+    "railway_fire_engine": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "railway_missions"
+  },
+  "prerequisites": {
+    "main_building": 27,
+    "railway": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 1223,
+  "additive_overlays": "",
+  "mission_categories": ["railway"]
+}

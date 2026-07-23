@@ -3,7 +3,7 @@
   "name": "Fietser onder tram",
   "place": "Tramhalte",
   "place_array": ["Tramhalte"],
-  "average_credits": 2140,
+  "average_credits": 1590,
   "generated_by": "",
   "icons": [
     "/images/tramway_gruen.png",

@@ -1,9 +1,14 @@
 {
   "id": "313",
-  "name": "Brand in passagierstrein",
-  "place": "Centraal Station",
-  "place_array": ["Centraal Station"],
-  "average_credits": 1000,
+  "name": "Brand in passagierstrein (Klein)",
+  "place": "Centraal Station\nRangeeremplacement\nSpoorwegovergang\nStation",
+  "place_array": [
+    "Centraal Station",
+    "Rangeeremplacement",
+    "Spoorwegovergang",
+    "Station"
+  ],
+  "average_credits": 670,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",
@@ -16,15 +21,16 @@
   },
   "chances": {},
   "additional": {
+    "expansion_missions_ids": [314, 315, 1227],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
     "main_building": 0,
     "police_stations": 1,
-    "fire_stations": 2
+    "fire_stations": 1
   },
   "overlay_index": null,
   "base_mission_id": 313,
   "additive_overlays": "",
-  "mission_categories": ["fire", "urban"]
+  "mission_categories": ["fire"]
 }

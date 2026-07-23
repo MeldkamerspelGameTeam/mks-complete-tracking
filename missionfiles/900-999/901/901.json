@@ -8,7 +8,7 @@
     "Centraal Station",
     "Rangeeremplacement"
   ],
-  "average_credits": 4250,
+  "average_credits": 24120,
   "generated_by": "",
   "icons": [
     "/images/tramway_gruen.png",
@@ -16,34 +16,52 @@
     "/images/tramway_rot.png"
   ],
   "requirements": {
-    "battalion_chief_vehicles": 1,
-    "ovdp": 1,
-    "heavy_rescue_vehicles": 1,
-    "oneof_fire_engine_or_rescue": 2,
-    "firetrucks": 1,
-    "police_cars": 4
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 3,
+    "ovdp": 2,
+    "police_helicopters": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "water_needed": 36000,
+    "mass_casualty": 1,
+    "mass_casualty_advanced": 1,
+    "firetrucks": 8,
+    "police_cars": 10
   },
   "chances": {
-    "nef": 40,
-    "patient_transport": 100
+    "nef": 10,
+    "patient_transport": 20
   },
   "additional": {
-    "possible_patient": 15,
-    "possible_patient_min": 5,
+    "possible_patient": 75,
+    "possible_patient_min": 15,
     "filter_id": "firehouse_missions",
     "subsequent_missions_ids": [995],
-    "patient_specialization_ids": [4],
-    "patient_specialization_captions": ["Traumatologie"],
-    "patient_specializations": "Traumatologie"
+    "patient_specialization_ids": [4, 0, 1],
+    "patient_specialization_captions": [
+      "Traumatologie",
+      "Interne Geneeskunde",
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Traumatologie, Interne Geneeskunde, Algemene Heelkunde"
   },
   "prerequisites": {
     "main_building": 0,
-    "rescue_stations": 10,
-    "police_stations": 5,
-    "fire_stations": 6
+    "rescue_stations": 26,
+    "police_stations": 12,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1,
+    "mass_casualty_count": 1,
+    "fire_stations": 46
   },
   "overlay_index": null,
   "base_mission_id": 901,
   "additive_overlays": "",
-  "mission_categories": ["fire", "fire_support_specialization", "urban"]
+  "mission_categories": ["fire"]
 }

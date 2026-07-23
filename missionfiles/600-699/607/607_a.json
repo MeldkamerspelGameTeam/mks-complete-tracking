@@ -1,0 +1,31 @@
+{
+  "id": "607/a",
+  "name": "Onbevoegden op spoor",
+  "place": "Spoorwegovergang\nRangeeremplacement\nStation",
+  "place_array": ["Spoorwegovergang", "Rangeeremplacement", "Station"],
+  "average_credits": 1870,
+  "generated_by": "",
+  "icons": [
+    "/images/zoom_gruen.png",
+    "/images/zoom_gelb.png",
+    "/images/zoom_rot.png"
+  ],
+  "requirements": {
+    "railway_fire_engine": 2,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "max_possible_prisoners": 2,
+    "filter_id": "police_station_missions"
+  },
+  "prerequisites": {
+    "main_building": 5,
+    "police_stations": 2,
+    "railway": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 607,
+  "additive_overlays": "a",
+  "mission_categories": ["police"]
+}

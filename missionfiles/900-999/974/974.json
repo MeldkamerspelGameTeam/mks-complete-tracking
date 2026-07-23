@@ -3,7 +3,7 @@
   "name": "Ontspoorde tram botst tegen gebouw",
   "place": "Tramhalte",
   "place_array": ["Tramhalte"],
-  "average_credits": 3110,
+  "average_credits": 19430,
   "generated_by": "",
   "icons": [
     "/images/tramway_gruen.png",
@@ -11,30 +11,39 @@
     "/images/tramway_rot.png"
   ],
   "requirements": {
-    "battalion_chief_vehicles": 1,
-    "heavy_rescue_vehicles": 1,
-    "oneof_fire_engine_or_rescue": 2,
-    "firetrucks": 1,
-    "police_cars": 2
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 1,
+    "gwmess": 3,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "water_needed": 32000,
+    "firetrucks": 8,
+    "police_cars": 10
   },
   "chances": {
     "nef": 5,
-    "patient_transport": 75
+    "patient_transport": 25
   },
   "additional": {
-    "possible_patient": 5,
-    "possible_patient_min": 1,
+    "possible_patient": 35,
+    "possible_patient_min": 5,
     "filter_id": "firehouse_missions",
-    "patient_at_end_of_mission": true,
     "patient_specialization_ids": [4],
     "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
   },
   "prerequisites": {
     "main_building": 0,
-    "rescue_stations": 10,
-    "police_stations": 2,
-    "fire_stations": 6
+    "rescue_stations": 13,
+    "police_stations": 10,
+    "bereitschaftspolizei": 1,
+    "fire_stations": 41
   },
   "overlay_index": null,
   "base_mission_id": 974,

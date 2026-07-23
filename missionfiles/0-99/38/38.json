@@ -1,9 +1,9 @@
 {
   "id": "38",
-  "name": "Brandende afvalbak",
+  "name": "Brandende afvalbak bij station",
   "place": "Station",
   "place_array": ["Station"],
-  "average_credits": 110,
+  "average_credits": 500,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",
@@ -15,8 +15,8 @@
   },
   "chances": {},
   "additional": {
-    "filter_id": "firehouse_missions",
-    "unavailable_in_normal_missions": true
+    "expansion_missions_ids": [956],
+    "filter_id": "firehouse_missions"
   },
   "prerequisites": {
     "main_building": 0,

@@ -1,0 +1,36 @@
+{
+  "id": "1226",
+  "name": "Brand in spoorwissel",
+  "place": "Rangeeremplacement\nStation\nCentraal Station\nSpoorwegovergang",
+  "place_array": [
+    "Rangeeremplacement",
+    "Station",
+    "Centraal Station",
+    "Spoorwegovergang"
+  ],
+  "average_credits": 2600,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "railway_fire_engine": 2,
+    "railway_elw": 1,
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "railway_missions"
+  },
+  "prerequisites": {
+    "main_building": 27,
+    "railway": 2,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1226,
+  "additive_overlays": "",
+  "mission_categories": ["railway"]
+}

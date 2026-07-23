@@ -1,0 +1,40 @@
+{
+  "id": "1225",
+  "name": "Brand in bovenleiding",
+  "place": "Rangeeremplacement\nStation\nCentraal Station\nSpoorwegovergang",
+  "place_array": [
+    "Rangeeremplacement",
+    "Station",
+    "Centraal Station",
+    "Spoorwegovergang"
+  ],
+  "average_credits": 4300,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "railway_fire_engine": 2,
+    "railway_elw": 1,
+    "railway_electric_response": 1,
+    "firetrucks": 2
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "railway_missions"
+  },
+  "prerequisites": {
+    "main_building": 27,
+    "railway_fire": 1,
+    "railway": 3,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 1225,
+  "additive_overlays": "",
+  "mission_categories": ["railway"]
+}

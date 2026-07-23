@@ -1,0 +1,30 @@
+{
+  "id": "1224",
+  "name": "Stilgevallen trein",
+  "place": "Spoorwegovergang\nRangeeremplacement\nStation",
+  "place_array": ["Spoorwegovergang", "Rangeeremplacement", "Station"],
+  "average_credits": 4280,
+  "generated_by": "",
+  "icons": [
+    "/images/fallingrocks_gruen.png",
+    "/images/fallingrocks_gelb.png",
+    "/images/fallingrocks_rot.png"
+  ],
+  "requirements": {
+    "railway_fire_engine": 4,
+    "railway_elw": 1,
+    "railway_recovery": 1
+  },
+  "chances": {},
+  "additional": {
+    "filter_id": "railway_missions"
+  },
+  "prerequisites": {
+    "main_building": 27,
+    "railway": 4
+  },
+  "overlay_index": null,
+  "base_mission_id": 1224,
+  "additive_overlays": "",
+  "mission_categories": ["railway"]
+}

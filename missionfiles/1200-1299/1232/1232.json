@@ -1,0 +1,44 @@
+{
+  "id": "1232",
+  "name": "Brand in tram (Groot)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 9240,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 1,
+    "water_needed": 26000,
+    "firetrucks": 4,
+    "police_cars": 3
+  },
+  "chances": {
+    "patient_transport": 10
+  },
+  "additional": {
+    "possible_patient": 5,
+    "possible_patient_min": 1,
+    "expansion_missions_ids": [1233],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 3,
+    "fire_stations": 24
+  },
+  "overlay_index": null,
+  "base_mission_id": 1232,
+  "additive_overlays": "",
+  "mission_categories": ["fire"]
+}

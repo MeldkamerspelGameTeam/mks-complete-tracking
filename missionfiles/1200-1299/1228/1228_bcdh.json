@@ -1,0 +1,84 @@
+{
+  "id": "1228/bcdh",
+  "name": "Trein ontspoord na botsing met goederentrein",
+  "place": "Spoorwegovergang\nStation\nCentraal Station\nRangeeremplacement",
+  "place_array": [
+    "Spoorwegovergang",
+    "Station",
+    "Centraal Station",
+    "Rangeeremplacement"
+  ],
+  "average_credits": 53925,
+  "generated_by": "",
+  "icons": [
+    "/images/tramway_gruen.png",
+    "/images/tramway_gelb.png",
+    "/images/tramway_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 3,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "foam": 2,
+    "mobile_air_vehicles": 2,
+    "hazmat_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 3,
+    "ovdp": 2,
+    "police_helicopters": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "water_needed": 36000,
+    "foam_needed": 1000,
+    "care_service_command": 1,
+    "mass_casualty": 2,
+    "mass_casualty_advanced": 1,
+    "drone_fire": 1,
+    "railway_fire_engine": 6,
+    "railway_elw": 2,
+    "railway_recovery": 2,
+    "railway_material": 2,
+    "railway_fire_equipment_container": 2,
+    "railway_electric_response": 1,
+    "firetrucks": 10,
+    "police_cars": 12
+  },
+  "chances": {
+    "nef": 10,
+    "patient_transport": 20
+  },
+  "additional": {
+    "possible_patient": 100,
+    "possible_patient_min": 20,
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [995],
+    "care_includes_staff_members": true,
+    "patient_specialization_ids": [4, 0, 1],
+    "patient_specialization_captions": [
+      "Traumatologie",
+      "Interne Geneeskunde",
+      "Algemene Heelkunde"
+    ],
+    "patient_specializations": "Traumatologie, Interne Geneeskunde, Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 34,
+    "police_stations": 14,
+    "police_helicopter_stations": 1,
+    "bereitschaftspolizei": 1,
+    "fire_support_count": 2,
+    "mass_casualty_count": 2,
+    "care_service": 1,
+    "railway_fire": 1,
+    "clean_service": 1,
+    "drone_fire": 1,
+    "railway": 10,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 1228,
+  "additive_overlays": "bcdh",
+  "mission_categories": ["fire"]
+}

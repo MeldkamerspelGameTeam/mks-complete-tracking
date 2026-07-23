@@ -1,0 +1,31 @@
+{
+  "id": "1230/a",
+  "name": "Brand in tram (Klein)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 1100,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "railway_fire_engine": 1,
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [1231, 1232, 1233],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "railway": 1,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1230,
+  "additive_overlays": "a",
+  "mission_categories": ["fire"]
+}

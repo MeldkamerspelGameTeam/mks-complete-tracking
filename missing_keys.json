@@ -9,5 +9,13 @@
   "bomb_disposal_robot",
   "patient_allow_first_responder_chance",
   "pump_water_amount",
+  "railway",
+  "railway_electric_response",
+  "railway_elw",
+  "railway_fire",
+  "railway_fire_engine",
+  "railway_fire_equipment_container",
+  "railway_material",
+  "railway_recovery",
   "water_cannon"
 ]

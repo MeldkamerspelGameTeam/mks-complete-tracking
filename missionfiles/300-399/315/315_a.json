@@ -1,0 +1,58 @@
+{
+  "id": "315/a",
+  "name": "Brand in passagierstrein (Groot)",
+  "place": "Centraal Station\nRangeeremplacement\nStation\nSpoorwegovergang",
+  "place_array": [
+    "Centraal Station",
+    "Rangeeremplacement",
+    "Station",
+    "Spoorwegovergang"
+  ],
+  "average_credits": 12620,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 1,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "water_needed": 12000,
+    "railway_fire_engine": 4,
+    "railway_elw": 1,
+    "railway_recovery": 1,
+    "railway_electric_response": 1,
+    "firetrucks": 4,
+    "police_cars": 4
+  },
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 20,
+    "possible_patient_min": 6,
+    "expansion_missions_ids": [1227],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [1],
+    "patient_specialization_captions": ["Algemene Heelkunde"],
+    "patient_specializations": "Algemene Heelkunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "railway_fire": 1,
+    "railway": 4,
+    "fire_stations": 17
+  },
+  "overlay_index": null,
+  "base_mission_id": 315,
+  "additive_overlays": "a",
+  "mission_categories": ["fire"]
+}

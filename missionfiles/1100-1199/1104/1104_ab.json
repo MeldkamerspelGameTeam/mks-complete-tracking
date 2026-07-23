@@ -3,7 +3,7 @@
   "name": "Aanrijding trein & betonmixer",
   "place": "Spoorwegovergang",
   "place_array": ["Spoorwegovergang"],
-  "average_credits": 15620,
+  "average_credits": 22662,
   "generated_by": "",
   "icons": [
     "/images/caraccident_gruen.png",
@@ -12,23 +12,24 @@
   ],
   "requirements": {
     "platform_trucks": 1,
-    "battalion_chief_vehicles": 3,
-    "mobile_command_vehicles": 2,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
     "elw3": 1,
     "hazmat_vehicles": 1,
     "gwmess": 2,
-    "ovdp": 1,
+    "ovdp": 2,
     "police_helicopters": 1,
-    "heavy_rescue_vehicles": 3,
-    "traffic_patrol": 1,
-    "traffic_inspector": 1,
+    "heavy_rescue_vehicles": 2,
+    "spokesman": 1,
+    "care_service_command": 1,
     "mass_casualty": 1,
     "mass_casualty_advanced": 1,
+    "drone_fire": 1,
     "firetrucks": 8,
-    "police_cars": 6
+    "police_cars": 8
   },
   "chances": {
-    "nef": 25,
+    "nef": 10,
     "patient_transport": 25
   },
   "additional": {
@@ -36,7 +37,7 @@
     "possible_patient_min": 50,
     "filter_id": "firehouse_missions",
     "subsequent_missions_ids": [230, 943],
-    "possible_crashed_car_large_max": 1,
+    "care_includes_staff_members": true,
     "patient_specialization_ids": [1, 4, 7, 5],
     "patient_specialization_captions": [
       "Algemene Heelkunde",
@@ -49,13 +50,14 @@
   "prerequisites": {
     "main_building": 0,
     "rescue_stations": 26,
-    "police_stations": 8,
+    "police_stations": 10,
     "police_helicopter_stations": 1,
     "bereitschaftspolizei": 1,
     "mass_casualty_count": 1,
-    "traffic_police": 2,
-    "tow_trucks_large": 1,
-    "fire_stations": 22
+    "care_service": 1,
+    "clean_service": 1,
+    "drone_fire": 1,
+    "fire_stations": 2
   },
   "overlay_index": null,
   "base_mission_id": 1104,

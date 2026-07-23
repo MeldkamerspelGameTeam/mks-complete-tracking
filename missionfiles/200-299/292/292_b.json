@@ -1,0 +1,47 @@
+{
+  "id": "292/b",
+  "name": "Ongeval met trein en vrachtwagen (THV Klein)",
+  "place": "Spoorwegovergang",
+  "place_array": ["Spoorwegovergang"],
+  "average_credits": 5790,
+  "generated_by": "",
+  "icons": [
+    "/images/caraccident_gruen.png",
+    "/images/caraccident_gelb.png",
+    "/images/caraccident_rot.png"
+  ],
+  "requirements": {
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "railway_fire_engine": 3,
+    "railway_elw": 1,
+    "railway_material": 1,
+    "railway_electric_response": 1,
+    "firetrucks": 1,
+    "police_cars": 2
+  },
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 1,
+    "possible_patient_min": 1,
+    "expansion_missions_ids": [293],
+    "filter_id": "firehouse_missions",
+    "patient_specialization_ids": [4],
+    "patient_specialization_captions": ["Traumatologie"],
+    "patient_specializations": "Traumatologie"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 1,
+    "police_stations": 2,
+    "railway_fire": 1,
+    "railway": 4,
+    "fire_stations": 6
+  },
+  "overlay_index": null,
+  "base_mission_id": 292,
+  "additive_overlays": "b",
+  "mission_categories": ["fire", "urban"]
+}
