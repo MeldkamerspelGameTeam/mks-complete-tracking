@@ -54,7 +54,7 @@
   "prerequisites": {
     "main_building": 0,
     "rescue_stations": 12,
-    "police_stations": 14,
+    "police_stations": 1,
     "fire_support_count": 1,
     "drone_police": 1,
     "fire_stations": 20
