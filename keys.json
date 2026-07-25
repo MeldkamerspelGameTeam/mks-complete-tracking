@@ -162,5 +162,12 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
+  "railway_fire_engine": "DB-ICB of TS-Spoor",
+  "railway_elw": "Officier van Dienst - Spoor",
+  "railway_recovery": "VW-VZ-ICB",
+  "railway_material": "GM-ICB",
+  "railway_fire_equipment_container": "HSH-ICB of VW-HS",
+  "railway_electric_response": "BM-VTHS of BU-VTHS",
+  "railway": "Incidentenbestrijding spoor"
 }
