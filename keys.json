@@ -128,6 +128,13 @@
   "possible_patient_min": "Minimale patiënten",
   "prerequisites": "Gebouwen en uitbreidingen vereist",
   "prisoner_transport_count": "Arrestantenvervoeruitbreidingen",
+  "railway": "Incidentenbestrijding spoor",
+  "railway_electric_response": "BM-VTHS of BU-VTHS",
+  "railway_elw": "Officier van Dienst - Spoor",
+  "railway_fire_engine": "DB-ICB of TS-Spoor",
+  "railway_fire_equipment_container": "HSH-ICB of VW-HS",
+  "railway_material": "GM-ICB",
+  "railway_recovery": "VW-VZ-ICB",
   "requirements": "Vereisten",
   "rescue_dog_units": "DB–Speurhonden",
   "rescue_stations": "Ambulancestandplaatsen",
@@ -162,12 +169,5 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
-  "railway_fire_engine": "DB-ICB of TS-Spoor",
-  "railway_elw": "Officier van Dienst - Spoor",
-  "railway_recovery": "VW-VZ-ICB",
-  "railway_material": "GM-ICB",
-  "railway_fire_equipment_container": "HSH-ICB of VW-HS",
-  "railway_electric_response": "BM-VTHS of BU-VTHS",
-  "railway": "Incidentenbestrijding spoor"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
 }
