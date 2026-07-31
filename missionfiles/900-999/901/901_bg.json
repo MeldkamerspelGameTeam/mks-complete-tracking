@@ -73,5 +73,5 @@
   "overlay_index": null,
   "base_mission_id": 901,
   "additive_overlays": "bg",
-  "mission_categories": ["fire"]
+  "mission_categories": ["fire", "railway_fire"]
 }

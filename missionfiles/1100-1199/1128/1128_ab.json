@@ -60,5 +60,5 @@
   "overlay_index": null,
   "base_mission_id": 1128,
   "additive_overlays": "ab",
-  "mission_categories": ["tow_trucks", "tow_trucks_only"]
+  "mission_categories": ["tow_trucks", "tow_trucks_only", "railway_fire"]
 }
