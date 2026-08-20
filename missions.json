@@ -31886,7 +31886,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z",
+      "date_end": "2026-08-28T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -31921,7 +31921,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z",
+      "date_end": "2026-08-28T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -31956,7 +31956,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z",
+      "date_end": "2026-08-28T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -31991,7 +31991,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z",
+      "date_end": "2026-08-28T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -32024,7 +32024,7 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z"
+      "date_end": "2026-08-28T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -41540,7 +41540,7 @@
       "filter_id": "ambulance_station_missions",
       "allow_ktw_instead_of_rtw": true,
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z"
+      "date_end": "2026-08-28T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 3,
@@ -41574,7 +41574,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z",
+      "date_end": "2026-08-28T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -41610,7 +41610,7 @@
       "max_possible_prisoners": 1,
       "filter_id": "firehouse_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z"
+      "date_end": "2026-08-28T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -95968,7 +95968,7 @@
     "additional": {
       "filter_id": "firehouse_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z"
+      "date_end": "2026-08-28T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 0,
@@ -96007,7 +96007,7 @@
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z",
+      "date_end": "2026-08-28T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -96042,7 +96042,7 @@
     "additional": {
       "filter_id": "police_station_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z"
+      "date_end": "2026-08-28T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 5,
@@ -96074,7 +96074,7 @@
       "possible_patient_min": 1,
       "filter_id": "ambulance_station_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z",
+      "date_end": "2026-08-28T23:59:59+02:00",
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Interne Geneeskunde"],
       "patient_specializations": "Interne Geneeskunde"
@@ -96107,7 +96107,7 @@
     "additional": {
       "filter_id": "police_station_missions",
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z"
+      "date_end": "2026-08-28T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 5,
@@ -96139,7 +96139,7 @@
       "possible_crashed_car_min": 1,
       "possible_crashed_car_max": 2,
       "date_start": "2026-06-26T09:00:00Z",
-      "date_end": "2026-08-21T09:00:00Z"
+      "date_end": "2026-08-28T23:59:59+02:00"
     },
     "prerequisites": {
       "main_building": 5,

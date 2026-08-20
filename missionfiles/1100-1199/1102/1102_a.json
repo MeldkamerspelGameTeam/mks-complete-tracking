@@ -19,7 +19,7 @@
     "possible_crashed_car_min": 1,
     "possible_crashed_car_max": 2,
     "date_start": "2026-06-26T09:00:00Z",
-    "date_end": "2026-08-21T09:00:00Z"
+    "date_end": "2026-08-28T23:59:59+02:00"
   },
   "prerequisites": {
     "main_building": 5,

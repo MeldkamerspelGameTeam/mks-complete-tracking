@@ -17,7 +17,7 @@
   "additional": {
     "filter_id": "police_station_missions",
     "date_start": "2026-06-26T09:00:00Z",
-    "date_end": "2026-08-21T09:00:00Z"
+    "date_end": "2026-08-28T23:59:59+02:00"
   },
   "prerequisites": {
     "main_building": 5,
