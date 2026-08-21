@@ -30,8 +30,8 @@
     "min_possible_prisoners": 2,
     "max_possible_prisoners": 6,
     "filter_id": "riot_police_missions",
-    "date_start": "2026-07-17T09:00:00Z",
-    "date_end": "2026-07-19T23:59:59Z",
+    "date_start": "2026-08-21T09:00:00Z",
+    "date_end": "2026-08-23T23:59:59Z",
     "patient_specialization_ids": [1],
     "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"

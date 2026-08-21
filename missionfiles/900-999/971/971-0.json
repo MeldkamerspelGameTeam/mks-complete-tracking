@@ -27,8 +27,8 @@
     "max_possible_prisoners": 5,
     "filter_id": "riot_police_missions",
     "patient_at_end_of_mission": true,
-    "date_start": "2026-07-17T09:00:00Z",
-    "date_end": "2026-07-19T23:59:59Z",
+    "date_start": "2026-08-21T09:00:00Z",
+    "date_end": "2026-08-23T23:59:59Z",
     "patient_specialization_ids": [4],
     "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"
