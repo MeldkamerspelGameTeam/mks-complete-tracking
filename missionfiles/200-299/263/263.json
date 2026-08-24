@@ -1,9 +1,9 @@
 {
   "id": "263",
-  "name": "Brandende personenauto in parkeergarage",
+  "name": "Brandende personenauto in parkeergarage (Klein)",
   "place": "Vliegveld (groot): Parkeergarage",
   "place_array": ["Vliegveld (groot): Parkeergarage"],
-  "average_credits": 300,
+  "average_credits": 500,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",
@@ -20,7 +20,7 @@
   },
   "prerequisites": {
     "main_building": 0,
-    "fire_stations": 2
+    "fire_stations": 1
   },
   "overlay_index": null,
   "base_mission_id": 263,

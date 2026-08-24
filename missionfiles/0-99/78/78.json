@@ -3,7 +3,7 @@
   "name": "Rookontwikkeling in winkel",
   "place": "",
   "place_array": [],
-  "average_credits": 350,
+  "average_credits": 840,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",
@@ -23,7 +23,7 @@
   },
   "prerequisites": {
     "main_building": 0,
-    "fire_stations": 1
+    "fire_stations": 3
   },
   "overlay_index": null,
   "base_mission_id": 78,

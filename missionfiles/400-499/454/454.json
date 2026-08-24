@@ -3,7 +3,7 @@
   "name": "Kat op dak",
   "place": "",
   "place_array": [],
-  "average_credits": 320,
+  "average_credits": 840,
   "generated_by": "",
   "icons": [
     "/images/cat_gruen.png",
@@ -12,11 +12,10 @@
   ],
   "requirements": {
     "platform_trucks": 1,
-    "oneof_fire_engine_or_rescue": 1,
     "firetrucks": 1
   },
   "chances": {
-    "platform_trucks": 10
+    "platform_trucks": 25
   },
   "additional": {
     "filter_id": "firehouse_missions"

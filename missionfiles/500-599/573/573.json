@@ -3,7 +3,7 @@
   "name": "Vlam in de pan",
   "place": "",
   "place_array": [],
-  "average_credits": 370,
+  "average_credits": 500,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",
@@ -15,7 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [62, 64],
+    "expansion_missions_ids": [62, 64, 1235],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {

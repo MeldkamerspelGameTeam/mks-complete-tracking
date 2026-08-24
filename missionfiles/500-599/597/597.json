@@ -1,9 +1,9 @@
 {
   "id": "597",
-  "name": "Brand in asielzoekerscentrum",
+  "name": "Brand in asielzoekerscentrum (klein)",
   "place": "Asielzoekerscentrum",
   "place_array": ["Asielzoekerscentrum"],
-  "average_credits": 170,
+  "average_credits": 500,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",

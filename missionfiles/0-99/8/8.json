@@ -3,7 +3,7 @@
   "name": "Brandend afval",
   "place": "",
   "place_array": [],
-  "average_credits": 220,
+  "average_credits": 500,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",
@@ -15,7 +15,11 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [54],
+    "expansion_missions_ids": [
+      6, 16, 23, 34, 54, 110, 126, 158, 196, 287, 296, 334, 383, 408, 414, 425,
+      440, 443, 456, 465, 504, 510, 550, 597, 610, 646, 659, 778, 885, 952, 956,
+      1019, 1026
+    ],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {

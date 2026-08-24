@@ -3,7 +3,7 @@
   "name": "Zwaan met gebroken poot",
   "place": "Meer",
   "place_array": ["Meer"],
-  "average_credits": 400,
+  "average_credits": 900,
   "generated_by": "",
   "icons": [
     "/images/cat_gruen.png",
@@ -12,7 +12,6 @@
   ],
   "requirements": {
     "boats": 1,
-    "oneof_fire_engine_or_rescue": 1,
     "firetrucks": 1
   },
   "chances": {
@@ -22,8 +21,9 @@
     "filter_id": "water_watch_missions"
   },
   "prerequisites": {
-    "main_building": -1,
-    "wasserrettung": 1,
+    "main_building": 16,
+    "wasserrettung": 2,
+    "water_rescue_2": 2,
     "fire_stations": 1
   },
   "overlay_index": null,

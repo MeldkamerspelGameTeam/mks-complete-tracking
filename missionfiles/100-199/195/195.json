@@ -3,7 +3,7 @@
   "name": "Lekkende woonboot",
   "place": "Meer",
   "place_array": ["Meer"],
-  "average_credits": 420,
+  "average_credits": 910,
   "generated_by": "",
   "icons": [
     "/images/waterpark_gruen.png",
@@ -22,7 +22,7 @@
   },
   "prerequisites": {
     "main_building": 0,
-    "fire_stations": 1
+    "fire_stations": 4
   },
   "overlay_index": null,
   "base_mission_id": 195,

@@ -3,7 +3,7 @@
   "name": "Verkeersongeval scooter",
   "place": "",
   "place_array": [],
-  "average_credits": 300,
+  "average_credits": 500,
   "generated_by": "",
   "icons": [
     "/images/caraccident_gruen.png",
@@ -26,7 +26,7 @@
   },
   "prerequisites": {
     "main_building": 3,
-    "rescue_stations": 1,
+    "rescue_stations": 2,
     "police_stations": 1
   },
   "overlay_index": null,

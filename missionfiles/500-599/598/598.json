@@ -1,9 +1,9 @@
 {
   "id": "598",
-  "name": "Brand in asielzoekerscentrum (wasserette)",
+  "name": "Brand in asielzoekerscentrum (middel)",
   "place": "Asielzoekerscentrum",
   "place_array": ["Asielzoekerscentrum"],
-  "average_credits": 1360,
+  "average_credits": 1690,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",
@@ -29,7 +29,7 @@
   },
   "prerequisites": {
     "main_building": 0,
-    "rescue_stations": 1,
+    "rescue_stations": 2,
     "police_stations": 2,
     "fire_stations": 6
   },

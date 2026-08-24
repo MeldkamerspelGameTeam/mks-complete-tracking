@@ -3,7 +3,7 @@
   "name": "Kat in boom",
   "place": "",
   "place_array": [],
-  "average_credits": 210,
+  "average_credits": 840,
   "generated_by": "",
   "icons": [
     "/images/cat_gruen.png",
@@ -22,10 +22,10 @@
   },
   "prerequisites": {
     "main_building": 0,
-    "fire_stations": 1
+    "fire_stations": 3
   },
   "overlay_index": null,
   "base_mission_id": 57,
   "additive_overlays": "",
-  "mission_categories": ["fire", "urban", "rural"]
+  "mission_categories": ["fire", "rural", "urban"]
 }

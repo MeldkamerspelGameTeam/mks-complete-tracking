@@ -3,7 +3,7 @@
   "name": "Brandgerucht",
   "place": "",
   "place_array": [],
-  "average_credits": 130,
+  "average_credits": 500,
   "generated_by": "",
   "icons": [
     "/images/fire_gruen.png",
@@ -15,7 +15,7 @@
   },
   "chances": {},
   "additional": {
-    "expansion_missions_ids": [115],
+    "expansion_missions_ids": [115, 110, 32, 6],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {

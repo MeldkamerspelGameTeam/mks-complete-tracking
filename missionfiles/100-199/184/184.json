@@ -3,7 +3,7 @@
   "name": "Eend verstrikt in visdraad",
   "place": "Meer",
   "place_array": ["Meer"],
-  "average_credits": 400,
+  "average_credits": 1000,
   "generated_by": "",
   "icons": [
     "/images/waterpark_gruen.png",
@@ -21,8 +21,9 @@
     "filter_id": "water_watch_missions"
   },
   "prerequisites": {
-    "main_building": -1,
-    "wasserrettung": 1
+    "main_building": 16,
+    "wasserrettung": 1,
+    "fire_stations": 1
   },
   "overlay_index": null,
   "base_mission_id": 184,

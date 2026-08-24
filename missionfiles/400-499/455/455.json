@@ -3,7 +3,7 @@
   "name": "Ree vast in hek",
   "place": "Bos",
   "place_array": ["Bos"],
-  "average_credits": 300,
+  "average_credits": 500,
   "generated_by": "",
   "icons": [
     "/images/cat_gruen.png",
@@ -11,7 +11,6 @@
     "/images/cat_rot.png"
   ],
   "requirements": {
-    "oneof_fire_engine_or_rescue": 1,
     "firetrucks": 1
   },
   "chances": {},

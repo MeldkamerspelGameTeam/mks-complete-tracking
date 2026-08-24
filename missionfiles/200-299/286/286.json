@@ -3,7 +3,7 @@
   "name": "Kind vast in boom",
   "place": "Park",
   "place_array": ["Park"],
-  "average_credits": 340,
+  "average_credits": 840,
   "generated_by": "",
   "icons": [
     "/images/sawmill_gruen.png",
@@ -12,7 +12,6 @@
   ],
   "requirements": {
     "platform_trucks": 1,
-    "oneof_fire_engine_or_rescue": 1,
     "firetrucks": 1
   },
   "chances": {
@@ -22,7 +21,6 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
-    "patient_at_end_of_mission": true,
     "patient_specialization_ids": [1],
     "patient_specialization_captions": ["Algemene Heelkunde"],
     "patient_specializations": "Algemene Heelkunde"

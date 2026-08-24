@@ -120,7 +120,7 @@
     "name": "Brandend gras",
     "place": "",
     "place_array": [],
-    "average_credits": 200,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -211,7 +211,7 @@
     "name": "Brandende boom",
     "place": "",
     "place_array": [],
-    "average_credits": 210,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -219,15 +219,18 @@
       "/images/fire_rot.png"
     ],
     "requirements": {
+      "platform_trucks": 1,
       "firetrucks": 1
     },
-    "chances": {},
+    "chances": {
+      "platform_trucks": 25
+    },
     "additional": {
       "filter_id": "firehouse_missions"
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 3
     },
     "overlay_index": null,
     "base_mission_id": 7,
@@ -239,7 +242,7 @@
     "name": "Brandend afval",
     "place": "",
     "place_array": [],
-    "average_credits": 220,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -251,7 +254,11 @@
     },
     "chances": {},
     "additional": {
-      "expansion_missions_ids": [54],
+      "expansion_missions_ids": [
+        6, 16, 23, 34, 54, 110, 126, 158, 196, 287, 296, 334, 383, 408, 414,
+        425, 440, 443, 456, 465, 504, 510, 550, 597, 610, 646, 659, 778, 885,
+        952, 956, 1019, 1026
+      ],
       "filter_id": "firehouse_missions"
     },
     "prerequisites": {
@@ -383,10 +390,10 @@
   },
   {
     "id": "13",
-    "name": "Brandende vrachtwagen",
+    "name": "Brandende vrachtwagen (Middel)",
     "place": "",
     "place_array": [],
-    "average_credits": 1600,
+    "average_credits": 2270,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -396,16 +403,25 @@
     "requirements": {
       "battalion_chief_vehicles": 1,
       "water_tankers": 1,
-      "firetrucks": 2
+      "firetrucks": 2,
+      "police_cars": 1
     },
     "chances": {
-      "water_tankers": 10
+      "water_tankers": 10,
+      "nef": 1,
+      "patient_transport": 10
     },
     "additional": {
-      "filter_id": "firehouse_missions"
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": {
       "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 1,
       "fire_stations": 7
     },
     "overlay_index": null,
@@ -446,6 +462,141 @@
     "overlay_index": 0,
     "base_mission_id": 13,
     "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"]
+  },
+  {
+    "id": "13/a",
+    "name": "Brandende vrachtwagen (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2870,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "water_tankers": 1,
+      "car_carrier_large": 1,
+      "firetrucks": 2,
+      "police_cars": 1
+    },
+    "chances": {
+      "water_tankers": 10,
+      "nef": 1,
+      "patient_transport": 10
+    },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "possible_crashed_car_large_max": 1,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 1,
+      "tow_trucks_large": 2,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 13,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"]
+  },
+  {
+    "id": "13/ab",
+    "name": "Brandende vrachtwagen (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3770,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "foam": 1,
+      "water_tankers": 1,
+      "foam_needed": 500,
+      "car_carrier_large": 1,
+      "firetrucks": 2,
+      "police_cars": 1
+    },
+    "chances": {
+      "water_tankers": 10,
+      "nef": 1,
+      "patient_transport": 10
+    },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "possible_crashed_car_large_max": 1,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 1,
+      "fire_support_count": 1,
+      "tow_trucks_large": 2,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 13,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire", "urban", "fire_support_specialization"]
+  },
+  {
+    "id": "13/b",
+    "name": "Brandende vrachtwagen (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3170,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "battalion_chief_vehicles": 1,
+      "foam": 1,
+      "water_tankers": 1,
+      "foam_needed": 500,
+      "firetrucks": 2,
+      "police_cars": 1
+    },
+    "chances": {
+      "water_tankers": 10,
+      "nef": 1,
+      "patient_transport": 10
+    },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 1,
+      "fire_support_count": 1,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 13,
+    "additive_overlays": "b",
     "mission_categories": ["fire", "urban", "fire_support_specialization"]
   },
   {
@@ -559,7 +710,7 @@
     "name": "Brandende dixi",
     "place": "",
     "place_array": [],
-    "average_credits": 340,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -1081,7 +1232,7 @@
     "name": "Lekkende dieseltank",
     "place": "",
     "place_array": [],
-    "average_credits": 190,
+    "average_credits": 910,
     "generated_by": "",
     "icons": [
       "/images/oil_gruen.png",
@@ -1100,7 +1251,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 4
     },
     "overlay_index": null,
     "base_mission_id": 30,
@@ -1112,7 +1263,7 @@
     "name": "Oliespoor",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/oil_gruen.png",
@@ -2202,7 +2353,7 @@
     "name": "Kat in boom",
     "place": "",
     "place_array": [],
-    "average_credits": 210,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -2221,19 +2372,19 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 3
     },
     "overlay_index": null,
     "base_mission_id": 57,
     "additive_overlays": "",
-    "mission_categories": ["fire", "urban", "rural"]
+    "mission_categories": ["fire", "rural", "urban"]
   },
   {
     "id": "58",
     "name": "Buitenbrand",
     "place": "",
     "place_array": [],
-    "average_credits": 250,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -2254,7 +2405,7 @@
     "overlay_index": null,
     "base_mission_id": 58,
     "additive_overlays": "",
-    "mission_categories": ["fire", "rural"]
+    "mission_categories": ["rural"]
   },
   {
     "id": "59",
@@ -2894,7 +3045,7 @@
     "name": "Rookontwikkeling in winkel",
     "place": "",
     "place_array": [],
-    "average_credits": 350,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -2914,7 +3065,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 3
     },
     "overlay_index": null,
     "base_mission_id": 78,
@@ -4524,7 +4675,7 @@
     "name": "Brandgerucht",
     "place": "",
     "place_array": [],
-    "average_credits": 130,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -4536,7 +4687,7 @@
     },
     "chances": {},
     "additional": {
-      "expansion_missions_ids": [115],
+      "expansion_missions_ids": [115, 110, 32, 6],
       "filter_id": "firehouse_missions"
     },
     "prerequisites": {
@@ -4553,7 +4704,7 @@
     "name": "Buitensluiting",
     "place": "",
     "place_array": [],
-    "average_credits": 140,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -4581,7 +4732,7 @@
     "name": "Schaap in sloot",
     "place": "Sloot",
     "place_array": ["Sloot"],
-    "average_credits": 140,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -5873,7 +6024,7 @@
     "name": "Brandende bestelwagen",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -5901,7 +6052,7 @@
     "name": "Brandende haag",
     "place": "",
     "place_array": [],
-    "average_credits": 240,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -5929,7 +6080,7 @@
     "name": "Brandende papiercontainer",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -6058,7 +6209,7 @@
     "name": "Brand in meterkast",
     "place": "",
     "place_array": [],
-    "average_credits": 170,
+    "average_credits": 910,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -6077,7 +6228,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 4
     },
     "overlay_index": null,
     "base_mission_id": 138,
@@ -8246,7 +8397,7 @@
     "name": "Eend verstrikt in visdraad",
     "place": "Meer",
     "place_array": ["Meer"],
-    "average_credits": 400,
+    "average_credits": 1000,
     "generated_by": "",
     "icons": [
       "/images/waterpark_gruen.png",
@@ -8264,8 +8415,9 @@
       "filter_id": "water_watch_missions"
     },
     "prerequisites": {
-      "main_building": -1,
-      "wasserrettung": 1
+      "main_building": 16,
+      "wasserrettung": 1,
+      "fire_stations": 1
     },
     "overlay_index": null,
     "base_mission_id": 184,
@@ -8497,7 +8649,7 @@
     "overlay_index": null,
     "base_mission_id": 191,
     "additive_overlays": "",
-    "mission_categories": ["fire", "urban", "rural"]
+    "mission_categories": ["fire", "urban"]
   },
   {
     "id": "192",
@@ -8537,7 +8689,7 @@
     "name": "Koe in sloot",
     "place": "Sloot",
     "place_array": ["Sloot"],
-    "average_credits": 140,
+    "average_credits": 910,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -8556,7 +8708,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 4
     },
     "overlay_index": null,
     "base_mission_id": 193,
@@ -8568,7 +8720,7 @@
     "name": "Koe in gierput",
     "place": "Boerderij",
     "place_array": ["Boerderij"],
-    "average_credits": 190,
+    "average_credits": 910,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -8587,7 +8739,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 4
     },
     "overlay_index": null,
     "base_mission_id": 194,
@@ -8599,7 +8751,7 @@
     "name": "Lekkende woonboot",
     "place": "Meer",
     "place_array": ["Meer"],
-    "average_credits": 420,
+    "average_credits": 910,
     "generated_by": "",
     "icons": [
       "/images/waterpark_gruen.png",
@@ -8618,7 +8770,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 1
+      "fire_stations": 4
     },
     "overlay_index": null,
     "base_mission_id": 195,
@@ -8655,7 +8807,7 @@
   },
   {
     "id": "197",
-    "name": "Brandende vrachtwagen",
+    "name": "Brandende vrachtwagen (klein)",
     "place": "",
     "place_array": [],
     "average_credits": 500,
@@ -8684,7 +8836,7 @@
   },
   {
     "id": "197/a",
-    "name": "Brandende vrachtwagen",
+    "name": "Brandende vrachtwagen (klein)",
     "place": "",
     "place_array": [],
     "average_credits": 800,
@@ -10795,7 +10947,7 @@
     "name": "Overdosis drugs",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/medicalstore_gruen.png",
@@ -12047,7 +12199,7 @@
     "name": "Brandend speeltoestel",
     "place": "Park",
     "place_array": ["Park"],
-    "average_credits": 220,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -12135,10 +12287,10 @@
   },
   {
     "id": "263",
-    "name": "Brandende personenauto in parkeergarage",
+    "name": "Brandende personenauto in parkeergarage (Klein)",
     "place": "Vliegveld (groot): Parkeergarage",
     "place_array": ["Vliegveld (groot): Parkeergarage"],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -12155,7 +12307,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "fire_stations": 2
+      "fire_stations": 1
     },
     "overlay_index": null,
     "base_mission_id": 263,
@@ -12164,10 +12316,10 @@
   },
   {
     "id": "264",
-    "name": "Brandende personenauto in parkeergarage",
+    "name": "Brandende personenauto in parkeergarage (Middel)",
     "place": "Vliegveld (groot): Parkeergarage",
     "place_array": ["Vliegveld (groot): Parkeergarage"],
-    "average_credits": 650,
+    "average_credits": 1520,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -12184,13 +12336,12 @@
       "platform_trucks": 20
     },
     "additional": {
-      "filter_id": "firehouse_missions",
-      "fire_alarm_system_possible": true
+      "filter_id": "firehouse_missions"
     },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
-      "fire_stations": 4
+      "fire_stations": 6
     },
     "overlay_index": null,
     "base_mission_id": 264,
@@ -13096,7 +13247,7 @@
     "name": "Kind vast in boom",
     "place": "Park",
     "place_array": ["Park"],
-    "average_credits": 340,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/sawmill_gruen.png",
@@ -13105,7 +13256,6 @@
     ],
     "requirements": {
       "platform_trucks": 1,
-      "oneof_fire_engine_or_rescue": 1,
       "firetrucks": 1
     },
     "chances": {
@@ -13115,7 +13265,6 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
-      "patient_at_end_of_mission": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Algemene Heelkunde"],
       "patient_specializations": "Algemene Heelkunde"
@@ -20937,7 +21086,7 @@
     "name": "Motorrijder gevallen",
     "place": "",
     "place_array": [],
-    "average_credits": 150,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/medicalstore_gruen.png",
@@ -23929,7 +24078,7 @@
     "name": "Zwaan met gebroken poot",
     "place": "Meer",
     "place_array": ["Meer"],
-    "average_credits": 400,
+    "average_credits": 900,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -23938,7 +24087,6 @@
     ],
     "requirements": {
       "boats": 1,
-      "oneof_fire_engine_or_rescue": 1,
       "firetrucks": 1
     },
     "chances": {
@@ -23948,8 +24096,9 @@
       "filter_id": "water_watch_missions"
     },
     "prerequisites": {
-      "main_building": -1,
-      "wasserrettung": 1,
+      "main_building": 16,
+      "wasserrettung": 2,
+      "water_rescue_2": 2,
       "fire_stations": 1
     },
     "overlay_index": null,
@@ -23962,7 +24111,7 @@
     "name": "Vogel vast in schoorsteen",
     "place": "",
     "place_array": [],
-    "average_credits": 350,
+    "average_credits": 1250,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -23995,12 +24144,12 @@
     "name": "Vissen met zuurstoftekort",
     "place": "Meer",
     "place_array": ["Meer"],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
-      "/images/cat_gruen.png",
-      "/images/cat_gelb.png",
-      "/images/cat_rot.png"
+      "/images/river_gruen.png",
+      "/images/river_gelb.png",
+      "/images/river_rot.png"
     ],
     "requirements": {
       "firetrucks": 1
@@ -24023,7 +24172,7 @@
     "name": "Kat op dak",
     "place": "",
     "place_array": [],
-    "average_credits": 320,
+    "average_credits": 840,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -24032,11 +24181,10 @@
     ],
     "requirements": {
       "platform_trucks": 1,
-      "oneof_fire_engine_or_rescue": 1,
       "firetrucks": 1
     },
     "chances": {
-      "platform_trucks": 10
+      "platform_trucks": 25
     },
     "additional": {
       "filter_id": "firehouse_missions"
@@ -24055,7 +24203,7 @@
     "name": "Ree vast in hek",
     "place": "Bos",
     "place_array": ["Bos"],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/cat_gruen.png",
@@ -24063,7 +24211,6 @@
       "/images/cat_rot.png"
     ],
     "requirements": {
-      "oneof_fire_engine_or_rescue": 1,
       "firetrucks": 1
     },
     "chances": {},
@@ -25028,7 +25175,7 @@
     "name": "Verkeersongeval scooter",
     "place": "",
     "place_array": [],
-    "average_credits": 300,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -25051,7 +25198,7 @@
     },
     "prerequisites": {
       "main_building": 3,
-      "rescue_stations": 1,
+      "rescue_stations": 2,
       "police_stations": 1
     },
     "overlay_index": null,
@@ -26436,7 +26583,7 @@
     "name": "Verkeersongeval materieel",
     "place": "",
     "place_array": [],
-    "average_credits": 450,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
@@ -29885,7 +30032,7 @@
     "name": "Vlam in de pan",
     "place": "",
     "place_array": [],
-    "average_credits": 370,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -29897,7 +30044,7 @@
     },
     "chances": {},
     "additional": {
-      "expansion_missions_ids": [62, 64],
+      "expansion_missions_ids": [62, 64, 1235],
       "filter_id": "firehouse_missions"
     },
     "prerequisites": {
@@ -30860,10 +31007,10 @@
   },
   {
     "id": "597",
-    "name": "Brand in asielzoekerscentrum",
+    "name": "Brand in asielzoekerscentrum (klein)",
     "place": "Asielzoekerscentrum",
     "place_array": ["Asielzoekerscentrum"],
-    "average_credits": 170,
+    "average_credits": 500,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -30890,10 +31037,10 @@
   },
   {
     "id": "598",
-    "name": "Brand in asielzoekerscentrum (wasserette)",
+    "name": "Brand in asielzoekerscentrum (middel)",
     "place": "Asielzoekerscentrum",
     "place_array": ["Asielzoekerscentrum"],
-    "average_credits": 1360,
+    "average_credits": 1690,
     "generated_by": "",
     "icons": [
       "/images/fire_gruen.png",
@@ -30919,7 +31066,7 @@
     },
     "prerequisites": {
       "main_building": 0,
-      "rescue_stations": 1,
+      "rescue_stations": 2,
       "police_stations": 2,
       "fire_stations": 6
     },
@@ -99200,7 +99347,7 @@
     "name": "Sleepwagen zonder brandstof",
     "place": "",
     "place_array": [],
-    "average_credits": 400,
+    "average_credits": 530,
     "generated_by": "",
     "icons": [
       "/images/caraccident_gruen.png",
