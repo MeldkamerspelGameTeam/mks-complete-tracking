@@ -1,6 +1,6 @@
 {
   "id": "196",
-  "name": "Brand in woonwagen",
+  "name": "Brand in woonwagen (Klein)",
   "place": "",
   "place_array": [],
   "average_credits": 500,
@@ -15,6 +15,7 @@
   },
   "chances": {},
   "additional": {
+    "expansion_missions_ids": [16],
     "filter_id": "firehouse_missions"
   },
   "prerequisites": {
