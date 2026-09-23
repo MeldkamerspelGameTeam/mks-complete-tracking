@@ -1313,6 +1313,38 @@
     "mission_categories": ["fire", "urban"]
   },
   {
+    "id": "32/a",
+    "name": "Schoorsteenbrand woning met rietenkap",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1750,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 2
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 6,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 32,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "urban"]
+  },
+  {
     "id": "33",
     "name": "Brandende landbouwmachine",
     "place": "",
@@ -4749,6 +4781,36 @@
     "overlay_index": null,
     "base_mission_id": 106,
     "additive_overlays": "",
+    "mission_categories": ["fire", "rural"]
+  },
+  {
+    "id": "106/a",
+    "name": "Schaap in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 900,
+    "generated_by": "",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": {
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 1,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 106,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "rural"]
   },
   {
@@ -8389,6 +8451,109 @@
     "mission_categories": ["water_rescue"]
   },
   {
+    "id": "183/a",
+    "name": "Paard in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 1700,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "diver_units": 2,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "diver_units": 10,
+      "heavy_rescue_vehicles": 20
+    },
+    "additional": {
+      "filter_id": "water_watch_missions"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 183,
+    "additive_overlays": "a",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "183/ab",
+    "name": "Paard in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 2100,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "diver_units": 2,
+      "heavy_rescue_vehicles": 1,
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "diver_units": 10,
+      "heavy_rescue_vehicles": 20
+    },
+    "additional": {
+      "filter_id": "water_watch_missions"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 1,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 183,
+    "additive_overlays": "ab",
+    "mission_categories": ["water_rescue"]
+  },
+  {
+    "id": "183/b",
+    "name": "Paard in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 1600,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "diver_units": 1,
+      "heavy_rescue_vehicles": 1,
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "diver_units": 10,
+      "heavy_rescue_vehicles": 20
+    },
+    "additional": {
+      "filter_id": "water_watch_missions"
+    },
+    "prerequisites": {
+      "main_building": -1,
+      "wasserrettung": 1,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 183,
+    "additive_overlays": "b",
+    "mission_categories": ["water_rescue"]
+  },
+  {
     "id": "184",
     "name": "Eend verstrikt in visdraad",
     "place": "Meer",
@@ -8712,6 +8877,39 @@
     "mission_categories": ["fire", "rural"]
   },
   {
+    "id": "193/a",
+    "name": "Koe in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 1310,
+    "generated_by": "",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "heavy_rescue_vehicles": 10
+    },
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 4,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 193,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "rural"]
+  },
+  {
     "id": "194",
     "name": "Koe in gierput",
     "place": "Boerderij",
@@ -8740,6 +8938,39 @@
     "overlay_index": null,
     "base_mission_id": 194,
     "additive_overlays": "",
+    "mission_categories": ["fire", "rural"]
+  },
+  {
+    "id": "194/a",
+    "name": "Koe in gierput",
+    "place": "Boerderij",
+    "place_array": ["Boerderij"],
+    "average_credits": 1310,
+    "generated_by": "",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "heavy_rescue_vehicles": 10
+    },
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 4,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 194,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "rural"]
   },
   {
@@ -28548,6 +28779,53 @@
     "overlay_index": null,
     "base_mission_id": 538,
     "additive_overlays": "",
+    "mission_categories": ["fire", "urban", "rural"]
+  },
+  {
+    "id": "538/a",
+    "name": "Rieten kap woning in brand door vuurwerk",
+    "place": "",
+    "place_array": [],
+    "average_credits": 3500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 5,
+      "police_cars": 2
+    },
+    "chances": {
+      "mobile_air_vehicles": 30,
+      "nef": 50,
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 2,
+      "possible_patient_min": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2025-12-26T10:00:00Z",
+      "date_end": "2026-01-01T23:59:59+01:00",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "fire_stations": 7,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 538,
+    "additive_overlays": "a",
     "mission_categories": ["fire", "urban", "rural"]
   },
   {
@@ -136334,5 +136612,3463 @@
     "base_mission_id": 1237,
     "additive_overlays": "",
     "mission_categories": ["ambulance"]
+  },
+  {
+    "id": "1242",
+    "name": "Rietenkapbrand (Klein)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1243, 1244, 1245, 1246],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1242,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1242/a",
+    "name": "Rietenkapbrand (Klein)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 900,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "thatched_firefighting": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1243, 1244, 1245, 1246],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1242,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1243",
+    "name": "Rietkapbrand (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2350,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "water_needed": 5000,
+      "firetrucks": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1244, 1244, 1245],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 1243,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1243/a",
+    "name": "Rietkapbrand (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2750,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "water_needed": 5000,
+      "thatched_firefighting": 1,
+      "firetrucks": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1244, 1244, 1245],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 7,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1243,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1244",
+    "name": "Rietkapbrand (Groot)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7830,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 1,
+      "gwmess": 1,
+      "spokesman": 1,
+      "water_needed": 16000,
+      "firetrucks": 4,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 20
+    },
+    "additional": {
+      "possible_patient": 1,
+      "expansion_missions_ids": [1245, 1246],
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 2,
+      "fire_stations": 21
+    },
+    "overlay_index": null,
+    "base_mission_id": 1244,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1244/a",
+    "name": "Rietkapbrand (Groot)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8230,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 1,
+      "gwmess": 1,
+      "spokesman": 1,
+      "water_needed": 16000,
+      "thatched_firefighting": 1,
+      "firetrucks": 4,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 20
+    },
+    "additional": {
+      "possible_patient": 1,
+      "expansion_missions_ids": [1245, 1246],
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 1,
+      "police_stations": 2,
+      "fire_stations": 21,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1244,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1245",
+    "name": "Rietkapbrand (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 16470,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 35000,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1246],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 41
+    },
+    "overlay_index": null,
+    "base_mission_id": 1245,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1245/a",
+    "name": "Rietkapbrand (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 17270,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 35000,
+      "drone_fire": 1,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1246],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1245,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1245/ab",
+    "name": "Rietkapbrand (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 25275,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 35000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1246],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1245,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1245/abc",
+    "name": "Rietkapbrand (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 25775,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 35000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1246],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1245,
+    "additive_overlays": "abc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1245/ac",
+    "name": "Rietkapbrand (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 17670,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 35000,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1246],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1245,
+    "additive_overlays": "ac",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1245/b",
+    "name": "Rietkapbrand (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 24275,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 35000,
+      "care_service_command": 1,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1246],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1245,
+    "additive_overlays": "b",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1245/bc",
+    "name": "Rietkapbrand (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 24775,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 35000,
+      "care_service_command": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1246],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1245,
+    "additive_overlays": "bc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1245/c",
+    "name": "Rietkapbrand (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 16870,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 35000,
+      "thatched_firefighting": 1,
+      "firetrucks": 6,
+      "police_cars": 4
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1246],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 41,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1245,
+    "additive_overlays": "c",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1246",
+    "name": "Rietkapbrand (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 20110,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 45000,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 50
+    },
+    "overlay_index": null,
+    "base_mission_id": 1246,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1246/a",
+    "name": "Rietkapbrand (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 20910,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 45000,
+      "drone_fire": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1246,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1246/ab",
+    "name": "Rietkapbrand (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 29825,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 45000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1246,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1246/abc",
+    "name": "Rietkapbrand (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 30325,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 45000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1246,
+    "additive_overlays": "abc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1246/ac",
+    "name": "Rietkapbrand (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 21310,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 45000,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1246,
+    "additive_overlays": "ac",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1246/b",
+    "name": "Rietkapbrand (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 28825,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 45000,
+      "care_service_command": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1246,
+    "additive_overlays": "b",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1246/bc",
+    "name": "Rietkapbrand (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 29325,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 45000,
+      "care_service_command": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1246,
+    "additive_overlays": "bc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1246/c",
+    "name": "Rietkapbrand (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 20510,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 45000,
+      "thatched_firefighting": 1,
+      "firetrucks": 8,
+      "police_cars": 6
+    },
+    "chances": {
+      "patient_transport": 30
+    },
+    "additional": {
+      "possible_patient": 2,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 7,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 50,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1246,
+    "additive_overlays": "c",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1247",
+    "name": "Blikseminslag rietenkap (Klein)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1248, 1249, 1250, 1251],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1247,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1247/a",
+    "name": "Blikseminslag rietenkap (Klein)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 900,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "thatched_firefighting": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1248, 1249, 1250, 1251],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1247,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1248",
+    "name": "Blikseminslag rietenkap (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2560,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 4000,
+      "firetrucks": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1249, 1250, 1251],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 1248,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1248/a",
+    "name": "Blikseminslag rietenkap (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2960,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "water_needed": 4000,
+      "thatched_firefighting": 1,
+      "firetrucks": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1249, 1250, 1251],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 7,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1248,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1249",
+    "name": "Blikseminslag rietenkap (Groot)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 7990,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "gwmess": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 18000,
+      "firetrucks": 4,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1250, 1251],
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "fire_stations": 22
+    },
+    "overlay_index": null,
+    "base_mission_id": 1249,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1249/a",
+    "name": "Blikseminslag rietenkap (Groot)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8390,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 1,
+      "gwmess": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 18000,
+      "thatched_firefighting": 1,
+      "firetrucks": 4,
+      "police_cars": 2
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 2,
+      "expansion_missions_ids": [1250, 1251],
+      "filter_id": "firehouse_missions",
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 2,
+      "police_stations": 2,
+      "fire_stations": 22,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1249,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1250",
+    "name": "Blikseminslag rietenkap (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 17300,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "firetrucks": 6,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 3,
+      "expansion_missions_ids": [1251],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 40
+    },
+    "overlay_index": null,
+    "base_mission_id": 1250,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1250/a",
+    "name": "Blikseminslag rietenkap (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 18100,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "drone_fire": 1,
+      "firetrucks": 6,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 3,
+      "expansion_missions_ids": [1251],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1250,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1250/ab",
+    "name": "Blikseminslag rietenkap (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 26312,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "firetrucks": 6,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 3,
+      "expansion_missions_ids": [1251],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1250,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1250/abc",
+    "name": "Blikseminslag rietenkap (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 26812,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 6,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 3,
+      "expansion_missions_ids": [1251],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1250,
+    "additive_overlays": "abc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1250/ac",
+    "name": "Blikseminslag rietenkap (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 18500,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 6,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 3,
+      "expansion_missions_ids": [1251],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1250,
+    "additive_overlays": "ac",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1250/b",
+    "name": "Blikseminslag rietenkap (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 25312,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "care_service_command": 1,
+      "firetrucks": 6,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 3,
+      "expansion_missions_ids": [1251],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1250,
+    "additive_overlays": "b",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1250/bc",
+    "name": "Blikseminslag rietenkap (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 25812,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "care_service_command": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 6,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 3,
+      "expansion_missions_ids": [1251],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1250,
+    "additive_overlays": "bc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1250/c",
+    "name": "Blikseminslag rietenkap (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 17700,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 2,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "thatched_firefighting": 1,
+      "firetrucks": 6,
+      "police_cars": 5
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 3,
+      "expansion_missions_ids": [1251],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 6,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 40,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1250,
+    "additive_overlays": "c",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1251",
+    "name": "Blikseminslag rietenkap (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 21160,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 40000,
+      "firetrucks": 8,
+      "police_cars": 7
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 4,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 49
+    },
+    "overlay_index": null,
+    "base_mission_id": 1251,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1251/a",
+    "name": "Blikseminslag rietenkap (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 21960,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 40000,
+      "drone_fire": 1,
+      "firetrucks": 8,
+      "police_cars": 7
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 4,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1251,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1251/ab",
+    "name": "Blikseminslag rietenkap (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 31137,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 40000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "firetrucks": 8,
+      "police_cars": 7
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 4,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1251,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1251/abc",
+    "name": "Blikseminslag rietenkap (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 31637,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 40000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 8,
+      "police_cars": 7
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 4,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1251,
+    "additive_overlays": "abc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1251/ac",
+    "name": "Blikseminslag rietenkap (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 22360,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 40000,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 8,
+      "police_cars": 7
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 4,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1251,
+    "additive_overlays": "ac",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1251/b",
+    "name": "Blikseminslag rietenkap (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 30137,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 40000,
+      "care_service_command": 1,
+      "firetrucks": 8,
+      "police_cars": 7
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 4,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1251,
+    "additive_overlays": "b",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1251/bc",
+    "name": "Blikseminslag rietenkap (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 30637,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 40000,
+      "care_service_command": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 8,
+      "police_cars": 7
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 4,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true,
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1251,
+    "additive_overlays": "bc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1251/c",
+    "name": "Blikseminslag rietenkap (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 21560,
+    "generated_by": "",
+    "icons": [
+      "/images/lightningStrike_gruen.png",
+      "/images/lightningStrike_gelb.png",
+      "/images/lightningStrike_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 4,
+      "ovdp": 1,
+      "heavy_rescue_vehicles": 1,
+      "spokesman": 1,
+      "water_needed": 40000,
+      "thatched_firefighting": 1,
+      "firetrucks": 8,
+      "police_cars": 7
+    },
+    "chances": {
+      "patient_transport": 50
+    },
+    "additional": {
+      "possible_patient": 4,
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "patient_specialization_ids": [0],
+      "patient_specialization_captions": ["Interne Geneeskunde"],
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 8,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 49,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1251,
+    "additive_overlays": "c",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1252",
+    "name": "Brand in rietenkap na werkzaamheden (Klein)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1253, 1254, 1255, 1256],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1252,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1252/a",
+    "name": "Brand in rietenkap na werkzaamheden (Klein)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 900,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "thatched_firefighting": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1253, 1254, 1255, 1256],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1252,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1253",
+    "name": "Brand in rietenkap na werkzaamheden (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2350,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "water_needed": 5000,
+      "firetrucks": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1254, 1255, 1256],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 7
+    },
+    "overlay_index": null,
+    "base_mission_id": 1253,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1253/a",
+    "name": "Brand in rietenkap na werkzaamheden (Middel)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 2750,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "water_needed": 5000,
+      "thatched_firefighting": 1,
+      "firetrucks": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1254, 1255, 1256],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 7,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1253,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1254",
+    "name": "Brand in rietenkap na werkzaamheden (Groot)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8230,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 1,
+      "water_needed": 20000,
+      "firetrucks": 4,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1255, 1256],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 23
+    },
+    "overlay_index": null,
+    "base_mission_id": 1254,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1254/a",
+    "name": "Brand in rietenkap na werkzaamheden (Groot)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 8630,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 1,
+      "water_needed": 20000,
+      "thatched_firefighting": 1,
+      "firetrucks": 4,
+      "police_cars": 2
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1255, 1256],
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 2,
+      "fire_stations": 23,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1254,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1255",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 16010,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "firetrucks": 7,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1256],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 40
+    },
+    "overlay_index": null,
+    "base_mission_id": 1255,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1255/a",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 16810,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "drone_fire": 1,
+      "firetrucks": 7,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1256],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1255,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1255/ab",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 24700,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "firetrucks": 7,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1256],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1255,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1255/abc",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 25200,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 7,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1256],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1255,
+    "additive_overlays": "abc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1255/ac",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 17210,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 7,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1256],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1255,
+    "additive_overlays": "ac",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1255/b",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 23700,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "care_service_command": 1,
+      "firetrucks": 7,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1256],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1255,
+    "additive_overlays": "b",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1255/bc",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 24200,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "care_service_command": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 7,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1256],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1255,
+    "additive_overlays": "bc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1255/c",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 16410,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 32000,
+      "thatched_firefighting": 1,
+      "firetrucks": 7,
+      "police_cars": 4
+    },
+    "chances": {},
+    "additional": {
+      "expansion_missions_ids": [1256],
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 5,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 40,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1255,
+    "additive_overlays": "c",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1256",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 21220,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 46000,
+      "firetrucks": 10,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 53
+    },
+    "overlay_index": null,
+    "base_mission_id": 1256,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1256/a",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 22020,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 46000,
+      "drone_fire": 1,
+      "firetrucks": 10,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1256,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1256/ab",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 31212,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 46000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "firetrucks": 10,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1256,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1256/abc",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 31712,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 46000,
+      "care_service_command": 1,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 10,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "drone_fire": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1256,
+    "additive_overlays": "abc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1256/ac",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 22420,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 46000,
+      "drone_fire": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 10,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "drone_fire": 1,
+      "fire_stations": 1,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1256,
+    "additive_overlays": "ac",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1256/b",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 30212,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 46000,
+      "care_service_command": 1,
+      "firetrucks": 10,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2
+    },
+    "overlay_index": null,
+    "base_mission_id": 1256,
+    "additive_overlays": "b",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1256/bc",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 30712,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 46000,
+      "care_service_command": 1,
+      "thatched_firefighting": 1,
+      "firetrucks": 10,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877],
+      "care_includes_staff_members": true
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "care_service": 1,
+      "clean_service": 1,
+      "fire_stations": 2,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1256,
+    "additive_overlays": "bc",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1256/c",
+    "name": "Brand in rietenkap na werkzaamheden (Grip 2)",
+    "place": "",
+    "place_array": [],
+    "average_credits": 21620,
+    "generated_by": "",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": {
+      "platform_trucks": 2,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "mobile_air_vehicles": 2,
+      "hazmat_vehicles": 1,
+      "water_tankers": 2,
+      "gwmess": 3,
+      "ovdp": 1,
+      "spokesman": 1,
+      "water_needed": 46000,
+      "thatched_firefighting": 1,
+      "firetrucks": 10,
+      "police_cars": 7
+    },
+    "chances": {},
+    "additional": {
+      "followup_missions_ids": [878, 879, 464],
+      "filter_id": "firehouse_missions",
+      "subsequent_missions_ids": [877]
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 8,
+      "bereitschaftspolizei": 1,
+      "fire_stations": 53,
+      "thatched_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1256,
+    "additive_overlays": "c",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1257",
+    "name": "Varken in gierput",
+    "place": "Boerderij",
+    "place_array": ["Boerderij"],
+    "average_credits": 910,
+    "generated_by": "",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "heavy_rescue_vehicles": 10
+    },
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 1257,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "rural"]
+  },
+  {
+    "id": "1257/a",
+    "name": "Varken in gierput",
+    "place": "Boerderij",
+    "place_array": ["Boerderij"],
+    "average_credits": 1310,
+    "generated_by": "",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "heavy_rescue_vehicles": 10
+    },
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 4,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1257,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "rural"]
+  },
+  {
+    "id": "1258",
+    "name": "Geit in gierput",
+    "place": "Boerderij",
+    "place_array": ["Boerderij"],
+    "average_credits": 500,
+    "generated_by": "",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 1258,
+    "additive_overlays": "",
+    "mission_categories": ["fire", "rural"]
+  },
+  {
+    "id": "1258/a",
+    "name": "Geit in gierput",
+    "place": "Boerderij",
+    "place_array": ["Boerderij"],
+    "average_credits": 900,
+    "generated_by": "",
+    "icons": [
+      "/images/cat_gruen.png",
+      "/images/cat_gelb.png",
+      "/images/cat_rot.png"
+    ],
+    "requirements": {
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 4,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1258,
+    "additive_overlays": "a",
+    "mission_categories": ["fire", "rural"]
+  },
+  {
+    "id": "1259",
+    "name": "Ezel in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 910,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "heavy_rescue_vehicles": 20
+    },
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 1259,
+    "additive_overlays": "",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1259/a",
+    "name": "Ezel in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 1410,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "diver_units": 1,
+      "heavy_rescue_vehicles": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "heavy_rescue_vehicles": 20
+    },
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 1,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 1259,
+    "additive_overlays": "a",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1259/ab",
+    "name": "Ezel in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 1810,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "diver_units": 1,
+      "heavy_rescue_vehicles": 1,
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "heavy_rescue_vehicles": 20
+    },
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "wasserrettung": 1,
+      "fire_stations": 4,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1259,
+    "additive_overlays": "ab",
+    "mission_categories": ["fire"]
+  },
+  {
+    "id": "1259/b",
+    "name": "Ezel in sloot",
+    "place": "Sloot",
+    "place_array": ["Sloot"],
+    "average_credits": 1310,
+    "generated_by": "",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": {
+      "heavy_rescue_vehicles": 1,
+      "livestock_hoist": 1,
+      "firetrucks": 1
+    },
+    "chances": {
+      "heavy_rescue_vehicles": 20
+    },
+    "additional": {
+      "filter_id": "firehouse_missions"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "fire_stations": 4,
+      "livestock_fire": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 1259,
+    "additive_overlays": "b",
+    "mission_categories": ["fire"]
   }
 ]

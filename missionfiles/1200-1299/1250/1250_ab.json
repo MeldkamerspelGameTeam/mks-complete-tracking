@@ -1,0 +1,59 @@
+{
+  "id": "1250/ab",
+  "name": "Blikseminslag rietenkap (Grip 1)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 26312,
+  "generated_by": "",
+  "icons": [
+    "/images/lightningStrike_gruen.png",
+    "/images/lightningStrike_gelb.png",
+    "/images/lightningStrike_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 2,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "water_needed": 32000,
+    "care_service_command": 1,
+    "drone_fire": 1,
+    "firetrucks": 6,
+    "police_cars": 5
+  },
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 3,
+    "expansion_missions_ids": [1251],
+    "followup_missions_ids": [878, 879, 464],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [877],
+    "care_includes_staff_members": true,
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 6,
+    "bereitschaftspolizei": 1,
+    "care_service": 1,
+    "clean_service": 1,
+    "drone_fire": 1,
+    "fire_stations": 2
+  },
+  "overlay_index": null,
+  "base_mission_id": 1250,
+  "additive_overlays": "ab",
+  "mission_categories": ["fire"]
+}

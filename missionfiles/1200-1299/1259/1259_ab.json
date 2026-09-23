@@ -1,0 +1,35 @@
+{
+  "id": "1259/ab",
+  "name": "Ezel in sloot",
+  "place": "Sloot",
+  "place_array": ["Sloot"],
+  "average_credits": 1810,
+  "generated_by": "",
+  "icons": [
+    "/images/waterpark_gruen.png",
+    "/images/waterpark_gelb.png",
+    "/images/waterpark_rot.png"
+  ],
+  "requirements": {
+    "diver_units": 1,
+    "heavy_rescue_vehicles": 1,
+    "livestock_hoist": 1,
+    "firetrucks": 1
+  },
+  "chances": {
+    "heavy_rescue_vehicles": 20
+  },
+  "additional": {
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "wasserrettung": 1,
+    "fire_stations": 4,
+    "livestock_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1259,
+  "additive_overlays": "ab",
+  "mission_categories": ["fire"]
+}

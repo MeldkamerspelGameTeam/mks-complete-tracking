@@ -1,0 +1,48 @@
+{
+  "id": "1255/ac",
+  "name": "Brand in rietenkap na werkzaamheden (Grip 1)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 17210,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 3,
+    "ovdp": 1,
+    "spokesman": 1,
+    "water_needed": 32000,
+    "drone_fire": 1,
+    "thatched_firefighting": 1,
+    "firetrucks": 7,
+    "police_cars": 4
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [1256],
+    "followup_missions_ids": [878, 879, 464],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [877]
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 5,
+    "bereitschaftspolizei": 1,
+    "drone_fire": 1,
+    "fire_stations": 1,
+    "thatched_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1255,
+  "additive_overlays": "ac",
+  "mission_categories": ["fire"]
+}

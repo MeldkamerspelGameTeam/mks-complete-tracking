@@ -1,0 +1,29 @@
+{
+  "id": "1247",
+  "name": "Blikseminslag rietenkap (Klein)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 500,
+  "generated_by": "",
+  "icons": [
+    "/images/lightningStrike_gruen.png",
+    "/images/lightningStrike_gelb.png",
+    "/images/lightningStrike_rot.png"
+  ],
+  "requirements": {
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [1248, 1249, 1250, 1251],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1247,
+  "additive_overlays": "",
+  "mission_categories": ["fire"]
+}

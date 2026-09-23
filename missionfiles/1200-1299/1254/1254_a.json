@@ -1,0 +1,39 @@
+{
+  "id": "1254/a",
+  "name": "Brand in rietenkap na werkzaamheden (Groot)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 8630,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "mobile_air_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 1,
+    "water_needed": 20000,
+    "thatched_firefighting": 1,
+    "firetrucks": 4,
+    "police_cars": 2
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [1255, 1256],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "police_stations": 2,
+    "fire_stations": 23,
+    "thatched_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1254,
+  "additive_overlays": "a",
+  "mission_categories": ["fire"]
+}

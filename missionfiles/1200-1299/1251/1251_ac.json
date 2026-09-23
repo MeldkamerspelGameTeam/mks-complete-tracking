@@ -1,0 +1,56 @@
+{
+  "id": "1251/ac",
+  "name": "Blikseminslag rietenkap (Grip 2)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 22360,
+  "generated_by": "",
+  "icons": [
+    "/images/lightningStrike_gruen.png",
+    "/images/lightningStrike_gelb.png",
+    "/images/lightningStrike_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 4,
+    "ovdp": 1,
+    "heavy_rescue_vehicles": 1,
+    "spokesman": 1,
+    "water_needed": 40000,
+    "drone_fire": 1,
+    "thatched_firefighting": 1,
+    "firetrucks": 8,
+    "police_cars": 7
+  },
+  "chances": {
+    "patient_transport": 50
+  },
+  "additional": {
+    "possible_patient": 4,
+    "followup_missions_ids": [878, 879, 464],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [877],
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 8,
+    "police_stations": 8,
+    "bereitschaftspolizei": 1,
+    "drone_fire": 1,
+    "fire_stations": 1,
+    "thatched_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1251,
+  "additive_overlays": "ac",
+  "mission_categories": ["fire"]
+}

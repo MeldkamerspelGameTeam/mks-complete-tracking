@@ -1,0 +1,57 @@
+{
+  "id": "1246/bc",
+  "name": "Rietkapbrand (Grip 2)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 29325,
+  "generated_by": "",
+  "icons": [
+    "/images/fire_gruen.png",
+    "/images/fire_gelb.png",
+    "/images/fire_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 2,
+    "battalion_chief_vehicles": 2,
+    "mobile_command_vehicles": 1,
+    "elw3": 1,
+    "mobile_air_vehicles": 1,
+    "hazmat_vehicles": 1,
+    "water_tankers": 2,
+    "gwmess": 3,
+    "ovdp": 1,
+    "spokesman": 1,
+    "water_needed": 45000,
+    "care_service_command": 1,
+    "thatched_firefighting": 1,
+    "firetrucks": 8,
+    "police_cars": 6
+  },
+  "chances": {
+    "patient_transport": 30
+  },
+  "additional": {
+    "possible_patient": 2,
+    "followup_missions_ids": [878, 879, 464],
+    "filter_id": "firehouse_missions",
+    "subsequent_missions_ids": [877],
+    "care_includes_staff_members": true,
+    "patient_specialization_ids": [0],
+    "patient_specialization_captions": ["Interne Geneeskunde"],
+    "patient_specializations": "Interne Geneeskunde"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "rescue_stations": 2,
+    "police_stations": 7,
+    "bereitschaftspolizei": 1,
+    "care_service": 1,
+    "clean_service": 1,
+    "fire_stations": 2,
+    "thatched_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1246,
+  "additive_overlays": "bc",
+  "mission_categories": ["fire"]
+}

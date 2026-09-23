@@ -1,0 +1,33 @@
+{
+  "id": "1248",
+  "name": "Blikseminslag rietenkap (Middel)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 2560,
+  "generated_by": "",
+  "icons": [
+    "/images/lightningStrike_gruen.png",
+    "/images/lightningStrike_gelb.png",
+    "/images/lightningStrike_rot.png"
+  ],
+  "requirements": {
+    "platform_trucks": 1,
+    "battalion_chief_vehicles": 1,
+    "heavy_rescue_vehicles": 1,
+    "water_needed": 4000,
+    "firetrucks": 2
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [1249, 1250, 1251],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 7
+  },
+  "overlay_index": null,
+  "base_mission_id": 1248,
+  "additive_overlays": "",
+  "mission_categories": ["fire"]
+}

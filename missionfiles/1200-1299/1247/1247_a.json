@@ -1,0 +1,31 @@
+{
+  "id": "1247/a",
+  "name": "Blikseminslag rietenkap (Klein)",
+  "place": "",
+  "place_array": [],
+  "average_credits": 900,
+  "generated_by": "",
+  "icons": [
+    "/images/lightningStrike_gruen.png",
+    "/images/lightningStrike_gelb.png",
+    "/images/lightningStrike_rot.png"
+  ],
+  "requirements": {
+    "thatched_firefighting": 1,
+    "firetrucks": 1
+  },
+  "chances": {},
+  "additional": {
+    "expansion_missions_ids": [1248, 1249, 1250, 1251],
+    "filter_id": "firehouse_missions"
+  },
+  "prerequisites": {
+    "main_building": 0,
+    "fire_stations": 1,
+    "thatched_fire": 1
+  },
+  "overlay_index": null,
+  "base_mission_id": 1247,
+  "additive_overlays": "a",
+  "mission_categories": ["fire"]
+}
