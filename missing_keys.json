@@ -5,13 +5,7 @@
   "allow_rw_instead_of_lf",
   "allow_traffic_car_instead_of_fustw",
   "allow_without_poi",
-  "bomb_disposal_count",
-  "bomb_disposal_robot",
-  "livestock_fire",
-  "livestock_hoist",
   "patient_allow_first_responder_chance",
   "pump_water_amount",
-  "thatched_fire",
-  "thatched_firefighting",
   "water_cannon"
 ]
