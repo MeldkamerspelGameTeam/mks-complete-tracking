@@ -170,5 +170,11 @@
   "water_tankers": "Slangenwagens",
   "wildfire": "Handcrew",
   "wildfire_command": "DA-LA-NB",
-  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting"
+  "wildfire_equipment": "Natuurbrandbestrijding Uitrusting",
+  "bomb_disposal_count": "Kazerne Defensie",
+  "bomb_disposal_robot": "EOD-Robot",
+  "livestock_fire": "Veetakel uitbreidingen",
+  "livestock_hoist": "DB-VI of VIA",
+  "thatched_fire": "Rietbrandbestrijding uitbreidingen",
+  "thatched_firefighting":"DB-RI of RIA"
 }
