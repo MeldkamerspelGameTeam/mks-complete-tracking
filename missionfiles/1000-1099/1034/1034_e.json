@@ -53,7 +53,7 @@
     "fire_support_count": 2,
     "mass_casualty_count": 2,
     "fire_stations": 177,
-    "industrial_response_fire": 2
+    "hazard_response_fire": 2
   },
   "overlay_index": null,
   "base_mission_id": 1034,

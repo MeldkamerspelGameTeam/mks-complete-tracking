@@ -57,7 +57,8 @@
     "mass_casualty_count": 2,
     "drone_fire": 1,
     "fire_stations": 182,
-    "industrial_response_fire": 2
+    "industrial_response_fire": 2,
+    "hazard_response_fire": 2
   },
   "overlay_index": null,
   "base_mission_id": 1034,

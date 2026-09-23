@@ -80,7 +80,7 @@
     "railway": 10,
     "fire_stations": 2,
     "industrial_response_fire": 2,
-    "hazard_response_fire": 1
+    "hazard_response_fire": 2
   },
   "overlay_index": null,
   "base_mission_id": 1228,

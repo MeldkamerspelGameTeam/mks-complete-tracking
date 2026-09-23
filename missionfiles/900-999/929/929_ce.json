@@ -51,7 +51,7 @@
     "bereitschaftspolizei": 1,
     "fire_support_count": 9,
     "fire_stations": 71,
-    "industrial_response_fire": 1
+    "hazard_response_fire": 1
   },
   "overlay_index": null,
   "base_mission_id": 929,

@@ -42,7 +42,6 @@
     "rescue_stations": 10,
     "police_stations": 3,
     "fire_stations": 15,
-    "industrial_response_fire": 1,
     "hazard_response_fire": 1
   },
   "overlay_index": null,

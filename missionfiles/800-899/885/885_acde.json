@@ -55,7 +55,8 @@
     "fire_support_count": 9,
     "drone_fire": 1,
     "fire_stations": 119,
-    "industrial_response_fire": 1
+    "industrial_response_fire": 1,
+    "hazard_response_fire": 1
   },
   "overlay_index": null,
   "base_mission_id": 885,

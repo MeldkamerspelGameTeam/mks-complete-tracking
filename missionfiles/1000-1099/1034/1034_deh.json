@@ -55,7 +55,6 @@
     "fire_support_count": 2,
     "mass_casualty_count": 2,
     "fire_stations": 180,
-    "industrial_response_fire": 2,
     "hazard_response_fire": 1
   },
   "overlay_index": null,

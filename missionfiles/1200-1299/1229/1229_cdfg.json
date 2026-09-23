@@ -57,7 +57,6 @@
     "fire_support_count": 7,
     "railway": 9,
     "fire_stations": 7,
-    "industrial_response_fire": 2,
     "hazard_response_fire": 2
   },
   "overlay_index": null,

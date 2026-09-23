@@ -38,7 +38,7 @@
     "police_stations": 5,
     "bereitschaftspolizei": 1,
     "fire_stations": 12,
-    "industrial_response_fire": 1
+    "hazard_response_fire": 1
   },
   "overlay_index": null,
   "base_mission_id": 787,

@@ -40,7 +40,6 @@
     "police_stations": 5,
     "bereitschaftspolizei": 1,
     "fire_stations": 14,
-    "industrial_response_fire": 1,
     "hazard_response_fire": 1
   },
   "overlay_index": null,

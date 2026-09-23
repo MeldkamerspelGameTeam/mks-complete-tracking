@@ -59,7 +59,6 @@
     "care_service": 1,
     "clean_service": 1,
     "fire_stations": 194,
-    "industrial_response_fire": 2,
     "hazard_response_fire": 1
   },
   "overlay_index": null,

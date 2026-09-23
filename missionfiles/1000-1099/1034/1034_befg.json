@@ -59,7 +59,8 @@
     "care_service": 1,
     "clean_service": 1,
     "fire_stations": 183,
-    "industrial_response_fire": 2
+    "industrial_response_fire": 2,
+    "hazard_response_fire": 2
   },
   "overlay_index": null,
   "base_mission_id": 1034,
