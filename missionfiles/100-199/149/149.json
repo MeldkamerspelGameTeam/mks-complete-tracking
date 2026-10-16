@@ -20,8 +20,8 @@
   "additional": {
     "possible_patient": 1,
     "filter_id": "firehouse_missions",
-    "date_start": "2025-10-17T09:00:00Z",
-    "date_end": "2025-10-31T23:59:59+01:00",
+    "date_start": "2026-10-16T09:00:00Z",
+    "date_end": "2026-11-01T23:59:59+01:00",
     "patient_specialization_ids": [4],
     "patient_specialization_captions": ["Traumatologie"],
     "patient_specializations": "Traumatologie"

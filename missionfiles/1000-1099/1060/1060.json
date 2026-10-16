@@ -23,8 +23,8 @@
     "possible_patient_min": 2,
     "filter_id": "ambulance_station_missions",
     "patient_at_end_of_mission": true,
-    "date_start": "2025-10-17T09:00:00Z",
-    "date_end": "2025-10-31T23:59:59+01:00",
+    "date_start": "2026-10-16T09:00:00Z",
+    "date_end": "2026-11-01T23:59:59+01:00",
     "patient_specialization_ids": [0],
     "patient_specialization_captions": ["Interne Geneeskunde"],
     "patient_specializations": "Interne Geneeskunde"
